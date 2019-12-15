@@ -1,3 +1,23 @@
+
+$content-width: 800px;
+$main: #19ccaa;
+$font-style: 'Helvetica', sans-serif;
+$font-color: black;
+$link-color: black;
+$link-hover-color: $main;
+$heading-font: 'Helvetica', sans-serif;
+$heading-font-color: black;
+$header: black;
+$background-color: yellow;
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {

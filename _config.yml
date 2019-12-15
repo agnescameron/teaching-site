@@ -33,6 +33,8 @@ github_username:  agnescameron
 
 sass:
   sass_dir: _sass
+kramdown:
+  input: GFM
 
 # # Build settings
 # theme: minima
