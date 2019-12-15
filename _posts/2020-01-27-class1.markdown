@@ -1,0 +1,10 @@
+---
+layout: post
+title: Class 1
+permalink: /class1/
+---
+
+About content goes here.
+
+* A list item
+* Another list item
