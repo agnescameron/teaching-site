@@ -82,6 +82,8 @@ twitter
 [cheap bots, done quick](http://cheapbotsdonequick.com)
 [pentametron](https://twitter.com/pentametron)
 [other orders](https://lav.io/projects/other-orders/)
+[emoji tracker](http://emojitracker.com)
+[tweetfeels (involves a little bit of python)](https://github.com/uclatommy/tweetfeels)
 
 chatbots
 [dialogflow](https://dialogflow.com/docs/reference/agent/)

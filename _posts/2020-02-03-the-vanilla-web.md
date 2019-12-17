@@ -40,5 +40,11 @@ good web programming resources:
 Mozilla Developer Notes
 W3 schools
 
-what can you do with no extra libraries??
+but surely it can't be this simple??
 [a useful reminder](http://motherfuckingwebsite.com)
+[my boyfriend came back from the war](http://www.teleportacia.org/war/)
+[jodi.org](http://wwww.jodi.org)
+[form art](https://sites.rhizome.org/anthology/form-art-competition.html)
+
+### assignment:
+something with dealing cards? tarot? come up with a tarot algorithm?
