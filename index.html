@@ -2,14 +2,15 @@
 layout: default
 ---
 
-<h2>Main Page</h2>
+<h2>web3</h2>
+
+this is the syllabus for the 2020 edition of the web development 3 class, in hunter college's film and media studies department, taught by agnes cameron.
 
       <ul>
+      {% assign counter = 0 %}
       {% for post in site.posts reversed %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ post.date | date: "%m/%d" }}  {{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
-
-Main content goes here.
