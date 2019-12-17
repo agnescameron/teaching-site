@@ -25,6 +25,9 @@ ARPANET
 
 OSI protocol
 
+
+{: reversed="reversed"}
+
 7. application layer
 FTP HTTP STMP DNS
 
