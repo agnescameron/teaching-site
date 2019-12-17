@@ -9,7 +9,7 @@ you've been there! you've seen it! you've done that! (or have you?). This class 
 ### review: homework + check in
 
 4 people up on the randomiser
-go round everyone and ask where they think they're at with html/css/js
+go around everyone and ask where they think they're at with html/css/js
 
 ### lecture: JS, HTML, CSS revisited
 
@@ -40,3 +40,5 @@ good web programming resources:
 Mozilla Developer Notes
 W3 schools
 
+what can you do with no extra libraries??
+[a useful reminder](http://motherfuckingwebsite.com)
