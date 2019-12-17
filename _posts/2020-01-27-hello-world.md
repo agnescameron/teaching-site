@@ -4,13 +4,15 @@ title: hello, world!
 permalink: /class1/
 ---
 
-### session 1: introductions
+this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special. 
+
+### introductions
 name, major, why we're here, one thing we want to learn, one website we really like
 
 read through syllabus together and ask about it
 
 
-### session 2: the tools of the trade
+### lecture: the tools of the trade
 
 text editors:
 atom sublime vim emacs nano
@@ -44,6 +46,8 @@ windows
 osx
 linux
 
+'stacks':
+
 CMS:
 google sheets
 wordpress
@@ -62,3 +66,7 @@ inspiration:
 are.na brutalist websites
 rhizome
 
+### exercise
+setting up github and netlify accounts, text editors (if you're good with these you could try publishing a minimal site!)
+
+### homework
