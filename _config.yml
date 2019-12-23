@@ -35,6 +35,7 @@ sass:
   sass_dir: _sass
 kramdown:
   input: GFM
+include: ['_pages']
 
 # # Build settings
 # theme: minima

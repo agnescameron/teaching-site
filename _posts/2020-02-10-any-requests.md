@@ -66,7 +66,8 @@ apis you have to pay for
     [darksky](https://darksky.net/dev/docs)  
     [open weather map](https://openweathermap.org/api)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
-  
+    [weather gradient](http://weathergradient.com)
+
   *maps*  
     openStreetMap mapbox [google maps](https://developers.google.com/maps/documentation/javascript/tutorial)  
     [land lines](https://lines.chromeexperiments.com) [documentation](https://medium.com/@zachlieberman/land-lines-e1f88c745847)  

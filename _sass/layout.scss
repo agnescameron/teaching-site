@@ -49,3 +49,13 @@ ul{
 ul.noPoints {
   list-style: none;
 }
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  height: 50px;
+  vertical-align: top;
+}
