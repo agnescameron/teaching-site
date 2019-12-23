@@ -18,11 +18,13 @@ text editors:
 atom sublime vim emacs nano
 
 programming environments:
+visual studio
+XCode
 
 versioning:
 git
 github gitlab
-merging 
+merging 😱
 
 publishing:
 github pages
@@ -35,6 +37,8 @@ linking domain names
 
 servers:
 static vs dynamic
+your friend localhost
+heroku
 
 operating systems:
 windows

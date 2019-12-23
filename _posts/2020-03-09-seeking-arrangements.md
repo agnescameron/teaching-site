@@ -30,17 +30,23 @@ HTML canvas
 
 
 patterns
+antipatterns
 arrays
 foreach
 event handling
 
 map->
 
+arrow functions
+
+finding things
+
 ### in class
 in class, find a way to arrange pre existing set? some kind of political compass?
 
 ### assignment
-find a data set that interests you, and use JQuery to arrange and connect it on a webpage
+find a data set that interests you, and use JQuery to arrange and display it on a webpage
+this is an assignment that's mostly for you to experiment because it's only one week: focus on playing around with the data, practising your skills and getting familiar with lots of different approaches rather than making a polished 'thing'.
 
 ideas:
 [yale aids memorial project](http://yamp.org)

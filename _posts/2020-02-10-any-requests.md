@@ -102,7 +102,7 @@ notes:
 the steps for authenticating to google api can be surprisingly tricky and poorly documented... if you're wanting to play with a google project, let me know and I can walk you through it!
 
 class exercise:
-pick an api and make a http request!
+pick an api and make a http request from the command line!
 
 ### assignment
 this is a big guy, because there's no class next week

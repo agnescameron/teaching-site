@@ -25,7 +25,6 @@ ARPANET
 
 OSI protocol
 
-
 {: reversed="reversed"}
 
 7. application layer
@@ -59,6 +58,7 @@ mapping it out:
 
 packet sniffing
 julian oliver
+transmediale debacle
 
 media archaeology
 internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)
@@ -71,12 +71,16 @@ uk internet
 
 local internet:
 nyc mesh
+build yourn own damn internet
+piratebox
 
 ### in class exercise
 look at some things on wireshark
 
 ### assignment
 do your own media archaeology/forensics
-find something out about your own internet
+find something out about your own internet. use the tools we have (or find some other ones)
+
+precaution: lots of the tools we've looked at today are powerful
 
 

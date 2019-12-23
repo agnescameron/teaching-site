@@ -9,6 +9,8 @@ you've been there! you've seen it! you've done that! (or have you?). This class 
 ### review: homework + check in
 
 4 people up on the randomiser
+show the websites and talk about interacting with the browser console
+talk about the readings
 go around everyone and ask where they think they're at with html/css/js
 
 ### lecture: JS, HTML, CSS revisited
@@ -31,6 +33,15 @@ JS:
 loops
 functions
 DOM manipulation
+
+patterns:
+high quality code
+arrays
+objects
+
+browsers:
+responsiveness
+mobile
 
 web standards:
 w3c
