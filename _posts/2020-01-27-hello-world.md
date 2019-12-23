@@ -14,61 +14,61 @@ read through syllabus together and ask about it
   
 ### lecture: the tools of the trade  
   
-text editors:  
-atom sublime vim emacs nano  
+**text editors**  
+  atom sublime vim emacs nano  
   
-programming environments:  
-visual studio  
-XCode  
+**programming environments**  
+  visual studio  
+  XCode  
   
-versioning:  
-git  
-github gitlab  
-merging 😱  
+**versioning**  
+  git  
+  github gitlab  
+  merging 😱  
   
-publishing:  
-github pages  
-netlify  
+**publishing**  
+  github pages  
+  netlify  
   
-domain names:  
-this is the only time that you would spend money! you don't have to but it can be nice  
-godaddy  
-linking domain names  
+**domain names**  
+  this is the only time that you would spend money! you don't have to but it can be nice  
+  godaddy  
+  linking domain names  
   
-servers:  
-static vs dynamic  
-your friend localhost  
-heroku  
+**servers**  
+  static vs dynamic  
+  your friend localhost  
+  heroku  
   
-operating systems:  
-windows  
-osx  
-linux ubuntu kali mint  
+**operating systems**  
+  windows
+  osx  
+  linux ubuntu kali mint  
   
-package managers:  
-windows  
-osx  
-linux  
+**package managers**  
+  windows  
+  osx  
+  linux  
   
 'stacks':  
   
-CMS:  
-google sheets  
-wordpress  
+**CMS:  
+google sheet**  
+  wordpress  
   
-browser based tools:  
-chrome firefox safari edge (show web console)  
+**browser based tools**  
+  chrome firefox safari edge (show web console)  
   
-terminal:  
-unix like, windows like  
+**terminal**  
+  unix like, windows like  
   
-asking for help:  
-stack overflow  
-github issues  
+**asking for help**  
+  stack overflow  
+  github issues  
   
-inspiration:  
-are.na brutalist websites  
-rhizome  
+**inspiration**  
+  are.na brutalist websites  
+  rhizome  
   
 ### exercise  
 setting up github and netlify accounts, text editors (if you're good with these you could try publishing a minimal site!)  

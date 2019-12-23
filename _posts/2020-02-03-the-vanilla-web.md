@@ -15,47 +15,47 @@ go around everyone and ask where they think they're at with html/css/js
   
 ### lecture: JS, HTML, CSS revisited  
   
-HTML:  
-marking up  
-marking down  
-positioning  
+**HTML**  
+  marking up  
+  marking down  
+  positioning  
   
-the DOM:  
+**the DOM**  
   
-CSS:  
-"cascading style sheets"  
-fonts:  
-unicode  
-shapes  
-animations  
+**CSS**  
+  "cascading style sheets"  
+  fonts:  
+  unicode  
+  shapes  
+  animations  
   
-JS:  
-loops  
-functions  
-DOM manipulation  
+**JS**  
+  loops  
+  functions  
+  DOM manipulation  
   
-patterns:  
-high quality code  
-arrays  
-objects  
+**patterns**  
+  high quality code  
+  arrays  
+  objects  
   
-browsers:  
-responsiveness  
-mobile  
+**browsers**  
+  responsiveness  
+  mobile  
   
-web standards:  
-w3c  
-complications  
+**web standards**  
+  w3c  
+  complications  
   
-good web programming resources:  
-Mozilla Developer Notes  
-W3 schools  
+**good web programming resources**  
+  Mozilla Developer Notes  
+  W3 schools  
   
-but surely it can't be this simple??  
-[a useful reminder](http://motherfuckingwebsite.com)  
-[my boyfriend came back from the war](http://www.teleportacia.org/war/)  
-[jodi.org](http://wwww.jodi.org)  
-[form art](https://sites.rhizome.org/anthology/form-art-competition.html)  
+**but surely it can't be this simple??**  
+  [a useful reminder](http://motherfuckingwebsite.com)  
+  [my boyfriend came back from the war](http://www.teleportacia.org/war/)  
+  [jodi.org](http://wwww.jodi.org)  
+  [form art](https://sites.rhizome.org/anthology/form-art-competition.html)  
   
 ### assignment:  
 something with dealing cards? tarot? come up with a tarot algorithm?

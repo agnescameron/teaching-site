@@ -9,99 +9,100 @@ go through peoples' favourite fizz buzz solutions. what worked and what didn't? 
   
 ### lecture: get a load of this api  
   
-HTTP:  
-[hyperlinks](https://en.wikipedia.org/wiki/Hyperlink)  
-[who is ted nelson](http://www.hyperland.com/Tedpage-D285) and [why is he unhappy](https://web.archive.org/web/20071009230444/http://www.disenchanted.com/dis/technology/xanadu.html)  
-[xanadu](http://xanadu.com/xUniverse-D6) [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf)  
+**HTTP**  
+  [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink)  
+  [who is ted nelson](http://www.hyperland.com/Tedpage-D285) and [why is he unhappy](https://web.archive.org/web/20071009230444/http://www.disenchanted.com/dis/technology/xanadu.html)  
+  [xanadu](http://xanadu.com/xUniverse-D6) [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf)  
   
-Addresses:  
-[the World Wide Web]  
-URI  
-URL  
-IP  
-[IDN](http://idn.jodi.org)  
+**Addresses**  
+  [the World Wide Web]  
+  URI  
+  URL  
+  IP  
+  [IDN](http://idn.jodi.org)  
   
-requests:  
-GET  
-POST  
-HEAD  
-PUT  
+**requests**  
+  GET  
+  POST  
+  HEAD  
+  PUT  
   
-FTP  
+**FT**  
   
-HTTPS:  
-SSL  
-[public key encryption (cool diversion, we could be here for ages...)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
-certificates  
-HTTPSEverywhere  
+**HTTPS**  
+  SSL  
+  [public key encryption (cool diversion, we could be here for ages...)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
+  certificates  
+  HTTPSEverywhere  
   
-status codes:  
-[IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)  
-begins with 1  
-200 (!yay)  
-begins with 3  
-begins with 4  
-begins with 5  
+**status codes**  
+  [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)  
+  begins with 1  
+  200 (!yay)  
+  begins with 3  
+  begins with 4  
+  begins with 5  
   
-cURL:  
+**cURL**  
   
-formatting:  
-XML JSON  
+**formatting**  
+  XML JSON  
   
-APIs  
-REST  
-RPC  
+**API**  
+  REST  
+  RPC  
   
 waiting:  
-try/catch  
-async/await  
+  try/catch  
+  async/await  
   
 general api process:  
 getting a key  
 apis you have to pay for  
   
-what can i ask for?  
+**what can i ask for?**  
   
-weather  
-[darksky](https://darksky.net/dev/docs)  
-[open weather map](https://openweathermap.org/api)  
-[lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
+  *weather*  
+    [darksky](https://darksky.net/dev/docs)  
+    [open weather map](https://openweathermap.org/api)  
+    [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
   
-maps  
-openStreetMap mapbox [google maps](https://developers.google.com/maps/documentation/javascript/tutorial)  
-[land lines](https://lines.chromeexperiments.com)[documentation](https://medium.com/@zachlieberman/land-lines-e1f88c745847)  
+  *maps*  
+    openStreetMap mapbox [google maps](https://developers.google.com/maps/documentation/javascript/tutorial)  
+    [land lines](https://lines.chromeexperiments.com) [documentation](https://medium.com/@zachlieberman/land-lines-e1f88c745847)  
   
-opening times:  
-[google places api](https://developers.google.com/places/web-service/intro)  
-[istheapplebeesondelcoparkdriveinthesuburbsofdaytonopenrightnow.com](http://istheapplebeesondelcoparkdrinthesuburbsofdaytonopenrightnow.com)  
-[the artist is present](http://www.pippinbarr.com/games/theartistispresent/TheArtistIsPresent.html)  
+  *opening times*  
+    [google places api](https://developers.google.com/places/web-service/intro)  
+    [istheapplebeesondelcoparkdriveinthesuburbsofdaytonopenrightnow.com](http://istheapplebeesondelcoparkdrinthesuburbsofdaytonopenrightnow.com)  
+    [the artist is present](http://www.pippinbarr.com/games/theartistispresent/TheArtistIsPresent.html)  
   
-twitter  
-[twitter api](https://developer.twitter.com)  
-[bots bots bots](https://botwiki.org/bots/twitterbots/)  
-[cheap bots, done quick](http://cheapbotsdonequick.com)  
-[pentametron](https://twitter.com/pentametron)  
-[other orders](https://lav.io/projects/other-orders/)  
-[emoji tracker](http://emojitracker.com)  
-[tweetfeels (involves a little bit of python)](https://github.com/uclatommy/tweetfeels)  
+  *twitter*  
+    [twitter api](https://developer.twitter.com)  
+    [bots bots bots](https://botwiki.org/bots/twitterbots/)  
+    [cheap bots, done quick](http://cheapbotsdonequick.com)  
+    [pentametron](https://twitter.com/pentametron)  
+    [other orders](https://lav.io/projects/other-orders/)  
+    [emoji tracker](http://emojitracker.com)  
+    [tweetfeels (involves a little bit of python)](https://github.com/uclatommy/tweetfeels)  
   
-chatbots  
-[dialogflow](https://dialogflow.com/docs/reference/agent/)  
+  *chatbots*  
+    [dialogflow](https://dialogflow.com/docs/reference/agent/)  
   
-are.na  
-[are.na api](https://dev.are.na/documentation)  
+  *are.na*  
+    [are.na api](https://dev.are.na/documentation)  
+    [arena.tv](https://dev.are.na/documentation)  
   
-other ideas:  
+  *youtube*    
+    [youtube](https://developers.google.com/youtube/v3/)  
+    [default filename TV](http://defaultfile.name)  
+
+  *pizza*  
+    [dominos](https://www.npmjs.com/package/dominos)  
   
-[youtube](https://developers.google.com/youtube/v3/)  
-[default filename TV](http://defaultfile.name)  
-  
-[dominos](https://www.npmjs.com/package/dominos)  
-  
-notes:   
+*notes:*   
 the steps for authenticating to google api can be surprisingly tricky and poorly documented... if you're wanting to play with a google project, let me know and I can walk you through it!  
   
-class exercise:  
+### class exercise:  
 pick an api and make a http request from the command line!  
 
 ### assignment  

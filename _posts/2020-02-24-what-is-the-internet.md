@@ -18,61 +18,61 @@ what are all the readings about, how did they make you feel?
   
 [life sharing](http://0100101110101101.org/life-sharing/)  
   
-'the cloud'  
+**'the cloud'**  
   
-precursors  
+**precursors**  
 ARPANET  
   
-OSI protocol  
+**OSI protocol**  
   
 {: reversed="reversed"}  
+
+  7. *application layer*  
+    FTP HTTP SMTP DNS  
   
-7. application layer  
-FTP HTTP SMTP DNS  
+  6. *presentation layer*  
+    MIDI MPEG GIF  
   
-6. presentation layer  
-MIDI MPEG GIF  
+  5. *session layer*  
+    TCP/IP  
   
-5. session layer  
-TCP/IP  
+  4. *transport layer*  
+    UDP  
   
-4. transport layer  
-UDP  
+  3. *etwork layer*  
+    routers  
   
-3. network layer  
-routers  
+  2. *data link layer*  
+    ethernet wifi  
+    frames: MAC and LLC  
   
-2. data link layer  
-ethernet wifi  
-frames: MAC and LLC  
+  1. *physical layer*  
+    fibre optics coaxial cables wifi  
   
-1. physical layer  
-fibre optics coaxial cables wifi  
+**wifi**  
+  fito segrara  
   
-wifi  
-fito segrara  
+**mapping it out**  
+  [map](http://map.jodi.org)  
+  [critical atlas of the internet](http://internet-atlas.net)  
   
-mapping it out:  
-[map](http://map.jodi.org)  
-[critical atlas of the internet](http://internet-atlas.net)  
+**packet sniffing**  
+  julian oliver  
+  transmediale debacle  
   
-packet sniffing  
-julian oliver  
-transmediale debacle  
+**media archaeology**  
+  internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
   
-media archaeology  
-internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
+**other internets**  
+  tor  
+  chinternet  
+  russian internet  
+  uk internet  
   
-other internets:  
-tor  
-chinternet  
-russian internet  
-uk internet  
-  
-local internet:  
-nyc mesh  
-build yourn own damn internet  
-piratebox  
+**local internet**  
+  nyc mesh  
+  build yourn own damn internet  
+  piratebox  
   
 ### in class exercise  
 look at some things on wireshark  
