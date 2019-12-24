@@ -41,28 +41,26 @@ Date | Theme | Homework | Reading
 [**May 11**](../class14/index.html) | in class work on final project | final project | 
 [**May 18**](../class15/index.html) | class final. a party!! | 
 
-## Structure of the course:
-This course is entirely project-based. this means no exams! but also this does mean that you need to put some work in. The other thing this means is that I will also verify that your work is your own. 
+## structure of the course
+This course is entirely project-based. this means no exams! but also this does mean that you need to put some work in.
 
-I will:
-— look at your git commit history
-— ask you about your code and how it works
+This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
-This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
+Each week, I expect you to wtite a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
 
-Each week, I expect a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it!
+I want you to make this class useful to you. feel free to adapt tasks (though talk to me about it first). Tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, are.na ideas for a website is a great start.
 
-it’s totally ok if things don’t work out. it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
+### group work
 
-want you to make this class useful to you. feel free to adapt tasks (though talk to me about it first). Tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, are.na ideas for a website is a great start.
+You may choose to work on any of the weekly projects in a group of not more than two students -- and it's encouraged you try this at least once in the semester. Do bear in mind that group projects will not just be marked on the quality of the work (which should exceed the scope of a solo attempt), but on how well you have worked together (to be recorded in the git commit history).
 
 ### on frameworks
 
-personally, I find that workflows like react etc take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and javascript up and seeing what sticks. that aside, they are also extremely useful for certain tasks, and widely used in industry. we’ll go through some popular frameworks in class so you know what they are, and where they’re used.
+Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. that aside, they are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.
 
-if you’d like to use one such framework for all or any of your projects, I will happily help you get set up during office hours though I would expect you to be reasonably self sufficient and confident with the material already being covered. try for a homework before deciding to use for final project. i am most familiar with react, and haven’t used x, y, or z, but more than happy to help you debug it if you give me fair warning.
+If you’d like to use one such framework for all or any of your projects, I am happy to talk through it with you, though I would expect you to be reasonably self sufficient and confident with the material already being covered. I would encourage you to try it for a homework or two before deciding to use for final project. I am most familiar with React, but more than happy to help you with other frameworks if you give me fair warning.
 
-### structure of each class:
+### structure of each class
 * 1 hour what happened this week, what did everyone do and what did they think about it. Any big web news we’ll also talk about / if we have significant readings.
 
 * 10min break (get a snack!)
@@ -75,28 +73,32 @@ if you’d like to use one such framework for all or any of your projects, I wil
 
 * 10min homework for this week.
 
-### on asking questions:
+### on asking questions
 At some point, you’re going to get code that doesn’t work, and you really can’t figure out why. You’ve tried all the normal things. 
 
-I don’t want to put this in a particular week (it’ll feel forced), but at some point during the semester i expect you to use either 1) stack overflow or 2) GitHub Issues to ask a question about some code you’re struggling with (instead of me…). Take a screenshot of the question and replies, and write a short discussion of how you think it went: whether the interaction was helpful, whether you had to follow up etc etc
+I don’t want to put this in a particular week (it’ll feel forced), but at some point during the semester i expect you to use either 1) stack overflow or 2) GitHub Issues to ask a question about some code you’re struggling with. Take a screenshot of the question and replies, and write a short discussion of how you think it went: whether the interaction was helpful, whether you had to follow up etc etc. We'll have a discussion in class on asking good questions, and giving good answers.
 
 if this doesn’t happen (e.g. if you already find answers to your questions through one of these platforms) then that’s cool: but take an answer you found helpful, and talk about the process of finding it, and how the answerer and the questioner interacted.
 
-if you didn’t need to use stack overflow the whole time you were using this course, you might not be challenging yourself enough…
 
-if you want to email me with a question, I expect it to be in a ‘good question’ format: 
+### presenting work
+All classwork is presented through personal websites, that you will update your website with documentation of homework and progress. come to each class with the homework finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found, and people can ask you questions (we’ll talk to 4 people a week). this will help all of you learn!
 
-# plagiarism:
-mit code guide. write code yourselves! esp for single line programs copy paste is tempting but you learn nothing
+There is no point in taking this class if you don’t do the homework: this is how you develop the skills you need to work on the web! Missing one of these unannounced will bring your grade down by a half point each time. (you can make it back up (once) if you publish within the week)
 
-# presenting work
-each week you will update your website with documentation of progress. come to each class with the homework finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found, and people can ask you questions (we’ll talk to 4 people a week). this will help all of you learn! (don’t think you get off if I don’t pick you — I will look at your commits)
 
-there is no point in taking this class if you don’t do the homework: this is how you develop the skills you need to work on the web!
+## policies
 
-Missing one of these unannounced will bring your grade down by a half point each time. (you can make it back up if you publish within the week, but do that more than twice and u done bb)
+### academic integrity
+Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. Over this class, we will learn when it is appropriate to include technologies by others (for example, in the form of libraries), vs when that technology needs to be credited. As a rule of thumb, you should never copy and paste: your solution should be yours, sometimes informed by other solutions. From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/handbook/writing-code):
 
-# missing class
+*“Writing code is similar to academic writing in that when you use or adapt code developed by someone else as part of your project, you must cite your source. However, instead of quoting or paraphrasing a source, you include an inline comment in the code. These comments not only ensure you are giving proper credit, but help with code understanding and debugging.”*
 
-if you need to miss class for personal reasons, I will not ask you further questions about that: please just notify me via email. I will trust that it is serious, and you will not be sanctioned at all (in exchange for this trust, I do ask you to be honest with me about what constitutes ‘serious’). however, I do still expect the homework to be due, with an extension if you need one.
+*“You should not simply re-use code as the solution to an assignment. Like academic writing, your code can incorporate the ideas of others but should reflect your original approach to the problem.”*
 
+### accessibility
+In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical, and/or Learning) consult the Office of Accessibility located in Room E1124 to secure necessary academic accommodations. For further information and assistance, please call (212) 772-4857/TTY (212) 650-3230. If you have registered with the Office of Accessibility, please let me know at the start of the term.
+
+
+### attendance
+The success of this class involves your presence and participation. As such, it is important that you are here, and on time. **You will not be penalised for one absence**, so long as you notify me in advance. Two absences will reduce your grade one step (A -> A-), three absences reduce two steps. More than that will have a serious impact on your grade.

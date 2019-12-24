@@ -63,8 +63,7 @@ apis you have to pay for
 **what can i ask for?**  
   
   *weather*  
-    [darksky](https://darksky.net/dev/docs)  
-    [open weather map](https://openweathermap.org/api)  
+    [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
     [weather gradient](http://weathergradient.com)
 
@@ -96,6 +95,10 @@ apis you have to pay for
   *youtube*    
     [youtube](https://developers.google.com/youtube/v3/)  
     [default filename TV](http://defaultfile.name)  
+
+  *astrology*
+    [horoscope-api (free)](https://github.com/sumitgohil/horoscope-api)
+    [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)
 
   *pizza*  
     [dominos](https://www.npmjs.com/package/dominos)  
