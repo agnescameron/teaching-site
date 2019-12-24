@@ -14,12 +14,19 @@ permalink: /class7/
   
 **bash**  
   
+
 **file systems**  
   
+
 **unix**  
   
+
 **windows**  
   
+
+**macOS**
+  [mac-specific commands](https://github.com/herrbischoff/awesome-macos-command-line)
+
 **quines**  
   [simple js quines](https://2ality.com/2012/09/javascript-quine.html)  
   [qr quine](https://www.quaxio.com/qrquine/)  
@@ -40,13 +47,11 @@ permalink: /class7/
 **regex**  
   
 **great command line tools**  
-  *audio*
-    ffmpeg   
-  *visual*
+  *audio*  
+    ffmpeg  
+  *visual*  
     exif  
-
+  *religious?*  
+    [bibleJS](https://github.com/BibleJS/BibleApp)
 ### assignment  
 write a single line program that's useful to you in some way!  
-  
-examples
-[pizza party](http://www.coryarcangel.com/things-i-made/2004-009-pizza-party) [modern implementation](https://github.com/brianmxwll/SiriProxy-PizzaParty)

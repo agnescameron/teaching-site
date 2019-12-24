@@ -4,12 +4,13 @@ body {
   font-size: 0.8em;
   background-color: $background-color;
   line-height: 1.2;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
 }
 
-h1,
+h1, h2, h3 {
+  margin-top: 30px;
+}
 
-h2,
 a {
     text-decoration-style: dashed;
 }
@@ -21,6 +22,10 @@ a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+blockquote {
+  text-align: right;
 }
 
 main {

@@ -42,13 +42,13 @@ Date | Theme | Homework | Reading
 [**May 18**](../class15/index.html) | class final. a party!! | 
 
 ## structure of the course
-This course is entirely project-based. this means no exams! but also this does mean that you need to put some work in.
+This course is entirely project-based. this means no exams! but also this does mean that almost all of your grade is dependent on constant, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques.
 
-This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
+This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
-Each week, I expect you to wtite a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
+Each week, I expect you to wtite a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
 
-I want you to make this class useful to you. feel free to adapt tasks (though talk to me about it first). Tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, are.na ideas for a website is a great start.
+I want you to make this class useful to you, so feel free to adapt assignments to suit your interests (though talk to me about it first). These tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, are.na ideas for a website is a great start.
 
 ### group work
 
@@ -56,9 +56,9 @@ You may choose to work on any of the weekly projects in a group of not more than
 
 ### on frameworks
 
-Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. that aside, they are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.
+Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. They are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.
 
-If you’d like to use one such framework for all or any of your projects, I am happy to talk through it with you, though I would expect you to be reasonably self sufficient and confident with the material already being covered. I would encourage you to try it for a homework or two before deciding to use for final project. I am most familiar with React, but more than happy to help you with other frameworks if you give me fair warning.
+If you’d like to use one such framework for any or all of your projects, I am happy to talk through it with you, though I would expect you to be reasonably self sufficient and confident with the material already being covered. I would encourage you to try it for a homework or two before deciding to use for final project. I am most familiar with React, but more than happy to help you with other frameworks if you give me fair warning.
 
 ### structure of each class
 * 1 hour what happened this week, what did everyone do and what did they think about it. Any big web news we’ll also talk about / if we have significant readings.
@@ -92,9 +92,9 @@ There is no point in taking this class if you don’t do the homework: this is h
 ### academic integrity
 Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. Over this class, we will learn when it is appropriate to include technologies by others (for example, in the form of libraries), vs when that technology needs to be credited. As a rule of thumb, you should never copy and paste: your solution should be yours, sometimes informed by other solutions. From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/handbook/writing-code):
 
-*“Writing code is similar to academic writing in that when you use or adapt code developed by someone else as part of your project, you must cite your source. However, instead of quoting or paraphrasing a source, you include an inline comment in the code. These comments not only ensure you are giving proper credit, but help with code understanding and debugging.”*
+>*“Writing code is similar to academic writing in that when you use or adapt code developed by someone else as part of your project, you must cite your source. However, instead of quoting or paraphrasing a source, you include an inline comment in the code. These comments not only ensure you are giving proper credit, but help with code understanding and debugging.”*
 
-*“You should not simply re-use code as the solution to an assignment. Like academic writing, your code can incorporate the ideas of others but should reflect your original approach to the problem.”*
+>*“You should not simply re-use code as the solution to an assignment. Like academic writing, your code can incorporate the ideas of others but should reflect your original approach to the problem.”*
 
 ### accessibility
 In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical, and/or Learning) consult the Office of Accessibility located in Room E1124 to secure necessary academic accommodations. For further information and assistance, please call (212) 772-4857/TTY (212) 650-3230. If you have registered with the Office of Accessibility, please let me know at the start of the term.

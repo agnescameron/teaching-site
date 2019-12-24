@@ -3,7 +3,10 @@ layout: post
 title: any requests?  
 permalink: /class3/  
 ---  
- 
+
+>*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  
+>-- Kevin Bewersdorf, *Spirit Surfing*  
+
 ### review  
 go through peoples' favourite fizz buzz solutions. what worked and what didn't? what was hard and what wasn't? is there anything that we should revise or that you'd like clearing up?  
   
@@ -12,7 +15,7 @@ go through peoples' favourite fizz buzz solutions. what worked and what didn't? 
 **HTTP**  
   [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink)  
   [who is ted nelson](http://www.hyperland.com/Tedpage-D285) and [why is he unhappy](https://web.archive.org/web/20071009230444/http://www.disenchanted.com/dis/technology/xanadu.html)  
-  [xanadu](http://xanadu.com/xUniverse-D6) [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf)  
+  [xanadu](http://xanadu.com/xUniverse-D6) [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf) [-> are.na](https://walkerart.org/magazine/counter-currents-are-na-on-ted-nelsons-computer-libdream-machines)  
   
 **Addresses**  
   [the World Wide Web]  
@@ -35,30 +38,30 @@ go through peoples' favourite fizz buzz solutions. what worked and what didn't? 
   certificates  
   HTTPSEverywhere  
   
-**status codes**  
+[**status codes**](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)  
   [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)  
-  begins with 1  
-  200 (!yay)  
-  begins with 3  
-  begins with 4  
-  begins with 5  
+  1xx information  
+  2xx success 200 🎉 201 204  
+  3xx redirection  304  
+  4xx client error  400 401 403 404  
+  5xx server error  500 502  
   
 **cURL**  
-  
+  [all about cURL](https://bagder.gitbook.io/everything-curl/cmdline) [cheat sheet](https://devhints.io/curl)
+  
 **formatting**  
-  XML JSON  
+  [JSON](https://www.json.org/json-en.html) [XML](https://en.wikipedia.org/wiki/XML) [YAML](https://yaml.org) [which one?](https://stackoverflow.com/questions/3951047/xml-vs-yaml-vs-json) [?](https://stackoverflow.com/questions/1726802/what-is-the-difference-between-yaml-and-json)
+}
   
 **API**  
-  REST  
+  [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)  
   RPC  
-  
-waiting:  
+  [which one?](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/)  
+  [keys](https://stackoverflow.com/questions/1453073/what-is-an-api-key) [usage](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) *warning: don't commit your key/secret to github*
+
+**waiting**  
   try/catch  
   async/await  
-  
-general api process:  
-getting a key  
-apis you have to pay for  
   
 **what can i ask for?**  
   
@@ -90,14 +93,14 @@ apis you have to pay for
   
   *are.na*  
     [are.na api](https://dev.are.na/documentation)  
-    [arena.tv](https://dev.are.na/documentation)  
+    [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)
   
-  *youtube*    
+  *video*    
     [youtube](https://developers.google.com/youtube/v3/)  
     [default filename TV](http://defaultfile.name)  
 
-  *astrology*
-    [horoscope-api (free)](https://github.com/sumitgohil/horoscope-api)
+  *astrology*  
+    [horoscope-api (free)](https://github.com/sumitgohil/horoscope-api)  
     [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)
 
   *pizza*  
