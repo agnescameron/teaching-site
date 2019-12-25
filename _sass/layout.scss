@@ -1,7 +1,7 @@
 body {
   color: $font-color;
   font-family: $font-style;
-  font-size: 0.8em;
+  font-size: 1em;
   background-color: $background-color;
   line-height: 1.2;
   /*-webkit-font-smoothing: antialiased;*/
@@ -12,16 +12,14 @@ h1, h2, h3 {
 }
 
 a {
-    text-decoration-style: dashed;
+    color: black;
 }
 
 a:visited {
-  font-weight: bold;
-  text-decoration: underline;
 }
 
 a:hover {
-  text-decoration: underline;
+  background-color: white;
 }
 
 blockquote {
