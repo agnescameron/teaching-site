@@ -61,28 +61,38 @@ read through syllabus together and ask about it
 **CMS:  
 google sheet**  
   wordpress  
-  
+
 **browser based tools**  
   chrome firefox safari edge (show web console)  
-  
+
 **terminal**  
   unix like, windows like  
-  
+
 **web console**  
   [error handling]
   [good debugging](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)
-  [document.body.contentEditable = true]
-  [twitter screamer](https://twitter.com/bcrypt/status/928036206092439555?s=20)
+  document.designMode='on' [document.body.style](https://www.w3schools.com/jsref/dom_obj_style.asp) 
+  [twitter screamer](https://twitter.com/bcrypt/status/928036206092439555?s=20)  
 
 **asking for help**  
-  stack overflow  
-  github issues  
-  
+  [stack overflow](https://stackoverflow.com/help/how-to-ask)  
+  [github issue guidelines](https://github.com/necolas/issue-guidelines/blob/master/CONTRIBUTING.md)  
+
+**giving help**
+  [stack overflow good answer guide](https://stackoverflow.com/help/how-to-answer)  
+  [code review guide](https://google.github.io/eng-practices/review/reviewer/standard.html)  
+
 **inspiration**  
   are.na brutalist websites  
   rhizome  
-  
-### exercise  
+
+### in-class exercise  
 setting up github and netlify accounts, text editors (if you're good with these you could try publishing a minimal site!)  
   
-### homework  
+### assignment  
+Use the console editing tools we explored to create new versions of websites. Experiment with a range of different techniques, and produce at least 6 different versions. Publish these on your class site, along with a description of what you did, and a response to the readings.
+
+### readings
+[my website is a shifting house next to a river of knowledge, what could yours be?](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)  
+[A Handmade Web](http://luckysoap.com/statements/handmadeweb.html)  
+

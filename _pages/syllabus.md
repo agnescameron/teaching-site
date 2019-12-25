@@ -76,7 +76,7 @@ If you’d like to use one such framework for any or all of your projects, I am 
 ### on asking questions
 At some point, you’re going to get code that doesn’t work, and you really can’t figure out why. You’ve tried all the normal things. 
 
-I don’t want to put this in a particular week (it’ll feel forced), but at some point during the semester i expect you to use either 1) stack overflow or 2) GitHub Issues to ask a question about some code you’re struggling with. Take a screenshot of the question and replies, and write a short discussion of how you think it went: whether the interaction was helpful, whether you had to follow up etc etc. We'll have a discussion in class on asking good questions, and giving good answers.
+I don’t want to put this in a particular week (it’ll feel forced), but at some point during the semester i expect you to use a platform like [Stack Overflow](https://stackoverflow.com) to ask a question about some code you’re struggling with. Take a screenshot of the question and replies, and write a short discussion of how you think it went: whether the interaction was helpful, whether you had to follow up etc etc. We'll have a discussion in class on asking good questions, and giving good answers.
 
 if this doesn’t happen (e.g. if you already find answers to your questions through one of these platforms) then that’s cool: but take an answer you found helpful, and talk about the process of finding it, and how the answerer and the questioner interacted.
 

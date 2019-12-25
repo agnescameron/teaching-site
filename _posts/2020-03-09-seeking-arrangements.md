@@ -2,6 +2,8 @@
 layout: post  
 title: seeking arrangements  
 permalink: /class6/  
+categories: [jQuery]
+tags: [diagrams, sorting]
 ---  
 
 ## lecture: structuring knowledge

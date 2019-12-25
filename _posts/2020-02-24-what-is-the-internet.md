@@ -39,7 +39,7 @@ ARPANET
   4. *transport layer*  
     UDP  
   
-  3. *etwork layer*  
+  3. *network layer*  
     routers  
   
   2. *data link layer*  
@@ -50,33 +50,33 @@ ARPANET
     fibre optics coaxial cables wifi  
   
 **wifi**  
-  fito segrara  
-  
+  [flagellum machinam](http://fii.to/pages/flagellation-machine.html) [video](https://www.youtube.com/watch?v=WqAG1WsZHtY&feature=emb_title)  
+
 **mapping it out**  
   [map](http://map.jodi.org)  
   [critical atlas of the internet](http://internet-atlas.net)  
-  
+
 **packet sniffing**  
   julian oliver  
   transmediale debacle  
-  
+
 **media archaeology**  
   internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
-  
+
 **other internets**  
   tor  
   chinternet  
   russian internet  
   uk internet  
-  
+
 **local internet**  
   nyc mesh  
   build yourn own damn internet  
   piratebox  
-  
+
 ### in class exercise  
 look at some things on wireshark  
-  
+
 ### assignment  
 do your own media archaeology/forensics  
 find something out about your own internet. use the tools we have (or find some other ones)  
