@@ -41,17 +41,23 @@ read through syllabus together and ask about it
   heroku  
   
 **operating systems**  
-  windows
-  osx  
-  linux ubuntu kali mint  
-  
+  [windows](https://en.wikipedia.org/wiki/Microsoft_Windows) [windows subsystem for linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) [windows bash shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)  
+  [unix family](https://en.wikipedia.org/wiki/MacOS#/media/File:Unix_timeline.en.svg)  
+  [macOS](https://en.wikipedia.org/wiki/MacOS) [fink](http://www.finkproject.org/doc/users-guide/intro.php?phpLang=en#what)  
+  *linux*  
+    [timeline](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg) [gnu](https://www.gnu.org)  
+    [ubuntu](https://ubuntu.com/download) [mint](https://linuxmint.com) [kali](https://www.kali.org) [Tails](https://tails.boum.org)  
+    [which distro?](https://www.techradar.com/best/best-linux-distros)  
+
 **package managers**  
-  windows  
-  osx  
-  linux  
-  
-'stacks':  
-  
+  *windows*  
+    []()
+  *osx*  
+    [homebrew](https://brew.sh) [macports](https://www.macports.org)
+  *linux*  
+    [apt-get](https://www.computerhope.com/unix/apt-get.htm) [yum](https://access.redhat.com/articles/yum-cheat-sheet) [dpkg](https://www.cyberciti.biz/howto/question/linux/dpkg-cheat-sheet.php)  
+
+
 **CMS:  
 google sheet**  
   wordpress  
@@ -62,6 +68,12 @@ google sheet**
 **terminal**  
   unix like, windows like  
   
+**web console**  
+  [error handling]
+  [good debugging](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)
+  [document.body.contentEditable = true]
+  [twitter screamer](https://twitter.com/bcrypt/status/928036206092439555?s=20)
+
 **asking for help**  
   stack overflow  
   github issues  

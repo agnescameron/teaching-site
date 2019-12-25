@@ -55,6 +55,7 @@ go around everyone and ask where they think they're at with html/css/js
   [a useful reminder](http://motherfuckingwebsite.com)  
   [my boyfriend came back from the war](http://www.teleportacia.org/war/)  
   [jodi.org](http://wwww.jodi.org)  
+  [html energy](http://html.energy)  
   [form art](https://sites.rhizome.org/anthology/form-art-competition.html)  
   
 ### assignment:  
