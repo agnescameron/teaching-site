@@ -4,6 +4,7 @@ title: seeking arrangements
 permalink: /class6/  
 categories: [jQuery]
 tags: [diagrams, sorting]
+homework: aaaaaaaa
 ---  
 
 ## lecture: structuring knowledge
@@ -67,7 +68,8 @@ knowledge graphs
 **datasets**  
   [*corpora*](https://github.com/dariusk/corpora)  
     [vegetable cooking times](https://github.com/dariusk/corpora/blob/master/data/foods/vegetable_cooking_times.json) [female classical guitarists](https://github.com/dariusk/corpora/blob/master/data/music/female_classical_guitarists.json) [tarot](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) [pokemon](https://github.com/dariusk/corpora/blob/master/data/games/pokemon.json) [saints](https://github.com/dariusk/corpora/blob/master/data/religion/christian_saints.json)  
-  [wordnik](https://developer.wordnik.com/docs)
+  [pokemon](https://github.com/fanzeyi/pokemon.json)  
+  [wordnik](https://developer.wordnik.com/docs)  
   [sephora reviews that mention crying sobbing or tears](https://github.com/everestpipkin/datagardens/tree/master/students/khanniie/5_newDataSet)  
   [library of missing datasets](http://mimionuoha.com/the-library-of-missing-datasets/)  
 

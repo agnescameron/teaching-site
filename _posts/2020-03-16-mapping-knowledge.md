@@ -33,4 +33,5 @@ with the data set you arranged last week, experiment with a graphical interface 
  [future expansion -- a building about buildings](http://future-expansion.com/#img)  
  [CAVS](http://act.mit.edu/cavs)  
  [backseat frying](http://backseatfrying.net)  
- [nail art museum](https://www.youtube.com/watch?v=40pSU5ZM784)
+ [nail art museum](https://www.youtube.com/watch?v=40pSU5ZM784)  
+ [pokemon palette](http://pokepalettes.com)

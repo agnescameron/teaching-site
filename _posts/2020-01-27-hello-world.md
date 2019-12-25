@@ -4,6 +4,7 @@ title: hello, world!
 permalink: /class1/  
 categories: [git, HTML, CSS, JS]
 tags: [basics]
+assignment: do the thing
 ---  
   
 this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.   
@@ -86,6 +87,8 @@ google sheet**
 setting up github and netlify accounts, text editors (if you're good with these you could try publishing a minimal site!)  
   
 ### assignment  
+{{page.assignment}}
+
 Use the console editing tools we explored to create new versions of websites. Experiment with a range of different techniques, and produce at least 6 different versions. Publish these on your class site, along with a description of what you did, and a response to the readings.
 
 ### readings

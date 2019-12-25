@@ -2,15 +2,14 @@
 layout: default
 ---
 
-<h2>web3</h2>
+<h2>web programming</h2>
 
-this is the homepage for the 2020 edition of the web development 3 class, in hunter college's film and media studies department, taught by agnes cameron. go here for <a href="../syllabus/index.html">an overview of the syllabus</a>, and here to a <a href="../library/index.html"> broader library for the course</a>.
-
+this is the homepage for the 2020 edition of hunter college's web programming class (medp 34100), taught by <a href="http://agnescameron.info">agnes cameron</a>.
 
       <ul class="noPoints">
       {% for post in site.posts reversed %}
         <li>
-          {{ post.date | date: "%m/%d" }}:  <a href="{{ post.url }}">{{ post.title }}</a> <span class="hovertags">  {%for tag in post.tags%} {{ tag }} {%endfor%}</span>
+          {{ post.date | date: "%m/%d" }}:  <a href="{{ post.url }}">{{ post.title }}</a> <span class="hovertags">          {%for tag in post.tags%} {{ tag }} {%endfor%}</span>
         </li>
       {% endfor %}
     </ul>
