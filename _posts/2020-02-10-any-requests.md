@@ -2,6 +2,8 @@
 layout: post  
 title: any requests?  
 permalink: /class3/  
+categories: [HTTP]
+tags: [history, network infrastructure, security]
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  

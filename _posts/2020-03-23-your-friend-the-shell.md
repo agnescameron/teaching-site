@@ -2,6 +2,8 @@
 layout: post  
 title: your friend the shell  
 permalink: /class7/  
+categories: [node]
+tags: [backend]
 ---  
   
 ### review:   

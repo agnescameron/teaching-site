@@ -2,6 +2,8 @@
 layout: post  
 title: what's the internet??   
 permalink: /class4/  
+categories: [networking]
+tags: [network infrastructure, security, decentralisation]
 ---  
   
 so i sent you a http request... but where did it go??  

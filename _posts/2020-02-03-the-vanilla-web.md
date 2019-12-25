@@ -2,6 +2,8 @@
 layout: post  
 title: the vanilla web  
 permalink: /class2/  
+categories: [JS, HTML, CSS]  
+tags: [net art, basics]
 ---  
   
 you've been there! you've seen it! you've done that! (or have you?). This class and homework is a chance to revise basic web programming concepts, and to get an idea of where everyone is at.  
