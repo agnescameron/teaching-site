@@ -8,6 +8,10 @@ tags: [diagrams, sorting]
 
 ## lecture: structuring knowledge
   
+**objects and functions**  
+  [OOP vs FP](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming) [a shorter opinion](http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)
+
+
 ways of classifying and arranging information  
 maybe invite cybernetics lib? KFG? 
   
@@ -83,13 +87,3 @@ If you'd like to use the Tarot set we looked at in class, feel free -- though yo
 
 \* making will add extra time, and is not really the point of this week, but if you're excited about scraping, or adding to an existing data set then by all means do! Similarly, if you're feeling like your data set needs a little fleshing out, adding in scores, or other forms of key might give you some more tools to play with.
   
-**inspiration**  
- [yale aids memorial project](http://yamp.org)  
- [when all of my friends are on at once](http://allmyfriendsatonce.com/#0)  
- [net art anthology](https://anthology.rhizome.org)  
- [political compass memes (many offensive)](https://www.are.na/francis-tseng/political-compasses-other-matrices)  
- [tarot deck](https://www.are.na/art-deli-corp/tarot-design)  
- [future expansion -- a building about buildings](http://future-expansion.com/#img)  
- [CAVS](http://act.mit.edu/cavs)  
- [backseat frying](http://backseatfrying.net)  
- [nail art museum](https://www.youtube.com/watch?v=40pSU5ZM784)

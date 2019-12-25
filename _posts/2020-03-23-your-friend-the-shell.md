@@ -61,5 +61,13 @@ tags: [backend]
     exif  
   *religious?*  
     [bibleJS](https://github.com/BibleJS/BibleApp)
-### assignment  
-write a single line program that's useful to you in some way!  
+
+
+### midterm assignment
+
+Using nodeJS, write a command line application. This application should 
+
+
+**examples**
+[pizza party](http://www.coryarcangel.com/things-i-made/2004-009-pizza-party) [modern implementation](https://github.com/brianmxwll/SiriProxy-PizzaParty)
+

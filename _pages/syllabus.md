@@ -46,7 +46,7 @@ This course is entirely project-based. this means no exams! but also this does m
 
 This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
-Each week, I expect you to wtite a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
+Each week, I expect you to write a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
 
 I want you to make this class useful to you, so feel free to adapt assignments to suit your interests (though talk to me about it first). These tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, are.na ideas for a website is a great start.
 
@@ -90,7 +90,10 @@ There is no point in taking this class if you don’t do the homework: this is h
 ## policies
 
 ### academic integrity
-Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. Over this class, we will learn when it is appropriate to include technologies by others (for example, in the form of libraries), vs when that technology needs to be credited. As a rule of thumb, you should never copy and paste: your solution should be yours, sometimes informed by other solutions. From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/handbook/writing-code):
+Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. Over this class, we will learn when it is appropriate to include technologies by others (for example, in the form of libraries), vs when that technology needs to be credited. As a rule of thumb, you should never copy and paste: your solution should be yours, sometimes informed by other solutions. 
+
+
+From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/handbook/writing-code):
 
 >*“Writing code is similar to academic writing in that when you use or adapt code developed by someone else as part of your project, you must cite your source. However, instead of quoting or paraphrasing a source, you include an inline comment in the code. These comments not only ensure you are giving proper credit, but help with code understanding and debugging.”*
 

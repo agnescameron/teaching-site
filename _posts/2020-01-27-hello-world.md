@@ -64,15 +64,9 @@ read through syllabus together and ask about it
 google sheet**  
   wordpress  
 
-**browser based tools**  
-  chrome firefox safari edge (show web console)  
-
-**terminal**  
-  unix like, windows like  
-
 **web console**  
-  [error handling]
-  [good debugging](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)
+  [error handling]()  
+  [good debugging](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)  
   document.designMode='on' [document.body.style](https://www.w3schools.com/jsref/dom_obj_style.asp) 
   [twitter screamer](https://twitter.com/bcrypt/status/928036206092439555?s=20)  
 

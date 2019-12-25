@@ -6,6 +6,7 @@ tags: [diagrams, systems, simulation]
 ---  
 
 **why simulate?**  
+  [explorable explanations](http://worrydream.com/ExplorableExplanations/#explorableExample) [website](https://explorabl.es)
 
 **replacement grammars**  
 
@@ -13,6 +14,7 @@ tags: [diagrams, systems, simulation]
 
   *diagrams*  
     [boredom](https://d2w9rnfcy7mm78.cloudfront.net/660313/original_d800520e8a1bc54ea30dbe9540613a41.jpeg?1469019638?bc=1)
+    [loopy](https://ncase.me/loopy/)
 **interfaces and relationships**  
 [it's as if you were making love](https://pippinbarr.github.io/itisasifyouweremakinglove/)  
 [family maker](https://rkuo.net/Family-Maker)  

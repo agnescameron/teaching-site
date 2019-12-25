@@ -23,13 +23,15 @@ go around everyone and ask where they think they're at with html/css/js
   positioning  
   
 **the DOM**  
-  
+  
+
 **CSS**  
   "cascading style sheets"  
   fonts:  
   unicode  
   shapes  
   animations  
+  [bud uglly](http://budugllydesign.com/index.html)
   
 **JS**  
   loops  
@@ -44,10 +46,12 @@ go around everyone and ask where they think they're at with html/css/js
 **browsers**  
   responsiveness  
   mobile  
+
   
 **web standards**  
   w3c  
   complications  
+  [caniuse](https://caniuse.com)  
   
 **good web programming resources**  
   Mozilla Developer Notes  
