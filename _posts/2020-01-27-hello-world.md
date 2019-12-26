@@ -2,13 +2,14 @@
 layout: post  
 title: hello, world!  
 permalink: /class1/  
-categories: [git, HTML, CSS, JS]
-tags: [basics]
-assignment: do the thing
+categories: [git, HTML, CSS, JS]  
+tags: [basics]  
+assignment: do the thing  
+description: this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
 ---  
-  
-this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.   
-  
+
+{{ page.description }}
+
 ### introductions  
 name, major, why we're here, one thing we want to learn, one website we really like  
   

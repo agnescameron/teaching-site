@@ -25,7 +25,7 @@ permalink: /syllabus/
 
 Date | Theme | Assignment | Reading 
 ----- | ----- | ----- | ----- | {% for post in site.posts reversed %}
-[{{ post.date | date: "%m/%d" }}]( {{post.url}} ) | {{post.title}} : {{post.title}} | {{post.assignment}} | {{post.assignment}} | {%endfor%}
+{{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} | {{post.assignment}} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endfor%}
 
 
 

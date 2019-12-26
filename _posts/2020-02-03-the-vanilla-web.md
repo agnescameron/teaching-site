@@ -5,10 +5,12 @@ permalink: /class2/
 categories: [JS, HTML, CSS]  
 tags: [net art, basics]
 homework: aaaaaaaa
+excerpt_separator: <!--more-->
 ---  
   
-you've been there! you've seen it! you've done that! (or have you?). This class and homework is a chance to revise basic web programming concepts, and to get an idea of where everyone is at.  
-  
+you've been there! you've seen it! you've done that! (or have you?). This class and homework is a chance to revise basic web programming concepts, and to get an idea of where everyone is at.
+<!--more-->
+
 ### review: homework + check in  
   
 4 people up on the randomiser  
@@ -32,6 +34,7 @@ go around everyone and ask where they think they're at with html/css/js
   unicode  
   shapes  
   animations  
+  [combinators](https://www.w3schools.com/Css/css_combinators.asp) [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector)
   [bud uglly](http://budugllydesign.com/index.html)
   
 **JS**  

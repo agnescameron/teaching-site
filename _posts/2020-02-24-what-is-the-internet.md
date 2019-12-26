@@ -50,7 +50,9 @@ ARPANET
   
   1. *physical layer*  
     fibre optics coaxial cables wifi  
-  
+    *minerals*
+      [tantalum](https://en.wikipedia.org/wiki/Tantalum) [coltan](https://en.wikipedia.org/wiki/Coltan_mining_and_ethics) [lithium](https://en.wikipedia.org/wiki/Lithium#Production)
+
 **wifi**  
   [flagellum machinam](http://fii.to/pages/flagellation-machine.html) [video](https://www.youtube.com/watch?v=WqAG1WsZHtY&feature=emb_title)  
 
@@ -66,14 +68,13 @@ ARPANET
   internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
 
 **other internets**  
-  tor  
+  tor  [autonomy cube](https://paglen.com/?l=work&s=cube)
   chinternet  
   russian internet  
   uk internet  
 
 **local internet**  
   nyc mesh  
-  build yourn own damn internet  
   piratebox  
 
 ### in class exercise  
@@ -81,7 +82,7 @@ look at some things on wireshark
 
 ### assignment  
 do your own media archaeology/forensics  
-find something out about your own internet. use the tools we have (or find some other ones)  
+find something out about your own internet system. use the tools we have (or find some other ones)  
   
 precaution: lots of the tools we've looked at today are powerful  
   

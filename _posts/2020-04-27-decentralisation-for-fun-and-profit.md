@@ -6,6 +6,8 @@ categories: [IPFS, blockchain]
 tags: [decentralisation, co-operation, systems]
 ---  
 
+
+
 By now, you should all have a good basis for your final project, and be able to discuss the structure in detail. While you might not have an interface yet to show, your blog should contain some discussion and sketches of the form that it might take, and a plan for what technologies you will use to achieve it. If you're struggling, I've blocked out time at the end of this class for you to work on your pieces and talk to me if you need any help.
 
 **hashing**
@@ -20,10 +22,10 @@ By now, you should all have a good basis for your final project, and be able to 
 
 **dWeb**  
   *P2P*
-    [bittorrent](https://en.wikipedia.org/wiki/BitTorrent)  s
-    [p2p forever](http://p2pforever.org)
+    [bittorrent](https://en.wikipedia.org/wiki/BitTorrent)  
+    [p2p forever](http://p2pforever.org)  
   [*Dat project*](https://dat.foundation)  
-    [beaker browser](https://beakerbrowser.com)
+    [beaker browser](https://beakerbrowser.com)  
     [zach mandeville](dat://ea4168eca518686d53dacef7dd99d4cd1f0cdb32e91ecfa5480dce52230fbe25/) [ellipsis notebook](dat://5793d06772ebec92a6b343e7187d39e4e6be6dee73d7b233269b48408c4a34fb/)  
   [*IPFS*](https://ipfs.io)  
     [whitepaper](https://arena-attachments.s3.amazonaws.com/1301974/b91e69e44362e5d81204f9ed038269bd.pdf?1506799906) [web hosting](https://ipfs.io/ipns/Qme48wyZ7LaF9gC5693DZyJBtehgaFhaKycESroemD5fNX/post/putting_this_blog_on_ipfs/) 
