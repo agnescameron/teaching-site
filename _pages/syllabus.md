@@ -10,13 +10,13 @@ permalink: /syllabus/
 ## class goals
 
 * feel fluent and comfortable writing code for the web using Javascript and JQuery, and have an understanding of common web development workflows
-* understand the basics of how the web is structured, and use this understanding to utilise APIs and requests
+* understand how the web is structured, and use this understanding to utilise APIs and requests
 * think critically, experimentally and imaginatively about the web
 * become familiar with the command line, the console, and the node framework. feel happy about writing Node shell scripts and understand how they can contribute to your workflow.
 * understand how and where to include libraries and modules in your code
 * through readings and thought exercises, develop and realise your own ideas about what the web should look like
 * learn about simulation and modelling techniques, and how they can be used to create complex systems
-* appreciate computer games as a mode of artistic enquiry
+* understand the web as situated within a history and geography of computation, and be aware of its broad effects and manifestations
 
 
 ## course overview

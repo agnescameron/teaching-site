@@ -5,7 +5,7 @@ permalink: /class8/
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->
 
-maps, charts, graphs and tools of representation.
+use and misuse of maps, charts, graphs and tools of representation. radical cartography, drawing
 
 ## lecture: graphs of desire
 
@@ -16,9 +16,21 @@ situationists
 oulipo
 
 [queering the map](https://www.queeringthemap.com)
+[geogoo](http://geogoo.net)
+[relational aesthetics](https://en.wikipedia.org/wiki/Relational_art#cite_note-13)
+
+[back when we thought the internet was like a city](https://www.citylab.com/life/2013/03/back-when-we-thought-internet-was-city/4943/) [deleted city](http://deletedcity.net)
 
 the music maze
+memory palaces
 
+
+**diagrams**  
+  [draw.io]()
+  [ideonomy]()  
+
+**things from the room in the back**
+  [on re-visiting the things you've accumulated](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)
 
 ### assignment
 

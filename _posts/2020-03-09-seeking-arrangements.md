@@ -50,31 +50,38 @@ map->
 arrow functions  
 
 **sorting things**  
-knowledge graphs  
 [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
 [openCV](https://opencv.org) [openCV JS](https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html)    
+[indigenous knowledge and the politics of classification](http://www-personal.umich.edu/~arunagra/papers/Indigenous%20Knowledges.pdf)
+
 
 **finding things**  
+[wtf is a knowledge graph](https://hackernoon.com/wtf-is-a-knowledge-graph-a16603a1a25f) [semantic networks](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/640px-Semantic_Net.svg.png) [google knowledge graph](https://googleblog.blogspot.co.uk/2012/05/introducing-knowledge-graph-things-not.html) [the underlay](https://underlay.mit.edu)  
  google duckduckgo  
+[inside search](https://blog.google/products/search/)
+[can i help you find something](http://rostenwoo.biz/index.php/abouthaystacks)
 
-**diagrams**  
-  [draw.io]()
-  [ideonomy]()  
 
 **libraries**  
+ [bookcase history](http://www.harvarddesignmagazine.org/issues/43/before-billy-a-brief-history-of-the-bookcase)
  [sitterwerk catalog](https://www.sitterwerk-katalog.ch/books)  
- the internet archive  
+ the internet archive [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  
 
-**datasets**  
+**collections**  
   [*corpora*](https://github.com/dariusk/corpora)  
     [vegetable cooking times](https://github.com/dariusk/corpora/blob/master/data/foods/vegetable_cooking_times.json) [female classical guitarists](https://github.com/dariusk/corpora/blob/master/data/music/female_classical_guitarists.json) [tarot](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) [pokemon](https://github.com/dariusk/corpora/blob/master/data/games/pokemon.json) [saints](https://github.com/dariusk/corpora/blob/master/data/religion/christian_saints.json)  
   [pokemon](https://github.com/fanzeyi/pokemon.json)  
   [wordnik](https://developer.wordnik.com/docs)  
+  [*data gardens*](https://github.com/everestpipkin/datagardens)
   [sephora reviews that mention crying sobbing or tears](https://github.com/everestpipkin/datagardens/tree/master/students/khanniie/5_newDataSet)  
+  [simple pleasures](https://www.are.na/alex-singh/a-catalogue-of-simple-pleasures)
   [library of missing datasets](http://mimionuoha.com/the-library-of-missing-datasets/)  
+
 
 **scrape it yourself**
   [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071)
+    [small data squad](https://melanie-hoff.com/sds/)
+
 
 ### in class  
 Use the Tarot data set and find some different ways to arrange it.

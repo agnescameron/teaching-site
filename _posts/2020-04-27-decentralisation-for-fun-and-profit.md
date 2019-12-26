@@ -13,6 +13,10 @@ By now, you should all have a good basis for your final project, and be able to 
 **hashing**
 
 **the web we want**
+  *"surf clubs"*
+  [nastynets](http://archive.rhizome.org/artbase/53981/nastynets.com/) [spirit surfers](http://www.spiritsurfers.net) [spirit surfing](http://veryinteractive.net/content/2-library/2-spirit-surfing/bewersdorf-spiritsurfing.pdf) [catalogue](https://rhizome.org/editorial/2016/mar/30/catalog-of-internet-artist-clubs/)  
+  
+
 
 **distributed co-operation**  
   [CRDT](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)  
@@ -31,7 +35,7 @@ By now, you should all have a good basis for your final project, and be able to 
     [whitepaper](https://arena-attachments.s3.amazonaws.com/1301974/b91e69e44362e5d81204f9ed038269bd.pdf?1506799906) [web hosting](https://ipfs.io/ipns/Qme48wyZ7LaF9gC5693DZyJBtehgaFhaKycESroemD5fNX/post/putting_this_blog_on_ipfs/) 
 
 **mesh projects**
-
+  [voiceOver](https://umbrellium.co.uk/products/voiceover/)
 
 **run your own damn internet**  
   [run your own social](https://runyourown.social)

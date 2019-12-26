@@ -25,8 +25,8 @@ read through syllabus together and ask about it
   visual studio  
   XCode  
   
-**versioning**  
-  git  
+**version control**  
+  git [how to write a git commit message](https://chris.beams.io/posts/git-commit/)  
   github gitlab  
   merging 😱  
   
@@ -45,7 +45,7 @@ read through syllabus together and ask about it
   heroku  
   
 **operating systems**  
-  [windows](https://en.wikipedia.org/wiki/Microsoft_Windows) [windows subsystem for linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) [windows bash shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)  
+  [windows](https://en.wikipedia.org/wiki/Microsoft_Windows) [windows subsystem for linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) [windows bash shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) [microsoft bob?](https://www.youtube.com/watch?v=5teG6ou8mWU)  
   [unix family](https://en.wikipedia.org/wiki/MacOS#/media/File:Unix_timeline.en.svg)  
   [macOS](https://en.wikipedia.org/wiki/MacOS) [fink](http://www.finkproject.org/doc/users-guide/intro.php?phpLang=en#what)  
   *linux*  

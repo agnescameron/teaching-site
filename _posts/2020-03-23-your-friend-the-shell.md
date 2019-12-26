@@ -54,14 +54,14 @@ tags: [backend]
 **regex**  
   
 
-**great command line tools**  
-  *audio*  
-    ffmpeg  
-  *visual*  
-    exif  
-  *religious?*  
-    [bibleJS](https://github.com/BibleJS/BibleApp)
+**ascii art**
 
+**great command line tools**  
+  *AV*  
+    ffmpeg youtube-dl  
+  *religious?*  
+    [bibleJS](https://github.com/BibleJS/BibleApp)  
+ [big list](https://github.com/agarrharr/awesome-cli-apps)  
 
 ### midterm assignment
 
@@ -71,3 +71,5 @@ Using nodeJS, write a command line application. This application should
 **examples**
 [pizza party](http://www.coryarcangel.com/things-i-made/2004-009-pizza-party) [modern implementation](https://github.com/brianmxwll/SiriProxy-PizzaParty)
 
+**resources**
+  [the art of the command line](https://github.com/jlevy/the-art-of-command-line#one-liners)
