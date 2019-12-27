@@ -5,6 +5,9 @@ layout: default
 <h2>web programming</h2>
 
 this is the homepage for the 2020 edition of hunter college's web programming class (medp 34100), taught by <a href="http://agnescameron.info">agnes cameron</a>.
+<br><br>
+<button onclick="randomPerson()">random person!</button>
+<span id="randomiser"></span>
 
       <ul class="noPoints">
       {% for post in site.posts reversed %}
@@ -13,3 +16,12 @@ this is the homepage for the 2020 edition of hunter college's web programming cl
         </li>
       {% endfor %}
     </ul>
+
+<script type="text/javascript">
+	people = ["alice", "bob", "ted"]
+
+	function randomPerson(){
+		var person = people[Math.floor(Math.random()*people.length)]
+		document.getElementById('randomiser').innerHTML = person
+	}
+</script>
