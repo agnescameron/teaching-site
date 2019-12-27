@@ -2,6 +2,9 @@
 layout: post  
 title: mapping knowledge  
 permalink: /class8/  
+description: use and misuse of maps, charts, graphs and tools of representation.
+assignment: using jQuery (and anything else you choose), arrange the data set you collected last week (or one that we looked at) in a few different ways.
+readings: Cab Brokoski
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->
 
@@ -25,9 +28,15 @@ the music maze
 memory palaces
 
 
+[right to be forgotten](https://techcrunch.com/2014/07/04/digital-theatre/)
+
 **diagrams**  
   [draw.io]()
   [ideonomy]()  
+
+[body without organs](https://d2w9rnfcy7mm78.cloudfront.net/5788294/original_34ad7ec762727159cfbb1212dae1df64.jpg?1577447140?bc=0)
+
+[butterflies](https://marian42.de/butterflies/?0.04443,0.25659,11)
 
 **things from the room in the back**
   [on re-visiting the things you've accumulated](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)

@@ -4,6 +4,8 @@ title: any requests?
 permalink: /class3/  
 categories: [HTTP]
 tags: [history, network infrastructure, security]
+description: this week we'll talk about requests and APIs, and the history of the net.
+assignment: make a website that changes based on calls to a remote API.
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  
@@ -54,7 +56,7 @@ go through peoples' favourite fizz buzz solutions. what worked and what didn't? 
   [all about cURL](https://bagder.gitbook.io/everything-curl/cmdline) [cheat sheet](https://devhints.io/curl)
   
 **formatting**  
-  [JSON](https://www.json.org/json-en.html) [XML](https://en.wikipedia.org/wiki/XML) [YAML](https://yaml.org) [which one?](https://stackoverflow.com/questions/3951047/xml-vs-yaml-vs-json) [?](https://stackoverflow.com/questions/1726802/what-is-the-difference-between-yaml-and-json)
+  [JSON](https://www.json.org/json-en.html) [XML](https://en.wikipedia.org/wiki/XML) [YAML](https://yaml.org) [which one?](https://stackoverflow.com/questions/3951047/xml-vs-yaml-vs-json) [???](https://stackoverflow.com/questions/1726802/what-is-the-difference-between-yaml-and-json)
 }
   
 **API**  
@@ -107,8 +109,8 @@ go through peoples' favourite fizz buzz solutions. what worked and what didn't? 
     [horoscope-api (free)](https://github.com/sumitgohil/horoscope-api)  
     [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)
 
-  *pizza*  
-    [dominos](https://www.npmjs.com/package/dominos)  
+  *other*  
+    [dominos](https://www.npmjs.com/package/dominos) [3 Degrees of Separation from the Military-Industrial-Prison-Data-Surveillance State](http://linkedd.s3.amazonaws.com/index.html)
   
 *notes:*   
 the steps for authenticating to google api can be surprisingly tricky and poorly documented... if you're wanting to play with a google project, let me know and I can walk you through it!  
@@ -117,7 +119,6 @@ the steps for authenticating to google api can be surprisingly tricky and poorly
 pick an api and make a http request from the command line!  
 
 ### assignment  
-this is a big guy, because there's no class next week  
 
 ### readings  
 

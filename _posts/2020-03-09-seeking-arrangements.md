@@ -4,7 +4,9 @@ title: seeking arrangements
 permalink: /class6/  
 categories: [jQuery]
 tags: [diagrams, sorting]
-homework: aaaaaaaa
+description: A class about structuring knowledge. We'll talk about objects, data, libraries, scraping and the politics of taxonomy.
+assignment: Curate a data-set, and come up with some ways to arrange it.
+readings: orit halpern?
 ---  
 
 ## lecture: structuring knowledge
@@ -73,14 +75,16 @@ arrow functions
   [pokemon](https://github.com/fanzeyi/pokemon.json)  
   [wordnik](https://developer.wordnik.com/docs)  
   [*data gardens*](https://github.com/everestpipkin/datagardens)
-  [sephora reviews that mention crying sobbing or tears](https://github.com/everestpipkin/datagardens/tree/master/students/khanniie/5_newDataSet)  
+    [sephora reviews that mention crying sobbing or tears](https://github.com/everestpipkin/datagardens/tree/master/students/khanniie/5_newDataSet)  
+  *museum data collections*
+    [natural history museum (uk)](https://data.nhm.ac.uk)
   [simple pleasures](https://www.are.na/alex-singh/a-catalogue-of-simple-pleasures)
   [library of missing datasets](http://mimionuoha.com/the-library-of-missing-datasets/)  
 
 
 **scrape it yourself**
-  [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071)
-    [small data squad](https://melanie-hoff.com/sds/)
+  [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
+  [small data squad](https://melanie-hoff.com/sds/)
 
 
 ### in class  

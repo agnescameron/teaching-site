@@ -2,8 +2,10 @@
 layout: post  
 title: your friend the shell  
 permalink: /class7/  
-categories: [node]
+categories: [node, bash]
 tags: [backend]
+description: This week we're going to get really into programming for the command line! A chance to get up close and personal with your filesystem! Abandon the need for UI!
+assignment: write a command line application, using either nodeJS or bash. 
 ---  
   
 ### review:   
@@ -58,7 +60,7 @@ tags: [backend]
 
 **great command line tools**  
   *AV*  
-    ffmpeg youtube-dl  
+    ffmpeg youtube-dl [videogrep](https://antiboredom.github.io/videogrep/)  
   *religious?*  
     [bibleJS](https://github.com/BibleJS/BibleApp)  
  [big list](https://github.com/agarrharr/awesome-cli-apps)  

@@ -3,7 +3,8 @@ layout: post
 title: simulation and games 
 permalink: /class10/  
 tags: [diagrams, systems, simulation]
-assignment: play a couple of games and figure out how you feel about them. start planning your simulated environment.
+assignment: play a couple of games and figure out how you feel about them. start planning your simulated environment for your final project.
+description: Introducing the final project! This class looks at games and simulations as tools for critique, political statements, and modes of artistic enquiry. We think about interface metaphors and feedback systems, and talk about some of the history of cybernetics.
 readings: Keller Easterling's [*An internet of things*](http://worker01.e-flux.com/pdf/article_8946204.pdf), Nicky Case's [*how to simulate the universe in 134 easy steps*](https://blog.ncase.me/how-to-simulate-the-universe-in-134-easy-steps/) and Ava Kofman's [*les simerables*](https://jacobinmag.com/2014/10/les-simerables/). 
 ---  
 

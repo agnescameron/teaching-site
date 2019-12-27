@@ -30,17 +30,27 @@ Date | Theme | Assignment | Reading
 
 
 ## structure of the course
-This course is entirely project-based. this means no exams! but also this does mean that almost all of your grade is dependent on constant, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques.
+This course is entirely project-based. this means no exams! but also this does mean that almost all of your grade is dependent on constant, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques. The assignments for this course consist of six 1-week assignments, two 2-week assignments, and a final project. Each of these will address a different form and set of ideas, though there are links between all of them, and you are welcome to use these to explore one continual theme.
 
 This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
-Each week, I expect you to write a short paragraph or two on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
+Each week, I expect you to write a short paragraph or two (100-250 words) on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
 
-I want you to make this class useful to you, so feel free to adapt assignments to suit your interests (though talk to me about it first). These tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, are.na ideas for a website is a great start.
+I want you to make this class useful to you, so feel free to adapt assignments to suit your interests (though talk to me about it first). These tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, the are.na channel [an idea for a website](https://www.are.na/ian-mcdonald/an-idea-for-a-website) is a great start.
+
+### presenting work
+All classwork is presented through personal websites, that you will update your website with documentation of homework and progress. come to each class with the assignment finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found, and people can ask you questions (we’ll talk to 4 people a week). this will help all of you learn!
+
+There is no point in taking this class if you don’t do the homework: this is how you develop the skills you need to work on the web! Missing one of these unannounced will bring your grade down by a half point each time. (you can make it back up (once) if you publish within the week).
 
 ### group work
 
 You may choose to work on any of the weekly projects in a group of not more than two students -- and it's encouraged you try this at least once in the semester. Do bear in mind that group projects will not just be marked on the quality of the work (which should exceed the scope of a solo attempt), but on how well you have worked together (to be recorded in the git commit history).
+
+### on the readings
+Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and I ask you to come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something.
+
+As we go along and spend more time exploring ideas, there's less preparation and more inspiration -- it's fine if you don't read all of this second set, but if not, I do ask that you read something else instead, and record what it is!
 
 ### on frameworks
 
@@ -68,13 +78,6 @@ I don’t want to put this in a particular week (it’ll feel forced), but at so
 
 if this doesn’t happen (e.g. if you already find answers to your questions through one of these platforms) then that’s cool: but take an answer you found helpful, and talk about the process of finding it, and how the answerer and the questioner interacted.
 
-
-### presenting work
-All classwork is presented through personal websites, that you will update your website with documentation of homework and progress. come to each class with the homework finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found, and people can ask you questions (we’ll talk to 4 people a week). this will help all of you learn!
-
-There is no point in taking this class if you don’t do the homework: this is how you develop the skills you need to work on the web! Missing one of these unannounced will bring your grade down by a half point each time. (you can make it back up (once) if you publish within the week)
-
-
 ## policies
 
 ### academic integrity
@@ -89,7 +92,6 @@ From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/ha
 
 ### accessibility
 In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical, and/or Learning) consult the Office of Accessibility located in Room E1124 to secure necessary academic accommodations. For further information and assistance, please call (212) 772-4857/TTY (212) 650-3230. If you have registered with the Office of Accessibility, please let me know at the start of the term.
-
 
 ### attendance
 The success of this class involves your presence and participation. As such, it is important that you are here, and on time. **You will not be penalised for one absence**, so long as you notify me in advance. Two absences will reduce your grade one step (A -> A-), three absences reduce two steps. More than that will have a serious impact on your grade.

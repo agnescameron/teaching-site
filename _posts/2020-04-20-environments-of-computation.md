@@ -4,6 +4,8 @@ title: environments of computation
 permalink: /class11/  
 tags: [cybernetics, diagrams]
 readings: Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)
+description: We talk *more* about the history of cybernetics, particularly in its relationship to space. This class should expand your ideas about environments and systems, and hopefully give you new inspiration and perspective from which to explore your final project.
+assignment: start developing your final project in earnest. start by thinking about the basic infrastructure. do you need a server? What requests will you make? Can you build a minimal prototype that performs most of these tasks?
 ---  
 
 >we must first recognise that computation is not just something conducted in digital machines and abstract numerical spaces, but a possibility of the world itself. 
@@ -52,12 +54,10 @@ discuss the Keller Easterling piece
 
 **'smart' cities**  
   [the architecture machine group](https://arena-attachments.s3.amazonaws.com/5784079/679e129c74aa087a9b40fd7d66a3d9ff.pdf?1577377138) [soft architecture machines](https://www.pangaro.com/cmucode2019/negroponte-softarchitecturemachines.pdf) [SEEK](http://cyberneticzoo.com/robots-in-art/1969-70-seek-nicholas-negroponte-american/)  
-    [the fun palace](https://www.bcchang.com/transfer/articles/2/18346584.pdf)  
+  [the fun palace](https://www.bcchang.com/transfer/articles/2/18346584.pdf)  
+  [sidewalk labs](https://www.sidewalklabs.com)
   [local codes](https://publicknowledge.sfmoma.org/local-codes-forms-of-spatial-knowledge/) [interfacing urban intelligence](https://placesjournal.org/article/interfacing-urban-intelligence/)  
-
-[**sneakernets**](https://en.wikipedia.org/wiki/Sneakernet)  
-  [el paquete semenal](https://en.wikipedia.org/wiki/El_Paquete_Semanal)  [the pirate book](http://thepiratebook.net/wp-content/uploads/The_Pirate_Book.pdf)  
-  [dead drops](https://en.wikipedia.org/wiki/USB_dead_drop)  
+  [smart enough?](https://smartenoughcity.mitpress.mit.edu)
 
 **dynamicland**  
   [seeing spaces](http://worrydream.com/SeeingSpaces/)  

@@ -5,12 +5,12 @@ permalink: /class4/
 categories: [networking]
 tags: [network infrastructure, security, decentralisation]
 readings: Quartz [*Map of the Internet*](https://classic.qz.com/map-of-the-internet/) Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
+description: So i sent you a http request... but where did it go?? welcome to the weird and wonderful world of the OSI protocol. in this class we'll unpeel some layers of abstraction that keep the internet looking like it's working great all the time (it's actually a big big mess), learn about media archaeology and network forensics.
+assignment: Using some of the tools and techniques we've discussed in class, discover something about your own local internet system.
 ---  
-  
-so i sent you a http request... but where did it go??  
-  
-welcome to the weird and wonderful world of the OSI protocol. in this class we'll unpeel some layers of abstraction that keep the internet looking like it's working great all the time (it's actually a big big mess), and learn some cool ways to look under the hood.  
-  
+
+{{page.description}}
+
 ### reading discussion  
 show us your api calling websites!  
   
@@ -61,6 +61,7 @@ ARPANET
 
 **wifi**  
   [flagellum machinam](http://fii.to/pages/flagellation-machine.html) [video](https://www.youtube.com/watch?v=WqAG1WsZHtY&feature=emb_title)  
+[bandwidth]() [FCC spectrum]() [5G]() [wtf?!](https://www.buzzfeednews.com/article/danvergano/5g-is-going-to-screw-up-weather-forecasts-meteorologists?bftwnews&utm_term=4ldqpgc#4ldqpgc)
 
 **mapping it out**  
   [map](http://map.jodi.org)  
@@ -91,8 +92,9 @@ ARPANET
 look at some things on wireshark  
 
 ### assignment  
+{{page.assignment}}
 do your own media archaeology/forensics  
-find something out about your own internet system. use the tools we have (or find some other ones)  
+use the tools we have (or find some other ones)  
   
 precaution: lots of the tools we've looked at today are powerful  
   

@@ -4,12 +4,11 @@ title: the vanilla web
 permalink: /class2/  
 categories: [JS, HTML, CSS]  
 tags: [net art, basics]
-homework: aaaaaaaa
-excerpt_separator: <!--more-->
+assignment: here we'll revisit the basic tools that we use to make websites, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
+readings:
 ---  
   
 you've been there! you've seen it! you've done that! (or have you?). This class and homework is a chance to revise basic web programming concepts, and to get an idea of where everyone is at.
-<!--more-->
 
 ### review: homework + check in  
   
