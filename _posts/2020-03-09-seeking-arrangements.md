@@ -6,7 +6,8 @@ categories: [jQuery]
 tags: [diagrams, sorting]
 description: A class about structuring knowledge. We'll talk about objects, data, libraries, scraping and the politics of taxonomy.
 assignment: Curate a data-set, and come up with some diverse ways to sort it.
-readings: orit halpern? something on diagrams?
+readings: orit halpern? something on diagrams, click around 
+assignment-due: 03/16
 ---  
 
 ## lecture: structuring knowledge
@@ -21,35 +22,7 @@ maybe invite cybernetics lib? KFG?
 taxonomy
 
 indexes archives  
-jquery in a big way  
-  
-[jQuery patterns](https://learn.jquery.com/code-organization/concepts/)  
-  
-where to get good data sets  
-  
-scraping  
-  
 
-  
-randomness  
-  
-sorting things out  
-  
-political compass memes  
-lists  
-matrices  
-HTML canvas  
-  
-  
-patterns  
-antipatterns  
-arrays  
-foreach  
-event handling  
-  
-map->  
-  
-arrow functions  
 
 **sorting things**  
 [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  

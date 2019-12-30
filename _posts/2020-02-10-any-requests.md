@@ -6,6 +6,7 @@ categories: [HTTP]
 tags: [history, network infrastructure, security]
 description: this week we'll talk about requests and APIs, and some moments in internet history. We'll learn to use some command line tools, and talk about some interesting uses of data.
 assignment: make an interface to a remote API.
+assignment-due: 02/24
 readings: 
 ---  
 

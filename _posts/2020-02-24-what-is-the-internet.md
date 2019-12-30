@@ -7,6 +7,7 @@ tags: [network infrastructure, security, decentralisation]
 readings: Quartz [*Map of the Internet*](https://classic.qz.com/map-of-the-internet/)<br>Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
 description: So i sent you a http request... but where did it go?? welcome to the weird and wonderful world of the OSI protocol. in this class we'll unpeel some layers of abstraction that keep the internet looking like it's working great all the time (it's actually a big big mess), learn about media archaeology and network forensics.
 assignment: Using some of the tools and techniques we've discussed in class, discover something about your own local internet system.
+assignment-due: 03/02
 ---  
 
 {{page.description}}
@@ -95,7 +96,10 @@ look at some things on wireshark
 do your own media archaeology/forensics  
 use the tools we have (or find some other ones)  
   
-precaution: lots of the tools we've looked at today are powerful  
-  
+precaution: lots of the tools we've looked at today are powerful, and some uses of them are of shady legality. Don't! try and hack into someone else's computer without their express permission, 
+
+Ideas:
+Randall Monroe [*Google's Data Centers on Punch Cards*](https://what-if.xkcd.com/63/)
+
 ## reading
 {{page.readings}}

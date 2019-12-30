@@ -5,6 +5,7 @@ permalink: /class8/
 description: use and misuse of maps, charts, graphs and tools of representation. We will use JQuery and other libraries to arrange our information.
 assignment: using jQuery (and anything else you choose), display and explore the data set you collected last week (or one that we looked at) in a few different ways.
 readings: Cab Broskoski [*on re-visiting the things you've accumulated*](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)
+assignment-due: 03/23
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->
 
@@ -12,7 +13,43 @@ use and misuse of maps, charts, graphs and tools of representation. radical cart
 
 ## lecture: graphs of desire
 
+jquery in a big way  
+  
+[jQuery patterns](https://learn.jquery.com/code-organization/concepts/)  
+  
+where to get good data sets  
+  
+scraping  
+  
 
+  
+randomness  
+  
+sorting things out  
+  
+political compass memes  
+lists  
+matrices  
+HTML canvas  
+  
+  
+patterns  
+antipatterns  
+arrays  
+foreach  
+event handling  
+  
+map->  
+  
+arrow functions  
+
+**js drawing libraries**
+  [processing js](http://processingjs.org) -> [p5 js](https://p5js.org) 
+  *networks*
+  *graphs*
+    [d3.js]()
+  *blobs*
+    [paper.js](http://paperjs.org) [staggering beauty](http://www.staggeringbeauty.com)
 
 situationists
 

@@ -6,13 +6,11 @@ tags: [cybernetics, diagrams]
 readings: Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)
 description: We talk *more* about the history of cybernetics, particularly in its relationship to space and architecture. This class should expand your ideas about environments and systems, and hopefully give you new inspiration and perspective from which to explore your final project.
 assignment: start developing your final project in earnest. start by thinking about the basic infrastructure. do you need a server? What requests will you make? Can you build a minimal prototype that performs most of these tasks?
+assignment-due: 04/27
 ---  
 
->we must first recognise that computation is not just something conducted in digital machines and abstract numerical spaces, but a possibility of the world itself. 
+>*we must first recognise that computation is not just something conducted in digital machines and abstract numerical spaces, but a possibility of the world itself.*  
 > -- Dennis Shelden
-
-> organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations.
-> [Melvin Conway](https://en.wikipedia.org/wiki/Conway%27s_law)
 
 [dennis shelden information complexity](https://arena-attachments.s3.amazonaws.com/2027040/b0989090299a9b147bd11dbadd3d3af8.pdf?1523438047)
 
@@ -40,16 +38,14 @@ discuss the Keller Easterling piece
   [burble](https://umbrellium.co.uk/products/burble/)  
   [berlin key (via dan taeyoung)](https://www.are.na/dan-taeyoung/the-berlin-key-social-locks)
 
-**swarms**
-  [ants]() [termites]() [slime moulds]()  
-  [boids]()
+**collective intelligence**
 
 **participation and collaboration**  
   [emergence]()  
   [placeastone.nl](https://studiomoniker.com/projects/place-a-stone)  
   [conditional design workbook](https://studiomoniker.com/projects/conditional-design-workbook)  
-  [/r/place](https://draemm.li/various/place-atlas/)
-  [conversation is a cybernetic technology](https://arena-attachments.s3.amazonaws.com/4425709/75f4ffd2c8c73551f1214a9c53909491.pdf?1559967933) [tools of collective intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence/)
+  [/r/place](https://draemm.li/various/place-atlas/) [twitch plays pokémon](https://en.wikipedia.org/wiki/Twitch_Plays_Pokémon)  
+  [conversation is a cybernetic technology](https://arena-attachments.s3.amazonaws.com/4425709/75f4ffd2c8c73551f1214a9c53909491.pdf?1559967933) [tools of collective intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence/)  
 
 **pattern languages**  
   

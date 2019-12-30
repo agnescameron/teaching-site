@@ -6,6 +6,7 @@ categories: [JS, HTML, CSS]
 tags: [net art, basics]
 description: you've been there! you've seen it! you've done that! (or have you?). here we'll revisit the basic tools that we use to make work for the web, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
 assignment: make a website that shuffles a deck of cards using 2 different methods
+assignment-due: 02/10
 readings: click through JODI, computer lib
 ---  
 
