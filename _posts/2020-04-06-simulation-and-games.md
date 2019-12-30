@@ -8,6 +8,13 @@ description: Introducing the final project! This class looks at games and simula
 readings: Keller Easterling's [*An internet of things*](http://worker01.e-flux.com/pdf/article_8946204.pdf), Nicky Case's [*how to simulate the universe in 134 easy steps*](https://blog.ncase.me/how-to-simulate-the-universe-in-134-easy-steps/) and Ava Kofman's [*les simerables*](https://jacobinmag.com/2014/10/les-simerables/). 
 ---  
 
+### final project
+Create a simulated environment or system that exists on the web.
+This environment might be a model of a real place, or contain a new kind of creature. It could be a game, or maybe it simply plays itself. Perhaps it is used to explore a system that you're interested in, or critique one that you disagree with. The requirements for this piece are that it:
+* is in some way interactive, modifiable or explorable
+* should change over time
+
+
 **why simulate?**  
   [explorable explanations](http://worrydream.com/ExplorableExplanations/#explorableExample) [website](https://explorabl.es)
 
@@ -24,6 +31,10 @@ readings: Keller Easterling's [*An internet of things*](http://worker01.e-flux.c
 
 ### assignment
 {{page.assignment}}
+
+When you return after spring break, you should have (at a minimum) on your site:
+* a detailed description of what you plan to make
+* some sketches, showing how it might look, and diagrams of how it will fit together
 
 
 **short**  

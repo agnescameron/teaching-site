@@ -1,10 +1,10 @@
 ---  
 layout: post  
-title: mapping knowledge  
+title: graphs of desire  
 permalink: /class8/  
-description: use and misuse of maps, charts, graphs and tools of representation.
-assignment: using jQuery (and anything else you choose), arrange the data set you collected last week (or one that we looked at) in a few different ways.
-readings: Cab Brokoski
+description: use and misuse of maps, charts, graphs and tools of representation. We will use JQuery and other libraries to arrange our information.
+assignment: using jQuery (and anything else you choose), display and explore the data set you collected last week (or one that we looked at) in a few different ways.
+readings: Cab Broskoski [*on re-visiting the things you've accumulated*](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->
 
@@ -42,8 +42,7 @@ memory palaces
   [on re-visiting the things you've accumulated](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)
 
 ### assignment
-
-with the data set you arranged last week, experiment with a graphical interface that could be used to represent the data in an interesting or unusual way. think  
+with the data set you arranged last week, experiment with a graphical interface that could be used to explore your data set. 
 
 **inspiration**  
  [yale aids memorial project](http://yamp.org)  

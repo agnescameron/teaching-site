@@ -4,11 +4,12 @@ title: the vanilla web
 permalink: /class2/  
 categories: [JS, HTML, CSS]  
 tags: [net art, basics]
-assignment: here we'll revisit the basic tools that we use to make websites, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
-readings:
+description: you've been there! you've seen it! you've done that! (or have you?). here we'll revisit the basic tools that we use to make work for the web, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
+assignment: make a website that shuffles a deck of cards using 2 different methods
+readings: click through JODI, computer lib
 ---  
-  
-you've been there! you've seen it! you've done that! (or have you?). This class and homework is a chance to revise basic web programming concepts, and to get an idea of where everyone is at.
+
+{{page.description}}
 
 ### review: homework + check in  
   
@@ -66,6 +67,12 @@ go around everyone and ask where they think they're at with html/css/js
   [jodi.org](http://wwww.jodi.org)  
   [html energy](http://html.energy)  
   [form art](https://sites.rhizome.org/anthology/form-art-competition.html)  
-  
+
+### in class assignment:
+bring in packs of cards and think about different ways to shuffle/arrange them?
+
 ### assignment:  
-something with dealing cards? tarot? come up with a tarot algorithm?
+{{page.assignment}}
+
+Your solution should use loops and randomness. If you're confident with both these ideas (you should be!) try something a bit more daring. Add some graphics! Try a sorting algorithm! Check out ?? for some more inspiration. How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
+

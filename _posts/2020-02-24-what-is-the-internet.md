@@ -4,20 +4,19 @@ title: what's the internet??
 permalink: /class4/  
 categories: [networking]
 tags: [network infrastructure, security, decentralisation]
-readings: Quartz [*Map of the Internet*](https://classic.qz.com/map-of-the-internet/) Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
+readings: Quartz [*Map of the Internet*](https://classic.qz.com/map-of-the-internet/)<br>Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
 description: So i sent you a http request... but where did it go?? welcome to the weird and wonderful world of the OSI protocol. in this class we'll unpeel some layers of abstraction that keep the internet looking like it's working great all the time (it's actually a big big mess), learn about media archaeology and network forensics.
 assignment: Using some of the tools and techniques we've discussed in class, discover something about your own local internet system.
 ---  
 
 {{page.description}}
 
-### reading discussion  
-show us your api calling websites!  
-  
+### reading discussion and crit
+show us your api calling websites!
+
 what are all the readings about, how did they make you feel?  
   
 ### lecture: the internet is just other peoples' computers  
-  
   
 [life sharing](http://0100101110101101.org/life-sharing/)  
   

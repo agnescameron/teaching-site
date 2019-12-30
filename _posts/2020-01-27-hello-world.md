@@ -4,8 +4,9 @@ title: hello, world!
 permalink: /class1/  
 categories: [git, HTML, CSS, JS]  
 tags: [basics]  
-assignment: do the thing  
+assignment: Use the console editing tools we explored to create new versions of websites that you use regularly.
 description: this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
+readings: Laurel Schwulst [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/), JR Carpenter [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)
 ---  
 
 {{ page.description }}
@@ -90,9 +91,7 @@ setting up github and netlify accounts, text editors (if you're good with these 
 ### assignment  
 {{page.assignment}}
 
-Use the console editing tools we explored to create new versions of websites. Experiment with a range of different techniques, and produce at least 6 different versions. Publish these on your class site, along with a description of what you did, and a response to the readings.
+ Experiment with a range of different techniques, and produce at least 6 different versions. Publish these on your class site, along with a description of what you did, and a response to the readings.
 
 ### readings
-[my website is a shifting house next to a river of knowledge, what could yours be?](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)  
-[A Handmade Web](http://luckysoap.com/statements/handmadeweb.html)  
-
+{{page.readings}}

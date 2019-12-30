@@ -4,8 +4,9 @@ title: any requests?
 permalink: /class3/  
 categories: [HTTP]
 tags: [history, network infrastructure, security]
-description: this week we'll talk about requests and APIs, and the history of the net.
-assignment: make a website that changes based on calls to a remote API.
+description: this week we'll talk about requests and APIs, and some moments in internet history. We'll learn to use some command line tools, and talk about some interesting uses of data.
+assignment: make an interface to a remote API.
+readings: 
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  
@@ -14,7 +15,7 @@ assignment: make a website that changes based on calls to a remote API.
 <!--more-->
 
 ### review  
-go through peoples' favourite fizz buzz solutions. what worked and what didn't? what was hard and what wasn't? is there anything that we should revise or that you'd like clearing up?  
+go through peoples' card sorting solutions. what worked and what didn't? what was hard and what wasn't? is there anything that we should revise or that you'd like clearing up?  
   
 ### lecture: get a load of this api  
   
@@ -119,6 +120,9 @@ the steps for authenticating to google api can be surprisingly tricky and poorly
 pick an api and make a http request from the command line!  
 
 ### assignment  
+{{page.assignment}}
+
+Your webpage should experiment with how the data from the API is displayed. How are you expected to use this information? What if you did something different with it? How does your page change when the data from the API changes?
 
 ### readings  
 

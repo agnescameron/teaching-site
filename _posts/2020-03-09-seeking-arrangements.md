@@ -5,8 +5,8 @@ permalink: /class6/
 categories: [jQuery]
 tags: [diagrams, sorting]
 description: A class about structuring knowledge. We'll talk about objects, data, libraries, scraping and the politics of taxonomy.
-assignment: Curate a data-set, and come up with some ways to arrange it.
-readings: orit halpern?
+assignment: Curate a data-set, and come up with some diverse ways to sort it.
+readings: orit halpern? something on diagrams?
 ---  
 
 ## lecture: structuring knowledge

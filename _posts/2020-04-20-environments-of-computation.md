@@ -4,7 +4,7 @@ title: environments of computation
 permalink: /class11/  
 tags: [cybernetics, diagrams]
 readings: Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)
-description: We talk *more* about the history of cybernetics, particularly in its relationship to space. This class should expand your ideas about environments and systems, and hopefully give you new inspiration and perspective from which to explore your final project.
+description: We talk *more* about the history of cybernetics, particularly in its relationship to space and architecture. This class should expand your ideas about environments and systems, and hopefully give you new inspiration and perspective from which to explore your final project.
 assignment: start developing your final project in earnest. start by thinking about the basic infrastructure. do you need a server? What requests will you make? Can you build a minimal prototype that performs most of these tasks?
 ---  
 
@@ -26,12 +26,11 @@ discuss the Keller Easterling piece
 ### lecture: spaces and systems
 
 **memex**  
-  
+  [spatial memory]()
 
 **turtles**  
   [mindstorms](http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf)  
   [turtles online](https://turtleacademy.com/playground)  
-
 
 **embodiment**
   [augmenting human intellect](https://www.dougengelbart.org/content/view/138)
@@ -41,6 +40,9 @@ discuss the Keller Easterling piece
   [burble](https://umbrellium.co.uk/products/burble/)  
   [berlin key (via dan taeyoung)](https://www.are.na/dan-taeyoung/the-berlin-key-social-locks)
 
+**swarms**
+  [ants]() [termites]() [slime moulds]()  
+  [boids]()
 
 **participation and collaboration**  
   [emergence]()  

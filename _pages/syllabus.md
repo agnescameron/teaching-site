@@ -5,7 +5,7 @@ permalink: /syllabus/
 ---
 
 ## what is web programming?
-
+In this class, we will explore the web from a number of angles. We will take skills you already have and bend them in new ways, we will 
 
 ## class goals
 
@@ -27,33 +27,29 @@ Date | Theme | Assignment | Reading
 ----- | ----- | ----- | ----- | {% for post in site.posts reversed %}
 {{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} | {{post.assignment}} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endfor%}
 
-
-
 ## structure of the course
-This course is entirely project-based. this means no exams! but also this does mean that almost all of your grade is dependent on constant, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques. The assignments for this course consist of six 1-week assignments, two 2-week assignments, and a final project. Each of these will address a different form and set of ideas, though there are links between all of them, and you are welcome to use these to explore one continual theme.
+This course is entirely project-based. this means no exams! but also this does mean that almost all of your grade is dependent on consistent, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques. The assignments for this course consist of six 1-week assignments, two 2-week assignments, and a final project. Each of these will address a different form and set of ideas, though there are links between all of them, and you are welcome to use these to explore one continual theme.
 
-This class is not about having perfect code each week, and I would not expect you to! Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re really struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
+This class is not about having perfect code each week, and I would not expect you to. Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
 Each week, I expect you to write a short paragraph or two (100-250 words) on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
 
 I want you to make this class useful to you, so feel free to adapt assignments to suit your interests (though talk to me about it first). These tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, the are.na channel [an idea for a website](https://www.are.na/ian-mcdonald/an-idea-for-a-website) is a great start.
 
 ### presenting work
-All classwork is presented through personal websites, that you will update your website with documentation of homework and progress. come to each class with the assignment finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found, and people can ask you questions (we’ll talk to 4 people a week). this will help all of you learn!
+All classwork is presented through personal websites, that you will use to document your progress. come to each class with the assignment finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found out, and people can ask you questions (we’ll talk to 4 people a week).
 
 There is no point in taking this class if you don’t do the homework: this is how you develop the skills you need to work on the web! Missing one of these unannounced will bring your grade down by a half point each time. (you can make it back up (once) if you publish within the week).
 
 ### group work
-
 You may choose to work on any of the weekly projects in a group of not more than two students -- and it's encouraged you try this at least once in the semester. Do bear in mind that group projects will not just be marked on the quality of the work (which should exceed the scope of a solo attempt), but on how well you have worked together (to be recorded in the git commit history).
 
 ### on the readings
 Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and I ask you to come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something.
 
-As we go along and spend more time exploring ideas, there's less preparation and more inspiration -- it's fine if you don't read all of this second set, but if not, I do ask that you read something else instead, and record what it is!
+As we go along and spend more time exploring ideas, there's less preparation and more inspiration -- it's fine if you don't read all of this second set, but if not, I do ask that you read something else instead, and record what it is.
 
 ### on frameworks
-
 Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. They are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.
 
 If you’d like to use one such framework for any or all of your projects, I am happy to talk through it with you, though I would expect you to be reasonably self sufficient and confident with the material already being covered. I would encourage you to try it for a homework or two before deciding to use for final project. I am most familiar with React, but more than happy to help you with other frameworks if you give me fair warning.
@@ -61,7 +57,7 @@ If you’d like to use one such framework for any or all of your projects, I am 
 ### structure of each class
 * 1 hour what happened this week, what did everyone do and what did they think about it. Any big web news we’ll also talk about / if we have significant readings.
 
-* 10min break (get a snack!)
+* 10min break (get a snack?)
 
 * 1h lecture
 

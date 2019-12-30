@@ -5,7 +5,8 @@ permalink: /class7/
 categories: [node, bash]
 tags: [backend]
 description: This week we're going to get really into programming for the command line! A chance to get up close and personal with your filesystem! Abandon the need for UI!
-assignment: write a command line application, using either nodeJS or bash. 
+assignment: write a command line tool for yourself, using either NodeJS or bash. This tool should address some need you have from your computer which it does not currently address.
+readings: Dwarf Fortress Interview, something on self org intelligence (Jenna Sutela?). Is there some cellular net art?
 ---  
   
 ### review:   
