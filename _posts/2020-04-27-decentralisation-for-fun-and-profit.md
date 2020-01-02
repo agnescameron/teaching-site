@@ -21,11 +21,14 @@ By now, you should all have a good basis for your final project, and be able to 
   [el paquete semenal](https://en.wikipedia.org/wiki/El_Paquete_Semanal)  [the pirate book](http://thepiratebook.net/wp-content/uploads/The_Pirate_Book.pdf)  
   [dead drops](https://en.wikipedia.org/wiki/USB_dead_drop)  
 
+**version control**
+  [CRDT](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)  
+
 **distributed computing**
   [great internet mersenne prime search](https://en.wikipedia.org/wiki/Great_Internet_Mersenne_Prime_Search) [seti@home](https://setiathome.berkeley.edu) [folding@home](https://en.wikipedia.org/wiki/Folding@home) [bail bloc](https://bailbloc.thenewinquiry.com)  
 
-**distributed co-operation**  
-  [CRDT](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)  
+**verification**
+  [meedan](https://meedan.com/en/)
 
 **the blockchain**  
   [how to blockchain almost anything (a resource)](https://agnescameron.github.io/how-to-blockchain-almost-anything/index.html)

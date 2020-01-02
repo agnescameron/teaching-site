@@ -3,7 +3,7 @@ layout: post
 title: environments of computation 
 permalink: /class11/  
 tags: [cybernetics, diagrams]
-readings: Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)
+readings: Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)<br>Zeynep Tufecki [*Twitter and Tear Gas (preface)*](https://www.twitterandteargas.org/downloads/twitter-and-tear-gas-by-zeynep-tufekci.pdf)
 description: We talk *more* about the history of cybernetics, particularly in its relationship to space and architecture. This class should expand your ideas about environments and systems, and hopefully give you new inspiration and perspective from which to explore your final project.
 assignment: start developing your final project in earnest. start by thinking about the basic infrastructure. do you need a server? What requests will you make? Can you build a minimal prototype that performs most of these tasks?
 assignment-due: 04/27
@@ -46,6 +46,8 @@ discuss the Keller Easterling piece
   [conditional design workbook](https://studiomoniker.com/projects/conditional-design-workbook)  
   [/r/place](https://draemm.li/various/place-atlas/) [twitch plays pokémon](https://en.wikipedia.org/wiki/Twitch_Plays_Pokémon)  
   [conversation is a cybernetic technology](https://arena-attachments.s3.amazonaws.com/4425709/75f4ffd2c8c73551f1214a9c53909491.pdf?1559967933) [tools of collective intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence/)  
+  [Bellingcat](https://www.bellingcat.com) [Europol stop child abuse images](https://www.bellingcat.com/news/2019/12/17/two-europol-stopchildabuse-images-geolocated-part-ii-cambodia/)
+
 
 **pattern languages**  
   

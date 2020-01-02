@@ -9,7 +9,11 @@ assignment-due: 03/23
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->
 
-use and misuse of maps, charts, graphs and tools of representation. radical cartography, drawing
+{{page.description}}
+
+> *While the language of vision perseveres, it is important not to assume a direct correlation between vision as a sense and visualization as an object and practice. Married initially to psychology, and now digital computation and algorithmic logic, the substrate and content of this practice has often had little to do with human sense perception or the optic system. Moreover, with the rise of emphasis on haptic interactions and interactivity, visualizations also often take multisensorial modes. Vision cannot be taken, therefore, as an isolated form of perception, but rather must be understood as inseparable from other senses.*  
+> Orit Halpern, *Beautiful Data*
+
 
 ## lecture: graphs of desire
 
@@ -61,7 +65,6 @@ oulipo
 
 [back when we thought the internet was like a city](https://www.citylab.com/life/2013/03/back-when-we-thought-internet-was-city/4943/) [deleted city](http://deletedcity.net)
 
-the music maze
 memory palaces
 
 
@@ -69,11 +72,16 @@ memory palaces
 
 **diagrams**  
   [draw.io]()
+  [the music maze](http://static.echonest.com/LabyrinthOfGenre/GenreMaze.html)
   [ideonomy]()  
 
 [body without organs](https://d2w9rnfcy7mm78.cloudfront.net/5788294/original_34ad7ec762727159cfbb1212dae1df64.jpg?1577447140?bc=0)
 
 [butterflies](https://marian42.de/butterflies/?0.04443,0.25659,11)
+
+
+**data forensics**
+  [forensic architecture](https://forensic-architecture.org) [killing in umm al hiran](https://forensic-architecture.org/investigation/killing-in-umm-al-hiran)
 
 **things from the room in the back**
   [on re-visiting the things you've accumulated](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)
@@ -84,10 +92,9 @@ memory palaces
 
 **inspiration**  
  [yale aids memorial project](http://yamp.org)  
- [when all of my friends are on at once](http://allmyfriendsatonce.com/#0)  
+ [conquer and divide](https://conquer-and-divide.btselem.org)
  [net art anthology](https://anthology.rhizome.org)  
  [political compass memes (many offensive)](https://www.are.na/francis-tseng/political-compasses-other-matrices)  
- [tarot deck](https://www.are.na/art-deli-corp/tarot-design)  
  [future expansion -- a building about buildings](http://future-expansion.com/#img)  
  [CAVS](http://act.mit.edu/cavs)  
  [backseat frying](http://backseatfrying.net)  

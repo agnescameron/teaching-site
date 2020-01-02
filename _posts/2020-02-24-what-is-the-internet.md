@@ -78,8 +78,8 @@ ARPANET
 
 **other internets**  
   [borders](https://qz.com/735314/the-murky-world-of-international-law-is-threatening-to-break-up-the-internet/) [choke points](https://qz.com/780675/how-do-internet-censorship-and-surveillance-actually-work/) ['enemies of the internet'](https://en.m.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country)  
-  [chinternet](https://en.m.wikipedia.org/wiki/Internet_censorship_in_China) [the 'great firewall'](https://en.m.wikipedia.org/wiki/File:Topology_of_the_Chinese_firewall.svg) [blind spot](https://anthology.rhizome.org/blind-spot)  
-  [runet](https://en.m.wikipedia.org/wiki/Internet_censorship_in_Russia)  
+  [chinternet](https://en.m.wikipedia.org/wiki/Internet_censorship_in_China) [the 'great firewall'](https://en.m.wikipedia.org/wiki/File:Topology_of_the_Chinese_firewall.svg) [blind spot](https://anthology.rhizome.org/blind-spot) [bullet time](https://logicmag.io/china/bullet-time/)  
+  [runet](https://www.bbc.com/news/technology-50902496)  
   [uk 'default filtering'](https://en.m.wikipedia.org/wiki/Internet_censorship_in_the_United_Kingdom)  
   tor  [autonomy cube](https://paglen.com/?l=work&s=cube)  
 

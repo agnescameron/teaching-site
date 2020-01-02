@@ -83,8 +83,8 @@ google sheet**
   [code review guide](https://google.github.io/eng-practices/review/reviewer/standard.html)  
 
 **inspiration**  
-  are.na brutalist websites  
-  rhizome  
+  [are.na](http://are.na) [brutalist websites](https://brutalistwebsites.com)  
+  [rhizome net art anthology](https://anthology.rhizome.org)  
 
 ### in-class exercise  
 setting up github and netlify accounts, text editors (if you're good with these you could try publishing a minimal site!)  
