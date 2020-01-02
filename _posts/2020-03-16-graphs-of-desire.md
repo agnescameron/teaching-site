@@ -79,7 +79,8 @@ memory palaces
   [on re-visiting the things you've accumulated](https://thecreativeindependent.com/people/charles-broskoski-on-self-discovery-upon-revisiting-things-youve-accumulated-over-time/)
 
 ### assignment
-with the data set you arranged last week, experiment with a graphical interface that could be used to explore your data set. 
+*due {{page.assignment-due}}*<br>
+{{page.assignment}}
 
 **inspiration**  
  [yale aids memorial project](http://yamp.org)  

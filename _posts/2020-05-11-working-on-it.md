@@ -8,3 +8,8 @@ assignment-due: 05/18
 ---  
 
 ### project check in
+
+
+### assignment
+*due {{page.assignment-due}}*<br>
+{{page.assignment}}

@@ -5,17 +5,19 @@ permalink: /syllabus/
 ---
 
 ## what is web programming?
-In this class, we will explore the web from a number of angles. We will take skills you already have and bend them in new ways, we will 
+This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered. 
+
+In order to take this class, you must have already taken Web Production II and Creative Code (MEDP 234 and 331), and be comfortable programming in Javascript, HTML, and CSS. 
 
 ## class goals
 
-* feel fluent and comfortable writing code for the web using Javascript and JQuery, and have an understanding of common web development workflows
-* understand how the web is structured, and use this understanding to utilise APIs and requests
+* develop fluency Javascript and JQuery, and have an understanding of common web development workflows
+* understand how the web is structured, and use this understanding to inform more complex projects
 * think critically, experimentally and imaginatively about the web
-* become familiar with the command line, the console, and the node framework. feel happy about writing Node shell scripts and understand how they can contribute to your workflow.
+* become familiar with the command line and the console
 * understand how and where to include libraries and modules in your code
-* through readings and thought exercises, develop and realise your own ideas about what the web should look like
-* learn about simulation and modelling techniques, and how they can be used to create complex systems
+* through readings and exercises, develop and realise your own ideas about what the web should look like
+* learn about simulation techniques, and how they can be used to model complex systems
 * understand the web as situated within a history and geography of computation, and be aware of its broad effects and manifestations
 
 
@@ -28,7 +30,7 @@ Date | Theme | Assignment | Reading
 {{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endfor%}
 
 ## structure of the course
-This course is entirely project-based. this means no exams! but also this does mean that almost all of your grade is dependent on consistent, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques. The assignments for this course consist of six 1-week assignments, two 2-week assignments, and a final project. Each of these will address a different form and set of ideas, though there are links between all of them, and you are welcome to use these to explore one continual theme.
+This course is entirely project-based. this means no exams -- but also this does mean that almost all of your grade is dependent on consistent, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques. The assignments for this course consist of six 1-week assignments, two 2-week assignments, and a final project. Each of these will address a different form and set of ideas, though there are links between all of them, and you are welcome to use these to explore one continual theme.
 
 This class is not about having perfect code each week, and I would not expect you to. Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
@@ -45,9 +47,9 @@ There is no point in taking this class if you don’t do the homework: this is h
 You may choose to work on any of the weekly projects in a group of not more than two students -- and it's encouraged you try this at least once in the semester. Do bear in mind that group projects will not just be marked on the quality of the work (which should exceed the scope of a solo attempt), but on how well you have worked together (to be recorded in the git commit history).
 
 ### on the readings
-Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and I ask you to come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something.
+Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and I ask you to come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something, or lacking ideas. 
 
-As we go along and spend more time exploring ideas, there's less preparation and more inspiration -- it's fine if you don't read all of this second set, but if not, I do ask that you read something else instead, and record what it is.
+*In both cases, notes on the readings should feature in your blog posts as you think about each week's assignment.* As we go along you might want to swap the 'inspirational' readings with something else you find inspiring -- that's fine, but do also write about what you read. Readings are always 'due' the next scheduled class.
 
 ### on frameworks
 Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. They are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.

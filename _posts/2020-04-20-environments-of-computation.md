@@ -60,5 +60,11 @@ discuss the Keller Easterling piece
 **dynamicland**  
   [seeing spaces](http://worrydream.com/SeeingSpaces/)  
 
+### assignment
+*due {{page.assignment-due}}*<br>
+{{page.assignment}}
+
+
 ### readings
 {{ page.readings }}
+

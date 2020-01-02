@@ -72,8 +72,8 @@ go around everyone and ask where they think they're at with html/css/js
 ### in class assignment:
 bring in packs of cards and think about different ways to shuffle/arrange them?
 
-### assignment:  
+### assignment:
+*due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
 Your solution should use loops and randomness. If you're confident with both these ideas (you should be!) try something a bit more daring. Add some graphics! Try a sorting algorithm! Check out ?? for some more inspiration. How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
-

@@ -64,6 +64,9 @@ indexes archives
 Use the Tarot data set and find some different ways to arrange it.
   
 ### assignment  
+*due {{page.assignment-due}}*<br>
+{{page.assignment}}
+
 Choose (or make!\*) a dataset composed of objects with properties (e.g. not just a list of single words). Use JQuery to experiment with different ways of displaying it on a webpage. As there's only a week for this, focus on playing around with the data, practising your skills and getting familiar with lots of different approaches rather than making a polished 'thing'. Think about:
 
 * using different modes of classification

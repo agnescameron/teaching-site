@@ -92,6 +92,7 @@ ARPANET
 look at some things on wireshark  
 
 ### assignment  
+*due {{page.assignment-due}}*<br>
 {{page.assignment}}
 do your own media archaeology/forensics  
 use the tools we have (or find some other ones)  
