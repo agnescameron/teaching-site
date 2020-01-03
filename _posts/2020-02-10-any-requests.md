@@ -72,7 +72,7 @@ go through peoples' card sorting solutions. what worked and what didn't? what wa
   async/await  
   
 **what can i ask for?**  
-  
+
   *weather*  
     [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
@@ -81,12 +81,12 @@ go through peoples' card sorting solutions. what worked and what didn't? what wa
   *maps*  
     openStreetMap mapbox [google maps](https://developers.google.com/maps/documentation/javascript/tutorial)  
     [land lines](https://lines.chromeexperiments.com) [documentation](https://medium.com/@zachlieberman/land-lines-e1f88c745847)  
-  
+
   *opening times*  
     [google places api](https://developers.google.com/places/web-service/intro)  
     [istheapplebeesondelcoparkdriveinthesuburbsofdaytonopenrightnow.com](http://istheapplebeesondelcoparkdrinthesuburbsofdaytonopenrightnow.com)  
     [the artist is present](http://www.pippinbarr.com/games/theartistispresent/TheArtistIsPresent.html)  
-  
+
   *twitter*  
     [twitter api](https://developer.twitter.com)  
     [bots bots bots](https://botwiki.org/bots/twitterbots/)  
@@ -95,14 +95,14 @@ go through peoples' card sorting solutions. what worked and what didn't? what wa
     [other orders](https://lav.io/projects/other-orders/)  
     [emoji tracker](http://emojitracker.com)  
     [tweetfeels (involves a little bit of python)](https://github.com/uclatommy/tweetfeels)  
-  
+
   *chatbots*  
     [dialogflow](https://dialogflow.com/docs/reference/agent/)  
-  
+
   *are.na*  
     [are.na api](https://dev.are.na/documentation)  
     [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)
-  
+
   *video*    
     [youtube](https://developers.google.com/youtube/v3/)  
     [default filename TV](http://defaultfile.name)  

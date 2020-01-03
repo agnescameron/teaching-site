@@ -6,7 +6,7 @@ categories: [jQuery]
 tags: [diagrams, sorting]
 description: A class about structuring knowledge. We'll talk about objects, data, libraries, scraping and the politics of taxonomy.
 assignment: Curate a data-set, and come up with some diverse ways to sort it.
-readings: orit halpern? something on diagrams, click around Shannon Mattern [*Interface Critique (revised)*](http://wordsinspace.net/shannon/2014/01/22/interface-critique-revisited-thinking-about-archival-interfaces/)
+readings: orit halpern? something on diagrams, click around Shannon Mattern [*Interface Critique (revised)*](http://wordsinspace.net/shannon/2014/01/22/interface-critique-revisited-thinking-about-archival-interfaces/)<br>Clayton Aldern [*Cartographers Without Borders*](https://logicmag.io/justice/cartographers-without-borders/)
 assignment-due: 03/16
 ---  
 

@@ -1,7 +1,7 @@
 ---  
 layout: post  
 title: your friend the shell  
-permalink: /class7/  
+permalink: /class8/  
 categories: [node, bash]
 tags: [backend]
 description: This week we're going to get really into programming for the command line! A chance to get up close and personal with your filesystem! Abandon the need for UI!

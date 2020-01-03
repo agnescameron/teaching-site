@@ -53,7 +53,7 @@ ARPANET
   
   1. *physical layer*  
     fibre optics coaxial cables wifi  
-    *minerals*
+    *minerals*  
       [gutta percha](https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications/) [tantalum](https://en.wikipedia.org/wiki/Tantalum) [coltan](https://en.wikipedia.org/wiki/Coltan_mining_and_ethics) [lithium](https://en.wikipedia.org/wiki/Lithium#Production)
 
 **internet and environment**
