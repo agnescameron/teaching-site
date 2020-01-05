@@ -5,7 +5,7 @@ permalink: /syllabus/
 ---
 
 ## what is web programming?
-This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered. 
+This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered, and discussed in class during structured critiques. 
 
 In order to take this class, you must have already taken Web Production II and Creative Code (MEDP 234 and 331), and be comfortable programming in Javascript, HTML, and CSS. 
 
@@ -13,13 +13,11 @@ In order to take this class, you must have already taken Web Production II and C
 
 * develop fluency Javascript and JQuery, and have an understanding of common web development workflows
 * understand how the web is structured, and use this understanding to inform more complex projects
-* think critically, experimentally and imaginatively about the web
 * become familiar with the command line and the console
+* through talking about one another's work, learn to critique work on the web
 * understand how and where to include libraries and modules in your code
 * through readings and exercises, develop and realise your own ideas about what the web should look like
 * learn about simulation techniques, and how they can be used to model complex systems
-* understand the web as situated within a history and geography of computation, and be aware of its broad effects and manifestations
-
 
 ## course overview
 

@@ -4,7 +4,7 @@ title: what's the internet??
 permalink: /class4/  
 categories: [networking]
 tags: [network infrastructure, security, decentralisation]
-readings: Ethan Zuckerman [*The Cute Cat Theory of Digital Activism*](http://www.ethanzuckerman.com/blog/2008/03/08/the-cute-cat-theory-talk-at-etech/)<br>
+readings: Ethan Zuckerman [*The Cute Cat Theory of Digital Activism*](http://www.ethanzuckerman.com/blog/2008/03/08/the-cute-cat-theory-talk-at-etech/)<br>[i had a couple of drinks and woke up with 1000 nerds](https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf)
 description: So i sent you a http request... but where did it go?? welcome to the weird and wonderful world of the OSI protocol. in this class we'll unpeel some layers of abstraction that keep the internet looking like it's working great all the time (it's actually a big big mess), learn about media archaeology and network forensics.
 assignment: Using some of the tools and techniques we've discussed in class, discover something about your own local internet system.
 assignment-due: 03/02
@@ -56,7 +56,7 @@ ARPANET
     *minerals*  
       [gutta percha](https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications/) [tantalum](https://en.wikipedia.org/wiki/Tantalum) [coltan](https://en.wikipedia.org/wiki/Coltan_mining_and_ethics) [lithium](https://en.wikipedia.org/wiki/Lithium#Production)
 
-**internet and environment**
+**internet and environment**  
   [low tech magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
 
 **wifi**  
@@ -70,8 +70,10 @@ ARPANET
   [traceroute](https://www.mediacollege.com/internet/troubleshooter/traceroute.html) [weird routes](https://dyn.com/blog/internetwide-nearcatastrophela/) [singapore->bangalore](https://cms.qz.com/wp-content/uploads/2016/07/pingmap1v7.jpg?quality=75&strip=all&w=1240&h=690&crop=1)
 
 **packet sniffing**  
-  julian oliver  
-  transmediale debacle  
+  [wireshark](https://www.wireshark.org)  
+  [nsa surveillance](https://www.aclu.org/issues/national-security/privacy-and-surveillance/nsa-surveillance) [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden)  
+  *julian oliver*  
+    [stealth cell tower](https://julianoliver.com/output/stealth-cell-tower.html) [PRISM](https://julianoliver.com/output/the-beacon-frame.html) [transmediale debacle](https://hyperallergic.com/109546/transmediale-festival-shuts-down-nsa-imitators/)  
 
 **media archaeology**  
   internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
