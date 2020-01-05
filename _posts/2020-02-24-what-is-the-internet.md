@@ -19,6 +19,8 @@ what are all the readings about, how did they make you feel?
   
 ### lecture: the internet is just other peoples' computers  
   
+[what shape is the internet?](https://noahveltman.com/internet-shape/)
+
 [life sharing](http://0100101110101101.org/life-sharing/)  
   
 **'the cloud'**  
@@ -57,6 +59,7 @@ ARPANET
       [gutta percha](https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications/) [tantalum](https://en.wikipedia.org/wiki/Tantalum) [coltan](https://en.wikipedia.org/wiki/Coltan_mining_and_ethics) [lithium](https://en.wikipedia.org/wiki/Lithium#Production)
 
 **internet and environment**  
+  [DEFOOOOOOOOOOOOOOOOOOOOOREST](http://www.janavirgin.com/CO2/DEFOOOOOOOOOOOOOOOOOOOOOREST.html)
   [low tech magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)
 
 **wifi**  

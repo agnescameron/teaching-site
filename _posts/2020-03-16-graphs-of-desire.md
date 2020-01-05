@@ -2,7 +2,7 @@
 layout: post  
 title: graphs of desire  
 permalink: /class7/  
-description: use and misuse of maps, charts, graphs and tools of representation. We will use JQuery and other libraries to arrange our data.
+description: use and misuse of maps, charts, graphs and tools of representation. We will use JQuery and other libraries to arrange our data, thinking about links between different things.
 assignment: using jQuery (and anything else you choose), display and explore the data set you collected last week (or one that we looked at) in a few different ways.
 readings: Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces)
 assignment-due: 03/23
@@ -24,14 +24,17 @@ assignment-due: 03/23
   [queering the map](https://www.queeringthemap.com)
   [geogoo](http://geogoo.net)
 
-
+**mind maps**
+  *tools*
+    [scapple](https://www.literatureandlatte.com/scapple/overview) [coggle](https://coggle.it)
 
 randomness  
   
 **sorting things out**  
-  political compass memes  
-  lists  
-  matrices  
+  [*political compasses*](https://www.politicalcompass.org)  
+    [culture wars](https://disnovation.org/doc/OCW_70x100_RVB.pdf) [recipe collection](http://backseatfrying.net) [meme collection](https://www.are.na/francis-tseng/political-compasses-other-matrices)
+  [*alignment charts*](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f54a1ef4-d1f9-4b49-a36e-0eb100c586b9/d6fe4d8-2c0448e6-4ab0-4264-8e45-c0e910c283f2.png/v1/fill/w_1280,h_1280,q_75,strp/dnd_alignment_chart_by_nederbird-d6fe4d8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mNTRhMWVmNC1kMWY5LTRiNDktYTM2ZS0wZWIxMDBjNTg2YjkvZDZmZTRkOC0yYzA0NDhlNi00YWIwLTQyNjQtOGU0NS1jMGU5MTBjMjgzZjIucG5nIiwid2lkdGgiOiI8PTEyODAiLCJoZWlnaHQiOiI8PTEyODAifV1dfQ.13y42x2TFBUFPS_VaC-V1hHmHegJmBDYPzn3CcxfQOs)
+     [sandwiches](https://d2w9rnfcy7mm78.cloudfront.net/1002651/original_bd71d77187eda7eb3b258c395a1c1555.jpg?1493767565?bc=1) 
   
   
 patterns  
@@ -52,6 +55,8 @@ arrow functions
     [d3.js](https://d3js.org)  
   *blobs*
     [paper.js](http://paperjs.org) [staggering beauty](http://www.staggeringbeauty.com)  
+
+[nyt air pollution](https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html)
 
 situationists
 

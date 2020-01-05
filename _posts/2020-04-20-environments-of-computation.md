@@ -18,7 +18,7 @@ creation of space with computation online and off
 situate ideas about computers within ideas about systems and spaces and cybernetics
 
 ### check in
-longer session this time -- go around, everyone presents final project for a bit
+longer session this time -- go around, everyone presents the concepts for their final project. 
 discuss the Keller Easterling piece
 
 ### lecture: spaces and systems
@@ -67,6 +67,8 @@ discuss the Keller Easterling piece
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
+**What kind of things should I be thinking about?**
+At this point, you should be refining a model of the system that you're building. While (likely) more complex than the system you're simulating, Francis Tseng and Fei Liu's documentation for their project [*Humans of Simulated New York*](https://frnsys.com/hosny/)
 
 ### readings
 {{ page.readings }}

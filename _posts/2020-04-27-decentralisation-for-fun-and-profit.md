@@ -4,7 +4,7 @@ title: decentralisation for fun and profit
 permalink: /class12/  
 categories: [IPFS, blockchain]
 tags: [decentralisation, co-operation, systems]
-assignment: continue work on final project. by now you should be thinking about the interface. Have a think on any topics you'd like to explore more, or revisit, and add them to the google sheet for next class.
+assignment: continue work on final project -- by now you will have a functioning prototype, and be thinking about the interface in greater depth. Have a think on any topics you'd like to explore more, or revisit, and add them to the google sheet for next class.
 description: this is a class that (hopefully) ties together some of the themes we've been talking about in a contemporary techno-political context. we'll talk about the present and future of the internet, and think about the web that *we* want. we'll also do some sweet p2p file sharing, so come prepared with some files you like! (tunes, videos, pics)
 assignment-due: 05/04
 ---  
