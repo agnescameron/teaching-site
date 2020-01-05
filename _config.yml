@@ -37,6 +37,8 @@ kramdown:
   input: GFM
 include: ['_pages']
 excerpt_separator: <!--more-->
+# plugins:
+#   - tag_gen
 # # Build settings
 # theme: minima
 # plugins:

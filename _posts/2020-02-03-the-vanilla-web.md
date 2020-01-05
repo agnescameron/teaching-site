@@ -7,7 +7,7 @@ tags: [net art, basics]
 description: you've been there! you've seen it! you've done that! (or have you?). here we'll revisit the basic tools that we use to make work for the web, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
 assignment: make a website that shuffles a deck of cards using 2 different methods
 assignment-due: 02/10
-readings: click through JODI, computer lib
+readings: Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
 ---  
 
 {{page.description}}
@@ -25,7 +25,9 @@ go around everyone and ask where they think they're at with html/css/js
   marking up  
   marking down  
   positioning  
-  
+  *puuure html*  
+    [links.net](http://links.net)
+
 **the DOM**  
   
 
@@ -49,6 +51,8 @@ go around everyone and ask where they think they're at with html/css/js
   objects  
   
 **browsers**  
+  [how browsers work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) [rolling your own](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)
+  [the web stalker](https://anthology.rhizome.org/the-web-stalker)
   responsiveness  
   mobile  
 
@@ -58,16 +62,14 @@ go around everyone and ask where they think they're at with html/css/js
   complications  
   [caniuse](https://caniuse.com)  
   
-**good web programming resources**  
-  Mozilla Developer Notes  
-  W3 schools  
-  
+
 **but surely it can't be this simple??**  
   [a useful reminder](http://motherfuckingwebsite.com)  
   [my boyfriend came back from the war](http://www.teleportacia.org/war/)  
   [jodi.org](http://wwww.jodi.org)  
   [html energy](http://html.energy)  
   [form art](https://sites.rhizome.org/anthology/form-art-competition.html)  
+
 
 ### in class assignment:
 bring in packs of cards and think about different ways to shuffle/arrange them?
@@ -77,3 +79,6 @@ bring in packs of cards and think about different ways to shuffle/arrange them?
 {{page.assignment}}
 
 Your solution should use loops and randomness. If you're confident with both these ideas (you should be!) try something a bit more daring. Add some graphics! Try a sorting algorithm! Check out ?? for some more inspiration. How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
+
+### readings:
+{{page.readings}}

@@ -11,7 +11,12 @@ readings: Neal Stephenson [*Mother Earth Mother Board*](https://www.wired.com/19
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  
+
 >-- Kevin Bewersdorf, *Spirit Surfing*  
+
+>*"Unicode is big. But the web is infinitely big. Like a fractal with its endless regress of complexity, a new web page can always be inserted between two existing ones, creating an infinitely large system."*
+
+>-- Alex Galloway, *JODI's Infrastructure*
 
 <!--more-->
 
@@ -31,7 +36,7 @@ go through peoples' card sorting solutions. what worked and what didn't? what wa
   URL  
   IP  
   [IDN](http://idn.jodi.org)  
-  
+
 **requests**  
   GET  
   POST  

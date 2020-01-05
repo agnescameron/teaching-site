@@ -11,36 +11,36 @@ assignment-due: 03/16
 ---  
 
 ## lecture: structuring knowledge
-  
-**objects and functions**  
-  [OOP vs FP](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming) [a shorter opinion](http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)
-
-
-ways of classifying and arranging information  
-maybe invite cybernetics lib? KFG? 
-  
-taxonomy
-
-indexes archives  
-
 
 **sorting things**  
-[regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
-[openCV](https://opencv.org) [openCV JS](https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html)    
-[indigenous knowledge and the politics of classification](http://www-personal.umich.edu/~arunagra/papers/Indigenous%20Knowledges.pdf)
-
+  [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
+  [openCV](https://opencv.org) [openCV JS](https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html)  
+  [indigenous knowledge and the politics of classification](http://www-personal.umich.edu/~arunagra/papers/Indigenous%20Knowledges.pdf)
 
 **finding things**  
   [wtf is a knowledge graph](https://hackernoon.com/wtf-is-a-knowledge-graph-a16603a1a25f) [semantic networks](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/640px-Semantic_Net.svg.png) [google knowledge graph](https://googleblog.blogspot.co.uk/2012/05/introducing-knowledge-graph-things-not.html) [the underlay](https://underlay.mit.edu)  
- google duckduckgo  
-  [inside search](https://blog.google/products/search/)
+  *search engines*  
+    [google]() [duckduckgo]() [yandex](https://yandex.com)
+    [inside search](https://blog.google/products/search/)
+  *reverse image search*  
+    [tineye](https://tineye.com) [~searchFace~ findClone](https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/)   
   [can i help you find something](http://rostenwoo.biz/index.php/abouthaystacks)
+  ['people search'](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)
 
-
-**libraries**  
+**archives**  
+  *of books*
  [bookcase history](http://www.harvarddesignmagazine.org/issues/43/before-billy-a-brief-history-of-the-bookcase)
  [sitterwerk catalog](https://www.sitterwerk-katalog.ch/books)  
- the internet archive [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  
+ *of the internet*
+    [the internet archive](https://archive.org/index.php) [one terabyte of the kilobyte age](https://blog.geocities.institute) [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  
+
+**'data'**
+[right to be forgotten](https://techcrunch.com/2014/07/04/digital-theatre/)
+
+**objects**
+  [OOP vs FP](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming) [a shorter opinion](http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)
+
+**JSON**
 
 **collections**  
   [*corpora*](https://github.com/dariusk/corpora)  
@@ -56,7 +56,6 @@ indexes archives
 
 **scrape it yourself**
   [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
-  [small data squad](https://melanie-hoff.com/sds/)
 
 
 ### in class  

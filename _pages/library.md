@@ -30,6 +30,9 @@ Marvin Minsky, [Why programming is a good medium for expressing poorly understoo
 **classification**  
 
 
+**scraping and investigative journalism**
+  [bellingcat online investigation toolkit](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic)
+  [list of people search and data broker websites](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)
 
 **great libraries online**    
   [bret victor's library](http://worrydream.com/refs/)  

@@ -7,16 +7,18 @@ tags: [basics]
 assignment: Use the console editing tools we explored to create new versions of websites that you use regularly.
 description: this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
 assignment-due: 02/03
-readings: Laurel Schwulst [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/) <br>JR Carpenter [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)
+readings: Laurel Schwulst [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>JR Carpenter [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)<br> click through [JODI.org](http://wwwwwwwww.jodi.org)
 ---  
 
 {{ page.description }}
 
 ### introductions  
 name, major, why we're here, one thing we want to learn, one website we really like  
-  
+
+
+
 read through syllabus together and ask about it  
-  
+
   
 ### lecture: the tools of the trade  
   
@@ -73,6 +75,10 @@ google sheet**
   [good debugging](https://medium.com/appsflyer/10-tips-for-javascript-debugging-like-a-pro-with-console-7140027eb5f6)  
   document.designMode='on' [document.body.style](https://www.w3schools.com/jsref/dom_obj_style.asp) 
   [twitter screamer](https://twitter.com/bcrypt/status/928036206092439555?s=20)  
+
+**web programming resources**  
+  Mozilla Developer Notes  
+  W3 schools  
 
 **asking for help**  
   [stack overflow](https://stackoverflow.com/help/how-to-ask)  

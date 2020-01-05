@@ -47,40 +47,50 @@ There is no point in taking this class if you don’t do the homework: this is h
 You may choose to work on any of the weekly projects in a group of not more than two students -- and it's encouraged you try this at least once in the semester. Do bear in mind that group projects will not just be marked on the quality of the work (which should exceed the scope of a solo attempt), but on how well you have worked together (to be recorded in the git commit history).
 
 ### on the readings
-Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and I ask you to come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something, or lacking ideas. 
+Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and you should come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something, or lacking ideas. 
 
 *In both cases, notes on the readings should feature in your blog posts as you think about each week's assignment.* As we go along you might want to swap the 'inspirational' readings with something else you find inspiring -- that's fine, but do also write about what you read. Readings are always 'due' the next scheduled class.
+
+### on grades
+Grades for this class are assigned accordingly:
+
+40% homework assignments
+10% documentation (on your blog, inc readings, homework, final project)
+20% contributions in class (readings, critiques, questions, in class assignments etc.)
+30% final project
 
 ### on frameworks
 Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. They are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.
 
 If you’d like to use one such framework for any or all of your projects, I am happy to talk through it with you, though I would expect you to be reasonably self sufficient and confident with the material already being covered. I would encourage you to try it for a homework or two before deciding to use for final project. I am most familiar with React, but more than happy to help you with other frameworks if you give me fair warning.
 
+### on computers
+You can use any computer to do this class! However: you will benefit from using the same device consistently (to maintain installed software). If you can bring your own laptop to class, it's a good idea. If using Hunter's computers, it'll make your life easier if you can keep to the same operating system.
+
 ### structure of each class
-* 1 hour what happened this week, what did everyone do and what did they think about it. Any big web news we’ll also talk about / if we have significant readings.
+This will vary, but roughly:
+
+* 1 hour class discussion. show+critique due or in-progress assignments, talk about the readings, reflect on learnings/challenges from the past week.
 
 * 10min break (get a snack?)
 
 * 1h lecture
 
-* 30min exercise/activity
+* 30min in-class exercise/activity
 
 * 10min wrap up and discussion
 
 * 10min homework for this week.
 
 ### on asking questions
-At some point, you’re going to get code that doesn’t work, and you really can’t figure out why. You’ve tried all the normal things. 
+We'll talk in class about how to ask good questions about your code.
 
-I don’t want to put this in a particular week (it’ll feel forced), but at some point during the semester i expect you to use a platform like [Stack Overflow](https://stackoverflow.com) to ask a question about some code you’re struggling with. Take a screenshot of the question and replies, and write a short discussion of how you think it went: whether the interaction was helpful, whether you had to follow up etc etc. We'll have a discussion in class on asking good questions, and giving good answers.
-
-if this doesn’t happen (e.g. if you already find answers to your questions through one of these platforms) then that’s cool: but take an answer you found helpful, and talk about the process of finding it, and how the answerer and the questioner interacted.
+At some point during the semester you might use a platform like [Stack Overflow](https://stackoverflow.com) to ask a question about some code you’re struggling with. Take a screenshot of the question and replies, and write a short discussion of how you think it went: whether the interaction was helpful, whether you had to follow up etc etc.
 
 ## policies
 
 ### academic integrity
-Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. Over this class, we will learn when it is appropriate to include technologies by others (for example, in the form of libraries), vs when that technology needs to be credited. As a rule of thumb, you should never copy and paste: your solution should be yours, sometimes informed by other solutions. 
-
+Hunter College regards acts of academic dishonesty (e.g., plagiarism, cheating on examinations, obtaining unfair advantage, and falsification of records and official documents) as serious offenses against the values of intellectual honesty. Over this class, we will learn when it is appropriate to include technologies by others (for example, in the form of libraries), vs when that technology needs to be credited.
 
 From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/handbook/writing-code):
 
