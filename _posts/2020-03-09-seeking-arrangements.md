@@ -15,7 +15,6 @@ assignment-due: 03/16
 **sorting things**  
   [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
   [openCV](https://opencv.org) [openCV JS](https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html)  
-  [indigenous knowledge and the politics of classification](http://www-personal.umich.edu/~arunagra/papers/Indigenous%20Knowledges.pdf)
 
 **finding things**  
   [wtf is a knowledge graph](https://hackernoon.com/wtf-is-a-knowledge-graph-a16603a1a25f) [semantic networks](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/640px-Semantic_Net.svg.png) [google knowledge graph](https://googleblog.blogspot.co.uk/2012/05/introducing-knowledge-graph-things-not.html) [the underlay](https://underlay.mit.edu)  
@@ -53,6 +52,8 @@ assignment-due: 03/16
     [natural history museum (uk)](https://data.nhm.ac.uk)
   [syrian archive](https://syrianarchive.org/en/collections) [violations documentation center in syria](http://www.vdc-sy.info/index.php/en/martyrs)  
   [library of missing datasets](http://mimionuoha.com/the-library-of-missing-datasets/)  
+  [*data.gov*](https://www.data.gov)
+    [maritime](https://www.data.gov/maritime/) [climate](https://catalog.data.gov/dataset?groups=climate5434&#topic=climate_navigation)
 
 **scrape it yourself**
   [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
@@ -65,12 +66,11 @@ Use the Tarot data set and find some different ways to arrange it.
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
-Choose (or make!\*) a dataset composed of objects with properties (e.g. not just a list of single words). Use JQuery to experiment with different ways of displaying it on a webpage. As there's only a week for this, focus on playing around with the data, practising your skills and getting familiar with lots of different approaches rather than making a polished 'thing'. Think about:
+Your curated (scraped/embellished) dataset should be composed of objects with properties (e.g. not just a list of single words), formatted as a .JSON file. Think about how you might sort the data, using:
 
 * using different modes of classification
 * links between different groups of objects
 
-If you'd like to use the Tarot set we looked at in class, feel free -- though you need to do a bit more exploration with it!
+The sorting part you can do either as a webpage, or just using the command line. Don't worry about making it look pretty yet! We'll be using this dataset as the basis for next week's assignment, so make sure it's something you can have a few different perspectives on.
 
-\* making will add extra time, and is not really the point of this week, but if you're excited about scraping, or adding to an existing data set then by all means do! Similarly, if you're feeling like your data set needs a little fleshing out, adding in scores, or other forms of key might give you some more tools to play with.
-  
+

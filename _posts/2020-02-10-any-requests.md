@@ -83,10 +83,6 @@ go through peoples' card sorting solutions. what worked and what didn't? what wa
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
     [weather gradient](http://weathergradient.com)
 
-  *maps*  
-    openStreetMap mapbox [google maps](https://developers.google.com/maps/documentation/javascript/tutorial)  
-    [land lines](https://lines.chromeexperiments.com) [documentation](https://medium.com/@zachlieberman/land-lines-e1f88c745847)  
-
   *opening times*  
     [google places api](https://developers.google.com/places/web-service/intro)  
     [istheapplebeesondelcoparkdriveinthesuburbsofdaytonopenrightnow.com](http://istheapplebeesondelcoparkdrinthesuburbsofdaytonopenrightnow.com)  
@@ -129,7 +125,7 @@ pick an api and make a http request from the command line!
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
-Your webpage should experiment with how the data from the API is displayed. How are you expected to use this information? What if you did something different with it? How does your page change when the data from the API changes?
+Your webpage should experiment with how the data from the API is displayed. How are you expected to use this information? How does your page change when the data from the API changes?
 
 ### readings  
 

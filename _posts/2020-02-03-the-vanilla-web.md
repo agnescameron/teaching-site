@@ -5,7 +5,7 @@ permalink: /class2/
 categories: [JS, HTML, CSS]  
 tags: [net art, basics]
 description: you've been there! you've seen it! you've done that! (or have you?). here we'll revisit the basic tools that we use to make work for the web, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
-assignment: make a website that shuffles a deck of cards using 2 different methods
+assignment: make a website that shuffles a deck of cards using (at least) 2 different approaches
 assignment-due: 02/10
 readings: Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
 ---  
@@ -78,7 +78,11 @@ bring in packs of cards and think about different ways to shuffle/arrange them?
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
-Your solution should use loops and randomness. If you're confident with both these ideas (you should be!) try something a bit more daring. Add some graphics! Try a sorting algorithm! Check out ?? for some more inspiration. How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
+Criteria:
+* once a card has been dealt, it can't be dealt again (unless it gets shuffled into the pack)
+* '2 different approaches' means significantly different approaches to the task, not just the same functions dealing 2 decks of cards. 
+
+Once you've got the basics down, try something a bit more exciting. Make it deal Texas hold'em! Add some graphics! Try a sorting algorithm! How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
 
 ### readings:
 {{page.readings}}

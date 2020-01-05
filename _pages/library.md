@@ -43,3 +43,7 @@ Marvin Minsky, [Why programming is a good medium for expressing poorly understoo
 **great libraries offline**  
   [cybernetics library IRL](https://cybernetics.social)  
 
+**cool tech journalism/essays**
+  [logic mag](https://logicmag.io)
+  [real life](https://reallifemag.com)
+  [the new inquiry](https://thenewinquiry.com)
