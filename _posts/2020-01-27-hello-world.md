@@ -4,7 +4,7 @@ title: hello, world!
 permalink: /class1/  
 categories: [git, HTML, CSS, JS]  
 tags: [basics]  
-assignment: Use the console editing tools we explored to create new versions of websites that you use regularly.
+assignment: Use the console editing tools we explored to re-imagine some websites that you use regularly. 
 description: this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
 assignment-due: 02/03
 readings: Laurel Schwulst [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>JR Carpenter [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)<br> click through [JODI.org](http://wwwwwwwww.jodi.org)
@@ -14,8 +14,6 @@ readings: Laurel Schwulst [*my website is a shifting house next to a river of kn
 
 ### introductions  
 name, major, why we're here, one thing we want to learn, one website we really like  
-
-
 
 read through syllabus together and ask about it  
 
@@ -40,7 +38,7 @@ read through syllabus together and ask about it
   
 **domain names**  
   this is the only time that you would spend money! you don't have to but it can be nice  
-  godaddy  
+  [Namecheap](https://www.namecheap.com) [Google Domains](https://domains.google.com/m/registrar/#)  
   linking domain names  
   
 **servers**  
@@ -99,7 +97,7 @@ setting up github and netlify accounts, text editors (if you're good with these 
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
- Experiment with a range of different techniques, and produce at least 6 different versions. Publish these on your class site, along with a description of what you did, and a response to the readings.
+Experiment with a range of different console editing techniques, and produce at least 6 different snapshots. Publish these on your class site, along with a description of what you did, and a response to the readings.
 
 ### readings
 {{page.readings}}

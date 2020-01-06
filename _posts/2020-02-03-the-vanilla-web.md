@@ -63,8 +63,11 @@ go around everyone and ask where they think they're at with html/css/js
   [caniuse](https://caniuse.com)  
   
 
+**unicode**
+
 **but surely it can't be this simple??**  
   [a useful reminder](http://motherfuckingwebsite.com)  
+  [making as thinking](http://jon-l.com/making-as-thinking/)
   [my boyfriend came back from the war](http://www.teleportacia.org/war/)  
   [jodi.org](http://wwww.jodi.org)  
   [html energy](http://html.energy)  
@@ -72,7 +75,7 @@ go around everyone and ask where they think they're at with html/css/js
 
 
 ### in class assignment:
-bring in packs of cards and think about different ways to shuffle/arrange them?
+Every group gets a different pack of cards. Together, come up with algorithms for sorting, dealing and arranging them, and act them out. Write the algorithm down and give it to another group.
 
 ### assignment:
 *due {{page.assignment-due}}*<br>
@@ -80,9 +83,9 @@ bring in packs of cards and think about different ways to shuffle/arrange them?
 
 Criteria:
 * once a card has been dealt, it can't be dealt again (unless it gets shuffled into the pack)
-* '2 different approaches' means significantly different approaches to the task, not just the same functions dealing 2 decks of cards. 
+* '2 different approaches' means significantly different approaches to the task, not just the same functions dealing 2 decks of cards.
 
-Once you've got the basics down, try something a bit more exciting. Make it deal Texas hold'em! Add some graphics! Try a sorting algorithm! How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
+Once you've got the basics down, try something a bit more exciting. Make it deal Texas hold'em! Add some graphics! Try a sorting algorithm! Can you make something really weird? How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
 
 ### readings:
 {{page.readings}}

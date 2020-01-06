@@ -94,7 +94,7 @@ ARPANET
   piratebox  
 
 ### in class exercise  
-look at some things on wireshark  
+We'll send some packets and have a look inside!
 
 ### assignment  
 *due {{page.assignment-due}}*<br>

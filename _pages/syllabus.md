@@ -5,19 +5,21 @@ permalink: /syllabus/
 ---
 
 ## what is web programming?
-This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered, and discussed in class during structured critiques. 
+If a computer is a tool for thinking with, then the web is a place to share your thoughts with others.
+
+This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered, and discussed in class during structured critiques.
 
 In order to take this class, you must have already taken Web Production II and Creative Code (MEDP 234 and 331), and be comfortable programming in Javascript, HTML, and CSS. 
 
 ## class goals
 
 * develop fluency Javascript and JQuery, and have an understanding of common web development workflows
-* understand how the web is structured, and use this understanding to inform more complex projects
+* understand how the web is structured, and use this to inform more complex projects
 * become familiar with the command line and the console
-* through talking about one another's work, learn to critique work on the web
 * understand how and where to include libraries and modules in your code
 * through readings and exercises, develop and realise your own ideas about what the web should look like
 * learn about simulation techniques, and how they can be used to model complex systems
+* be aware of the history and politics of the web, and how this is changing
 
 ## course overview
 
@@ -32,12 +34,12 @@ This course is entirely project-based. this means no exams -- but also this does
 
 This class is not about having perfect code each week, and I would not expect you to. Publish and document whatever you have as you go along, so I can see your thoughts evolving as you go. That said, consistently incomplete, poor-quality or overly-simple solutions will definitely affect your grade. If you’re struggling, email me before saturday night at the latest, and turn up to office hours on Monday / make alternative arrangements, and we can work on getting you back on track. Don’t leave everything till the night before!
 
-Each week, I expect you to write a short paragraph or two (100-250 words) on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be really useful to you as you revisit your work, and try and remember what you did and how you did it! It’s totally ok if things don’t always work out, but it’s not ok if you make no effort. git affords me a unique opportunity to distinguish between these things: be honest about what you did and what you need help with. 
+Each week, I expect you to write a short paragraph or two (100-250 words) on what you struggled with, what you enjoyed, your thoughts on the readings and notes for yourself, as part of an ongoing 'blog' on your site. This will be valuable to you as you revisit your work, and try and remember what you did and how you did it.
 
 I want you to make this class useful to you, so feel free to adapt assignments to suit your interests (though talk to me about it first). These tasks are deliberately open ended, but if you’re struggling for inspiration you are more than welcome to use one of the example problems that I’ve set. If you’d like to look further afield, the are.na channel [an idea for a website](https://www.are.na/ian-mcdonald/an-idea-for-a-website) is a great start.
 
 ### presenting work
-All classwork is presented through personal websites, that you will use to document your progress. come to each class with the assignment finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found out, and people can ask you questions (we’ll talk to 4 people a week).
+All classwork is presented through personal websites, that you will use to document your progress. come to each class with the assignment finished, on your website, and prepared to talk about it. I will randomise you each week, and if picked you’ll have a 5 min slot to talk about your week and what you found out, and people can ask you questions (we’ll talk to \~4 people a week, more for larger projects).
 
 There is no point in taking this class if you don’t do the homework: this is how you develop the skills you need to work on the web! Missing one of these unannounced will bring your grade down by a half point each time. (you can make it back up (once) if you publish within the week).
 
@@ -72,9 +74,9 @@ This will vary, but roughly:
 
 * 10min break (get a snack?)
 
-* 1h lecture
+* 45min lecture
 
-* 30min in-class exercise/activity
+* 45min in-class exercise/activity
 
 * 10min wrap up and discussion
 

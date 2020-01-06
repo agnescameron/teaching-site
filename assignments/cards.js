@@ -3,7 +3,7 @@ const cardNumbers = ["ace", "two", "three", "four", "five", "six", "seven", "eig
 var deck = [];
 
 function deal() {
-	cardIndex = Math.round(Math.random()*deck.length);
+	cardIndex = Math.floor(Math.random()*deck.length);
 	card = deck[cardIndex];
 	deck.splice(cardIndex, 1);
 	document.getElementById('cardTable').innerHTML = document.getElementById('cardTable').innerHTML + '<br>' + card;

@@ -60,8 +60,8 @@ assignment-due: 03/16
 
 
 ### in class  
-Use the Tarot data set and find some different ways to arrange it.
-  
+Everyone contributes an object to the central table, and we come up with some ways to arrange them. Are there patterns? Can we put them on axes? What links exist between different ideas in the objects? How do we represent that?
+
 ### assignment  
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}

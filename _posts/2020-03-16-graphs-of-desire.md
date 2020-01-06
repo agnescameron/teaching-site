@@ -94,6 +94,9 @@ oulipo
   [forensic architecture](https://forensic-architecture.org) [killing in umm al hiran](https://forensic-architecture.org/investigation/killing-in-umm-al-hiran)
 
 
+### in class exercise
+mapping exercise?
+
 ### assignment
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
