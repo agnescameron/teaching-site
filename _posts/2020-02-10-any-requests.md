@@ -7,7 +7,7 @@ tags: [history, network infrastructure, security]
 description: this week we'll talk about requests and APIs, and some moments in internet history. We'll learn to use some command line tools, and talk about some interesting uses of data.
 assignment: make an interface to a remote API.
 assignment-due: 02/24
-readings: Neal Stephenson [*Mother Earth Mother Board*](https://www.wired.com/1996/12/ffglass/)
+readings: Neal Stephenson, [*Mother Earth Mother Board*](https://www.wired.com/1996/12/ffglass/)
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  

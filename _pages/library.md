@@ -22,7 +22,7 @@ there's a lot of good stuff that we don't have time to touch on, but has influen
 Benjamin Bratton, [*The Black Stack*](https://www.e-flux.com/journal/53/59883/the-black-stack/)
 
 **writing code**  
-Marvin Minsky, [Why programming is a good medium for expressing poorly understood and sloppily-formulated ideas](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)  
+Marvin Minsky, [*Why programming is a good medium for expressing poorly understood and sloppily-formulated ideas*](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)  
 
 **techno-politics**  
   [shannon mattern's articles for places journal](https://placesjournal.org/author/shannon-mattern/)  

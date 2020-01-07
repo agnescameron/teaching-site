@@ -7,7 +7,7 @@ tags: [basics]
 assignment: Use the console editing tools we explored to re-imagine some websites that you use regularly. 
 description: this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
 assignment-due: 02/03
-readings: Laurel Schwulst [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>JR Carpenter [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)<br> click through [JODI.org](http://wwwwwwwww.jodi.org)
+readings: Laurel Schwulst, [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>JR Carpenter, [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)<br> JODI [*JODI.org*](http://wwwwwwwww.jodi.org)
 ---  
 
 {{ page.description }}
@@ -29,23 +29,23 @@ read through syllabus together and ask about it
   
 **version control**  
   git [how to write a git commit message](https://chris.beams.io/posts/git-commit/)  
-  github gitlab  
-  merging 😱  
-  
+  [github](https://github.com) [gitlab](https://about.gitlab.com)  
+  [merging 😱](https://guide.freecodecamp.org/git/git-merge/)  
+  [version control poetry](https://github.com/tchoi8/poetry/)  
+
 **publishing**  
   github pages  
   netlify  
-  
-**domain names**  
-  this is the only time that you would spend money! you don't have to but it can be nice  
+
+**domain names ($)**  
   [Namecheap](https://www.namecheap.com) [Google Domains](https://domains.google.com/m/registrar/#)  
   linking domain names  
-  
+
 **servers**  
   static vs dynamic  
   your friend localhost  
   heroku  
-  
+
 **operating systems**  
   [windows](https://en.wikipedia.org/wiki/Microsoft_Windows) [windows subsystem for linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) [windows bash shell](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) [microsoft bob?](https://www.youtube.com/watch?v=5teG6ou8mWU)  
   [unix family](https://en.wikipedia.org/wiki/MacOS#/media/File:Unix_timeline.en.svg)  

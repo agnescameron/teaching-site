@@ -7,7 +7,7 @@ tags: [net art, basics]
 description: you've been there! you've seen it! you've done that! (or have you?). here we'll revisit the basic tools that we use to make work for the web, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
 assignment: make a website that shuffles a deck of cards using (at least) 2 different approaches
 assignment-due: 02/10
-readings: Alex Galloway [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/)
+readings: Alex Galloway, [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/) <br> Ted Nelson (in *Software* p16), [*The Crafting of Media*](http://worrydream.com/refs/Burnham%20-%20Software%20-%20Information%20Technology,%20Its%20New%20Meaning%20for%20Art.pdf), 
 ---  
 
 {{page.description}}

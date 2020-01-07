@@ -10,6 +10,11 @@ readings: Emily Scott [*Climate Change and Representational Breakdown*](https://
 assignment-due: 03/16
 ---  
 
+{{ page.description }}
+
+> *The class name of an object creates a vocabulary for discussing a design. Indeed, many people have remarked that object design has more in common with language design than with procedural program design. We urge learners (and spend considerable time ourselves while designing) to find just the right set of words to describe our objects, a set that is internally consistent and evocative in the context of the larger design environment.*
+> Kent Beck, [*A Laboratory For Teaching Object-Oriented Thinking*](http://worrydream.com/refs/Beck%20-%20%20A%20Laboratory%20For%20Teaching%20Object-Oriented%20Thinking.pdf)
+
 ## lecture: structuring knowledge
 
 **sorting things**  
@@ -27,10 +32,12 @@ assignment-due: 03/16
   ['people search'](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)
 
 **archives**  
-  *of books*
- [bookcase history](http://www.harvarddesignmagazine.org/issues/43/before-billy-a-brief-history-of-the-bookcase)
+  [TDKL](http://www.tkdl.res.in)  
+  [cyberfeminist index](https://docs.google.com/spreadsheets/d/1q_ZlbZhstBTfnZL4QP11ebivXgsvrf8shuG-QX146nw/edit?usp=sharing)  
+  *of books*  
+ [bookcase history](http://www.harvarddesignmagazine.org/issues/43/before-billy-a-brief-history-of-the-bookcase) 
  [sitterwerk catalog](https://www.sitterwerk-katalog.ch/books)  
- *of the internet*
+ *of the internet*  
     [the internet archive](https://archive.org/index.php) [one terabyte of the kilobyte age](https://blog.geocities.institute) [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  
 
 **'data'**
@@ -60,7 +67,7 @@ assignment-due: 03/16
 
 
 ### in class  
-Everyone contributes an object to the central table, and we come up with some ways to arrange them. Are there patterns? Can we put them on axes? What links exist between different ideas in the objects? How do we represent that?
+We consider a number of different artworks, and think of ways we might represent them as 'objects'. Are there patterns? Can we put them on axes? What links exist between different ideas in the objects? How do we represent that?
 
 ### assignment  
 *due {{page.assignment-due}}*<br>
@@ -72,5 +79,3 @@ Your curated (scraped/embellished) dataset should be composed of objects with pr
 * links between different groups of objects
 
 The sorting part you can do either as a webpage, or just using the command line. Don't worry about making it look pretty yet! We'll be using this dataset as the basis for next week's assignment, so make sure it's something you can have a few different perspectives on.
-
-

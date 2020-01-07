@@ -5,7 +5,7 @@ permalink: /syllabus/
 ---
 
 ## what is web programming?
-If a computer is a tool for thinking with, then the web is a place to share your thoughts with others.
+If a computer is a tool for thinking with, then the web is a place to share your thoughts with others. In this class we'll think about web programming as a mode of representation, and communication. We'll also think about our computers, and use them to have new thoughts. 
 
 This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered, and discussed in class during structured critiques.
 
@@ -47,7 +47,7 @@ There is no point in taking this class if you don’t do the homework: this is h
 You may choose to work on any of the weekly projects in a group of not more than two students -- and it's encouraged you try this at least once in the semester. Do bear in mind that group projects will not just be marked on the quality of the work (which should exceed the scope of a solo attempt), but on how well you have worked together (to be recorded in the git commit history).
 
 ### on the readings
-Readings for this class come in two types: preparational, and inspirational (I'll indicate which is which). The preparational ones will set the tone for the start of the next class, and you should come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something, or lacking ideas. 
+Readings for this class come in two types: preparational, and inspirational. The preparational ones will set the tone for the start of the next class, and you should come having read and thought about them, as we'll use them as the basis for the initial discussion. The inspirational readings are there to provide different perspectives on the previous class, or the assignment you're doing. They might be particularly helpful if you find yourself getting bogged down in something, or lacking ideas. Sometimes, readings will be websites to click through and think about, that will introduce new ideas.
 
 *In both cases, notes on the readings should feature in your blog posts as you think about each week's assignment.* As we go along you might want to swap the 'inspirational' readings with something else you find inspiring -- that's fine, but do also write about what you read. Readings are always 'due' the next scheduled class.
 

@@ -2,9 +2,9 @@
 layout: post  
 title: graphs of desire  
 permalink: /class7/  
-description: use and misuse of maps, charts, and graphs. We will use JQuery and other libraries to arrange the data we gathered last week, thinking about different approaches to representation. 
+description: This class is about the use and misuse of maps, charts, and graphs as tools of representing ideas. We will use JQuery and other libraries to arrange the data we gathered last week, thinking about different approaches to representation. 
 assignment: using jQuery (and anything else you choose), display and explore the data set you collected last week (or one that we looked at) in a few different ways.
-readings: Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces)
+readings: Marvin Minsky [*Why programming is a good medium for expressing poorly understood and sloppily-formulated ideas*](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)<br> Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces)
 assignment-due: 03/23
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->
@@ -19,10 +19,19 @@ assignment-due: 03/23
 What data did peple scrape? And what did you think of the readings?
 
 
-## lecture: graphs of desire
+## lecture: representing knowledge
 
 **JQuery**
   [jQuery patterns](https://learn.jquery.com/code-organization/concepts/)  
+
+
+**charts**  
+  *co-ordinate systems*  
+    [cartesian](https://en.wikipedia.org/wiki/Cartesian_coordinate_system) [polar](https://en.wikipedia.org/wiki/Polar_coordinate_system)  
+  [phase diagrams](https://en.wikipedia.org/wiki/Phase_diagram)  
+  [*political compasses*](https://www.politicalcompass.org)  
+    [culture wars](https://disnovation.org/doc/OCW_70x100_RVB.pdf) [recipe collection](http://backseatfrying.net) [meme collection](https://www.are.na/francis-tseng/political-compasses-other-matrices)
+  [*alignment charts*](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f54a1ef4-d1f9-4b49-a36e-0eb100c586b9/d6fe4d8-2c0448e6-4ab0-4264-8e45-c0e910c283f2.png/v1/fill/w_1280,h_1280,q_75,strp/dnd_alignment_chart_by_nederbird-d6fe4d8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mNTRhMWVmNC1kMWY5LTRiNDktYTM2ZS0wZWIxMDBjNTg2YjkvZDZmZTRkOC0yYzA0NDhlNi00YWIwLTQyNjQtOGU0NS1jMGU5MTBjMjgzZjIucG5nIiwid2lkdGgiOiI8PTEyODAiLCJoZWlnaHQiOiI8PTEyODAifV1dfQ.13y42x2TFBUFPS_VaC-V1hHmHegJmBDYPzn3CcxfQOs) [sandwiches](https://d2w9rnfcy7mm78.cloudfront.net/1002651/original_bd71d77187eda7eb3b258c395a1c1555.jpg?1493767565?bc=1) [meta-alignment chart](https://xkcd.com/2251/)
 
 **maps**
   *map libraries*
@@ -37,12 +46,6 @@ What data did peple scrape? And what did you think of the readings?
 **mind maps**
   *tools*
     [scapple](https://www.literatureandlatte.com/scapple/overview) [coggle](https://coggle.it)
-
-**charts**  
-  [*political compasses*](https://www.politicalcompass.org)  
-    [culture wars](https://disnovation.org/doc/OCW_70x100_RVB.pdf) [recipe collection](http://backseatfrying.net) [meme collection](https://www.are.na/francis-tseng/political-compasses-other-matrices)
-  [*alignment charts*](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f54a1ef4-d1f9-4b49-a36e-0eb100c586b9/d6fe4d8-2c0448e6-4ab0-4264-8e45-c0e910c283f2.png/v1/fill/w_1280,h_1280,q_75,strp/dnd_alignment_chart_by_nederbird-d6fe4d8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mNTRhMWVmNC1kMWY5LTRiNDktYTM2ZS0wZWIxMDBjNTg2YjkvZDZmZTRkOC0yYzA0NDhlNi00YWIwLTQyNjQtOGU0NS1jMGU5MTBjMjgzZjIucG5nIiwid2lkdGgiOiI8PTEyODAiLCJoZWlnaHQiOiI8PTEyODAifV1dfQ.13y42x2TFBUFPS_VaC-V1hHmHegJmBDYPzn3CcxfQOs) [sandwiches](https://d2w9rnfcy7mm78.cloudfront.net/1002651/original_bd71d77187eda7eb3b258c395a1c1555.jpg?1493767565?bc=1) 
-
 
 **visualisations**
   *clustering*
@@ -95,13 +98,13 @@ oulipo
 
 
 ### in class exercise
-mapping exercise?
+with pens and paper, explore different ways to map your data-sets. Discuss together how different forms of representation contribute to different forms of understanding. How might someone who understands one data-set understand another in terms of it?
 
 ### assignment
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
-Can you see patterns and relationships in the data? When you display the data a particular way, does it give you something you didn't expect? What does it feel like to explore your data set?
+Can you see patterns and relationships in the data? How do you link between different ideas? When you display the data a particular way, does it give you something you didn't expect? What does it feel like to explore your data set?
 
 **inspiration**  
  [yale aids memorial project](http://yamp.org)  

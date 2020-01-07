@@ -14,24 +14,22 @@ assignment-due: 04/06
   
 ### lecture: command line tools, tiny programs  
 
-**CLIs**  
-  
 
 **bash**  
   
 
 
 **file systems**  
-  
+  [folder poetry](https://github.com/melaniehoff/folderpoetry) [club](http://folderpoetry.club)  
 
 **unix**  
-  
+  [processes](https://en.wikipedia.org/wiki/Process_(computing)) [pipes](https://en.wikipedia.org/wiki/Pipeline_%28Unix%29)  
 
 **windows**  
   
 
 **macOS**  
-  [mac-specific commands](https://github.com/herrbischoff/awesome-macos-command-line)
+  [mac-specific commands](https://github.com/herrbischoff/awesome-macos-command-line)  
 
 **quines**  
   [js quines](https://2ality.com/2012/09/javascript-quine.html)  
@@ -53,12 +51,19 @@ assignment-due: 04/06
   
 
 **local comms**  
-  
+  [serial]()  
+  [USB]  
+  [USB device classes](https://en.wikipedia.org/wiki/USB#Device_classes) [Arduino mouse](https://www.arduino.cc/reference/en/language/functions/usb/mouse/) [makey makey]()  
 
 **regex**  
   
 
+**CLIs**  
+  
+
+
 **ascii art**
+
 
 **great command line tools**  
   *AV*  
@@ -66,6 +71,9 @@ assignment-due: 04/06
   *religious?*  
     [bibleJS](https://github.com/BibleJS/BibleApp)  
  [big list](https://github.com/agarrharr/awesome-cli-apps)  
+
+### in class assignment
+experiment with crafting a single-line program for your terminal.
 
 ### assignment
 *due {{page.assignment-due}}*<br>
