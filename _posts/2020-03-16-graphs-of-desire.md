@@ -72,7 +72,8 @@ arrow functions
     [d3.js](https://d3js.org)  
   *blobs*
     [paper.js](http://paperjs.org) [staggering beauty](http://www.staggeringbeauty.com)  
-
+  *3d*
+    [babylon.js](https://www.babylonjs.com)
 
 [nyt air pollution](https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html)
 
@@ -113,4 +114,5 @@ Can you see patterns and relationships in the data? How do you link between diff
  [future expansion -- a building about buildings](http://future-expansion.com/#img)  
  [CAVS](http://act.mit.edu/cavs)  
  [backseat frying](http://backseatfrying.net)  
+ [radical essex](http://www.radicalessex.uk/list/)
 

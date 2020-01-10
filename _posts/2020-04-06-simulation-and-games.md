@@ -3,8 +3,8 @@ layout: post
 title: simulation and games 
 permalink: /class10/  
 tags: [diagrams, systems, simulation]
-assignment: play a couple of games and write about them. start planning your simulated environment for your final project.
-description: We review the CLI projects [(with pizza??)](/class7/#assignment), and introduce the final project. The lecture will look at games and simulations as tools for critique, political statements, and modes of artistic enquiry. We think about interface metaphors and feedback systems, and talk about some of the history of cybernetics.
+assignment: play a couple of games and write about them, and plan the simulated environment you will make for your final project.
+description: We review the CLI projects [(with pizza??)](/class7/#assignment), and introduce the final project. The lecture will look at games and simulations as tools for critique, political statements, and modes of artistic enquiry. We will think about interface metaphors and feedback systems, and talk about some of the history of cybernetics.
 readings: Nicky Case [*how to simulate the universe in 134 easy steps*](https://blog.ncase.me/how-to-simulate-the-universe-in-134-easy-steps/)<br>Ava Kofman [*les simerables*](https://jacobinmag.com/2014/10/les-simerables/)<br>
 assignment-due: 04/20
 ---  
@@ -53,7 +53,7 @@ RAND corp
 When you return after spring break, you should have (at a minimum) on your site:
 * a detailed description of what you plan to make
 * some sketches, showing how it might look, and diagrams of how it will fit together
-
+* a time-plan, of what parts you do when
 
 **short**  
   [it's as if you were doing work](https://pippinbarr.github.io/itisasifyouweredoingwork/)  

@@ -49,12 +49,6 @@ assignment-due: 04/06
   *code golf*  
     [stack exchange](https://codegolf.stackexchange.com) [website](https://code-golf.io)  
   
-
-**local comms**  
-  [serial]()  
-  [USB]  
-  [USB device classes](https://en.wikipedia.org/wiki/USB#Device_classes) [Arduino mouse](https://www.arduino.cc/reference/en/language/functions/usb/mouse/) [makey makey]()  
-
 **regex**  
   
 
@@ -66,8 +60,9 @@ assignment-due: 04/06
 
 
 **great command line tools**  
+  [exiftool](https://exiftool.org/examples.html)
   *AV*  
-    ffmpeg youtube-dl [videogrep](https://antiboredom.github.io/videogrep/)  
+    ffmpeg [avconv](https://libav.org/avconv.html) youtube-dl [videogrep](https://antiboredom.github.io/videogrep/)  
   *religious?*  
     [bibleJS](https://github.com/BibleJS/BibleApp)  
  [big list](https://github.com/agarrharr/awesome-cli-apps)  
@@ -78,6 +73,8 @@ experiment with crafting a single-line program for your terminal.
 ### assignment
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
+
+Maybe it's a 
 
 **examples**
 [pizza party](http://www.coryarcangel.com/things-i-made/2004-009-pizza-party) [modern implementation](https://github.com/brianmxwll/SiriProxy-PizzaParty)

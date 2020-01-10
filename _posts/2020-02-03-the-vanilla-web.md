@@ -7,7 +7,7 @@ tags: [net art, basics]
 description: you've been there! you've seen it! you've done that! (or have you?). here we'll revisit the basic tools that we use to make work for the web, and talk about some higher level concepts and tools to improve the quality of code. We'll discuss web standards, net art, and the power of pure html.
 assignment: make a website that shuffles a deck of cards using (at least) 2 different approaches
 assignment-due: 02/10
-readings: Alex Galloway, [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/) <br> Ted Nelson (in *Software* p16), [*The Crafting of Media*](http://worrydream.com/refs/Burnham%20-%20Software%20-%20Information%20Technology,%20Its%20New%20Meaning%20for%20Art.pdf), 
+readings: Alex Galloway, [*Jodi's Infrastructure*](https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/) <br> Ted Nelson (in *Software* p16), [*The Crafting of Media*](http://worrydream.com/refs/Burnham%20-%20Software%20-%20Information%20Technology,%20Its%20New%20Meaning%20for%20Art.pdf)
 ---  
 
 {{page.description}}
@@ -56,7 +56,6 @@ go around everyone and ask where they think they're at with html/css/js
   responsiveness  
   mobile  
 
-  
 **web standards**  
   w3c  
   complications  
@@ -85,7 +84,11 @@ Criteria:
 * once a card has been dealt, it can't be dealt again (unless it gets shuffled into the pack)
 * '2 different approaches' means significantly different approaches to the task, not just the same functions dealing 2 decks of cards.
 
-Once you've got the basics down, try something a bit more exciting. Make it deal Texas hold'em! Add some graphics! Try a sorting algorithm! Can you make something really weird? How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you!
+Once you've got the basics down, try something a bit more exciting. Make it deal Texas hold'em! Add some graphics! What happens when a card is dealt? Can you stack the deck in your favour? Try a sorting algorithm! Can you make something really weird? How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you.
+
+**other decks**
+  [tarot]()  
+  [pokemon](https://api.pokemontcg.io/v1/cards)  
 
 ### readings:
 {{page.readings}}

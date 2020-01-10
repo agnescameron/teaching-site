@@ -7,7 +7,7 @@ tags: [history, network infrastructure, security]
 description: this week we'll talk about requests and APIs, and some moments in internet history. We'll learn to use some command line tools, and talk about some interesting uses of data.
 assignment: make an interface to a remote API.
 assignment-due: 02/24
-readings: Neal Stephenson, [*Mother Earth Mother Board*](https://www.wired.com/1996/12/ffglass/)
+readings: Ingrid Burrington, [*An Internet of Wars -- Military Networks and Network Mobilisation*](http://sfaq.us/2015/02/an-internet-of-wars-military-networks-and-network-militarization/)<br>
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  
@@ -78,6 +78,7 @@ go through some card sorting solutions. what worked and what didn't? what was ha
   
 **what can i ask for?**  
 
+
   *weather*  
     [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
@@ -102,6 +103,7 @@ go through some card sorting solutions. what worked and what didn't? what was ha
 
   *are.na*  
     [are.na api](https://dev.are.na/documentation)  
+    [mac.are.na](https://mac.are.na)
     [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)
 
   *video*    
@@ -113,7 +115,8 @@ go through some card sorting solutions. what worked and what didn't? what was ha
     [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)
 
   *other*  
-    [dominos](https://www.npmjs.com/package/dominos) [3 Degrees of Separation from the Military-Industrial-Prison-Data-Surveillance State](http://linkedd.s3.amazonaws.com/index.html)
+    [dominos](https://www.npmjs.com/package/dominos) [3 Degrees of Separation from the Military-Industrial-Prison-Data-Surveillance State](http://linkedd.s3.amazonaws.com/index.html)   
+    [apilist](https://apilist.fun)
   
 *notes:*   
 the steps for authenticating to google api can be surprisingly tricky and poorly documented... if you're wanting to play with a google project, let me know and I can walk you through it!  

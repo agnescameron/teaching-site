@@ -53,6 +53,7 @@ assignment-due: 03/16
     [vegetable cooking times](https://github.com/dariusk/corpora/blob/master/data/foods/vegetable_cooking_times.json) [female classical guitarists](https://github.com/dariusk/corpora/blob/master/data/music/female_classical_guitarists.json) [tarot](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) [pokemon](https://github.com/dariusk/corpora/blob/master/data/games/pokemon.json) [saints](https://github.com/dariusk/corpora/blob/master/data/religion/christian_saints.json)  
   [pokemon](https://github.com/fanzeyi/pokemon.json)  
   [wordnik](https://developer.wordnik.com/docs)  
+  [gun deals](https://docs.google.com/spreadsheets/d/1UioHw4TSPUh1P4fRiVhuw9m66FTXNVL06s-2Tihal_o/edit#gid=0)
   [*data gardens*](https://github.com/everestpipkin/datagardens)
     [sephora reviews that mention crying sobbing or tears](https://github.com/everestpipkin/datagardens/tree/master/students/khanniie/5_newDataSet)  
   *museum data collections*

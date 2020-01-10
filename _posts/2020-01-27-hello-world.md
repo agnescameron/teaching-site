@@ -31,7 +31,7 @@ read through syllabus together and ask about it
   git [how to write a git commit message](https://chris.beams.io/posts/git-commit/)  
   [github](https://github.com) [gitlab](https://about.gitlab.com)  
   [merging 😱](https://guide.freecodecamp.org/git/git-merge/)  
-  [version control poetry](https://github.com/tchoi8/poetry/)  
+  [version control poetry](https://github.com/tchoi8/poetry/) [example](https://github.com/rottytooth/poetry/commit/bce0e11e8538393ec47ca046d82d7e931e552ccb)  
 
 **publishing**  
   github pages  
@@ -98,6 +98,8 @@ setting up github and netlify accounts, text editors (if you're good with these 
 {{page.assignment}}
 
 Experiment with a range of different console editing techniques, and produce at least 6 different snapshots. Publish these on your class site, along with a description of what you did, and a response to the readings.
+
+[UX tips](https://www.are.na/agnes-cameron/adversarial-interaction)
 
 ### readings
 {{page.readings}}
