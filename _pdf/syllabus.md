@@ -1,9 +1,10 @@
 
 \rightline{web programming medp 34100}  
 \rightline{hunter college film + media}  
-\rightline{spring 2019}  
+\rightline{mondays 4:10pm - 6:50pm}  
 \rightline{lecturer: agnes cameron}  
-\rightline{class website: www.webdevelopm.net}
+\rightline{class website: www.webdevelopm.net}  
+\rightline{office hour: mondays 2pm-3pm HN 515}  
 
 syllabus
 --------
@@ -13,7 +14,7 @@ what is web programming?
 
 If a computer is a tool for thinking with, then the web is a place to
 share your thoughts with others. In this class we'll think about web
-programming as a tool of representation, speculation, and communication. 
+programming as a means of representation, speculation, and communication. 
 We'll also think about our computers, and use them to have new kinds of thoughts.
 
 This class seeks to give a broad, nuanced and critical understanding of
@@ -29,13 +30,13 @@ In order to take this class, you must have already taken Web Production
 II and Creative Code (MEDP 234 and 331), and be comfortable programming
 in Javascript, HTML, and CSS.
 
-class goals
------------
+class outcomes
+--------------
 
--   develop fluency in Javascript and JQuery, and have an understanding of
-    common web development workflows
+-   develop fluency in Javascript and JQuery
+-   have an understanding of common web development workflows
 -   understand how the web is structured, and use this to realise more
-    complex projects
+    advanced projects
 -   become familiar with the command line and the console
 -   understand how and where to include libraries and modules in your
     code
@@ -103,9 +104,9 @@ course overview
                     about media archaeology and                            
                     network forensics.                                     
 
-  03/02             [**servers**](/class5/)\          Write a server that  Karly Wildenhaus [*Towards a Library Without Walls*](https://www.are.na/blog/towards-a-library-without-walls)\
-                    This week we'll learn about       serves some          Os Keyes [*The Body Instrumental*](https://logicmag.io/nature/the-body-instrumental/)\
-                    servers. What are they? How do    information about    TKDL [*Bio-Piracy*](http://www.tkdl.res.in/tkdl/langdefault/common/Biopiracy.asp?GL=Eng)
+  03/02             [**servers**](/class5/)\          Write a server that  Karly Wildenhaus, [*Towards a Library Without Walls*](https://www.are.na/blog/towards-a-library-without-walls)\
+                    This week we'll learn about       serves some          Os Keyes, [*The Body Instrumental*](https://logicmag.io/nature/the-body-instrumental/)\
+                    servers. What are they? How do    information about    TKDL, [*Bio-Piracy*](http://www.tkdl.res.in/tkdl/langdefault/common/Biopiracy.asp?GL=Eng)
                     you make one? Is everything       your computer.       
                     really just a file?               Define an endpoint   
                                                       where we can find    
@@ -114,15 +115,15 @@ course overview
                                                       next class.\         
                                                       *due: 03/09*         
 
-  03/09             [**seeking                        Curate a data-set,   Emily Scott [*Climate Change and Representational Breakdown*](https://averyreview.com/issues/16/archives-of-the-present-future)\
-                    arrangements**](/class6/)\        and come up with     Clayton Aldern [*Cartographers Without Borders*](https://logicmag.io/justice/cartographers-without-borders/)
+  03/09             [**seeking                        Curate a data-set,   Emily Scott, [*Climate Change and Representational Breakdown*](https://averyreview.com/issues/16/archives-of-the-present-future)\
+                    arrangements**](/class6/)\        and come up with     Clayton Aldern, [*Cartographers Without Borders*](https://logicmag.io/justice/cartographers-without-borders/)
                     A class about structuring         some diverse ways to 
                     knowledge. We'll talk about       sort it.\            
                     objects, data, libraries,         *due: 03/16*         
                     scraping and the politics of                           
                     taxonomy.                                              
 
-  03/16             [**graphs of desire**](/class7/)\ using jQuery (and    Marvin Minsky [*Why programming is a good medium for expressing poorly understood and sloppily-formulated
+  03/16             [**graphs of desire**](/class7/)\ using jQuery (and    Marvin Minsky, [*Why programming is a good medium for expressing poorly understood and sloppily-formulated
                     This class is about the use and   anything else you    ideas*](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)\
                     misuse of maps, charts, and       choose), display and Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces)
                     graphs as tools of representing   explore the data set 
@@ -132,26 +133,20 @@ course overview
                     thinking about different          different ways.\     
                     approaches to representation.     *due: 03/23*         
 
-  03/23             [**your friend the                write a command line Jonah Weiner [*Where do dwarf-eating carp come from*](https://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html)\
-                    shell**](/class8/)\               tool for yourself,   Elvia Wilk with Jenna Sutela [*Slime Intelligence*](https://rhizome.org/editorial/2016/aug/16/slime-intelligence/)\
-                    This week we're going to get      using either NodeJS  Shannon Mattern [*Mapping's Intelligent Agents*](https://placesjournal.org/article/mappings-intelligent-agents/)
+  03/23             [**your friend the                write a command line Jonah Weiner, [*Where do dwarf-eating carp come from*](https://www.nytimes.com/2011/07/24/magazine/the-brilliance-of-dwarf-fortress.html)\
+                    shell**](/class8/)\               tool for yourself,   Elvia Wilk with Jenna Sutela, [*Slime Intelligence*](https://rhizome.org/editorial/2016/aug/16/slime-intelligence/)\
+                    This week we're going to get      using either NodeJS  Shannon Mattern, [*Mapping's Intelligent Agents*](https://placesjournal.org/article/mappings-intelligent-agents/)
                     really into programming for the   or bash. This tool   
                     command line! A chance to get up  should address some  
                     close and personal with your      need you have from   
                     filesystem! Abandon the need for  your computer which  
                     UI!                               it does not          
                                                       currently address.   
-                                                      (challenge -- if     
-                                                      anyone successfully  
-                                                      makes a pizza/other  
-                                                      food ordering tool,  
-                                                      I will fund a live   
-                                                      demo when we review  
-                                                      these on 04/06.)\    
+                                                      \    
                                                       *due: 04/06*         
 
-  03/30             [**what's the matter?             \                    Ian Bogost [*The Rhetoric of Video Games*](http://www.cogsci.rpi.edu/public_html/ruiz/EGDFall2013/readings/RhetoricVideoGames_Bogost.pdf)\
-                    automata!**](/class9/)\                                Bret Victor [*stop drawing dead fish*](https://www.youtube.com/watch?v=ZfytHvgHybA)
+  03/30             [**what's the matter?             \                    Ian Bogost, [*The Rhetoric of Video Games*](http://www.cogsci.rpi.edu/public_html/ruiz/EGDFall2013/readings/RhetoricVideoGames_Bogost.pdf)\
+                    automata!**](/class9/)\                                Bret Victor, [*stop drawing dead fish*](https://www.youtube.com/watch?v=ZfytHvgHybA)
                     this class introduces some of the                      
                     themes we'll be exploring in the                       
                     final project, looking at                              
@@ -161,8 +156,8 @@ course overview
                     exploring complex systems and                          
                     dynamics.                                              
 
-  04/06             [**simulation and                 play a couple of     Nicky Case [*how to simulate the universe in 134 easy steps*](https://blog.ncase.me/how-to-simulate-the-universe-in-134-easy-steps/)\
-                    games**](/class10/)\              games and write      Ava Kofman [*les simerables*](https://jacobinmag.com/2014/10/les-simerables/)\
+  04/06             [**simulation and                 play a couple of     Nicky Case, [*how to simulate the universe in 134 easy steps*](https://blog.ncase.me/how-to-simulate-the-universe-in-134-easy-steps/)\
+                    games**](/class10/)\              games and write      Ava Kofman, [*les simerables*](https://jacobinmag.com/2014/10/les-simerables/)\
                     We review the CLI projects,   the simulated        
                     and introduce the final project.  environment you will 
                     The lecture will look at games    make for your final  
@@ -174,12 +169,12 @@ course overview
                     and talk about some of the                             
                     history of cybernetics.                                
 
-  04/13             [**spring break! (you gotta play  play those games!\   Keller Easterling [*An internet of things*](http://worker01.e-flux.com/pdf/article_8946204.pdf)\
-                    a video game)**](/springbreak/)\                       Shannon Mattern [*A City is Not a Computer*](https://placesjournal.org/article/a-city-is-not-a-computer/)
+  04/13             [**spring break! (you gotta play  \                    Keller Easterling, [*An internet of things*](http://worker01.e-flux.com/pdf/article_8946204.pdf)\
+                    a video game)**](/springbreak/)\                       Shannon Mattern, [*A City is Not a Computer*](https://placesjournal.org/article/a-city-is-not-a-computer/)
                     have a nice holiday xx                                 
 
-  04/20             [**environments of                start developing     Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)\
-                    computation**](/class11/)\        your final project   Zeynep Tufecki [*Twitter and Tear Gas (preface)*](https://www.twitterandteargas.org/downloads/twitter-and-tear-gas-by-zeynep-tufekci.pdf)
+  04/20             [**environments of                start developing     Hito Steyerl, [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)\
+                    computation**](/class11/)\        your final project   Zeynep Tufecki, [*Twitter and Tear Gas (preface)*](https://www.twitterandteargas.org/downloads/twitter-and-tear-gas-by-zeynep-tufekci.pdf)
                     We talk *more* about the history  in earnest, and      
                     of cybernetics, particularly in   document your        
                     its relationship to space and     progress as you go   
