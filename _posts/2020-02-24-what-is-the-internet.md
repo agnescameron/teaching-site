@@ -55,6 +55,7 @@ ARPANET
   
   1. *physical layer*  
     fibre optics coaxial cables wifi  
+    [the laying of the cable](https://www.loc.gov/pictures/resource/pga.00117/)
     *minerals*  
       [gutta percha](https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications/) [tantalum](https://en.wikipedia.org/wiki/Tantalum) [coltan](https://en.wikipedia.org/wiki/Coltan_mining_and_ethics) [lithium](https://en.wikipedia.org/wiki/Lithium#Production)
 
@@ -74,9 +75,13 @@ ARPANET
 
 **packet sniffing**  
   [wireshark](https://www.wireshark.org)  
+  [herbivore](https://github.com/samatt/Herbivore)  
+
+**spoofing**  
   [nsa surveillance](https://www.aclu.org/issues/national-security/privacy-and-surveillance/nsa-surveillance) [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden)  
   *julian oliver*  
     [stealth cell tower](https://julianoliver.com/output/stealth-cell-tower.html) [PRISM](https://julianoliver.com/output/the-beacon-frame.html) [transmediale debacle](https://hyperallergic.com/109546/transmediale-festival-shuts-down-nsa-imitators/)  
+  [data pools](https://ahprojects.com/datapools/) [skylift](https://ahprojects.com/skylift/)
 
 **media archaeology**  
   internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
@@ -90,8 +95,8 @@ ARPANET
 
 
 **local internet**  
-  nyc mesh  
-  piratebox  
+  [NYC Mesh](https://www.nycmesh.net)  
+  [piratebox](https://piratebox.cc)  
 
 ### in class exercise  
 We'll send some packets and have a look inside!
@@ -102,10 +107,17 @@ We'll send some packets and have a look inside!
 do your own media archaeology/forensics  
 use the tools we have (or find some other ones)  
   
-precaution: lots of the tools we've looked at today are powerful, and some uses of them are of shady legality. Don't! try and hack into someone else's computer without their express permission, 
+Precaution: some of the tools we've looked at today are powerful, and some uses of them are of shady legality. Don't (for example) try and hack into someone else's computer unless you have their permission. 
 
-Ideas:
-Randall Monroe [*Google's Data Centers on Punch Cards*](https://what-if.xkcd.com/63/)
+**Ideas+Resources:**  
+  Neal Stephenson [*Mother Earth Mother Board*](https://www.wired.com/1996/12/ffglass/)  
+  Randall Monroe [*Google's Data Centers on Punch Cards*](https://what-if.xkcd.com/63/)  
+  Ingrid Burrington [*Networks of New York*](http://s3.amazonaws.com/arena-attachments/1388507/bbdfbb27e1ff2233f62ade8393077549.pdf?1509584728)  
+  [NYC Internet Master Plan](https://tech.cityofnewyork.us/wp-content/uploads/2020/01/NYC_IMP_1.7.20_FINAL-2.pdf)  
+  [Museum of Wifi](http://museumofwifi.com)  
+  Trevor Paglen [*Eagle Eye Photo Contest*](https://www.photocompete.com/test511/2015/04/23/eagle-eye-photo-contest/)  
+  [NYC Mesh](https://www.nycmesh.net)  
+  [networks.land](http://networks.land/reference/physical/)
 
 ## reading
 {{page.readings}}

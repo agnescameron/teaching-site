@@ -7,7 +7,7 @@ tags: [history, network infrastructure, security]
 description: this week we'll talk about requests and APIs, and some moments in internet history. We'll learn to use some command line tools, and talk about some interesting uses of data.
 assignment: make an interface to a remote API.
 assignment-due: 02/24
-readings: Ingrid Burrington, [*An Internet of Wars -- Military Networks and Network Mobilisation*](http://sfaq.us/2015/02/an-internet-of-wars-military-networks-and-network-militarization/)<br>
+readings: Everest Pipkin, [*It was raining in the data center*](https://medium.com/s/story/it-was-raining-in-the-data-center-9e1525c37cc3)<br>Julian Oliver, [*Stealth Infrastructure*](https://rhizome.org/editorial/2014/may/20/stealth-infrastructure/)
 ---  
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  

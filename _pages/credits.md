@@ -1,7 +1,7 @@
 ---
 layout: page
-title: references
-permalink: /library/
+title: credits
+permalink: /credits/
 ---
 
 <!--  credits for class critics -->

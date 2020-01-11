@@ -5,9 +5,19 @@ permalink: /syllabus/
 ---
 
 ## what is web programming?
-If a computer is a tool for thinking with, then the web is a place to share your thoughts with others. In this class we'll think about web programming as a mode of representation, and communication. We'll also think about our computers, and use them to have new thoughts. 
+If a computer is a tool for thinking with, then the web is a place to
+share your thoughts with others. In this class we'll think about web
+programming as a means of representation, speculation, and communication. 
+We'll also think about our computers, and use them to have new kinds of thoughts.
 
-This class seeks to give a broad, nuanced and critical understanding of what it means to make work for the web today. It is structured around a series of open-ended projects that inform different approaches towards web programming, and programming more generally, and together will stretch and challenge your existing skills. These projects are contextualised by readings and lectures that give a theoretical and technical basis to the material covered, and discussed in class during structured critiques.
+This class seeks to give a broad, nuanced and critical understanding of
+what it means to make work for the web today. It is structured around a
+series of open-ended projects that inform different approaches towards
+web programming, and programming more generally, and together will
+stretch and challenge your existing skills. These projects are
+contextualised by readings and lectures that give a theoretical and
+technical basis to the material covered, and discussed in class during
+structured critiques.
 
 In order to take this class, you must have already taken Web Production II and Creative Code (MEDP 234 and 331), and be comfortable programming in Javascript, HTML, and CSS. 
 
@@ -100,6 +110,11 @@ From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/ha
 
 ### accessibility
 In compliance with the American Disability Act of 1990 (ADA) and with Section 504 of the Rehabilitation Act of 1973, Hunter College is committed to ensuring educational parity and accommodations for all students with documented disabilities and/or medical conditions. It is recommended that all students with documented disabilities (Emotional, Medical, Physical, and/or Learning) consult the Office of Accessibility located in Room E1124 to secure necessary academic accommodations. For further information and assistance, please call (212) 772-4857/TTY (212) 650-3230. If you have registered with the Office of Accessibility, please let me know at the start of the term.
+
+
+### hunter college policy on sexual misconduct:
+In compliance with the CUNY Policy on Sexual Misconduct, Hunter College reaffirms the prohibition of any sexual misconduct, which includes sexual violence, sexual harassment, and gender-based harassment, retaliation against students, employees, or visitors, as well as certain  intimate relationships. Students who have experienced any form of sexual violence on or off campus (including CUNY-sponsored trips and events) are entitled to the rights outlined in the Bill of Rights for Hunter College. Sexual Violence: Students are strongly encouraged to immediately report the incident by calling 911, contacting NYPD Special Victims Division Hotline (646-610-7272) or their local police precinct or contacting the College's Public Safety Office (212-772-4444). All Other Forms of Sexual Misconduct: Students are also encouraged to contact the College's Title IX Campus Coordinator, Dean John Rose (jtrose@hunter.cuny.edu or 212-650-3262) or Colleen Barry (colleen.barry@hunter.cuny.edu or 212-772-4534) and seek complimentary services through the Counseling and Wellness Services Office, Hunter East 1123. CUNY Policy on Sexual Misconduct.  Link: http://www.hunter.cuny.edu/diversityandcompliance/repository/files/cuny-policy-on-sexual-misconduct.pdf
+
 
 ### attendance
 The success of this class involves your presence and participation. As such, it is important that you are here, and on time. **You will not be penalised for one absence**, so long as you notify me in advance. Two absences will reduce your grade one step (A -> A-), three absences reduce two steps. More than that will have a serious impact on your grade.

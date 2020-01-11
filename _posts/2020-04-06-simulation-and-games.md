@@ -12,7 +12,6 @@ assignment-due: 04/20
 {{page.description}}
 
 > *The would-be model maker is now in the extremely common situation of facing some incompletely defined 'system,' that he proposes to study through a study of 'its variables'.' Then comes the problem: of the infinity of variables available in this universe, which subset shall he take? What methods can he use for selecting the correct subset?*
-
 >Ross Ashby
 
 ### review: CLI projects
@@ -23,6 +22,7 @@ Create a simulated environment or system that exists on the web.
 This environment might be a model of a real place, or contain a new kind of creature. It could be a game, or maybe it simply plays itself. Perhaps it is used to explore a system that you're interested in, or critique one that you disagree with. The requirements for this piece are that it:
 * is in some way interactive, modifiable or explorable
 * should change over time
+* it should have  
 
 ### lecture: simulation as speculation
 

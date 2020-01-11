@@ -4,8 +4,6 @@ title: library
 permalink: /library/
 ---
 
-wot, more links?
-
 there's a lot of good stuff that we don't have time to touch on, but has influenced this course in some way and, given infinite time, would feel like an exciting inclusion in the reading list. None of these are compulsory, though reading them will definitely make you think in new and interesting ways about the web.
 
 
@@ -30,6 +28,11 @@ Marvin Minsky, [*Why programming is a good medium for expressing poorly understo
 **classification**  
 
 
+
+**the decentralised web**  
+  [decentralise what?](http://fall2019-3a.designforthe.net/library/decentralize-what)  
+  [off the network](https://1.droppdf.com/files/cwYC1/off-the-network-disrupting-the-digital-world-electronic-mediations-by-ulises-ali-mejias.pdf)  
+
 **scraping and investigative journalism**
   [bellingcat online investigation toolkit](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic)
   [list of people search and data broker websites](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)
@@ -43,7 +46,7 @@ Marvin Minsky, [*Why programming is a good medium for expressing poorly understo
 **great libraries offline**  
   [cybernetics library IRL](https://cybernetics.social)  
 
-**cool tech journalism/essays**
-  [logic mag](https://logicmag.io)
-  [real life](https://reallifemag.com)
-  [the new inquiry](https://thenewinquiry.com)
+**cool tech journalism/essays**  
+  [logic mag](https://logicmag.io)  
+  [real life](https://reallifemag.com)  
+  [the new inquiry](https://thenewinquiry.com)  

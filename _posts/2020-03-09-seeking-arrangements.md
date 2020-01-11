@@ -10,10 +10,10 @@ readings: Emily Scott [*Climate Change and Representational Breakdown*](https://
 assignment-due: 03/16
 ---  
 
-{{ page.description }}
-
 > *The class name of an object creates a vocabulary for discussing a design. Indeed, many people have remarked that object design has more in common with language design than with procedural program design. We urge learners (and spend considerable time ourselves while designing) to find just the right set of words to describe our objects, a set that is internally consistent and evocative in the context of the larger design environment.*
 > Kent Beck, [*A Laboratory For Teaching Object-Oriented Thinking*](http://worrydream.com/refs/Beck%20-%20%20A%20Laboratory%20For%20Teaching%20Object-Oriented%20Thinking.pdf)
+
+{{ page.description }}
 
 ## lecture: structuring knowledge
 
@@ -39,14 +39,17 @@ assignment-due: 03/16
  [sitterwerk catalog](https://www.sitterwerk-katalog.ch/books)  
  *of the internet*  
     [the internet archive](https://archive.org/index.php) [one terabyte of the kilobyte age](https://blog.geocities.institute) [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  
+  [i'm google](https://dinakelberman.tumblr.com)  
 
-**'data'**
-[right to be forgotten](https://techcrunch.com/2014/07/04/digital-theatre/)
+**'data'**  
+[right to be forgotten](https://techcrunch.com/2014/07/04/digital-theatre/)  
 
-**objects**
-  [OOP vs FP](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming) [a shorter opinion](http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)
+**objects**  
+  [OOP vs FP](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming) [a shorter opinion](http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)  
 
-**JSON**
+[**JSON**](https://www.json.org/json-en.html)  
+  [guide](https://www.tutorialspoint.com/json/json_quick_guide.htm)  
+  [validator](https://jsonformatter.curiousconcept.com)  
 
 **collections**  
   [*corpora*](https://github.com/dariusk/corpora)  
@@ -59,12 +62,18 @@ assignment-due: 03/16
   *museum data collections*
     [natural history museum (uk)](https://data.nhm.ac.uk)
   [syrian archive](https://syrianarchive.org/en/collections) [violations documentation center in syria](http://www.vdc-sy.info/index.php/en/martyrs)  
+  [police brutality](https://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database)  
   [library of missing datasets](http://mimionuoha.com/the-library-of-missing-datasets/)  
   [*data.gov*](https://www.data.gov)
     [maritime](https://www.data.gov/maritime/) [climate](https://catalog.data.gov/dataset?groups=climate5434&#topic=climate_navigation)
 
+**data forensics**
+  [public by default](https://publicbydefault.fyi)  
+  [forensic architecture](https://forensic-architecture.org) [killing in umm al hiran](https://forensic-architecture.org/investigation/killing-in-umm-al-hiran)  
+
 **scrape it yourself**
   [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
+  [social media data collection tools](http://socialmediadata.wikidot.com)
 
 
 ### in class  
