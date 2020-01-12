@@ -23,19 +23,19 @@ assignment-due: 03/16
 
 **finding things**  
   [wtf is a knowledge graph](https://hackernoon.com/wtf-is-a-knowledge-graph-a16603a1a25f) [semantic networks](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/640px-Semantic_Net.svg.png) [google knowledge graph](https://googleblog.blogspot.co.uk/2012/05/introducing-knowledge-graph-things-not.html) [the underlay](https://underlay.mit.edu)  
-  *search engines*  
-    [google]() [duckduckgo]() [yandex](https://yandex.com)
-    [inside search](https://blog.google/products/search/)
+  *search engines*    
+    [google]() [duckduckgo]() [yandex](https://yandex.com)  
+    [inside search](https://blog.google/products/search/)  
   *reverse image search*  
-    [tineye](https://tineye.com) [~searchFace~ findClone](https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/)   
-  [can i help you find something](http://rostenwoo.biz/index.php/abouthaystacks)
-  ['people search'](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)
+    [tineye](https://tineye.com) [~searchFace~ findClone](https://www.bellingcat.com/resources/how-tos/2019/02/19/using-the-new-russian-facial-recognition-site-searchface-ru/)  
+  [can i help you find something](http://rostenwoo.biz/index.php/abouthaystacks)  
+  ['people search'](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)  
 
 **archives**  
   [TDKL](http://www.tkdl.res.in)  
   [cyberfeminist index](https://docs.google.com/spreadsheets/d/1q_ZlbZhstBTfnZL4QP11ebivXgsvrf8shuG-QX146nw/edit?usp=sharing)  
   *of books*  
- [bookcase history](http://www.harvarddesignmagazine.org/issues/43/before-billy-a-brief-history-of-the-bookcase) 
+ [bookcase history](http://www.harvarddesignmagazine.org/issues/43/before-billy-a-brief-history-of-the-bookcase)  
  [sitterwerk catalog](https://www.sitterwerk-katalog.ch/books)  
  *of the internet*  
     [the internet archive](https://archive.org/index.php) [one terabyte of the kilobyte age](https://blog.geocities.institute) [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  

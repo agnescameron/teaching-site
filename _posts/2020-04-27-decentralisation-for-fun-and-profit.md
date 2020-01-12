@@ -23,6 +23,7 @@ By now, you should all have a good basis for your final project, and be able to 
 [**sneakernets**](https://en.wikipedia.org/wiki/Sneakernet)  
   [el paquete semenal](https://en.wikipedia.org/wiki/El_Paquete_Semanal)  [the pirate book](http://thepiratebook.net/wp-content/uploads/The_Pirate_Book.pdf)  
   [dead drops](https://en.wikipedia.org/wiki/USB_dead_drop)  
+  [trading with the enemy](http://www.dukeriley.info/trading-with-the-enemy/)  
 
 **version control**
   [CRDT](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)  

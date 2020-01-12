@@ -14,43 +14,40 @@ readings: Everest Pipkin, [*It was raining in the data center*](https://medium.c
 
 >-- Kevin Bewersdorf, *Spirit Surfing*  
 
->*"Unicode is big. But the web is infinitely big. Like a fractal with its endless regress of complexity, a new web page can always be inserted between two existing ones, creating an infinitely large system."*
-
->-- Alex Galloway, *JODI's Infrastructure*
-
 <!--more-->
 
 ### review  
 go through some card sorting solutions. what worked and what didn't? what was hard and what wasn't? Is there a solution you're excited to show us? is there anything that we should revise or that you'd like clearing up?  
-  
+
 ### lecture: get a load of this api  
-  
+
 **HTTP**  
   [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink)  
   [who is ted nelson](http://www.hyperland.com/Tedpage-D285) and [why is he unhappy](https://web.archive.org/web/20071009230444/http://www.disenchanted.com/dis/technology/xanadu.html)  
   [xanadu](http://xanadu.com/xUniverse-D6) [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf) [-> are.na](https://walkerart.org/magazine/counter-currents-are-na-on-ted-nelsons-computer-libdream-machines)  
-  
+
 **Addresses**  
   [the World Wide Web]  
+  [DNS]
   URI  
   URL  
   IP  
-  [IDN](http://idn.jodi.org)  
+  [IDN](http://idn.jodi.org) [you-talking-to-me](http://you-talking-to-me.com)  
 
 **requests**  
   GET  
   POST  
   HEAD  
   PUT  
-  
-**FT**  
-  
+
+**FTP**  
+
 **HTTPS**  
   SSL  
   [public key encryption (cool diversion, we could be here for ages...)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
   certificates  
   HTTPSEverywhere  
-  
+
 [**status codes**](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)  
   [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)  
   1xx information  
@@ -65,24 +62,24 @@ go through some card sorting solutions. what worked and what didn't? what was ha
 **formatting**  
   [JSON](https://www.json.org/json-en.html) [XML](https://en.wikipedia.org/wiki/XML) [YAML](https://yaml.org) [which one?](https://stackoverflow.com/questions/3951047/xml-vs-yaml-vs-json) [???](https://stackoverflow.com/questions/1726802/what-is-the-difference-between-yaml-and-json)
 }
-  
+
 **API**  
   [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)  
   RPC  
-  [which one?](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/)  
-  [keys](https://stackoverflow.com/questions/1453073/what-is-an-api-key) [usage](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) *warning: don't commit your key/secret to github*
+  [which one?](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/)  
+  [keys](https://stackoverflow.com/questions/1453073/what-is-an-api-key) [usage](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) *warning: don't commit your key/secret to github*  
 
 **waiting**  
   try/catch  
   async/await  
-  
-**what can i ask for?**  
+  promises
 
+**what can i ask for?**  
 
   *weather*  
     [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
-    [weather gradient](http://weathergradient.com)
+    [weather gradient](http://weathergradient.com)  
 
   *opening times*  
     [google places api](https://developers.google.com/places/web-service/intro)  
@@ -103,8 +100,8 @@ go through some card sorting solutions. what worked and what didn't? what was ha
 
   *are.na*  
     [are.na api](https://dev.are.na/documentation)  
-    [mac.are.na](https://mac.are.na)
-    [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)
+    [mac.are.na](https://mac.are.na)  
+    [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)  
 
   *video*    
     [youtube](https://developers.google.com/youtube/v3/)  
@@ -112,15 +109,15 @@ go through some card sorting solutions. what worked and what didn't? what was ha
 
   *astrology*  
     [horoscope-api (free)](https://github.com/sumitgohil/horoscope-api)  
-    [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)
+    [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)  
 
   *other*  
-    [dominos](https://www.npmjs.com/package/dominos) [3 Degrees of Separation from the Military-Industrial-Prison-Data-Surveillance State](http://linkedd.s3.amazonaws.com/index.html)   
-    [apilist](https://apilist.fun)
-  
+    [dominos](https://www.npmjs.com/package/dominos) [3 Degrees of Separation from the Military-Industrial-Prison-Data-Surveillance State](http://linkedd.s3.amazonaws.com/index.html)    
+    [apilist](https://apilist.fun)  
+
 *notes:*   
 the steps for authenticating to google api can be surprisingly tricky and poorly documented... if you're wanting to play with a google project, let me know and I can walk you through it!  
-  
+
 ### class exercise:  
 pick an api and make a http request from the command line!  
 
@@ -131,4 +128,4 @@ pick an api and make a http request from the command line!
 Your webpage should experiment with how the data from the API is displayed. How are you expected to use this information? How does your page change when the data from the API changes?
 
 ### readings  
-
+{{page.readings}}
