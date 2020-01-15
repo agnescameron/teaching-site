@@ -104,7 +104,7 @@ go through some card sorting solutions. what worked and what didn't? what was ha
     [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)  
 
   *video*    
-    [youtube](https://developers.google.com/youtube/v3/)  
+    [youtube](https://developers.google.com/youtube/v3/) [next youtube recommendation](https://github.com/pnbt/youtube-explore)  
     [default filename TV](http://defaultfile.name)  
 
   *astrology*  

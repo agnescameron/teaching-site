@@ -99,7 +99,7 @@ ARPANET
   [piratebox](https://piratebox.cc)  
 
 ### in class exercise  
-We'll send some packets and have a look inside!
+Make our own data link protocol.
 
 ### assignment  
 *due {{page.assignment-due}}*<br>

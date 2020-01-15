@@ -11,7 +11,7 @@ there's a lot of good stuff that we don't have time to touch on, but has influen
 
 
 **interfaces**  
-[*Critical Interface Toolbox*](https://web.archive.org/web/20170325032550/https://crit.hangar.org/toolbox/)
+[*Critical Interface Toolbox*](https://web.archive.org/web/20170325032550/https://crit.hangar.org/toolbox/)  
 
 **net art**  
 
@@ -27,15 +27,17 @@ Marvin Minsky, [*Why programming is a good medium for expressing poorly understo
 
 **classification**  
 
+**'ai'**  
+  Shannon Mattern [*Mapping's Intelligent Agents*](https://placesjournal.org/article/mappings-intelligent-agents/)  
 
 
 **the decentralised web**  
   [decentralise what?](http://fall2019-3a.designforthe.net/library/decentralize-what)  
   [off the network](https://1.droppdf.com/files/cwYC1/off-the-network-disrupting-the-digital-world-electronic-mediations-by-ulises-ali-mejias.pdf)  
 
-**scraping and investigative journalism**
-  [bellingcat online investigation toolkit](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic)
-  [list of people search and data broker websites](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)
+**scraping and investigative journalism**  
+  [bellingcat online investigation toolkit](https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/mobilebasic)  
+  [list of people search and data broker websites](https://docs.google.com/spreadsheets/d/1nDWmjCBvQE6N1TDv6RvAjo6oeSCRCIiWjG7502OG48I/edit#gid=0)  
 
 **great libraries online**    
   [bret victor's library](http://worrydream.com/refs/)  

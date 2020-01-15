@@ -29,6 +29,7 @@ go around everyone and ask where they think they're at with html/css/js
   [marking down](https://en.wikipedia.org/wiki/Markdown)  
   *elements*  
     [document structure](https://en.wikipedia.org/wiki/HTML_element#Document_structure_elements)  
+    [the box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)  
     [block elements](https://en.wikipedia.org/wiki/HTML_element#Block_elements) [inline elements](https://en.wikipedia.org/wiki/HTML_element#Inline_elements)  
     [RIP](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink)  
   [*puuure html*](https://www.are.na/laurel-schwulst/pure-html)  

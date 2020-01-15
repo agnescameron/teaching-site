@@ -5,10 +5,14 @@ permalink: /class1/
 categories: [git, HTML, CSS, JS]  
 tags: [basics]  
 assignment: Use the console editing tools we explored to re-imagine some websites that you use regularly. 
-description: this class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
+description: This class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
 assignment-due: 02/03
 readings: Laurel Schwulst, [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>JR Carpenter, [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)<br> JODI [*JODI.org*](http://wwwwwwwww.jodi.org)
 ---  
+
+> *My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.*
+
+> -- Laurel Schwulst
 
 {{ page.description }}
 
@@ -24,7 +28,7 @@ read through syllabus together and ask about it
   *CLI*  
     [vim](https://www.vim.org) [nano](https://www.nano-editor.org)  
   *GUI*  
-    [emacs](https://www.gnu.org/software/emacs/) [atom](https://atom.io) [sublime](https://www.sublimetext.com) [visual studio code](https://code.visualstudio.com)  
+    [emacs](https://www.gnu.org/software/emacs/) [atom](https://atom.io) [sublime](https://www.sublimetext.com) [visual studio code](https://code.visualstudio.com)
   
 **IDEs**  
   [visual studio](https://visualstudio.microsoft.com)  
@@ -37,10 +41,10 @@ read through syllabus together and ask about it
   [console api](https://developer.mozilla.org/en-US/docs/Web/API/console)  
   [google console tools](https://developers.google.com/web/tools/chrome-devtools/console) [mozilla](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console)  
 
-**version control**  
+[**version control**](https://www.atlassian.com/git/tutorials/what-is-version-control)  
   git [how to write a git commit message](https://chris.beams.io/posts/git-commit/)  
   [github](https://github.com) [gitlab](https://about.gitlab.com)  
-  [merging 😱](https://guide.freecodecamp.org/git/git-merge/)  
+  [password caching](https://help.github.com/en/github/using-git/caching-your-github-password-in-git) [merging 😱](https://guide.freecodecamp.org/git/git-merge/) [collaborating on git](https://uoftcoders.github.io/studyGroup/lessons/git/collaboration/lesson/) [gitmoji](https://gitmoji.carloscuesta.me)  
   [version control poetry](https://github.com/tchoi8/poetry/) [example](https://github.com/rottytooth/poetry/commit/bce0e11e8538393ec47ca046d82d7e931e552ccb)  
 
 **publishing to the web**  

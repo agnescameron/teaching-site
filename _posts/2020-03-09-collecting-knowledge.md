@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: seeking arrangements  
+title: collecting knowledge  
 permalink: /class6/  
 categories: [jQuery]
 tags: [diagrams, sorting]
@@ -15,7 +15,7 @@ assignment-due: 03/16
 
 {{ page.description }}
 
-## lecture: structuring knowledge
+## lecture: storing, sorting and scraping
 
 **sorting things**  
   [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
@@ -66,6 +66,7 @@ assignment-due: 03/16
   [library of missing datasets](http://mimionuoha.com/the-library-of-missing-datasets/)  
   [*data.gov*](https://www.data.gov)
     [maritime](https://www.data.gov/maritime/) [climate](https://catalog.data.gov/dataset?groups=climate5434&#topic=climate_navigation)
+  [nyc census data](https://popfactfinder.planning.nyc.gov/#12.25/40.724/-73.9868)
 
 **data forensics**
   [public by default](https://publicbydefault.fyi)  
@@ -74,7 +75,7 @@ assignment-due: 03/16
 **scrape it yourself**
   [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
   [social media data collection tools](http://socialmediadata.wikidot.com)
-
+  [metascraper](https://metascraper.js.org/#/)  
 
 ### in class  
 We consider a number of different artworks, and think of ways we might represent them as 'objects'. Are there patterns? Can we put them on axes? What links exist between different ideas in the objects? How do we represent that?

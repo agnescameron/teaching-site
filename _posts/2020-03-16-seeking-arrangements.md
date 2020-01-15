@@ -1,9 +1,9 @@
 ---  
 layout: post  
-title: graphs of desire  
+title: seeking arrangements  
 permalink: /class7/  
-description: This class is about the use and misuse of maps, charts, and graphs as tools of representing ideas. We will use JQuery and other libraries to arrange the data we gathered last week, thinking about different approaches to representation. 
-assignment: using jQuery (and anything else you choose), display and explore the data set you collected last week (or one that we looked at) in a few different ways.
+description: This class is about the use and misuse of maps, charts, and graphs as tools of arranging, ordering and representing ideas. We will use JQuery and other libraries to arrange the data we gathered last week, thinking about different approaches to representation. 
+assignment: using jQuery (and anything else you choose), display the data set you collected last week in a few different ways.
 readings: Marvin Minsky [*Why programming is a good medium for expressing poorly understood and sloppily-formulated ideas*](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)<br> Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces)
 assignment-due: 03/23
 ---  
@@ -17,7 +17,6 @@ assignment-due: 03/23
 
 ### check in
 What data did peple scrape? And what did you think of the readings?
-
 
 ## lecture: representing knowledge
 
@@ -39,6 +38,15 @@ What data did peple scrape? And what did you think of the readings?
     [bill bunge](https://civic.mit.edu/2013/08/07/the-detroit-geographic-expedition-and-institute-a-case-study-in-civic-mapping/) [native land](https://native-land.ca) [queering the map](https://www.queeringthemap.com) [conquer and divide](https://conquer-and-divide.btselem.org) [white collar crime risk zones](https://whitecollar.thenewinquiry.com)  
   [geogoo](http://geogoo.net)  
   [land lines](https://lines.chromeexperiments.com) [documentation](https://medium.com/@zachlieberman/land-lines-e1f88c745847)  
+  [oyvind fahlstrom](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2mpxrrcad19ou.cloudfront.net%2Fitem_images%2F292036%2F8257791_fullsize.jpg&f=1&nofb=1)  
+
+**mind maps**  
+  [*patrick gunkel*](http://ideonomy.mit.edu/gunkel.html)  
+    ["bio-evolution did not seek to optimise the taste of natural foodstuffs"](http://ideonomy.mit.edu/mapsandlists-set1/pic022.html) [network relationships](http://ideonomy.mit.edu/mapsandlists-set1/pic049.html) [universes](http://ideonomy.mit.edu/mapsandlists-set2/pic028.html)  
+  [bureau d'etudes](https://bureaudetudes.org) [world government](https://bureaudetudes.org/wp-content/uploads/2014/02/WG2013ang.pdf) [the 8th sphere](https://bureaudetudes.org/wp-content/uploads/2014/06/the-8th-sphere-EN.pdf)  
+  [anatomy of an ai](https://anatomyof.ai)  
+  *tools*  
+    [scapple](https://www.literatureandlatte.com/scapple/overview) [coggle](https://coggle.it)  
 
 **visualisations**  
   *clustering*  
@@ -48,14 +56,9 @@ What data did peple scrape? And what did you think of the readings?
   [officer involved](https://theintercept.co/officer-involved/) [fatal migrations](https://projects.theintercept.com/fatal-migrations/)  
   [nyt air pollution](https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html)
 
-**mind maps**  
-  [*patrick gunkel*](http://ideonomy.mit.edu/gunkel.html)  
-    ["bio-evolution did not seek to optimise the taste of natural foodstuffs"](http://ideonomy.mit.edu/mapsandlists-set1/pic022.html) [network relationships](http://ideonomy.mit.edu/mapsandlists-set1/pic049.html) [universes](http://ideonomy.mit.edu/mapsandlists-set2/pic028.html)  
-  *tools*  
-    [scapple](https://www.literatureandlatte.com/scapple/overview) [coggle](https://coggle.it)  
-
 **visible connections**  
   [are.na](https://are.na)  
+  [roam research](https://roamresearch.com)  
   [the music maze](http://static.echonest.com/LabyrinthOfGenre/GenreMaze.html)  
 
 **unlikely connections**
@@ -95,6 +98,8 @@ with pens and paper, and in groups of 2 or 3, explore different ways to map your
 {{page.assignment}}
 
 Can you see patterns and relationships in the data? How do you link between different ideas? When you display the data a particular way, does it give you something you didn't expect? What does it feel like to explore your data set?
+
+If you don't want to use the data set you collected last week, feel free to use one of the ones we've explored in class.
 
 **inspiration**  
  [yale aids memorial project](http://yamp.org)  
