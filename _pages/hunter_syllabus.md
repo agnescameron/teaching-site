@@ -32,12 +32,11 @@ In order to take this class, you must have already taken Web Production II and C
 * be aware of the history and politics of the web, and how this is changing
 
 ## course overview
-
 <!-- automated one -->
 
 Date | Theme | Assignment | Reading 
------ | ----- | ----- | ----- | {% for post in site.posts reversed %}
-{{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endfor%}
+----- | ----- | ----- | ----- | {% for post in site.posts reversed %}{% if post.path contains 'hunter' %}
+{{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
 
 ## structure of the course
 This course is entirely project-based. this means no exams -- but also this does mean that almost all of your grade is dependent on consistent, imaginative and thoughtful work on the weekly assignments. Considered together, these will give you a broad portfolio that demonstrates a range of skills and techniques. The assignments for this course consist of six 1-week assignments, two 2-week assignments, and a final project. Each of these will address a different form and set of ideas, though there are links between all of them, and you are welcome to use these to explore one continual theme.
