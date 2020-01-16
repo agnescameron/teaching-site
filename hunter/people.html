@@ -1,0 +1,20 @@
+--- 
+layout: hunter_post
+---
+
+
+<h2>people</h2>
+
+
+<h2>randomiser</h2>
+<button onclick="randomPerson()">random person!</button>
+<span id="randomiser"></span>
+
+<script type="text/javascript">
+	people = ["alice", "bob", "ted"]
+
+	function randomPerson(){
+		var person = people[Math.floor(Math.random()*people.length)]
+		document.getElementById('randomiser').innerHTML = person
+	}
+</script>

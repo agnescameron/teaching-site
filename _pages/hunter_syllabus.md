@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: hunter_post
 title: syllabus
-permalink: /syllabus/
+permalink: /hunter_syllabus/
 ---
 
 ## what is web programming?

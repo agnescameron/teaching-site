@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: seeking arrangements  
 permalink: /class7/  
 description: This class is about the use and misuse of maps, charts, and graphs as tools of arranging, ordering and representing ideas. We will use JQuery and other libraries to arrange the data we gathered last week, thinking about different approaches to representation. 

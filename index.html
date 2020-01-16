@@ -1,31 +1,13 @@
 --- 
-layout: default
+layout: main
 ---
 
-<h2>web programming</h2>
+<h2>web web web</h2>
 
-this is the homepage for the 2020 edition of hunter college's web programming class (medp 34100), taught by <a href="http://agnescameron.info">agnes cameron</a>.
+this is a landing page for web programming classes taught by <a href="http://agnescameron.info">agnes cameron</a>, and sometimes <a href="zhexi.info">gary zhexi zhang</a>.
 <br><br>
 
-<h2>randomiser</h2>
-<button onclick="randomPerson()">random person!</button>
-<span id="randomiser"></span>
-
-<h2>class index</h2>
-
       <ul class="noPoints">
-      {% for post in site.posts reversed %}
-        <li class="mainList">
-          {{ post.date | date: "%m/%d" }}  <a href="{{ post.url }}">{{ post.title }}</a> <br>
-        </li>
-      {% endfor %}
+        <li class="mainList"><a href="hunter/index.html">hunter college spring 2020: web programming</a></li>
+        <li class="mainList"><a href="parsons/index.html">parsons spring 2020: core interaction studio</a></li>
     </ul>
-
-<script type="text/javascript">
-	people = ["alice", "bob", "ted"]
-
-	function randomPerson(){
-		var person = people[Math.floor(Math.random()*people.length)]
-		document.getElementById('randomiser').innerHTML = person
-	}
-</script>

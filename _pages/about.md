@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hunter_post
 title: about this site
 permalink: /about/
 ---

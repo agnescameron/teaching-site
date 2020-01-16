@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: collecting knowledge  
 permalink: /class6/  
 categories: [jQuery]

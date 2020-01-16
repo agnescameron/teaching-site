@@ -35,7 +35,7 @@ sass:
   sass_dir: _sass
 kramdown:
   input: GFM
-include: ['_pages']
+include: ['_pages', '_hunter_posts']
 excerpt_separator: <!--more-->
 # plugins:
 #   - tag_gen

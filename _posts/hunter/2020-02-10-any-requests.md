@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: any requests?  
 permalink: /class3/  
 categories: [HTTP]

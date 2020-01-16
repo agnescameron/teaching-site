@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: the vanilla web  
 permalink: /class2/  
 categories: [JS, HTML, CSS]  

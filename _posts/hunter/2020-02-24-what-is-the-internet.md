@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: what's the internet??   
 permalink: /class4/  
 categories: [networking]

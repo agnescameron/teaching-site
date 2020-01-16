@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: hello, world!  
 permalink: /class1/  
 categories: [git, HTML, CSS, JS]  
@@ -7,7 +7,7 @@ tags: [basics]
 assignment: Use the console editing tools we explored to re-imagine some websites that you use regularly. 
 description: This class is about getting to know each other, the syllabus, and to give you some tools that will help you get set up for the rest of the semester. come with thoughts about what you're interested in, what you'd like to get out of your time in the class, and some websites you think are special.
 assignment-due: 02/03
-readings: Laurel Schwulst, [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>JR Carpenter, [*A Handmade Web*](http://luckysoap.com/statements/handmadeweb.html)<br> JODI [*JODI.org*](http://wwwwwwwww.jodi.org)
+readings: Laurel Schwulst, [*my website is a shifting house next to a river of knowledge, what could yours be?*](https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/)<br>Olia Lialina, [*Prof. Dr. Style*](http://contemporary-home-computing.org/prof-dr-style/)<br> JODI [*JODI.org*](http://wwwwwwwww.jodi.org)
 ---  
 
 > *My favorite aspect of websites is their duality: they’re both subject and object at once. In other words, a website creator becomes both author and architect simultaneously. There are endless possibilities as to what a website could be. What kind of room is a website? Or is a website more like a house? A boat? A cloud? A garden? A puddle? Whatever it is, there’s potential for a self-reflexive feedback loop: when you put energy into a website, in turn the website helps form your own identity.*

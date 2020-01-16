@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: your friend the shell  
 permalink: /class8/  
 categories: [node, bash]
