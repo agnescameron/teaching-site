@@ -5,33 +5,42 @@ layout: parsons_post
 
 <h2>people</h2>
 
+<ul id="people">
+</ul>
 
 <h2>randomiser</h2>
 <button onclick="randomPerson()">random person!</button>
 <span id="randomiser"></span>
 
 <script type="text/javascript">
-	
-people = [
-"Zeynep",
-"Sophia",
-"Pin Xuan",
-"Claire",
-"Avni",
-"Elias",
-"Jonnamarie",
-"Tsai Chieh",
-"Xian Yu",
-"Vivian",
-"Rachael",
-"Si Ran",
-"Evanna",
-"Erin",
-"Tia"
+
+var people = [
+{"student": "Zeynep", "site": ""},
+{"student": "Sophia", "site": ""},
+{"student": "Pin Xuan", "site": ""},
+{"student": "Claire", "site": ""},
+{"student": "Avni", "site": ""},
+{"student": "Elias", "site": ""},
+{"student": "Jonnamarie", "site": ""},
+{"student": "Tsai Chieh", "site": ""},
+{"student": "Xian Yu", "site": ""},
+{"student": "Vivian", "site": ""},
+{"student": "Rachael", "site": ""},
+{"student": "Si Ran", "site": ""},
+{"student": "Evanna", "site": ""},
+{"student": "Erin", "site": ""},
+{"student": "Tia", "site": ""}
 ]
 
-	function randomPerson(){
-		var person = people[Math.floor(Math.random()*people.length)]
-		document.getElementById('randomiser').innerHTML = person
-	}
+function randomPerson(){
+	var person = people[Math.floor(Math.random()*people.length)]
+	document.getElementById('randomiser').innerHTML =`<a href=${person.site}>${person.student}</a>`
+}
+
+function populateClass(person){
+	document.getElementById('people').innerHTML+=`<li><a href=${person.site}>${person.student}</a></li>`
+}
+
+people.forEach(populateClass);
+
 </script>
