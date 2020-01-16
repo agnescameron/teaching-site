@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: environments of computation 
 permalink: /class11/  
 tags: [cybernetics, diagrams]

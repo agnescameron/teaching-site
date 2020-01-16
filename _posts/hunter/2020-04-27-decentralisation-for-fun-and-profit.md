@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: decentralisation for fun and profit 
 permalink: /class12/  
 categories: [IPFS, blockchain]

@@ -1,7 +1,7 @@
 ---  
-layout: post  
-title: hello, world!  
-permalink: /class1/  
+layout: parsons_post  
+title: hello, studio!  
+permalink: /studio1/  
 categories: [git, HTML, CSS, JS]  
 tags: [basics]  
 assignment: Use the console editing tools we explored to re-imagine some websites that you use regularly. 

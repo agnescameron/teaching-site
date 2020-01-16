@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: hunter_post
 title: spring break! (you gotta play a video game)
 permalink: /springbreak/
 assignment: play those games!

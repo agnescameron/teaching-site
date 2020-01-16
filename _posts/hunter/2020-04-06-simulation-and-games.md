@@ -1,5 +1,5 @@
 ---  
-layout: post  
+layout: hunter_post  
 title: simulation and games 
 permalink: /class10/  
 tags: [diagrams, systems, simulation]
