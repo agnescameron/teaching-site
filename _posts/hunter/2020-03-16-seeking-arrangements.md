@@ -54,7 +54,7 @@ What data did peple scrape? And what did you think of the readings?
   [stranger visions](https://deweyhagborg.com/projects/stranger-visions)  
   [VFRAME](https://ahprojects.com/vframe/)  
   [officer involved](https://theintercept.co/officer-involved/) [fatal migrations](https://projects.theintercept.com/fatal-migrations/)  
-  [nyt air pollution](https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html)
+  [nyt air pollution](https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html)  
 
 **visible connections**  
   [are.na](https://are.na)  

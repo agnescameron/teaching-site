@@ -5,7 +5,9 @@ permalink: /lab11/
 categories:   
 tags:  
 assignment: 
-description: 
+description: talk about the CMS, forms, databases
 assignment-due: 02/03
 readings: 
 ---  
+
+{{page.description}}

@@ -16,6 +16,7 @@ By now, you should all have a good basis for your final project, and be able to 
 **the web we want**  
   *"surf clubs"*  
     [nastynets](http://archive.rhizome.org/artbase/53981/nastynets.com/) [spirit surfers](http://www.spiritsurfers.net) [spirit surfing](http://veryinteractive.net/content/2-library/2-spirit-surfing/bewersdorf-spiritsurfing.pdf) [catalogue](https://rhizome.org/editorial/2016/mar/30/catalog-of-internet-artist-clubs/)  
+  *web rings*
 
 [**sneakernets**](https://en.wikipedia.org/wiki/Sneakernet)  
   [el paquete semenal](https://en.wikipedia.org/wiki/El_Paquete_Semanal)  [the pirate book](http://thepiratebook.net/wp-content/uploads/The_Pirate_Book.pdf)  
