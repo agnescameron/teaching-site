@@ -1,9 +1,9 @@
 ---  
 layout: parsons_post  
-title: lab 8 
-permalink: /lab8/  
+title: the command line as interface
+permalink: /lab7/  
 categories:   
-tags:  
+tags: [unix]
 assignment: 
 description: 
 assignment-due: 02/03

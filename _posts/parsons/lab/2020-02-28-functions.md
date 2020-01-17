@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
-title: lab 3 
-permalink: /lab3/  
+title: intro to functions
+permalink: /lab6/  
 categories:   
 tags:  
 assignment: 
