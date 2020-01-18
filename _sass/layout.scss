@@ -29,6 +29,7 @@ blockquote {
 main {
   padding: 0 $margin;
   max-width: $content-width;
+  min-height: 80%;
 }
 
 time {
@@ -42,6 +43,9 @@ time {
 footer {
   text-align: center;
   padding: 40px;
+  width: 100%;
+  bottom: 0px;
+  position: relative;
 }
 
 ul{
@@ -50,6 +54,8 @@ ul{
 
 ul.noPoints {
   list-style: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 tr:hover {
@@ -78,4 +84,13 @@ span.hovertags {
 
 a:hover + span.hovertags {
   visibility: visible;
+}
+
+.index {
+  float: left;
+  width: 300px;
+}
+
+.indexContainer {
+    min-height: 80%
 }
