@@ -46,7 +46,7 @@ What data did peple scrape? And what did you think of the readings?
   [bureau d'etudes](https://bureaudetudes.org) [world government](https://bureaudetudes.org/wp-content/uploads/2014/02/WG2013ang.pdf) [the 8th sphere](https://bureaudetudes.org/wp-content/uploads/2014/06/the-8th-sphere-EN.pdf)  
   [anatomy of an ai](https://anatomyof.ai)  
   *tools*  
-    [scapple](https://www.literatureandlatte.com/scapple/overview) [coggle](https://coggle.it)  
+    [scapple](https://www.literatureandlatte.com/scapple/overview) [coggle](https://coggle.it) [nototo](https://www.nototo.app)  
 
 **visualisations**  
   *clustering*  
