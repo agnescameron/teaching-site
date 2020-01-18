@@ -1,15 +1,11 @@
 ---  
 layout: parsons_post  
-title: servers
+title: spring break
 permalink: /lab9/  
 categories:   
 tags:  
 assignment: 
-description: servers and CMS
+description:
 assignment-due: 
 readings: 
 ---  
-
-
-{{page.description}}
-

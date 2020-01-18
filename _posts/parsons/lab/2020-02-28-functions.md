@@ -11,3 +11,11 @@ readings:
 ---  
 
 {{page.description}}
+
+**scope**
+
+**loops**
+  foreach
+
+
+**randomness**

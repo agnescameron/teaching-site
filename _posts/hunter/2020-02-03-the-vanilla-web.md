@@ -37,6 +37,7 @@ go around everyone and ask where they think they're at with html/css/js
 
 **CSS**  
   [how css works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)  
+  [colours](https://www.w3schools.com/colors/colors_picker.asp) [randomcolour.com](http://randomcolour.com)  
   [fonts](https://www.w3schools.com/Css/css_font.asp)  
   [shapes](https://css-tricks.com/the-shapes-of-css/)  
   [animations](https://www.w3schools.com/css/css3_animations.asp)  
