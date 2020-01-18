@@ -19,8 +19,6 @@ contextualised by readings and lectures that give a theoretical and
 technical basis to the material covered, and discussed in studio during
 structured critiques.
 
-## class goals
-
 ## course overview
 
 ### studio
@@ -30,31 +28,103 @@ Date | Theme | Assignment | Reading
 {{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
 
 ### lab
+The lab will complement what you are learning in the studio, both in giving you the skills to address the assignments, and in appreciating and engaging with code as a medium in its own right.
+
+There are also sometimes readings associated with the lab: when these are set, they will be short, and seek to provide a variety of perspectives on the art and craft of programming, both on the web and off. When a reading is set, we will discuss it during the introduction to the following week.
+
+
+### lab learning outcomes
+
+By the end of the semester, students will be able to:
+1. Apply skills in HTML
+* Standards: W3C, the World Wide Web Consortium: W3C recommendations as
+standards
+* Understand the difference between programming and markup
+* Title, Meta (keywords/descriptions); !DOCTYPE and Document Type Definition
+* HTML tags and the HTML Element Syntax including opening/closing tags, nested
+structures.
+* HTML Attributes: class, id, style, title
+* Headings, Paragraphs and Formatting
+* Links, lists, forms and images
+* The Box Model
+* HTML5 Semantic/Structural elements
+* HTML5 Media Elements
+
+2. Apply skills in CSS
+* Cascading Style Sheets, their storage in external CSS files and reference in HTML
+* Styling backgrounds, text, links, lists and forms
+* Styling the Box Model: border, outline, margin, padding
+* Working with dimensions, positioning, display, floating and align
+* Color systems
+* Manipulating images with CSS
+* Using Webfonts
+* Using CSS to create interactive elements
+* Media queries and responsive design
+
+3. Apply skills in JavaScript/JQuery 
+* Basic idea of JavaScript and JQuery
+* Be able to use JavaScript and JQuery as part of a webpage
+* Understand and use functions as programming elements
+* Make HTTP GET and POST requests
+
+4. Prepare Images for the Web
+* Digital Image Formats - what are they for and how are they created professionally:
+GIF, JPG, PNG
+* Working for different resolutions
+
+5. Understand Web Environments
+* Getting it online: Purchasing URL/Webspace
+* Use FTP to upload files
+* Use in-browser tools to troubleshoot and amend HTML/CSS
+* Search engine optimization
+* The role of content management systems / blog systems
+* Understand what a server is, and how it relates to a website
 
 Date | Theme | Assignment | Reading 
 ----- | ----- | ----- | ----- | {% for post in site.posts reversed %}{% if post.path contains 'parsons' and post.path contains 'lab' %}
 {{ post.date | date: "%m/%d" }} | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
 
-## structure of the course
-
-
-### presenting work
-All classwork is presented through personal websites, that you will use to document your progress. 
-
-### group work
-
-
-### on the readings
-
 ### on grades
+Grades in this class are non-negotiable. As a corollary of that, we will grade your work regularly, to give you feedback on progress, and to inform an idea of what high quality work looks like in this context. If you are concerned about a grade you have received for an assignment, by all means come and talk to us: the grade won't change but we will give you some thoughts on how to improve.
+
+A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
+
+**A**, 95-100: Work of exceptional quality, which often goes beyond the stated goals of the course A-, 90-95: Work of very high quality
+
+**B+**, 87-90: Work of high quality that indicates higher than average abilities
+
+**B**, 83-87: Very good work that satisfies the goals of the course
+
+**B-**, 80-83: Good work
+
+**C+**, 77-80: Above-average work
+
+**C**, 73-77: Average work that indicates an understanding of the course material; passable. Satisfactory completion of a course is considered to be a grade of C or higher.
+
+**C-**, 70-73: Passing work but below good academic standing
+
+**D**, 60-70: Below-average work that indicates a student does not fully understand the assignments; Probation level though passing for credit
+
+**F**, 0-60: Failure, no credit
+
+
+**Grade of W**
+The grade of W may be issued by the Office of the Registrar to a student who officially withdraws from a course within the applicable deadline. There is no academic penalty, but the grade will appear on the student transcript. A grade of W may also be issued by an instructor to a graduate student (except at Parsons and Mannes) who has not completed course requirements nor arranged for an Incomplete.
+
+
+**Grade of Z**
+The grade of Z is issued by an instructor to a student who has not attended or not completed all required work in a course but did not officially withdraw before the withdrawal deadline. It differs from an “F,” which would indicate that the student technically completed requirements but that the level of work did not qualify for a passing grade.
+
+**Grades of Incomplete**
+The grade of I, or temporary incomplete, may be granted to a student under unusual and extenuating circumstances, such as when the student’s academic life is interrupted by a medical or personal emergency. This mark is not given automatically but only upon the student’s request and at the discretion of the instructor. A Request for Incomplete form must be completed and signed by student and instructor. The time allowed for completion of the work and removal of the “I” mark will be set by the instructor with the following limitations:
+Work must be completed no later than the seventh week of the following fall semester for spring or summer term incompletes and no later than the seventh week of the following spring semester for fall term incompletes. Grades of “I” not revised in the prescribed time will be recorded as a final grade of “F” by the Office of the Registrar.
+
 
 ### studio classes
 
 
 ### lab classes
 Each week, bring to lab a website you find interesting or appreciate. You should present a short summary of how it's structured, and how the code works, which will also be documented on your blogs.
-
-There are also sometimes readings associated with the lab: when these are set, they will be short, and seek to provide a variety of perspectives on the art and craft of programming, both on the web and off. When a reading is set, we will discuss it during the introduction to the following week.
 
 
 

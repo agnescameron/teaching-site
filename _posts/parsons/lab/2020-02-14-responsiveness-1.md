@@ -20,5 +20,12 @@ media queries flexboxes
 
 [css grid]()  
 
+**parallax**
+  [parallax scroll](https://www.w3schools.com/howto/howto_css_parallax.asp)  
+  [wildflowers garden](http://wildflowers.garden/garden5.php)  
+
+**css animations**
+
+
 ### in-class assignment
 work through all of the exercises in [flexbox froggy](https://flexboxfroggy.com), making notes for your blog as you go. How might you use these ideas to order items?

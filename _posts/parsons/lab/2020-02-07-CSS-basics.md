@@ -5,9 +5,9 @@ permalink: /lab3/
 categories:   
 tags:  
 assignment: same task, but now do 2 versions with CSS
-description: now we have a structure, how do we decorate? static side of CSS.
+description: now we have a structure, how do we decorate static side of CSS.
 assignment-due: 02/14
-readings: [fluid grids](https://alistapart.com/article/fluidgrids/)  
+readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgrids/)  
 ---  
 
 {{page.description}}
