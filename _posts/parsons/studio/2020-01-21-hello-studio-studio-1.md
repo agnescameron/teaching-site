@@ -1,11 +1,17 @@
 ---  
 layout: parsons_post  
-title: studio 1 
-permalink: /studio1/  
-categories:   
-tags:  
-assignment: theory party
+title: hello studio!
+permalink: /studio1/
+categories: 
+tags: [web]
+assignment: website archaeology
 description: 
 assignment-due: 01/23
-readings: jack burnham
+readings: Computer Lib, Ted Nelson
 ---  
+
+{{page.description}}
+
+### lecture: what is the web?
+
+
