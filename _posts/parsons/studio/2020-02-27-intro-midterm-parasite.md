@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 12 
+title: introduction to midterm 
 permalink: /studio12/  
 categories:   
 tags:  
@@ -9,4 +9,5 @@ description:
 assignment-due: 
 readings: 
 ---  
-Agnes doing functions that friday.
+Agnes doing JQuery that friday.
+Michael Rakowitz pieces maybe

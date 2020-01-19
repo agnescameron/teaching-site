@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 11 
+title: protocols and algorithms
 permalink: /studio11/  
 categories:   
 tags:  
@@ -9,7 +9,5 @@ description:
 assignment-due: 03/02
 readings: Keller Easterling
 ---  
-
-Agnes doing functions that friday.
-
+Agnes doing JQuery that friday.
 Protocols are patterns and ways of doing things. 
