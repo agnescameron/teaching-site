@@ -12,6 +12,7 @@ readings: Marvin Minsky [*Why programming is a good medium for expressing poorly
 
 {{page.description}}
 
+mini crit
 
 w3c specifications
 block elements i have known

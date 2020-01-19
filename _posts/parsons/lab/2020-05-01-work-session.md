@@ -6,7 +6,7 @@ categories:
 tags:  
 assignment: 
 description: pair programming and debugging on final projects
-assignment-due: 02/03
+assignment-due:
 readings: 
 ---  
 

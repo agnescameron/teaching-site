@@ -6,7 +6,7 @@ categories:
 tags: 
 assignment: 
 description: more complex js
-assignment-due: 02/03
+assignment-due:
 readings: 
 ---  
 

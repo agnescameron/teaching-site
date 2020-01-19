@@ -6,10 +6,9 @@ categories:
 tags:  
 assignment: 
 description: 
-assignment-due: 02/03
+assignment-due:
 readings: 
 ---  
-
 
 >*"Not everyone on the web is looking for practical information. Some look to remove the fork from the dinner table and set it into a frame of their own devising. Some pay homage to the fork as it is. Some treat the web not as a shopping mall, but as a spiritual realm."*  
 
@@ -69,44 +68,3 @@ readings:
   async/await  
   promises
 
-**what can i ask for?**  
-
-  *weather*  
-    [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
-    [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
-    [weather gradient](http://weathergradient.com)  
-    [wind around the world](https://www.synopticoffice.com/project/the-wind/)  
-
-  *opening times*  
-    [google places api](https://developers.google.com/places/web-service/intro)  
-    [istheapplebeesondelcoparkdriveinthesuburbsofdaytonopenrightnow.com](http://istheapplebeesondelcoparkdrinthesuburbsofdaytonopenrightnow.com)  
-    [the artist is present](http://www.pippinbarr.com/games/theartistispresent/TheArtistIsPresent.html)  
-
-  *twitter*  
-    [twitter api](https://developer.twitter.com)  
-    [bots bots bots](https://botwiki.org/bots/twitterbots/)  
-    [cheap bots, done quick](http://cheapbotsdonequick.com)  
-    [pentametron](https://twitter.com/pentametron)  
-    [other orders](https://lav.io/projects/other-orders/)  
-    [emoji tracker](http://emojitracker.com)  
-    [tweetfeels (involves a little bit of python)](https://github.com/uclatommy/tweetfeels)  
-
-  *chatbots*  
-    [dialogflow](https://dialogflow.com/docs/reference/agent/)  
-
-  *are.na*  
-    [are.na api](https://dev.are.na/documentation)  
-    [mac.are.na](https://mac.are.na)  
-    [community garden](https://garden-for-the-book.are.na) [plants](https://www.are.na/are-na-review/community-garden-s9wioauhmh4)  
-
-  *video*    
-    [youtube](https://developers.google.com/youtube/v3/) [next youtube recommendation](https://github.com/pnbt/youtube-explore)  
-    [default filename TV](http://defaultfile.name)  
-
-  *astrology*  
-    [horoscope-api (free)](https://github.com/sumitgohil/horoscope-api)  
-    [astrology-api ($$$ but free 14-day trial)](https://www.astrologyapi.com)  
-
-  *other*  
-    [dominos](https://www.npmjs.com/package/dominos) [3 Degrees of Separation from the Military-Industrial-Prison-Data-Surveillance State](http://linkedd.s3.amazonaws.com/index.html)    
-    [apilist](https://apilist.fun)  
