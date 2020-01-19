@@ -12,6 +12,3 @@ readings:
 
 {{page.description}}
 
-### Lecture: The Worst Architect.
-
-Research: learning how to google.

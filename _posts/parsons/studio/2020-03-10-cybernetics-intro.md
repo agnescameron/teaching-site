@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 15 
+title: cybernetic design
 permalink: /studio15/  
 categories:   
 tags:  
@@ -9,3 +9,7 @@ description:
 assignment-due: 03/16
 readings: 
 ---  
+
+Planetary scale design? Vertical cloud to cable stuff?
+
+

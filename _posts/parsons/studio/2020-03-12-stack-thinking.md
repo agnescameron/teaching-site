@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 16 
+title: the stack
 permalink: /studio16/  
 categories:   
 tags:  

@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
-title: studio 30 
-permalink: /studio30/  
+title: work session - office hours
+permalink: /studio31/  
 categories:   
 tags:  
 assignment: 

@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
-title: studio 10 
-permalink: /studio10/  
+title: final crit!
+permalink: /studio32/  
 categories:   
 tags:  
 assignment: 

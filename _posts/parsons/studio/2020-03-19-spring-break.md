@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
-title: studio 27 
-permalink: /studio27/  
+title: spring break - no class
+permalink: /studio18/  
 categories:   
 tags:  
 assignment: 

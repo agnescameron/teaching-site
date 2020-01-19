@@ -12,7 +12,13 @@ readings: As We May Think, Vannevar Bush, ["Too Much World&#58; Is the Internet 
 
 {{page.description}}
 
-### lecture: what is the internet?
+### lecture: what is the internet? From Satellites to Cables etc
+
+topology and stratigraphy?
+
+http://oldweb.today/w
+
+IP addresses
 
 RAND corporation
 
@@ -33,3 +39,4 @@ where is the Internet?
 all of this is very important for understanding INTERACTION
 
 
+Look at Agnes' hunter class resources Any Requests and What is the Internet

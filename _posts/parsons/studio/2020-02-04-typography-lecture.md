@@ -1,12 +1,12 @@
 ---  
 layout: parsons_post  
-title: 
-permalink: /studio6/  
+title: typography lecture
+permalink: /studio5/  
 categories:   
 tags:  
-assignment: 
-description: 
-assignment-due: 
+assignment: reading response
+description:
+assignment-due: 02/10
 readings: 
 ---  
 

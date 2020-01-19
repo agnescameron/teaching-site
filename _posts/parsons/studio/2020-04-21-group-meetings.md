@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
-title: studio 28 
-permalink: /studio28/  
+title: group meetings
+permalink: /studio27/  
 categories:   
 tags:  
 assignment: 

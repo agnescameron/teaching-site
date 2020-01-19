@@ -1,11 +1,11 @@
 ---  
 layout: parsons_post  
-title: studio 12 
-permalink: /studio12/  
+title: spring break - no class
+permalink: /studio17/  
 categories:   
 tags:  
 assignment: 
 description: 
-assignment-due: 
+assignment-due:
 readings: 
 ---  
