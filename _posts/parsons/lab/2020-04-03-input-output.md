@@ -1,12 +1,12 @@
 ---  
 layout: parsons_post  
-title: generating websites
+title: input &#8646; output
 permalink: /lab11/  
 categories:   
 tags:  
 assignment: 
-description: talk about the CMS, forms, databases
-assignment-due: 02/03
+description: forms and user input 
+assignment-due:
 readings: 
 ---  
 
