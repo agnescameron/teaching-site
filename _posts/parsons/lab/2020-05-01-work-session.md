@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: final crit 
+title: work session
 permalink: /lab15/  
 categories:   
 tags:  
