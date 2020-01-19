@@ -10,4 +10,4 @@ assignment-due: 03/09
 readings: 
 ---  
 
-Agnes doing functions that friday.
+Agnes doing functions and browser extensions that friday.
