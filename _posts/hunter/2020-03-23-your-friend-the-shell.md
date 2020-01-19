@@ -23,7 +23,7 @@ assignment-due: 04/06
   [folder poetry](https://github.com/melaniehoff/folderpoetry) [club](http://folderpoetry.club)  
 
 **unix**  
-  [processes](https://en.wikipedia.org/wiki/Process_(computing)) [pipes](https://en.wikipedia.org/wiki/Pipeline_%28Unix%29)  
+  [processes](https://en.wikipedia.org/wiki/Process_(computing)) [pipes](https://en.wikipedia.org/wiki/Pipeline_%28Unix%29) [nice pipes](https://www.howtogeek.com/438882/how-to-use-pipes-on-linux/)  
 
 **windows**  
   

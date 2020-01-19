@@ -92,3 +92,39 @@ From 'writing code', in [academic integrity at MIT](https://integrity.mit.edu/ha
 
 >*“You should not simply re-use code as the solution to an assignment. Like academic writing, your code can incorporate the ideas of others but should reflect your original approach to the problem.”*
 
+### Communication Design Zero Tolerance Attendance Policy
+In order to foster a studio learning environment where we all learn from peers and through dialogue, timely and regular attendance is a strict expectation for all Communication Design students. Students who are not present in class are unable to meet the learning outcomes of a Communication Design course.
+
+For classes meeting once a week, students are allowed 2 absences. For classes meeting twice a week, students are allowed 4 absences. Any absence beyond the allowed absences will result in an automatic failure (F) for the course. There are no excused absences. This applies to each and every student.
+
+A student is deemed tardy if a student fails to arrive within 15 minutes past the beginning of class. 2 tardies will result in an automatic absence. A student who arrives an hour past the beginning of class will be deemed absent.
+
+
+### No Late Work and Missed Critiques
+Work that is submitted past the assignment due date will result in an automatic failure for the assignment. For work presented in critique, absence at the critique will result in an automatic failure for the assignment. 
+
+
+### CD App
+Information about upcoming CD Lectures, events from AIGA NY/TDC, the CD Library, and the CD Paper Store can be found on the CD App.
+
+https://cdparsons.glideapp.io/
+
+To install the app on your phone:
+
+For iOS users: 
+1. Visit the link in Safari, tap on the "Share" icon located at the bottom of the page
+2. Tap the "Add to Home Screen" button
+3. Tap the "Add" button at the top right corner of the screen
+
+For Android users:
+1. Tap on the notification banner at the bottom of the page (alternatively, you can tap the "Add to Home Screen" option inside the menu at the top right corner of the screen)
+2. Tap the "Add" button on the modal
+
+
+### Mandatory CD Lecture Attendance
+Every fortnight, the Communication Design program hosts the CD Lectures Series that brings in practicing designers to share their work and practice with our community. The CD Lecture Series is an important part of achieving an understanding of contemporary design culture.
+
+It is mandatory for students in Core Studio Typography and Core Studio Interaction to attend all lectures. Attendance is recorded. Each missed lecture will be recorded as 1 tardy.
+
+Lecture dates can be found on the CD App (https://cdparsons.glideapp.io/).
+
