@@ -12,6 +12,10 @@ readings:
 
 Now we have a sense of what a platorm is, and what different kinds of online environments mean for the user who must inhabit them. Lecture on digital interaction, for the user and for the data. Metadata and data. Medium and message. 
 
+What kind of interfaces should we ask for? Or want? 
+
+WORKSHOP INTERNET AS A CITY?
+
 Prehistory of the cloud?
 Jodi's infrastructure.
 Metaphors We Live By.

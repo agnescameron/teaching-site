@@ -4,10 +4,17 @@ title: introduction to midterm
 permalink: /studio12/  
 categories:   
 tags:  
+<<<<<<< HEAD
+assignment: midterm - parasites
+description: 
+assignment-due: 03/24
+readings: a parasite text?
+=======
 assignment: Use the console editing tools (javascript and CSS) to create sketches for your parasite. Document your ideas on your class site.
 description: 
 assignment-due: 03/05
 readings: 
+>>>>>>> e9851cdca81902f63410bf3da944443a95cb0b63
 ---  
 
 Midterm assignment: Parasites
