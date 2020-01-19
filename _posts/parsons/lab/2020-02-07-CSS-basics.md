@@ -32,6 +32,7 @@ readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgri
 **fonts, fonts, fonts**  
   [web typography](https://en.wikipedia.org/wiki/Web_typography)  
   [web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp)  
+  [lots and lots of open source fonts](https://www.are.na/frederic-brodbeck/open-source-typefaces)  
   google fonts  
   [free font library](http://typotheque.luuse.io)  
   adding fonts to your project  
