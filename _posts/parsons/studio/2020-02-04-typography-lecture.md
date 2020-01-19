@@ -10,10 +10,15 @@ assignment-due: 02/10
 readings: 
 ---  
 
+{{page.description}}
+
 color or font or type. cf Lukas' typography lecture
 
-<<<<<<< HEAD
 Unicode!!!
+
+Socrates writing. Writing and neurones David Reinfurt.
+
+
 =======
 
 **unicode**  

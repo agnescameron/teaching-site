@@ -10,6 +10,9 @@ assignment-due:
 readings: 
 ---  
 
+{{page.description}}
+
+
 Are.na
 
 How to use google
@@ -21,3 +24,4 @@ Image Batch Processor
 Making GIFs
 Basics of video editing if useful
 Embedding video
+

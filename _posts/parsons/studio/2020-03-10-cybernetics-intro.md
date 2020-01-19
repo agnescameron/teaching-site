@@ -10,6 +10,8 @@ assignment-due: 03/16
 readings: 
 ---  
 
+{{page.description}}
+
 Agnes doing Objects that Friday.
 
 Introduction to cybernetics via Gregory Bateson.

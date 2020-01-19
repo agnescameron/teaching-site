@@ -9,6 +9,9 @@ description:
 assignment-due: 
 readings: 
 ---  
+
+{{page.description}}
+
 Planetary scale design? Vertical cloud to cable stuff?
 
 

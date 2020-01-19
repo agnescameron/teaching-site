@@ -10,4 +10,6 @@ assignment-due:
 readings: 
 ---  
 
+{{page.description}}
+
 And some discussion of annotation.

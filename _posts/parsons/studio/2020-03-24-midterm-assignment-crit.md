@@ -9,3 +9,5 @@ description:
 assignment-due: 
 readings: 
 ---  
+
+{{page.description}}

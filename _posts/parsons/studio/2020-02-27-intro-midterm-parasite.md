@@ -10,6 +10,8 @@ assignment-due: 03/05
 readings: a parasite text?
 ---  
 
+{{page.description}}
+
 Midterm assignment: Parasites
 
 Over the next two weeks, you will learn the basics of JQuery selectors, javascript functions and json objects. This will give you the rudimentary tools to select and manipulate elements on a webpage, as well as to store and transform data in the form of objects.

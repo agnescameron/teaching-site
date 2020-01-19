@@ -10,6 +10,8 @@ assignment-due: 02/03
 readings: Something on platform studies. 
 ---  
 
+{{page.description}}
+
 Watch the superstudio video.
 
 Control and its exercise. Which part of the Shannon diagram does the designer, the user, the information live?

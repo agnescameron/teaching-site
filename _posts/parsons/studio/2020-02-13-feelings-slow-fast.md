@@ -10,8 +10,13 @@ assignment-due:
 readings: Metaphors We Live By, Lakoff and Johnson
 --- 
 
+{{page.description}}
+
 Pippin Barr as if u were making love / doing work, Laurel's plane thing, hard and soft websites research?
 
 Adversarial interfaces.
 
 ###ASSIGNMENT: It's as if you were...
+
+Using CSS to make a space or a picture? 
+cf. [Laurel's "make a CSS organism" assignment](http://spring2019.veryinteractive.net/exercises)

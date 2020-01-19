@@ -10,5 +10,8 @@ assignment-due: 05/07
 readings: 
 ---  
 
+{{page.description}}
+
+
 Final assignment
 
