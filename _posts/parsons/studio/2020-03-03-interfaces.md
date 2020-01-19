@@ -10,6 +10,7 @@ assignment-due: 03/09
 readings: 
 ---  
 
+<<<<<<< HEAD
 Agnes doing functions that friday.
 
 Interfaces and agency. Learn to analyse and critique the interfaces that mediate how we do things in the world (and on the web). Discussion of agency and affordance. 
@@ -23,3 +24,6 @@ https://material.io/
 https://scrollbars.matoseb.com/
 
 https://www.ibm.com/design/language/
+=======
+Agnes doing functions and browser extensions that friday.
+>>>>>>> e9851cdca81902f63410bf3da944443a95cb0b63
