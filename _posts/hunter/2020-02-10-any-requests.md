@@ -14,8 +14,6 @@ readings: Everest Pipkin, [*It was raining in the data center*](https://medium.c
 
 >-- Kevin Bewersdorf, *Spirit Surfing*  
 
-<!--more-->
-
 ### review  
 go through some card sorting solutions. what worked and what didn't? what was hard and what wasn't? Is there a solution you're excited to show us? is there anything that we should revise or that you'd like clearing up?  
 

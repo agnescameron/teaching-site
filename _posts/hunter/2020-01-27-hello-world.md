@@ -82,7 +82,7 @@ Name, major, why we're here, one thing we want to get from the class, one websit
 
 **web programming resources**  
   [Mozilla Developer Notes](https://developer.mozilla.org/en-US/)  
-  [W3 schools](https://www.w3schools.com)  
+  [W3 schools](https://www.w3schools.com) [W3 How To](https://www.w3schools.com/howto/default.asp)  
 
 **asking for help**  
   [stack overflow](https://stackoverflow.com/help/how-to-ask)  
@@ -104,6 +104,8 @@ Use github pages or netlify to publish a minimal site. If you're done with this,
 {{page.assignment}}
 
 Experiment with a range of different console editing techniques, and produce at least 6 different snapshots. Publish these on your class site, along with a description of what you did, and a response to the readings.
+
+Optional: set up an are.na account. You might find using [are.na](https://www.are.na) really helpful for ideas and inspiration (during this class and more generally). 
 
 [UX tips](https://www.are.na/agnes-cameron/adversarial-interaction)
 

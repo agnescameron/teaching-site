@@ -28,6 +28,8 @@ What data did peple scrape? And what did you think of the readings?
     [culture wars](https://disnovation.org/doc/OCW_70x100_RVB.pdf) [recipe collection](http://backseatfrying.net) [meme collection](https://www.are.na/francis-tseng/political-compasses-other-matrices)
   [*alignment charts*](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f54a1ef4-d1f9-4b49-a36e-0eb100c586b9/d6fe4d8-2c0448e6-4ab0-4264-8e45-c0e910c283f2.png/v1/fill/w_1280,h_1280,q_75,strp/dnd_alignment_chart_by_nederbird-d6fe4d8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mNTRhMWVmNC1kMWY5LTRiNDktYTM2ZS0wZWIxMDBjNTg2YjkvZDZmZTRkOC0yYzA0NDhlNi00YWIwLTQyNjQtOGU0NS1jMGU5MTBjMjgzZjIucG5nIiwid2lkdGgiOiI8PTEyODAiLCJoZWlnaHQiOiI8PTEyODAifV1dfQ.13y42x2TFBUFPS_VaC-V1hHmHegJmBDYPzn3CcxfQOs) [sandwiches](https://d2w9rnfcy7mm78.cloudfront.net/1002651/original_bd71d77187eda7eb3b258c395a1c1555.jpg?1493767565?bc=1) [meta-alignment chart](https://xkcd.com/2251/)  
   [smells](https://d2w9rnfcy7mm78.cloudfront.net/1542772/original_e9e99eb67b032ba9f93b5c2eb8a9283c.jpg?1514607880?bc=1)  
+  [*trilemmas*](https://www.are.na/yas-nos/trilemma)  
+    [good/fast/cheap](https://d2w9rnfcy7mm78.cloudfront.net/4566845/large_c2bfd22f3b1d95dc8145b2b55e60778d.png?1562238091?bc=1) [energy](https://d2w9rnfcy7mm78.cloudfront.net/4570751/original_bbccabefd685dfab651a289e32a0e29d.png?1562319235?bc=1)  
 
 **maps**  
   *map libraries*  
