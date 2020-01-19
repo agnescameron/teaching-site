@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: group crit for midterm assignment
+title: crit for midterm
 permalink: /studio19/  
 categories:   
 tags:  

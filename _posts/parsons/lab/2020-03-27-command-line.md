@@ -6,7 +6,7 @@ categories:
 tags:  
 assignment: make a command line interface, using either NodeJS or bash. This tool should address some need you have from your computer which it does not currently address.
 description: In this lab, we'll talk about arranging objects using jQuery
-assignment-due: 
+assignment-due: 04/03
 readings: 
 ---  
 

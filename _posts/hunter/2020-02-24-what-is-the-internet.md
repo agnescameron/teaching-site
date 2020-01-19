@@ -68,8 +68,9 @@ ARPANET
   [low tech magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)  
 
 **wifi**  
+  [bandwidth]() [FCC spectrum]() [5G]() [wtf?!](https://www.buzzfeednews.com/article/danvergano/5g-is-going-to-screw-up-weather-forecasts-meteorologists?bftwnews&utm_term=4ldqpgc#4ldqpgc)  
+  [wardriving](https://en.wikipedia.org/wiki/Wardriving) [warchalking](https://en.wikipedia.org/wiki/Warchalking)  
   [flagellum machinam](http://fii.to/pages/flagellation-machine.html) [video](https://www.youtube.com/watch?v=WqAG1WsZHtY&feature=emb_title)  
-[bandwidth]() [FCC spectrum]() [5G]() [wtf?!](https://www.buzzfeednews.com/article/danvergano/5g-is-going-to-screw-up-weather-forecasts-meteorologists?bftwnews&utm_term=4ldqpgc#4ldqpgc)  
 
 **mapping it out**  
   [map](http://map.jodi.org)  
@@ -80,15 +81,13 @@ ARPANET
 **packet sniffing**  
   [wireshark](https://www.wireshark.org)  
   [herbivore](https://github.com/samatt/Herbivore)  
+  [nmap](https://www.howtogeek.com/423709/how-to-see-all-devices-on-your-network-with-nmap-on-linux/)  
 
 **spoofing**  
   [nsa surveillance](https://www.aclu.org/issues/national-security/privacy-and-surveillance/nsa-surveillance) [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden)  
   *julian oliver*  
     [stealth cell tower](https://julianoliver.com/output/stealth-cell-tower.html) [PRISM](https://julianoliver.com/output/the-beacon-frame.html) [transmediale debacle](https://hyperallergic.com/109546/transmediale-festival-shuts-down-nsa-imitators/)  
   [data pools](https://ahprojects.com/datapools/) [skylift](https://ahprojects.com/skylift/)
-
-**media archaeology**  
-  internet archive [died in your arms tonight](https://www.youtube.com/watch?v=JsyWM3EALEw&feature=youtu.be)  
 
 **other internets**  
   [borders](https://qz.com/735314/the-murky-world-of-international-law-is-threatening-to-break-up-the-internet/) [choke points](https://qz.com/780675/how-do-internet-censorship-and-surveillance-actually-work/) ['enemies of the internet'](https://en.m.wikipedia.org/wiki/Internet_censorship_and_surveillance_by_country)  
@@ -97,10 +96,10 @@ ARPANET
   [uk 'default filtering'](https://en.m.wikipedia.org/wiki/Internet_censorship_in_the_United_Kingdom)  
   tor  [autonomy cube](https://paglen.com/?l=work&s=cube)  
 
-
 **local internet**  
   [NYC Mesh](https://www.nycmesh.net)  
   [piratebox](https://piratebox.cc)  
+  [internet connectivity by motorcycle](https://web.archive.org/web/20031217120037fw_/http://www.daknet.net/demo.htm)  
 
 ### in class exercise  
 Make our own data link protocol.
@@ -112,6 +111,11 @@ do your own media archaeology/forensics
 use the tools we have (or find some other ones)  
   
 Precaution: some of the tools we've looked at today are powerful, and some uses of them are of shady legality. Don't (for example) try and hack into someone else's computer unless you have their permission. 
+
+examples:
+* when connecting to the wifi in different places, record how many other devices are also connected to the networks.
+* look at where your packets are routed at different times of day
+*
 
 **Ideas+Resources:**  
   Neal Stephenson [*Mother Earth Mother Board*](https://www.wired.com/1996/12/ffglass/)  
