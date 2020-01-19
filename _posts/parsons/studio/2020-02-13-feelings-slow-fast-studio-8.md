@@ -1,11 +1,13 @@
 ---  
 layout: parsons_post  
-title: studio 8 
+title: feelings, slow and fast
 permalink: /studio8/  
 categories:   
 tags:  
 assignment: 
 description: 
-assignment-due: 02/03
+assignment-due: 
 readings: 
 ---  
+
+Pippin Barr, Laurel styles, hard and soft websites research?

@@ -16,4 +16,6 @@ readings: Computer Lib, Ted Nelson
 
 topology and stratigraphy?
 
+http://oldweb.today/
 
+IP addresses
