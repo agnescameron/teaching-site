@@ -18,8 +18,12 @@ show us your api calling websites!
 what are all the readings about, how did they make you feel?  
   
 ### lecture: the internet is just other peoples' computers  
-  
-[what shape is the internet?](https://noahveltman.com/internet-shape/)  
+
+
+**some ideas**  
+  [a series of tubes]  
+  [whatever *this* is](https://d2w9rnfcy7mm78.cloudfront.net/4354078/large_8e4b5e5b62f7005f6167d810a719a21c.png?1559062215?bc=1)  
+  [what shape is the internet?](https://noahveltman.com/internet-shape/)  
 
 [life sharing](http://0100101110101101.org/life-sharing/)  
   

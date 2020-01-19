@@ -45,6 +45,9 @@ discuss the Keller Easterling piece
   [/r/place](https://draemm.li/various/place-atlas/) [twitch plays pokémon](https://en.wikipedia.org/wiki/Twitch_Plays_Pokémon)  
   [Bellingcat](https://www.bellingcat.com) [Europol stop child abuse images](https://www.bellingcat.com/news/2019/12/17/two-europol-stopchildabuse-images-geolocated-part-ii-cambodia/)
 
+**second-order cybernetics**
+  [thermostats](https://www.are.na/block/2967691)  
+
 **participation**  
   [social resource project for tennis clubs](http://stephenwillats.com/work/social-resource-project-tennis-clubs/)
   [conversation is a cybernetic technology](https://arena-attachments.s3.amazonaws.com/4425709/75f4ffd2c8c73551f1214a9c53909491.pdf?1559967933) [tools of collective intelligence](https://urbanomnibus.net/2019/09/tools-of-collective-intelligence/)  
