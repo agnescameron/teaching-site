@@ -80,6 +80,7 @@ go through some card sorting solutions. what worked and what didn't? what was ha
     [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
     [weather gradient](http://weathergradient.com)  
+    [wind around the world](https://www.synopticoffice.com/project/the-wind/)  
 
   *opening times*  
     [google places api](https://developers.google.com/places/web-service/intro)  

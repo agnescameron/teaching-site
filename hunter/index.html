@@ -1,7 +1,7 @@
 --- 
 layout: hunter_post
 ---
-
+{% capture now %}{{site.time | date: "%m/%d"}}{% endcapture %}
 
 <h2>web programming</h2>
 
@@ -13,8 +13,9 @@ this is the homepage for the 2020 edition of hunter college's web programming cl
       <ul class="noPoints">
       {% for post in site.posts reversed %}
         {% if post.path contains 'hunter' %}
+          {% capture date %}{{post.date | date: "%m/%d"}}{% endcapture %}
         <li class="mainList">
-          {{ post.date | date: "%m/%d" }}  <a href="{{ post.url }}">{{ post.title }}</a> <br>
+           {% if date == now %} > {% endif %}{{ post.date | date: "%m/%d" }}  <a href="{{ post.url }}">{{ post.title }}</a> <br>
         </li>
       {% endif %}
     {% endfor %}
