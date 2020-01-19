@@ -1,10 +1,10 @@
 ---  
 layout: parsons_post  
-title: studio 9 
+title: what is the web?
 permalink: /studio9/  
 categories:   
 tags:  
-assignment: reading response
+assignment: still working on metaphor assignment
 description: 
 assignment-due: 02/24
 readings: Ted Nelson

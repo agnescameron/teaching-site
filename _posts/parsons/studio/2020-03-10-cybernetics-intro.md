@@ -10,6 +10,4 @@ assignment-due: 03/16
 readings: 
 ---  
 
-Planetary scale design? Vertical cloud to cable stuff?
-
-
+Agnes doing Objects that Friday.

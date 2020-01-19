@@ -10,4 +10,4 @@ assignment-due: 03/09
 readings: 
 ---  
 
-Agnes doing cli that friday.
+Agnes doing functions that friday.
