@@ -24,9 +24,9 @@ structured critiques.
 
 ## course overview
 
-Date | Theme | Assignment | Reading 
+Date | Theme | Assignment | Reading {% assign counter = 1 %}
 ----- | ----- | ----- | ----- | {% for post in site.posts reversed %}{% if post.path contains 'parsons' %}
-{{ post.date | date: "%m/%d" }} <br> {% if post.path contains 'studio' %}*studio*<br>1011	{% else %}*lab*<br>1013{% endif %}  | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
+W{{counter}} <br>{{ post.date | date: "%m/%d" }} <br> {% if post.path contains 'studio' %}*studio*<br>1011	{% else %}*lab*<br>1013 {% assign counter = counter | plus: 1 %}{% endif %}  | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
 
 ### studio
 

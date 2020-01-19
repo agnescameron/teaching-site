@@ -20,8 +20,6 @@ readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgri
   [W3C]()  
   [bud uglly](http://budugllydesign.com/index.html)  
 
-**selectors and combinators**
-
 **colours in CSS**  
   [named colours](https://www.w3schools.com/colors/colors_groups.asp)
   *encodings*  
@@ -32,6 +30,7 @@ readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgri
   [Laurel Schwulst's Decade in Internet](https://rhizome.org/editorial/2020/jan/06/laurel-schwulsts-decade-in-internet/)  
 
 **fonts, fonts, fonts**  
+  [web typography](https://en.wikipedia.org/wiki/Web_typography)  
   [web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp)  
   google fonts  
   [free font library](http://typotheque.luuse.io)  
@@ -42,9 +41,12 @@ readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgri
 
 **css shapes**
   [shapes](https://css-tricks.com/the-shapes-of-css/)  
+  [shapes and text wrapping](https://www.w3.org/TR/css-shapes-1/)  
+  [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)  
 
 **CSS and HTML**
   [selectors](https://www.w3schools.com/css/css_selectors.asp) [combinators](https://www.w3schools.com/Css/css_combinators.asp) [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector)  
+  [attributes](https://www.w3schools.com/css/css_attribute_selectors.asp) [attr()](https://developer.mozilla.org/en-US/docs/Web/CSS/attr)  
 
 **web console**  
   [console and CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS)  
