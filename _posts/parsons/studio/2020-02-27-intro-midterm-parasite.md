@@ -4,10 +4,10 @@ title: introduction to midterm
 permalink: /studio12/  
 categories:   
 tags:  
-assignment: 
+assignment: midterm - parasites
 description: 
-assignment-due: 
-readings: 
+assignment-due: 03/24
+readings: a parasite text?
 ---  
 
 Midterm assignment: Parasites

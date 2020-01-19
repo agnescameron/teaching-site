@@ -11,3 +11,5 @@ readings:
 ---  
 
 color or font or type. cf Lukas' typography lecture
+
+Unicode!!!
