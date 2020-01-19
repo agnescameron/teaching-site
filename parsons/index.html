@@ -4,14 +4,13 @@ layout: parsons_post
 {% capture now %}{{site.time | date: "%m/%d"}}{% endcapture %}
 
 <div>
-<h2>core interaction</h2>
+<h2>core interaction section C</h2>
 
-this is the homepage for the 2020 edition of the parsons school of design core interaction studio and lab, taught by <a href="https://zhexi.info">gary zhexi zhang</a> and <a href="http://agnescameron.info">agnes cameron</a>.
+this is the homepage for the 2020 edition of the parsons school of design core interaction studio and lab, section C, taught by <a href="https://zhexi.info">gary zhexi zhang</a> and <a href="http://agnescameron.info">agnes cameron</a>.
 
 <div class="indexContainer">
-  <div class="index">
-  <h2>studio</h2>
-
+  <div class="index"><br>
+  <h3>studio > tu/th 9-11:40</h3>
         <ul class="noPoints">
         {% for post in site.posts reversed %}
           {% if post.path contains 'parsons' and post.path contains 'studio' %}
@@ -24,9 +23,8 @@ this is the homepage for the 2020 edition of the parsons school of design core i
       </ul>
   </div>
 
-  <div class="index">
-  <h2>lab</h2>
-
+  <div class="index"><br>
+  <h3>lab > fri 4-6:40</h3>
         <ul class="noPoints">
         {% for post in site.posts reversed %}
           {% if post.path contains 'parsons' and post.path contains 'lab' %}

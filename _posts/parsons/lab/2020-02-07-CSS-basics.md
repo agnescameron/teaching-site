@@ -10,12 +10,17 @@ assignment-due: 02/14
 readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgrids/)  
 ---  
 
+<blockquote style="font-family: Times"><i>"As a new face it should, by the grace of God and the art of man, have been broad and open, gen­er­ous and ample; instead, by the vice of Mam­mon and the mis­ery of the machine, it is big­oted and nar­row, mean and puri­tan."</i></blockquote>
+<blockquote>Stanley Morison, imagining William Morris on Times New Roman</blockquote>
+
 {{page.description}}
 
 **CSS**  
   [how css works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)  
   [W3C]()  
   [bud uglly](http://budugllydesign.com/index.html)  
+
+**selectors and combinators**
 
 **colours in CSS**  
   [named colours](https://www.w3schools.com/colors/colors_groups.asp)
@@ -29,6 +34,7 @@ readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgri
 **fonts, fonts, fonts**  
   [web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp)  
   google fonts  
+  [free font library](http://typotheque.luuse.io)  
   adding fonts to your project  
 
 **unicode**  

@@ -4,6 +4,7 @@ body {
   font-size: 1em;
   background-color: $background-color;
   line-height: 1.2;
+  height: 100%;
   /*-webkit-font-smoothing: antialiased;*/
 }
 
@@ -43,9 +44,10 @@ time {
 footer {
   text-align: center;
   padding: 40px;
-  width: 100%;
-  bottom: 0px;
+  width: 100vw;
+  clear: both;
   position: relative;
+  display: block;
 }
 
 ul{
@@ -89,8 +91,4 @@ a:hover + span.hovertags {
 .index {
   float: left;
   width: 300px;
-}
-
-.indexContainer {
-    min-height: 80%
 }
