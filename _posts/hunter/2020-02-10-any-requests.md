@@ -5,7 +5,7 @@ permalink: /class3/
 categories: [HTTP]
 tags: [history, network infrastructure, security]
 description: this week we'll talk about requests and APIs, and some moments in internet history. We'll learn to use some command line tools, and talk about some interesting uses of data.
-assignment: make an interface to a remote API.
+assignment: make a website that interfaces to a remote API, and displays the information in a novel form.
 assignment-due: 02/24
 readings: Everest Pipkin, [*It was raining in the data center*](https://medium.com/s/story/it-was-raining-in-the-data-center-9e1525c37cc3)<br>Julian Oliver, [*Stealth Infrastructure*](https://rhizome.org/editorial/2014/may/20/stealth-infrastructure/)
 ---  
@@ -124,7 +124,7 @@ pick an api and make a http request from the command line!
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 
-Your webpage should experiment with how the data from the API is displayed. How are you expected to use this information? How does your page change when the data from the API changes?
+Your webpage should experiment with how the data from the API is displayed. How are you expected to use this information? How does your page change when the data from the API changes? What kind of experience do you want to engender in the person seeing this webpage?
 
 ### readings  
 {{page.readings}}
