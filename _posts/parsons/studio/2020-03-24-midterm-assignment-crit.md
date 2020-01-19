@@ -1,11 +1,11 @@
 ---  
 layout: parsons_post  
-title: studio 21 
-permalink: /studio21/  
+title: crit for midterm (parasite) assignment
+permalink: /studio19/  
 categories:   
 tags:  
 assignment: reading response
 description: 
-assignment-due: 04/06
+assignment-due: 
 readings: 
 ---  
