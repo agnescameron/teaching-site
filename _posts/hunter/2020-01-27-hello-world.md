@@ -17,13 +17,10 @@ readings: Laurel Schwulst, [*my website is a shifting house next to a river of k
 {{ page.description }}
 
 ### introductions  
-name, major, why we're here, one thing we want to learn, one website we really like  
+Name, major, why we're here, one thing we want to get from the class, one website we really like. Read through syllabus together and chat about it, group discussion on values and code of conduct.
 
-read through syllabus together and ask about it  
-
-  
 ### lecture: the tools of the trade  
-  
+
 **text editors**  
   *CLI*  
     [vim](https://www.vim.org) [nano](https://www.nano-editor.org)  

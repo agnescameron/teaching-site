@@ -1,12 +1,12 @@
 ---  
 layout: parsons_post  
-title: the command line as interface
-permalink: /lab7/  
+title: command line
+permalink: /lab10/  
 categories:   
-tags: [unix]
+tags:  
 assignment: 
-description: 
-assignment-due: 02/03
+description: In this lab, we'll talk about arranging objects using jQuery
+assignment-due: 
 readings: 
 ---  
 

@@ -35,11 +35,12 @@ This environment might be a model of a real place, or contain a new kind of crea
   *diagrams*  
     [boredom](https://d2w9rnfcy7mm78.cloudfront.net/660313/original_d800520e8a1bc54ea30dbe9540613a41.jpeg?1469019638?bc=1) [loopy](https://ncase.me/loopy/)
 
-**world models**
-jay forrster
-RAND corp
+**world models**  
+jay forrster  
+RAND corp  
 
 **interface metaphor**  
+  [diagram](https://d2w9rnfcy7mm78.cloudfront.net/5939143/original_5a4bd9aa1e7c0ef9d72487a7e6bbfbaa.png?1579405484?bc=0)  
   [it's as if you were making love](https://pippinbarr.github.io/itisasifyouweremakinglove/)  
   [family maker](https://rkuo.net/Family-Maker)  
 
