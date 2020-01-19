@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: spring break - no class
+title: spring break - no class!
 permalink: /studio18/  
 categories:   
 tags:  
@@ -9,3 +9,5 @@ description:
 assignment-due: 
 readings: 
 ---  
+
+{{page.description}}

@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 22 
+title: design ethics
 permalink: /studio22/  
 categories:   
 tags:  
@@ -9,3 +9,5 @@ description:
 assignment-due: 
 readings: 
 ---  
+
+{{page.description}}

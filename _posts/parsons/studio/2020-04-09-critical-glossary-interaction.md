@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 24 
+title: composing a critical glossary of interaction? 
 permalink: /studio24/  
 categories:   
 tags:  
@@ -9,3 +9,5 @@ description:
 assignment-due: 
 readings: 
 ---  
+
+{{page.description}}

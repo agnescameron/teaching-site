@@ -10,7 +10,8 @@ assignment-due: 03/09
 readings: 
 ---  
 
-<<<<<<< HEAD
+{{page.description}}
+
 Agnes doing functions that friday.
 
 Interfaces and agency. Learn to analyse and critique the interfaces that mediate how we do things in the world (and on the web). Discussion of agency and affordance. 

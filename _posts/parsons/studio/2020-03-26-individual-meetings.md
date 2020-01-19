@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 20 
+title: post-midterm individual debrief
 permalink: /studio20/  
 categories:   
 tags:  
@@ -9,6 +9,8 @@ description:
 assignment-due: 
 readings: 
 ---  
+
+{{page.description}}
 
 Meet individually to discuss progress and post-midterms.
 

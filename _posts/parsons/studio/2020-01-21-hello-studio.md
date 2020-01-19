@@ -22,4 +22,4 @@ bring your favourite website and discuss it
 
 write a code of conduct together
 
-
+they should bring stuff to class.

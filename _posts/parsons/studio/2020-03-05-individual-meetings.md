@@ -9,3 +9,6 @@ description:
 assignment-due: 03/12
 readings: 
 ---  
+
+{{page.description}}
+
