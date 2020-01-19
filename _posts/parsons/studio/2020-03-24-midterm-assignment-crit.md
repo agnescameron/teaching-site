@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: crit for midterm (parasite) assignment
+title: crit for midterm
 permalink: /studio19/  
 categories:   
 tags:  
