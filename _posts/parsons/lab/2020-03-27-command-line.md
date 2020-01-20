@@ -67,3 +67,5 @@ readings:
   *religious?*  
     [bibleJS](https://github.com/BibleJS/BibleApp)  
  [big list](https://github.com/agarrharr/awesome-cli-apps)  
+
+### Tutorial: {{page.tutorial}}

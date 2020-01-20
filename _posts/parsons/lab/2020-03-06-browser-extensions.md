@@ -12,3 +12,5 @@ readings:
 ---  
 
 more complex js
+
+### Tutorial: {{page.tutorial}}

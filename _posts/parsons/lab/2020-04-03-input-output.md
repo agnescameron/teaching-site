@@ -11,3 +11,5 @@ readings:
 ---  
 
 {{page.description}}
+
+### Tutorial: {{page.tutorial}}

@@ -43,5 +43,7 @@ media queries flexboxes
   [w3c](https://www.w3.org/standards/webdesign/accessibility) [web content accessibility guidelines](https://www.w3.org/TR/WCAG21/)  
   [understanding WCAG](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG) [in HTML](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML) [in JS and CSS](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScripts)  
 
+### Tutorial: {{page.tutorial}}
+
 ### in-class assignment
 work through all of the exercises in [flexbox froggy](https://flexboxfroggy.com), making notes for your blog as you go. How might you use these ideas to order items?
