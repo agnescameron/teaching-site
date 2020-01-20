@@ -4,13 +4,19 @@ title: user &#8646; environment
 permalink: /studio3/  
 categories:   
 tags: [user]
-assignment: reading response
+assignment: reading response.
 description: Where is the user and what can you do with one? This week we will explore the concept of communication, the relationship between the user and the environment, platform or website, and what it means for designers. 
-assignment-due: 02/03
-readings: Something on platform studies. 
+assignment-due: 02/02
+readings: Hito Steyerl, ["Too Much World&#58; Is the Internet Dead?"](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)
 ---  
 
 {{page.description}}
+
+### what's new?
+
+### lecture platforms and communication
+
+Information is space, space is information.
 
 Watch the superstudio video.
 

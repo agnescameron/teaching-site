@@ -1,16 +1,22 @@
 ---  
 layout: parsons_post  
-title: typography lecture
+title: semiotics and the web
 permalink: /studio5/  
 categories:   
 tags:  
 assignment: reading response
-description:
+description: We will look at the history of writing techniques as they relate to the Web, from the invention of writing to unicode.
 assignment-due: 02/10
-readings: 
+readings: Maybe something by Barthes?
 ---  
 
 {{page.description}}
+
+### discuss reading responses to Hito Steyerl
+
+### what's new?
+
+### lecture: what is a sign? semiotics and the web.
 
 color or font or type. cf Lukas' typography lecture
 

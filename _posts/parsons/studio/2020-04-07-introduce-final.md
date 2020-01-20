@@ -4,7 +4,7 @@ title: introduce final assignment
 permalink: /studio23/  
 categories:   
 tags:  
-assignment: reading response
+assignment: 
 description: 
 assignment-due: 05/07
 readings: 
@@ -12,6 +12,5 @@ readings:
 
 {{page.description}}
 
-
-Final assignment
+##final assignment
 

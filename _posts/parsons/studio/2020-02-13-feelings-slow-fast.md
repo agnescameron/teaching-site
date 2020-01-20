@@ -5,12 +5,18 @@ permalink: /studio8/
 categories:  
 tags: 
 assignment: 
-description: 
+description: The web is full of feelings beyond "like", today we go online with an open heart.
 assignment-due: 
 readings: Metaphors We Live By, Lakoff and Johnson
 --- 
 
 {{page.description}}
+
+### what's new?
+
+### the internet is full of feelings
+
+Using metaphors for the the web. Look at the history for such metaphors. How have they expanded?
 
 Pippin Barr as if u were making love / doing work, Laurel's plane thing, hard and soft websites research?
 

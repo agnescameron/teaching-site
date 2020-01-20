@@ -10,16 +10,33 @@ assignment-due: 01/23
 readings: Daniel van der Velden, [Research and Destroy](http://indexgrafik.fr/daniel-van-der-velden-metahaven-research-and-destroy/)
 ---  
 
-{{page.description}}
+let's get to know each other, and discuss the websites you brought with you.
+* what do you find interesting about this site?
+* what kind of role does it play in your life? 
+* what would you do to change its design?
+* what would you do if it no longer existed?
 
-go through syllabus and discuss assignments
+we will go through syllabus outline, learning outcomes and discuss assignments.
 
-discuss protocols and written responses to reading reviews
+* assignment #1: (lab) HTML
+* assignment #2: (studio) metaphor
+* assignment #3: (studio, midterm) parasite
+* assignment #4: (lab) command line interface
+* assignment #5: (studio, final) ???
 
-how and when we will give feedback, office hours, contact
+we will discuss policy for absences, lateness and deadlines.
 
-bring your favourite website and discuss it
+* lab: max. 2 absences
+* studio: max. 4 absences
+* no late assignments will be accepted
 
-write a code of conduct together
+we will discuss how and when we will give feedback, office hours, contact details.
 
-they should bring stuff to class.
+we will write a determined and intentional code of conduct together. 
+* what do we expect of each other?
+* how do you learn best? 
+* how should we approach critique?
+
+see http://spring2020-networks.designforthe.net/syllabus/code-of-conduct
+
+<!-- middlebrow design will be done by algorithms by the time you are 30. good design, then, is not about making "nice websites". design has traditionally been about visual intelligence, centered on organization of the printed word, cf. Benjamin Franklin. today to be a designer means to understand the complex systems of communication by which our world is mediated, to embrace its messiness and to organise it in meaningful configurations. in that sense there is perhaps no more important discipline than communication design. -->

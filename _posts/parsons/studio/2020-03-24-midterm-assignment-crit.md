@@ -11,3 +11,7 @@ readings:
 ---  
 
 {{page.description}}
+
+### what's new?
+
+### group crits for parasite midterm assignment

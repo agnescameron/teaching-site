@@ -2,14 +2,16 @@
 layout: parsons_post  
 title: assignment 2 crit
 permalink: /studio10/  
-categories:   
+categories: 
 tags: 
 assignment: 
-description: 
+description: a group crit session for your metaphor assignment
 assignment-due: 
 readings: 
 ---  
 
 {{page.description}}
 
-And some discussion of annotation.
+### what's new?
+
+### crit for assignment #2
