@@ -5,12 +5,11 @@ permalink: /studio20/
 categories:   
 tags:  
 assignment: 
-description: 
+description: Meet individually with Gary to discuss progress and have a post-midterm debrief.
 assignment-due: 
 readings: 
 ---  
 
 {{page.description}}
 
-Meet individually to discuss progress and post-midterms.
 

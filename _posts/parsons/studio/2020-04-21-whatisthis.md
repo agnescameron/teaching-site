@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: group meetings
+title: ???
 permalink: /studio27/  
 categories:   
 tags:  

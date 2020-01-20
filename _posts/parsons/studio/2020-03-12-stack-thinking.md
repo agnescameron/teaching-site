@@ -7,7 +7,7 @@ tags:
 assignment: 
 description: 
 assignment-due: 
-readings: 
+readings: maybe Bratton?
 ---  
 
 {{page.description}}

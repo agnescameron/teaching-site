@@ -11,3 +11,5 @@ readings:
 ---  
 
 {{page.description}}
+
+##discussion of design and ethics, design as ethics, ethical design

@@ -5,12 +5,16 @@ permalink: /studio6/
 categories:   
 tags:  
 assignment: 
-description: 
+description: A practical guide to doing research as a designer, archiving, documentation and processing media for the web.
 assignment-due: 
 readings: 
 ---  
 
 {{page.description}}
+
+### what's new?
+
+### research and documentation
 
 
 Are.na
