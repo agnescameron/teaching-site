@@ -5,7 +5,8 @@ permalink: /lab12/
 categories:   
 tags:  
 assignment: 
-description: 
+description: this week we'll talk about requests and APIs.
+tutorial: cURL.
 assignment-due:
 readings: 
 ---  

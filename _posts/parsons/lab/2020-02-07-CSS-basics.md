@@ -6,6 +6,7 @@ categories:
 tags:  
 assignment: same task, but now do 2 versions with CSS
 description: now we have a structure, how do we decorate static side of CSS.
+tutorial: CSS combinators and selectors
 assignment-due: 02/14
 readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgrids/)  
 ---  

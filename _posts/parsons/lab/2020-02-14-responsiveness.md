@@ -6,6 +6,7 @@ categories:
 tags:  
 assignment: 
 description: In this session, we'll start to explore the principles of responsive web design, looking at way to change a site depending on the environment that displays it. 
+tutorial: flexbox
 assignment-due: 
 readings: 
 ---  

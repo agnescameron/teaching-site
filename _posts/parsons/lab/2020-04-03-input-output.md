@@ -5,7 +5,7 @@ permalink: /lab11/
 categories:   
 tags:  
 assignment: 
-description: forms and user input 
+description: forms and user input.
 assignment-due:
 readings: 
 ---  

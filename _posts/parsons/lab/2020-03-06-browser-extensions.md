@@ -6,6 +6,7 @@ categories:
 tags: 
 assignment: 
 description: We learn how to make a browser extension, and how to write more complex javascript, including ideas of fuctions and scope.
+tutorial: Browser Extensions 101
 assignment-due:
 readings: 
 ---  
