@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: spring break
+title: spring break - no class!
 permalink: /lab9/  
 categories:   
 tags:  

@@ -6,7 +6,7 @@ categories:
 tags: [user]
 assignment: reading response
 description: Where is the user and what can you do with one? This week we will explore the concept of communication, the relationship between the user and the environment, platform or website, and what it means for designers. 
-assignment-due: 02/03
+assignment-due:
 readings: Something on platform studies. 
 ---  
 
