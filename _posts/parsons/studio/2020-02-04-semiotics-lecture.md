@@ -24,9 +24,6 @@ Unicode!!!
 
 Socrates writing. Writing and neurones David Reinfurt.
 
-
-=======
-
 **unicode**  
   [history](https://en.wikipedia.org/wiki/Unicode#Origin_and_development)  
   [consortium](https://home.unicode.org) [table](https://unicode-table.com/en/#basic-latin)  
@@ -34,4 +31,3 @@ Socrates writing. Writing and neurones David Reinfurt.
   [i can text you a pile of poo, but i can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name)  
   [noto typeface](https://www.google.com/get/noto/)  
   [han unification](https://en.wikipedia.org/wiki/Han_unification)  
->>>>>>> e9851cdca81902f63410bf3da944443a95cb0b63
