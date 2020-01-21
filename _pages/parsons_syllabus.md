@@ -49,6 +49,12 @@ At some point during the semester you might use a platform like [Stack Overflow]
 ## policies
 
 ### on grades
+The division for both classes will follow the following distribution:
+
+- 15% class participation (discussions, crits, in-class assignments)
+- 50% weekly projects and documentation
+- 35% final project
+
 Grades in this class are non-negotiable. As a corollary of that, we will grade your work regularly, to give you feedback on progress, and to inform an idea of what high quality work looks like in this context. If you are concerned about a grade you have received for an assignment, by all means come and talk to us: the grade won't change but we will give you some thoughts on how to improve.
 
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
