@@ -149,8 +149,8 @@ course overview
                     archiving, documentation and                      
                     processing media for the web.\                    
 
-  W3\               [**painting the                 same task, but    Ethan Marcotte *Fluid
-  02/07\            house**](/lab3/)\               now do 2 versions Grids*
+  W3\               [**painting the                 same task, but    
+  02/07\            house**](/lab3/)\               now do 2 versions 
   *lab*\            now we have a structure, how do with CSS\         
                     we decorate static side of      *due: 02/14*      
                     CSS.\                                             
@@ -339,7 +339,7 @@ course overview
   *studio*\         discuss final ideas.\                             
 
   W13\              [**servers**](/lab13/)\         \                  
-  04/17\            talk about the CMS, databases   *due: 02/03*      
+  04/17\            talk about the CMS, databases                     
   *lab*\            and servers.\                                     
                     **Tutorial:** FTP                                 
 
