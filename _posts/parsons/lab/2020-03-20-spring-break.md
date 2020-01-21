@@ -5,7 +5,7 @@ permalink: /lab9/
 categories:   
 tags:  
 assignment: 
-description:
+description: 
 assignment-due: 
 readings: 
 ---  

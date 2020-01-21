@@ -5,7 +5,7 @@ permalink: /class11/
 tags: [cybernetics, diagrams]
 readings: Hito Steyerl [*Is the Internet dead?*](https://www.e-flux.com/journal/49/60004/too-much-world-is-the-internet-dead/)<br>Zeynep Tufecki [*Twitter and Tear Gas (preface)*](https://www.twitterandteargas.org/downloads/twitter-and-tear-gas-by-zeynep-tufekci.pdf)
 description: We talk *more* about the history of cybernetics, particularly in its relationship to space and architecture. This class should expand your ideas about environments and systems, and hopefully give you new inspiration and perspective from which to explore your final project.
-assignment: start developing your final project in earnest, and document your progress as you go along. start by thinking about the basic infrastructure. do you need a server? What requests will you make? Can you build a minimal prototype that performs most of these tasks?
+assignment: start developing your final project in earnest, and document your progress as you go along. start by thinking about the basic infrastructure. do you need a server? What requests will you make? Can you build a minimal prototype that performs most of these tasks? for next week, you should also have installed [IPFS](https://docs.ipfs.io/guides/guides/install/)
 assignment-due: 04/27
 ---  
 

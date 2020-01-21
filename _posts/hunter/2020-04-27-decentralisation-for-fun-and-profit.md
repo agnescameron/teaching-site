@@ -12,6 +12,7 @@ assignment-due: 05/04
 By now, you should all have a good basis for your final project, and be able to discuss the structure in detail. While you might not have an interface yet to show, your blog should contain some discussion and sketches of the form that it might take, and a plan for what technologies you will use to achieve it. If you're struggling, I've blocked out time at the end of this class for you to work on your pieces and talk to me if you need any help.
 
 [**back to the future?**](https://static1.squarespace.com/static/59aae5e9a803bb10bedeb03e/t/59ae908a46c3c480db42326f/1504612494894/decentralized_web.pdf)  
+  'web 2.0'
 
 **the web we want**  
   *"surf clubs"*  
@@ -19,9 +20,10 @@ By now, you should all have a good basis for your final project, and be able to 
   *web rings*
 
 [**sneakernets**](https://en.wikipedia.org/wiki/Sneakernet)  
-  [el paquete semenal](https://en.wikipedia.org/wiki/El_Paquete_Semanal)  [the pirate book](http://thepiratebook.net/wp-content/uploads/The_Pirate_Book.pdf)  
+  [el paquete semenal](https://en.wikipedia.org/wiki/El_Paquete_Semanal) [videoslink uganda](http://www.videoslink.org)  [the pirate book](http://thepiratebook.net/wp-content/uploads/The_Pirate_Book.pdf)  
   [dead drops](https://en.wikipedia.org/wiki/USB_dead_drop)  
   [trading with the enemy](http://www.dukeriley.info/trading-with-the-enemy/)  
+  [pidgeons?](https://blogs.harvard.edu/internetmonitor/2013/07/08/flying-past-filters-and-firewalls-pigeons-as-circumvention-tools/)  
 
 **version control**  
   [CRDT](https://medium.com/@istanbul_techie/a-look-at-conflict-free-replicated-data-types-crdt-221a5f629e7e)  
@@ -59,6 +61,9 @@ By now, you should all have a good basis for your final project, and be able to 
   [decentralise what?](http://fall2019-3a.designforthe.net/library/decentralize-what)  
   [off the network](https://1.droppdf.com/files/cwYC1/off-the-network-disrupting-the-digital-world-electronic-mediations-by-ulises-ali-mejias.pdf)  
 
+
+### in class assignment
+together, we'll create a small p2p network using IPFS, and share things with one another. 
 
 ### assignment
 *due {{page.assignment-due}}*<br>
