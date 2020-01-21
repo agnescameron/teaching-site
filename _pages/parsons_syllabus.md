@@ -19,7 +19,45 @@ contextualised by readings and lectures that give a theoretical and
 technical basis to the material covered, and discussed in studio during
 structured critiques.
 
-### learning outcomes
+## learning outcomes
+
+By the successful completion of the studio course, students will be able to:
+
+- Use a basic vocabulary of interactive media to both give and respond to critique productively, including individual evaluation through the instructor, group critique in class, outside critique as well as written anonymous critique.
+
+- Demonstrate an understanding of the iterative making process in interaction design, using incremental methods such as prototyping, user research and evaluation to build toward more advanced work.
+
+- This includes: personas, user interviews, card sorting, sketching and wireframing, storyboarding, mock-ups and paper prototypes.
+
+- Conceptualise a product, object or experience for the web and realise it through coding. 
+
+- Evaluate the difference in designing interfaces for different kinds of devices, their limitations and specific user situations including responsive websites and apps for mobiles.
+
+- Evaluate how typography and its variables are applied to interactive systems to facilitate orientation, support usability and create consistency. 
+
+- Research historic and current design precedents to contextualise own work.
+
+- Be able to archive and document work that is printed, on screen or time based in a reflective manner for learning portfolio
+
+- Demonstrate a basic critical awareness of the social and cultural impact of media technologies, and be able to articulate the role of design within this critical discourse.
+
+
+By the successful completion of the lab course, students will be able to:
+
+- Combine your artistic creativity with technology related to the internet.
+
+- understand HTML tags and the HTML Element Syntax including opening/closing tags, and nested
+structures.
+
+- incorporate and effectively use CSS, with an understanding of the Box Model
+
+- use CSS in the creation of responsive websites
+
+- be able to use Javascript and JQuery as part of a webpage
+
+- understand web environments, including servers and hosting strategies
+
+- Demonstrate a comprehension of skills, methods, techniques and processes to realise interactive systems, particularly systems for dealing with unpredictable, variable and ever-changing content.
 
 
 ## course overview
@@ -29,6 +67,7 @@ Date | Theme | Assignment | Reading {% assign counter = 1 %}
 W{{counter}} <br>{{ post.date | date: "%m/%d" }} <br> {% if post.path contains 'studio' %}*studio*<br>	{% else %}*lab*<br> {% assign counter = counter | plus: 1 %}{% endif %}  | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} <br> {% if post.tutorial %} **Tutorial:** {{post.tutorial}} {% endif %} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
 
 ### studio
+The studio will cover the aesthetic, theoretical, social and cultural concerns of designing for the web, covering both design and research techniques. The structure of the class will vary between lectures, critiques and group discussions of the readings.
 
 ### lab
 The lab will complement what you are learning in the studio, both in giving you the skills to address the assignments, and in appreciating and engaging with code as a medium in its own right.
@@ -49,6 +88,12 @@ At some point during the semester you might use a platform like [Stack Overflow]
 ## policies
 
 ### on grades
+The division for both classes will follow the following distribution:
+
+- 15% class participation (discussions, crits, in-class assignments)
+- 50% weekly projects and documentation
+- 35% final project
+
 Grades in this class are non-negotiable. As a corollary of that, we will grade your work regularly, to give you feedback on progress, and to inform an idea of what high quality work looks like in this context. If you are concerned about a grade you have received for an assignment, by all means come and talk to us: the grade won't change but we will give you some thoughts on how to improve.
 
 A student’s final grades and GPA are calculated using a 4.0 scale. Please note that while both are listed here, the 4.0 scale does not align mathematically with the numeric scale based on percentages of 100 points.
