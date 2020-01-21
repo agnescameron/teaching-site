@@ -7,7 +7,7 @@ tags: [protocol]
 assignment: reading response and viewing assignment 
 description: We will discuss the power and politics of protocol on the web, and how algorithms shape our online environments.
 assignment-due: 03/02
-readings: Nick Srnicek (tbc)
+readings: Nick Srnicek, Platform Capitalism (tbc)
 ---  
 
 {{page.description}}

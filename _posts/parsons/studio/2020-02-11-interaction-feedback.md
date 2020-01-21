@@ -6,8 +6,8 @@ categories:
 tags:  
 assignment: 
 description: We explore the meaning of interaction, and critically examine different forms of interactivity offered by objects on the web. 
-assignment-due: 
-readings: 
+assignment-due: 02/17
+readings: George Lakoff and Mark Johnson [Metaphors We Live By](http://www.cabrillo.edu/~ewagner/WOK%20Eng%202/Lakoff%20&%20Johnson%20-%20Metaphors%20We%20Live%20By.pdf)
 ---  
 
 {{page.description}}

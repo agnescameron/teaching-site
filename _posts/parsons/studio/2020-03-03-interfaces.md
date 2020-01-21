@@ -4,7 +4,7 @@ title: interfaces
 permalink: /studio13/  
 categories:   
 tags:  
-assignment: reading response
+assignment: interface writing exercise
 description: how do we interact with it, and how does it shape us in turn? we look at the interface as a concept, a history, and a fundamental way of relating to media and technology.
 assignment-due: 03/09
 readings: Alexander Galloway (tbc)

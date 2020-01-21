@@ -6,8 +6,8 @@ categories:
 tags: 
 assignment: reading response
 description: The web is full of feelings beyond "like", today we go online with an open heart.
-assignment-due: 02/17
-readings: George Lakoff and Mark Johnson [Metaphors We Live By](http://www.cabrillo.edu/~ewagner/WOK%20Eng%202/Lakoff%20&%20Johnson%20-%20Metaphors%20We%20Live%20By.pdf)
+assignment-due:
+readings: 
 --- 
 
 {{page.description}}

@@ -7,7 +7,7 @@ tags:
 assignment: reading response
 description: we will examine interaction design as the design of techniques rather than technologies - patterns of behaviour which occur across different interfaces.
 assignment-due: 04/06
-readings: N. Katherine Hayles, How We Became Posthuman
+readings: N. Katherine Hayles, How We Became Posthuman (tbc)
 ---  
 
 {{page.description}}
