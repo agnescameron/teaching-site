@@ -29,6 +29,7 @@ Date | Theme | Assignment | Reading {% assign counter = 1 %}
 W{{counter}} <br>{{ post.date | date: "%m/%d" }} <br> {% if post.path contains 'studio' %}*studio*<br>	{% else %}*lab*<br> {% assign counter = counter | plus: 1 %}{% endif %}  | [**{{post.title}}**]( {{post.url}} )  <br> {{ post.description}} <br> {% if post.tutorial %} **Tutorial:** {{post.tutorial}} {% endif %} |  {{post.assignment}}  <br> {% if post.assignment-due %} *due: {{post.assignment-due}}* {% endif %} | {% for reading in post.readings %}{{ reading }} {% endfor %} | {%endif%}{%endfor%}
 
 ### studio
+The studio will cover the aesthetic, theoretical, social and cultural concerns of designing for the web, covering both design and research techniques. The structure of the class will vary between lectures, critiques and group discussions of the readings.
 
 ### lab
 The lab will complement what you are learning in the studio, both in giving you the skills to address the assignments, and in appreciating and engaging with code as a medium in its own right.
