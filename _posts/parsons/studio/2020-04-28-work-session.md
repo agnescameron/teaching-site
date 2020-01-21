@@ -1,11 +1,11 @@
 ---  
 layout: parsons_post  
-title: work session - office hours
+title: work session
 permalink: /studio29/  
 categories:   
 tags:  
 assignment: 
-description: 
+description: working on finals, office hours
 assignment-due: 
 readings: 
 ---  

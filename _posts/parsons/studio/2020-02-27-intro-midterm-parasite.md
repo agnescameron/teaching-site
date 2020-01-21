@@ -1,18 +1,18 @@
 ---  
 layout: parsons_post  
-title: introduction to midterm 
+title: introduction to midterm assignment
 permalink: /studio12/  
 categories:   
 tags:  
 assignment: Use the console editing tools (javascript and CSS) to create sketches for your parasite. Document your ideas on your class site.
-description: introducing the midterm project
+description: the parasite project
 assignment-due: 03/05
 readings: 
 ---  
 
 {{page.description}}
 
-## midterm assignment: Parasites
+## midterm assignment: the parasite
 
 Over the next two weeks, you will learn the basics of JQuery selectors, javascript functions and json objects. This will give you the rudimentary tools to select and manipulate elements on a webpage, as well as to store and transform data in the form of objects.
 

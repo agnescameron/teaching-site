@@ -5,7 +5,7 @@ permalink: /studio32/
 categories:   
 tags:  
 assignment: 
-description: 
+description: there will be snacks!
 assignment-due: 
 readings: 
 ---  

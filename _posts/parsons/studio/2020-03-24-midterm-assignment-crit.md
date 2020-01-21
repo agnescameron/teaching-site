@@ -6,8 +6,8 @@ categories:
 tags:  
 assignment: reading response
 description: 
-assignment-due: 
-readings: 
+assignment-due: 03/29
+readings: Keller Easterling, ['An Internet of Things'](https://www.e-flux.com/journal/31/68189/an-internet-of-things/) (tbc)
 ---  
 
 {{page.description}}

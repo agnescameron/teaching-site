@@ -4,21 +4,21 @@ title: what is the web?
 permalink: /studio9/  
 categories:   
 tags:  
-assignment: still working on metaphor assignment
+assignment: reading response, still working on metaphor assignment
 description: We look at what the web was supposed to be, what it became, and where it will go.
 assignment-due: 02/24
-readings: Computer Lib, Ted Nelson
+readings: Computer Lib, Ted Nelson (tbc) <!-- / [Samuel Delany & Octavia Butler in Conversation](http://web.mit.edu/m-i-t/science_fiction/transcripts/butler_delany_index.html) -->
 ---  
 
 {{page.description}}
 
-### discuss reading responses to interactions week
+### discuss reading responses to Lakoff and Johnson
 
 ### what's new?
 
-### lecture: what is the web? A new kind of literature.
+### lecture: what is the web?
 
-What is an object? A signifier means nothing in relation to nothing. 
+<!-- What is an object? A signifier means nothing in relation to nothing. 
 
 Ted Nelson, Xanadu, metadata, cross-referentiality, knowledge graphs, hyperlists.
 
@@ -28,10 +28,8 @@ data about data
 
 trailssss
 
-While the design of the bookwheel is commonly credited to Ramelli, some historians dispute that he was the first to invent such a device. Joseph Needham, a historian of Chinese technology, stated that revolving bookcases, though not vertically oriented, originated in China "perhaps a thousand years before Ramelli's design was taken there."[4]
-
 https://www.theatlantic.com/technology/archive/2013/02/behold-the-kindle-of-the-16th-century/273577/
 
 https://en.wikipedia.org/wiki/Bookwheel
 
-http://web.mit.edu/m-i-t/science_fiction/transcripts/butler_delany_index.html
+http://web.mit.edu/m-i-t/science_fiction/transcripts/butler_delany_index.html -->

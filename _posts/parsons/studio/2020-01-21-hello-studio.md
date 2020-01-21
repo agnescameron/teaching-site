@@ -4,7 +4,7 @@ title: hello studio!
 permalink: /studio1/
 categories: 
 tags: [web]
-assignment: website archaeology
+assignment: web archaeology - use [the wayback machine](http://web.archive.org) to explore the history of a site of your choice, to be presented on Thursday's class.
 description: In this class, we will all get to know each other, review the syllabus together, and establish the structure of the studio for the rest of the semester. 
 assignment-due: 01/23
 readings: Daniel van der Velden, [Research and Destroy](http://indexgrafik.fr/daniel-van-der-velden-metahaven-research-and-destroy/)
@@ -22,7 +22,7 @@ we will go through syllabus outline, learning outcomes and discuss assignments.
 * assignment #2: (studio) metaphor
 * assignment #3: (studio, midterm) parasite
 * assignment #4: (lab) command line interface
-* assignment #5: (studio, final) ???
+* assignment #5: (studio, final) TBD
 
 we will discuss policy for absences, lateness and deadlines.
 
@@ -37,6 +37,7 @@ we will write a determined and intentional code of conduct together.
 * how do you learn best? 
 * how should we approach critique?
 
-see http://spring2020-networks.designforthe.net/syllabus/code-of-conduct
+**assignment: {{page.assignment}}**
+
 
 <!-- middlebrow design will be done by algorithms by the time you are 30. good design, then, is not about making "nice websites". design has traditionally been about visual intelligence, centered on organization of the printed word, cf. Benjamin Franklin. today to be a designer means to understand the complex systems of communication by which our world is mediated, to embrace its messiness and to organise it in meaningful configurations. in that sense there is perhaps no more important discipline than communication design. -->

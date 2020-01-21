@@ -7,7 +7,7 @@ tags:
 assignment: reading response
 description: We will look at the history of writing techniques as they relate to the Web, from the invention of writing to unicode.
 assignment-due: 02/10
-readings: Maybe something by Barthes?
+readings: Rem Koolhaas, Junkspace (tbc)
 ---  
 
 {{page.description}}
@@ -16,9 +16,9 @@ readings: Maybe something by Barthes?
 
 ### what's new?
 
-### lecture: what is a sign? semiotics and the web.
+### lecture: semiotics and the web.
 
-color or font or type. cf Lukas' typography lecture
+<!-- color or font or type. cf Lukas' typography lecture
 
 Unicode!!!
 
@@ -31,3 +31,6 @@ Socrates writing. Writing and neurones David Reinfurt.
   [i can text you a pile of poo, but i can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name)  
   [noto typeface](https://www.google.com/get/noto/)  
   [han unification](https://en.wikipedia.org/wiki/Han_unification)  
+
+http://an-image-going-to-work.net/
+ -->

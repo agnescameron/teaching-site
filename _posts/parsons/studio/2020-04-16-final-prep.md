@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 26 
+title: individual meetings 
 permalink: /studio26/  
 categories:   
 tags:  
