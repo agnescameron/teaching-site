@@ -4,10 +4,10 @@ title: what is the web?
 permalink: /studio9/  
 categories:   
 tags:  
-assignment: still working on metaphor assignment
+assignment: reading response, still working on metaphor assignment
 description: We look at what the web was supposed to be, what it became, and where it will go.
 assignment-due: 02/24
-readings: Computer Lib, Ted Nelson / [Samuel Delany & Octavia Butler in Conversation](http://web.mit.edu/m-i-t/science_fiction/transcripts/butler_delany_index.html)
+readings: Computer Lib, Ted Nelson (tbc) <!-- / [Samuel Delany & Octavia Butler in Conversation](http://web.mit.edu/m-i-t/science_fiction/transcripts/butler_delany_index.html) -->
 ---  
 
 {{page.description}}

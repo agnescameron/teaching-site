@@ -4,7 +4,7 @@ title: feelings, slow and fast
 permalink: /studio8/  
 categories:  
 tags: 
-assignment: reading response
+assignment:
 description: The web is full of feelings beyond "like", today we go online with an open heart.
 assignment-due:
 readings: 

@@ -4,10 +4,10 @@ title: interaction &#8646; feedback
 permalink: /studio7/  
 categories:   
 tags:  
-assignment: 
+assignment: reading response
 description: We explore the meaning of interaction, and critically examine different forms of interactivity offered by objects on the web. 
 assignment-due: 02/17
-readings: George Lakoff and Mark Johnson [Metaphors We Live By](http://www.cabrillo.edu/~ewagner/WOK%20Eng%202/Lakoff%20&%20Johnson%20-%20Metaphors%20We%20Live%20By.pdf)
+readings: George Lakoff and Mark Johnson [Metaphors We Live By](http://www.cabrillo.edu/~ewagner/WOK%20Eng%202/Lakoff%20&%20Johnson%20-%20Metaphors%20We%20Live%20By.pdf), Laurel Schwulst (tbc)
 ---  
 
 {{page.description}}
