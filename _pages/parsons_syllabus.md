@@ -19,7 +19,45 @@ contextualised by readings and lectures that give a theoretical and
 technical basis to the material covered, and discussed in studio during
 structured critiques.
 
-### learning outcomes
+## learning outcomes
+
+By the successful completion of the studio course, students will be able to:
+
+- Use a basic vocabulary of interactive media to both give and respond to critique productively, including individual evaluation through the instructor, group critique in class, outside critique as well as written anonymous critique.
+
+- Demonstrate an understanding of the iterative making process in interaction design, using incremental methods such as prototyping, user research and evaluation to build toward more advanced work.
+
+- This includes: personas, user interviews, card sorting, sketching and wireframing, storyboarding, mock-ups and paper prototypes.
+
+- Conceptualise a product, object or experience for the web and realise it through coding. 
+
+- Evaluate the difference in designing interfaces for different kinds of devices, their limitations and specific user situations including responsive websites and apps for mobiles.
+
+- Evaluate how typography and its variables are applied to interactive systems to facilitate orientation, support usability and create consistency. 
+
+- Research historic and current design precedents to contextualise own work.
+
+- Be able to archive and document work that is printed, on screen or time based in a reflective manner for learning portfolio
+
+- Demonstrate a basic critical awareness of the social and cultural impact of media technologies, and be able to articulate the role of design within this critical discourse.
+
+
+By the successful completion of the lab course, students will be able to:
+
+- Combine your artistic creativity with technology related to the internet.
+
+- understand HTML tags and the HTML Element Syntax including opening/closing tags, and nested
+structures.
+
+- incorporate and effectively use CSS, with an understanding of the Box Model
+
+- use CSS in the creation of responsive websites
+
+- be able to use Javascript and JQuery as part of a webpage
+
+- understand web environments, including servers and hosting strategies
+
+- Demonstrate a comprehension of skills, methods, techniques and processes to realise interactive systems, particularly systems for dealing with unpredictable, variable and ever-changing content.
 
 
 ## course overview
