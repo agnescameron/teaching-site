@@ -5,4 +5,4 @@ pandoc "$1" \
     -V geometry:margin=2cm \
     -V mainfont="Helvetica" \
     --pdf-engine=xelatex \
-    -o "$2"
+    -s -o "$2"
