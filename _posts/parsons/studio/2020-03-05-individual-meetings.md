@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: studio 14 
+title: individual meetings 
 permalink: /studio14/  
 categories:   
 tags:  
