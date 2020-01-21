@@ -4,9 +4,9 @@ title: assignment 2 crit
 permalink: /studio10/  
 categories: 
 tags: 
-assignment: 
+assignment: Adam Curtis watching assignment 
 description: a group crit session for your metaphor assignment
-assignment-due: 
+assignment-due: 02/24
 readings: 
 ---  
 
@@ -14,4 +14,4 @@ readings:
 
 ### what's new?
 
-### crit for assignment #2
+### group critique for assignment #2

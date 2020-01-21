@@ -4,25 +4,25 @@ title: feelings, slow and fast
 permalink: /studio8/  
 categories:  
 tags: 
-assignment: 
+assignment: reading response
 description: The web is full of feelings beyond "like", today we go online with an open heart.
-assignment-due: 
-readings: Metaphors We Live By, Lakoff and Johnson
+assignment-due: 02/17
+readings: George Lakoff and Mark Johnson [Metaphors We Live By](http://www.cabrillo.edu/~ewagner/WOK%20Eng%202/Lakoff%20&%20Johnson%20-%20Metaphors%20We%20Live%20By.pdf)
 --- 
 
 {{page.description}}
 
 ### what's new?
 
-### the internet is full of feelings
+### discussion: the internet is full of feelings
 
-Using metaphors for the the web. Look at the history for such metaphors. How have they expanded?
+<!-- Using metaphors for the the web. Look at the history for such metaphors. How have they expanded?
 
 Pippin Barr as if u were making love / doing work, Laurel's plane thing, hard and soft websites research?
 
-Adversarial interfaces.
+Adversarial interfaces. -->
 
 ###ASSIGNMENT: It's as if you were...
 
-Using CSS to make a space or a picture? 
-cf. [Laurel's "make a CSS organism" assignment](http://spring2019.veryinteractive.net/exercises)
+<!-- Using CSS to make a space or a picture? 
+cf. [Laurel's "make a CSS organism" assignment](http://spring2019.veryinteractive.net/exercises) -->

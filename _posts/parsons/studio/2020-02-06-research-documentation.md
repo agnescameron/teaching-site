@@ -4,7 +4,7 @@ title: documentation and research
 permalink: /studio6/  
 categories:   
 tags:  
-assignment: 
+assignment: make an are.na account to document forthcoming work
 description: A practical guide to doing research as a designer, archiving, documentation and processing media for the web.
 assignment-due: 
 readings: 
@@ -14,9 +14,9 @@ readings:
 
 ### what's new?
 
-### research and documentation
+### discussion: research and documentation
 
-
+<!-- 
 Are.na
 
 How to use google
@@ -29,3 +29,4 @@ Making GIFs
 Basics of video editing if useful
 Embedding video
 
+ -->

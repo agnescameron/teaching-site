@@ -14,9 +14,11 @@ readings: Hito Steyerl, ["Too Much World&#58; Is the Internet Dead?"](https://ww
 
 ### what's new?
 
-### lecture platforms and communication
+### discuss reading responses to Kalli Retzepi text
 
-Information is space, space is information.
+### lecture: platforms and communications
+
+<!-- Information is space, space is information.
 
 Watch the superstudio video.
 
@@ -24,3 +26,4 @@ Control and its exercise. Which part of the Shannon diagram does the designer, t
 
 https://www.e-flux.com/journal/74/59810/jodi-s-infrastructure/
 
+ -->

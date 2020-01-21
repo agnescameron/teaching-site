@@ -5,20 +5,23 @@ permalink: /studio13/
 categories:   
 tags:  
 assignment: reading response
-description: 
+description: how do we interact with it, and how does it shape us in turn? we look at the interface as a concept, a history, and a fundamental way of relating to media and technology.
 assignment-due: 03/09
-readings: Galloway?
+readings: Alexander Galloway (tbc)
 ---  
 
 {{page.description}}
 
 ### what's new?
 
-### lecture: interface
+### lecture: interfaces
 
-Agnes doing functions that friday.
+<!-- Agnes doing functions that friday.
 
 Interfaces and agency. Learn to analyse and critique the interfaces that mediate how we do things in the world (and on the web). Discussion of agency and affordance. 
+
+skeumorphism
+Harun Farocki
 
 https://interfacecritique.net/journal/test-link
 
@@ -31,3 +34,4 @@ https://material.io/
 https://scrollbars.matoseb.com/
 
 https://www.ibm.com/design/language/
+ -->

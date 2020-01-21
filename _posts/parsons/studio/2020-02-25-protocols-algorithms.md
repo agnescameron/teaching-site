@@ -4,10 +4,10 @@ title: protocols and algorithms
 permalink: /studio11/  
 categories:  
 tags: [protocol]
-assignment: reading response
+assignment: reading response and viewing assignment 
 description: We will discuss the power and politics of protocol on the web, and how algorithms shape our online environments.
 assignment-due: 03/02
-readings: Srnicek? Marx?
+readings: Nick Srnicek (tbc)
 ---  
 
 {{page.description}}
@@ -16,4 +16,5 @@ readings: Srnicek? Marx?
 
 ### lecture: trust in protocol
 
-value, extraction, the metadata world, aggregation, walled gardens, abstraction 
+<!-- value, extraction, the metadata world, aggregation, walled gardens, abstraction 
+ -->

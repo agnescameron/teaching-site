@@ -1,20 +1,24 @@
 ---  
 layout: parsons_post  
-title: pattern and language
+title: pattern and presence
 permalink: /studio21/  
-categories:   
+categories: 
 tags:  
 assignment: reading response
-description: 
+description: we will examine interaction design as the design of techniques rather than technologies - patterns of behaviour which occur across different interfaces.
 assignment-due: 04/06
-readings: 
+readings: N. Katherine Hayles, How We Became Posthuman
 ---  
 
 {{page.description}}
 
-Agnes doing CLI that friday.
+<!-- Agnes doing CLI that friday.
+ --><!-- 
+Things we have covered by this point:
 
-Things covered by this point:
+Harun Farocki's 
+Encoding of Gesture and Amazing automation
+Mechanical Turk
 
 Intro to internet
 Intro to communication
@@ -31,4 +35,4 @@ Introduced cybernetics and systems thinking
 Intro to the stack - cybernetic networked computation
 // following lab weeks are inputs and functions //
 
-Something socio? about locality? Who are we designing for, what kind of community and what 
+Something socio? about locality? Who are we designing for, what kind of community and what  -->

@@ -7,7 +7,7 @@ tags: [internet]
 assignment: reading response.
 description: This class we will look at what the internet is, where it came from, and the ways in which it operates today. 
 assignment-due: 01/26
-readings:
+readings: Kalli Retzepi, [You, the Users](https://interfacecritique.net/journal/test-retz), Shannon Mattern, *Code, Clay, Data, Dirt*
 ---  
 
 {{page.description}}
@@ -19,10 +19,9 @@ readings:
 * what kind of changes in technology/culture do these reflect?
 * how do they affect your interactions, perceptions, and the online landscape?
 
+### lecture: what is the internet? 
 
-### lecture: what is the internet? From Satellites to Cables etc
-
-topology and stratigraphy?
+<!-- topology and stratigraphy?
 
 http://oldweb.today/w
 
@@ -44,6 +43,6 @@ who controls the Internet?
 
 where is the Internet?
 
-all of this is very important for understanding INTERACTION
+all of this is very important for understanding INTERACTION -->
 
-Look at Agnes' hunter class resources Any Requests and What is the Internet
+<!-- Look at Agnes' hunter class resources Any Requests and What is the Internet -->

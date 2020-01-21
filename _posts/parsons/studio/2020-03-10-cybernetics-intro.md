@@ -1,22 +1,24 @@
 ---  
 layout: parsons_post  
-title: cybernetic design
+title: cybernetics and design
 permalink: /studio15/  
-categories:   
-tags:  
+categories: 
+tags: 
 assignment: reading response
-description: 
+description: we will discuss cybernetics as a key history of modern human-computer interaction and network culture, and examine systems-thinking strategies in design.
 assignment-due: 03/16
-readings: Bateson?
+readings: Gregory Bateson, *Metalogues*
 ---  
 
 {{page.description}}
 
 ### what's new?
 
-### lecture: c is for cybernetics
+### lecture: machines of loving grace
 
-Introduction to cybernetics via Gregory Bateson.
+<!-- Introduction to cybernetics via Gregory Bateson.
+
+Stewart Brand - Diagram
 
 Thinking about reflexivity of design systems. Observation task: what kind of feedback loops operate in these websites? How does form manifest content reproducing form? 
 
@@ -31,3 +33,4 @@ How do they create certain behaviours and norms of interaction? No one should ev
   [backseat frying](http://backseatfrying.net)  
   [radical essex](http://www.radicalessex.uk/list/)  
   [diagrams of thought](https://www.are.na/martin-murphy/diagrams-of-thought)  
+ -->
