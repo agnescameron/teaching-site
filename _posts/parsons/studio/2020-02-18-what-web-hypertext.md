@@ -18,6 +18,8 @@ readings: Computer Lib, Ted Nelson (tbc) <!-- / [Samuel Delany & Octavia Butler 
 
 ### lecture: what is the web?
 
+[browser market share](https://www.visualcapitalist.com/internet-browser-market-share/)
+
 <!-- What is an object? A signifier means nothing in relation to nothing. 
 
 Ted Nelson, Xanadu, metadata, cross-referentiality, knowledge graphs, hyperlists.
