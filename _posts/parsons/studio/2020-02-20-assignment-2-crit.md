@@ -6,7 +6,7 @@ categories:
 tags: 
 assignment: Adam Curtis watching assignment 
 description: a group crit session for your metaphor assignment
-assignment-due: 02/24
+assignment-due: 
 readings: 
 ---  
 

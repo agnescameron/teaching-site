@@ -16,6 +16,12 @@ readings:
 
 ### discussion: the internet is full of feelings
 
+
+Damon Zucconi, [Co-ordinated Mars Time](http://work.damonzucconi.com/coordinated-mars-time/)
+
+Pippin Barr, [It's as if you were doing work](https://pippinbarr.github.io/itisasifyouweredoingwork/)
+
+Pippin Barr, [It's as if you were making love](https://pippinbarr.github.io/itisasifyouweremakinglove/)
 <!-- Using metaphors for the the web. Look at the history for such metaphors. How have they expanded?
 
 Pippin Barr as if u were making love / doing work, Laurel's plane thing, hard and soft websites research?
