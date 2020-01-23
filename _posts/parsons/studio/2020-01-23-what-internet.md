@@ -26,11 +26,11 @@ readings: Kalli Retzepi, [You, the Users](https://interfacecritique.net/journal/
 Lewis Fry Richardson, [the original cloud](https://towardsdatascience.com/the-unchanging-statistics-of-deadly-quarrels-31cd8ab49a17) (1921)<br>
 AT&T, [Electric Skyway (1951)](https://techchannel.att.com/playvideo/2012/02/20/AT&T-Archives-New-Skyways-for-the-Telephone)<br>
 
-**the internet is just other computers**
-[the server-client model is how users access the web](https://en.wikipedia.org/wiki/Client%E2%80%93server_model#/media/File:Client-server-model.svg)
+**the internet is just other computers**<br>
+[the server-client model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model#/media/File:Client-server-model.svg)<br>
 
-**but increasingly, some of those computers are really, really big**
-[much of what we access is hosted on server farms like Google's](https://www.youtube.com/watch?v=avP5d16wEp0&feature=emb_title)
+**but increasingly, some of those computers are really, really big**<br>
+[much of what we access is hosted on server farms like Google's](https://www.youtube.com/watch?v=avP5d16wEp0&feature=emb_title)<br>
 
 **beginning in the Cold War, decentralization means resilience**<br>
 [ARPANET](https://www.darpa.mil/about-us/timeline/modern-internet) [network map](https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png)<br>
@@ -40,7 +40,7 @@ Paul Baran, [Decentralized Network Diagram](https://www.cybertelecom.org/images/
 
 > “While many have debated the origins of the Internet, it’s clear that in many ways it was built to withstand nuclear attack. The Net was designed as a solution to the vulnerability of the military’s centralized system of command and control during the late 1950’s and beyond. For, the argument goes, if there are no central command centers, then there can be no central targets and overall damage is reduced.” Alex Galloway, *Protocol*, 2001
 
-**while decentralized transport networks have many ways to get from A to B**
+**while decentralized transport networks have many ways to get from A to B**<br>
 [international flight paths map](https://www.mapsofworld.com/world-airroutes-map.htm)
 [US highway system](https://en.wikipedia.org/wiki/United_States_Numbered_Highway_System#/media/File:Map_of_current_US_Routes.svg)
 
@@ -70,7 +70,7 @@ Richard Barbrook and Andy Cameron, [The Californian Ideology](https://www.metamu
 **materially, the internet is [a series of tubes](https://www.youtube.com/watch?v=f99PcP0aFNE)<br>**
 [global submarine cables](https://www.submarinecablemap.com/) ([timelapse](https://qz.com/657898/this-map-shows-the-explosive-growth-of-underwater-cables-the-power-the-global-internet/))<br>
 
-**though it may one day look more like a swarm in the skies**
+**though it may one day look more like a swarm in the skies**<br>
 [SpaceX Starlink releases 60 internet satellites (2019)](https://www.space.com/spacex-starlink-2-launch-success.html)<br>
 [Facebook tried to create a globe-spanning internet of solar-powered drones](https://www.wired.com/story/what-happened-to-facebooks-grand-plan-to-wire-the-world/)<br>
 
@@ -82,7 +82,7 @@ Richard Barbrook and Andy Cameron, [The Californian Ideology](https://www.metamu
 [the Egyptian "killswitch"](https://en.wikipedia.org/wiki/Internet_in_Egypt#2011_Internet_shutdown)<br>
 Louise Druhle, [*Critical Atlas of the Internet*](http://internet-atlas.net/)<br>
 
-**key technologies**
+**key technologies**<br>
 [an incredibly 90s animation of how the internet works](https://www.youtube.com/watch?v=x9XWxD6cJuY)<br>
 [Transport Control Protocol (TCP/IP)](https://en.wikipedia.org/wiki/Internet_protocol_suite)<br>
 [Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System)<br>
