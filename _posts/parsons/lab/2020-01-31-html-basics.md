@@ -8,7 +8,7 @@ assignment: set something using just html
 description: re-visiting the basics of HTML, and understanding it in the context of web history.
 tutorial: HTML structure and hierarchy, file paths
 assignment-due: 02/07
-readings: [*TIL HTML J4F, chapters 1-8 (they're short!!)*](https://arena-attachments.s3.amazonaws.com/5977940/0219aa5e5048b2ea8151c40e4136325a.pdf?1579792954)
+readings: chapters 1-8 (they're short!!) [*TIL HTML J4F*](https://arena-attachments.s3.amazonaws.com/5977940/0219aa5e5048b2ea8151c40e4136325a.pdf?1579792954)
 ---  
 
 {{page.description}}
