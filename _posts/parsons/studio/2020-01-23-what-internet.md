@@ -12,6 +12,8 @@ readings: Kalli Retzepi, [You, the Users](https://interfacecritique.net/journal/
 
 {{page.description}}
 
+<img src="/assets/SRI-van.gif" alt="van" width="400px"/>
+
 ### web archaeology using the [Wayback Machine](http://web.archive.org)
 
 * how did it change over time?
