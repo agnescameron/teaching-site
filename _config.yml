@@ -37,6 +37,7 @@ kramdown:
   input: GFM
 include: ['_pages', '_hunter_posts']
 excerpt_separator: <!--more-->
+timezone: America/New_York
 # plugins:
 #   - tag_gen
 # # Build settings

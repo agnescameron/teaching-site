@@ -15,7 +15,6 @@ layout: parsons_post
 <script type="text/javascript">
 
 var people = [
-{"student": "Zeynep", "site": ""},
 {"student": "Sophia", "site": ""},
 {"student": "Jacey", "site": ""},
 {"student": "Claire", "site": ""},
@@ -26,15 +25,32 @@ var people = [
 {"student": "Xian Yu", "site": ""},
 {"student": "Vivian", "site": ""},
 {"student": "Rachael", "site": ""},
-{"student": "Si Ran", "site": ""},
-{"student": "Evanna", "site": ""},
+{"student": "Si Ran", "site": "https://pangs176.github.io/hello/"},
+{"student": "Evanna", "site": "https://evannaphan1.github.io/Phanny-Jokes/"},
 {"student": "Erin", "site": ""},
 {"student": "Tia", "site": ""}
 ]
 
-function randomPerson(){
+async function randomPerson(){
 	var person = people[Math.floor(Math.random()*people.length)]
-	document.getElementById('randomiser').innerHTML =`<a href=${person.site}>${person.student}</a>`
+	let randomiser = document.getElementById('randomiser')
+	randomiser.innerHTML =`<a href=${person.site}>${person.student}</a>`
+	if(person.site){
+		const scrapeArr = person.site.split(/[^a-zA-Z0-9\s\:]/)
+		let username = scrapeArr[2];
+		let repo = scrapeArr[5];
+		// let username = 'agnescameron';
+		// let repo = 'teaching-site';
+	    const response = await fetch(`https://api.github.com/repos/${username}/${repo}/commits`, {
+	      method: 'GET',
+	      headers: {
+	        'Content-Type': 'application/json',
+	      },
+	    });
+	    const site = await response.json();
+	    let date = new Date(site[0].commit.committer.date).toString().slice(0, -33);
+	    randomiser.innerHTML += (`<span>'s last commit was at ${date}</span>`)
+	}
 }
 
 function populateClass(person){
