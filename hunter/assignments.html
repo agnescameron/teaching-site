@@ -1,0 +1,19 @@
+--- 
+layout: hunter_post
+---
+<h2>assignments</h2>
+
+  <ul class="noPoints">
+  {% for post in site.posts reversed %}
+    {% if post.path contains 'hunter' %}
+      {% if post.assignment %}
+      <li class="mainList">
+        <b>Assignment {{counter}}:</b><br>
+         <i>due {{post.assignment-due}}</i><br>
+       {{post.assignment}}<br><br>
+      </li>
+      {% assign counter = counter | plus: 1 %}
+      {% endif %}
+  {% endif %}   
+{% endfor %}
+</ul>

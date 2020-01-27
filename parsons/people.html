@@ -15,13 +15,13 @@ layout: parsons_post
 <script type="text/javascript">
 
 var people = [
-{"student": "Sophia", "site": ""},
+{"student": "Sophia", "site": "https://sbeceiro.github.io/sophia-beceiro/"},
 {"student": "Jacey", "site": ""},
 {"student": "Claire", "site": ""},
 {"student": "Avni", "site": ""},
 {"student": "Elias", "site": ""},
 {"student": "Jonnamarie", "site": ""},
-{"student": "Joy", "site": ""},
+{"student": "Joy", "site": "https://joyhsu0301.github.io/core-lab/"},
 {"student": "Xian Yu", "site": ""},
 {"student": "Vivian", "site": ""},
 {"student": "Rachael", "site": ""},
@@ -36,7 +36,7 @@ async function randomPerson(){
 	let randomiser = document.getElementById('randomiser')
 	randomiser.innerHTML =`<a href=${person.site}>${person.student}</a>`
 	if(person.site){
-		const scrapeArr = person.site.split(/[^a-zA-Z0-9\s\:]/)
+		const scrapeArr = person.site.split(/[^\-^a-zA-Z0-9\s\:]/)
 		let username = scrapeArr[2];
 		let repo = scrapeArr[5];
 		// let username = 'agnescameron';
