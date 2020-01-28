@@ -63,10 +63,10 @@ Readings for this class come in two types: preparational, and inspirational. The
 ### on grades
 Grades for this class are assigned accordingly:
 
-40% homework assignments
-10% documentation (on your blog, inc readings, homework, final project)
-20% contributions in class (readings, critiques, questions, in class assignments etc.)
-30% final project
+40% homework assignments  
+10% documentation (on your blog, inc readings, homework, final project)  
+20% contributions in class (readings, critiques, questions, in class assignments etc.)  
+30% final project  
 
 ### on frameworks
 Personally, I find that web development frameworks like React, Angular and others take some of the joy out of programming for the net, in the sense that they require a lot more infrastructure than just throwing some HTML and Javascript up and seeing what sticks. They are also extremely useful for certain tasks, and widely used in industry. We’ll go through some popular frameworks in class so you know what they are, and where they’re used.
