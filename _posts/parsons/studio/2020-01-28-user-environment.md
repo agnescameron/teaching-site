@@ -12,6 +12,9 @@ readings:
 
 {{page.description}}
 
+<img src="/assets/communities.png" alt="communities" width="800px"/>
+
+
 ### what's new?
 
 ### discuss reading responses to Kalli Retzepi and Hito Steyerl text
@@ -41,6 +44,8 @@ readings:
 - What kind of *behaviours* are encouraged or discouraged?
 
 - Where was the last place on the web that *surprised* you?
+
+- Are you *enjoying* it?
 
 - Does the *form* relate to the *content*?
 
