@@ -69,6 +69,10 @@ W{{counter}} <br>{{ post.date | date: "%m/%d" }} <br> {% if post.path contains '
 ### studio
 The studio will cover the aesthetic, theoretical, social and cultural concerns of designing for the web, covering both design and research techniques. The structure of the class will vary between lectures, critiques and group discussions of the readings.
 
+### presentations
+
+[Google Doc for signing up to weekly presentation slots.](https://docs.google.com/document/d/1covKDgWas0oy-vKqoK9i6Ur1yePWM7zLgVxZUwEB8Mk/edit?usp=sharing)
+
 ### lab
 The lab will complement what you are learning in the studio, both in giving you the skills to address the assignments, and in appreciating and engaging with code as a medium in its own right.
 
