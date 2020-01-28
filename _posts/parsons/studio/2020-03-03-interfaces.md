@@ -16,6 +16,8 @@ readings: Alexander Galloway (tbc)
 
 ### lecture: interfaces
 
+[Web Design History Timeline](https://www.webdesignmuseum.org/web-design-history)
+
 <!-- Agnes doing functions that friday.
 
 Interfaces and agency. Learn to analyse and critique the interfaces that mediate how we do things in the world (and on the web). Discussion of agency and affordance. 

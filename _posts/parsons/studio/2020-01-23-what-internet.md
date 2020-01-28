@@ -12,6 +12,8 @@ readings: Kalli Retzepi, [You, the Users](https://interfacecritique.net/journal/
 
 {{page.description}}
 
+<a href="https://www.are.na/block/5980820">**slides from this class**</a>
+
 <img src="/assets/SRI-van.gif" alt="van" width="400px"/>
 
 ### web archaeology using the [Wayback Machine](http://web.archive.org)
