@@ -79,27 +79,19 @@ Think experimentally: you have nothing to lose, so try things out!
 		
 > *Your website is about having a conversation with your user. They are ready to hear you, as long as you have something to say. You can be charming, or you can be serious, or you can be a little annoying.*
 
-**Example Websites**
-
-[trees](http://www.janavirgin.com/CO2/DEFOOOOOOOOOOOOOOOOOOOOOREST.html)<br />
-[Simon Denny, by Knoth and Renner](http://simondenny.net/)<br />
-[Seasonal Exotic Twist](http://www.marsano-berlin.de/produkt/seasonal-exotic-twist/)<br />
-[Is the Applebee’s on Delco Park in the suburbs of Dayton Ohio Open Right Now?](http://istheapplebeesondelcoparkdrinthesuburbsofdaytonopenrightnow.com/)<br />
-[Virgil Abloh](https://canary---yellow.com/)<br />
-[John Provencher](http://johnprovencher.com/)<br />
-[Professor Dr. Style](http://contemporary-home-computing.org/prof-dr-style/)<br />
-[Enzo Mari by John L](http://enzomari.com/)<br />
-[Bjarne Melgaard by John L](http://bjarnemelgaard.com/)<br />
-[Studio Y-u-k-i-k-o](http://y-u-k-i-k-o.com/)<br />
-[Joeri Woudstra](http://www.joeriwoudstra.nl/)<br />
-[BAD Bonn](http://kilbi.badbonn.ch/2016/_rubric/index.php?rubric=Programm#12)<br />
-[Scott Langer](http://scottlanger.com/)<br />
-[Cyan](https://www.cyan.de/)<br />
-[E. Roon Kang](http://math-practice.org/)<br />
-[Designed Memory](https://designedmemory.com/)<br />
-[An Image Going to Work](http://an-image-going-to-work.net/)<br />
-[Code Societies 2020](http://sfpc.io/codesocieties_students/)<br />
-[Mindy Seu](http://mindyseu.com/)<br />
-[O-R-G](http://www.o-r-g.com/)<br />
-[Pentagram](https://www.pentagram.com/)<br />
+**Personal Websites**
+[Taichi Arimoto](https://taichi.pink)<br>
+[Simon Denny, by Knoth and Renner](http://simondenny.net/)<br>
+[Virgil Abloh](https://canary---yellow.com/)<br>
+[John Provencher](http://johnprovencher.com/)<br>
+[Professor Dr. Style](http://contemporary-home-computing.org/prof-dr-style/)<br>
+[Joeri Woudstra](http://www.joeriwoudstra.nl/)<br>
+[Scott Langer](http://scottlanger.com/)<br>
+[E. Roon Kang](http://math-practice.org/)<br>
+[Mindy Seu](http://mindyseu.com/)<br>
+[Marie Otsuka](http://motsuka.com)<br>
+[Laurel Schwulst](http://laurelschwulst.com)<br>
+[Toph Tucker](https://www.tophtucker.com)<br>
+[James Bridle](http://jamesbridle.com)<br>
+[Christopher Wool](http://wool735.com)<br>
 
