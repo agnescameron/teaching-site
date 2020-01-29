@@ -46,9 +46,9 @@ Each group chooses a site and responds to the following prompts, mapping out its
 
 2) Task Flow. Name the User Flow (“I want to see this designer’s portfolio”, “I want to learn more about this person’s story”). Example Task Flow:
 
-- 1) User goes to homepage
-- 2) User clicks “portfolio” 
-- 3) User selects a portfolio item to view.
+- User goes to homepage
+- User clicks “portfolio” 
+- User selects a portfolio item to view.
 
 3) Wireflow. Using sharpies and paper cutouts, sketch out what the different "views" of the user’s journey to achieve their goal would look like. 
 
