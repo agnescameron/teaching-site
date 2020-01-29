@@ -56,4 +56,6 @@ readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgri
   [google console tools](https://developers.google.com/web/tools/chrome-devtools/console) [mozilla](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console)  
 
 
+[a thought](https://twitter.com/karagates/status/1222385354298122240?s=20)  
+
 ### Tutorial: {{page.tutorial}}

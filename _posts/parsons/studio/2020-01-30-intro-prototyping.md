@@ -81,6 +81,8 @@ Think experimentally: you have nothing to lose, so try things out!
 
 **Personal Websites**<br>
 [Taichi Arimoto](https://taichi.pink)<br>
+[Cameron's World](https://www.cameronsworld.net)<br>
+[Kicks Condor](https://www.kickscondor.com)<br>
 [Simon Denny, by Knoth and Renner](http://simondenny.net/)<br>
 [Virgil Abloh](https://canary---yellow.com/)<br>
 [John Provencher](http://johnprovencher.com/)<br>
