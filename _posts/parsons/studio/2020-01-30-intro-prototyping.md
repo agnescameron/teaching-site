@@ -79,7 +79,7 @@ Think experimentally: you have nothing to lose, so try things out!
 		
 > *Your website is about having a conversation with your user. They are ready to hear you, as long as you have something to say. You can be charming, or you can be serious, or you can be a little annoying.*
 
-**Personal Websites**
+**Personal Websites**<br>
 [Taichi Arimoto](https://taichi.pink)<br>
 [Simon Denny, by Knoth and Renner](http://simondenny.net/)<br>
 [Virgil Abloh](https://canary---yellow.com/)<br>
