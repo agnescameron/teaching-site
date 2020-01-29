@@ -7,7 +7,7 @@ tags: [user]
 assignment: reading response.
 description: Where is the user and what can you do with one? This week we will explore the concept of communication, the relationship between the user and the environment, platform or website, and what it means for designers. 
 assignment-due: 02/03 noon
-readings: 
+readings: Michael Rock, [Fuck Content](https://2x4.org/ideas/2009/fuck-content/) David Reinfurt, [A *New* Program for Graphic Design (Excerpt)](https://www.are.na/block/6027003)
 ---  
 
 {{page.description}}
