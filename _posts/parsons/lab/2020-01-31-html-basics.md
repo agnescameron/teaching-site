@@ -107,4 +107,4 @@ You may *not* use any CSS for either of these exercises. This includes using the
 
 *This assignment involves doing and it involves thinking. Both of these processes (sketches, notes, thoughts), along with anything you struggled with, should be documented as a separate HTML page on your website (formatting totally up to you), that is linked to the main page.*
 
-This assignment was inspired by a conversation with [Lucy Siyao Liu](https://www.liulucy.com/info), and takes structural inspiration from [Laurel Schwulst](http://laurelschwulst.com)'s exercise [25 Variations](http://veryinteractive.net/projects/variations).
+This assignment was inspired by a conversation with [Lucy Siyao Liu](https://www.liulucy.com/info), and borrows its form from [Laurel Schwulst](http://laurelschwulst.com)'s exercise [25 Variations](http://veryinteractive.net/projects/variations).
