@@ -51,7 +51,7 @@ async function randomPerson(){
 	    });
 	    const site = await response.json();
 	    let date = new Date(site[0].commit.committer.date).toString().slice(0, -33);
-	    randomiser.innerHTML += (`<span>'s last commit was at ${date}</span>`)
+	    // randomiser.innerHTML += (`<span>'s last commit was at ${date}</span>`)
 	}
 }
 

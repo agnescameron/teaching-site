@@ -67,9 +67,9 @@ If we have time left at the end of the class, we'll also start adding some HTML 
 
 {{page.assignment}}<br>
 
-This week's assignment will follow on from themes introduced in your studio class concerning *layout*, *navigation*, and *legibility*, and from the theme of *hierarchy* explored in this week's lab. We will take a recipe for [*Borscht*](https://en.wikipedia.org/wiki/Borscht) -- a Ukranian beetroot soup that has itself been remixed and reworked thousands of times -- and experiment with laying it out in different ways.
+This week's assignment will follow on from themes introduced in your studio class concerning *layout*, *navigation*, and *legibility*, and from the theme of *hierarchy* explored in this week's lab. We will take [this recipe](https://www.theguardian.com/lifeandstyle/wordofmouth/2011/apr/07/how-to-cook-perfect-borscht) for [*Borscht*](https://en.wikipedia.org/wiki/Borscht) -- a Ukranian beetroot soup that has itself been remixed and reworked thousands of times -- and experiment with laying it out in different ways.
 
-You will use your Github repository to record each of these assignments, which we will go over in class. Each assignment should be done in a separate HTML file, which should live in a folder called 'assignments'. In the 'assignments' folder, there should also be an 'index.html' page that links to each of these pages. On your class homepage, there should be a link to this 'assignments/index.html' page. (neat, you just made a website!)
+You will use your Github repository to record each of these assignments, which we will go over in class. Each assignment should be done in a separate HTML file, which should live in a folder called 'assignment1. In the 'assignment1' folder, there should also be an 'index.html' page that contains a link to each of these pages. On your class homepage, there should be a link to this 'assignment1/index.html' page. (neat, you just made a website!)
 
 **Step 0 (optional, but recommended):**<br>
 Make the borscht (it's delicious). While you make it, think about the points at which you find yourself reaching for the recipe again. How do you read the recipe differently before and after you've cooked it? Did you miss any steps? Is this recipe well-designed? Did you adapt it at all? (if you make an alternative borscht in this step, you may use that recipe as the basis for the next two steps).
@@ -79,7 +79,7 @@ If you don't make the borscht (or even if you do, perhaps while it is simmering)
 Record answers to these questions as part of your documentation.
 
 **Step 1:**<br>
-In addition to using `html`, `head`, `title` and `body` elements, using only the elements:
+In addition to the essential `html`, `head`, `title` and `body` elements, using only the elements:
 
 * `<p>`
 * `<br>`
