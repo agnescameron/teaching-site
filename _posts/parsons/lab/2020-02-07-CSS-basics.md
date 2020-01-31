@@ -8,7 +8,7 @@ assignment: same task, but now do 2 versions with CSS
 description: now we have a structure, how do we decorate static side of CSS.
 tutorial: CSS combinators and selectors, the Box Model
 assignment-due: 02/14
-readings: Ethan Marcotte [*Fluid Grids*](https://alistapart.com/article/fluidgrids/)  
+readings: Shay Howe [*Writing Your Best Code*](https://learn.shayhowe.com/html-css/writing-your-best-code/)  
 ---  
 
 <blockquote style="font-family: Times"><i>"As a new face it should, by the grace of God and the art of man, have been broad and open, gen­er­ous and ample; instead, by the vice of Mam­mon and the mis­ery of the machine, it is big­oted and nar­row, mean and puri­tan."</i></blockquote>

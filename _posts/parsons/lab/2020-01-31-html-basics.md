@@ -13,7 +13,8 @@ readings: chapters 1-8 (they're like 1 page!!) [*TIL HTML J4F*](https://arena-at
 
 {{page.description}}
 
-Why is writing HTML like building a house? Structure is important! It's a system of layout and typesetting that should be understood and appreciated in its own right, before we more onto using frameworks like CSS to move things around.
+Why is writing HTML like building a house? Structure is important: you have to lay the foundations before you start decorating, and be careful when you want to add an extension! A little HTML can go a long way, and getting it right can save you hassle later on.
+
 
 **class plan:**  
 * 30 minutes -- show and tell
@@ -42,6 +43,7 @@ Show and tell -- talk about Laurel's text, your plans for your websites, and the
   [DOM tree](https://www.w3schools.com/js/js_htmldom.asp) [more detail](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcourses.cs.washington.edu%2Fcourses%2Fcse190m%2F10su%2Flectures%2Fslides%2Fimages%2Fdom_tree.gif&f=1&nofb=1)  
 
 **HTML**  
+  [what is HTML?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
   [html attributes](https://en.wikipedia.org/wiki/HTML_attribute)
 
@@ -56,10 +58,14 @@ Show and tell -- talk about Laurel's text, your plans for your websites, and the
   [links.net](http://links.net)  
   [writing html in html](http://john.ankarstrom.se/html/)  
   [pure html are.na channel](https://www.are.na/laurel-schwulst/pure-html)  
+  [kill styles results page](https://www.are.na/laurel-schwulst/kill-styles)  
 
 ### Tutorial: {{page.tutorial}}
 
 We will re-visit Github pages first to make sure everyone is on board (help your friends!). After that, we'll make the file structure that will house this week's assignment.
+
+[terminal commands](https://github.com/melaniehoff/Peer-to-Peer-Folder-Poetry/blob/master/radical-networks.md#-bash--terminal-commands)  
+[simple git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 
 If we have time left at the end of the class, we'll also start adding some HTML to our personal websites. Using the prototypes you made last class, start to plan a layout.
 
@@ -108,3 +114,6 @@ You may *not* use any CSS for either of these exercises. This includes using the
 *This assignment involves doing and it involves thinking. Both of these processes (sketches, notes, thoughts), along with anything you struggled with, should be documented as a separate HTML page on your website (formatting totally up to you), that is linked to the main page.*
 
 This assignment was inspired by a conversation with [Lucy Siyao Liu](https://www.liulucy.com/info), and borrows its form from [Laurel Schwulst](http://laurelschwulst.com)'s exercise [25 Variations](http://veryinteractive.net/projects/variations).
+
+### Readings
+{{page.readings}} -> this will help you a lot with your task! It's a tutorial pdf that does a great job of explaining how different parts of a page work. 
