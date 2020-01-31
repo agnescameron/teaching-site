@@ -4,8 +4,8 @@ title: painting the house
 permalink: /lab3/  
 categories:   
 tags:  
-assignment: same task, but now do 2 versions with CSS
-description: now we have a structure, how do we decorate static side of CSS.
+assignment: using just HTML and CSS, take last week's recipe and explore 10 more variations
+description: making a webpage with `<style>`
 tutorial: CSS combinators and selectors, the Box Model
 assignment-due: 02/14
 readings: Shay Howe [*Writing Your Best Code*](https://learn.shayhowe.com/html-css/writing-your-best-code/)  
@@ -18,7 +18,6 @@ readings: Shay Howe [*Writing Your Best Code*](https://learn.shayhowe.com/html-c
 
 **CSS**  
   [how css works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)  
-  [W3C]()  
   [bud uglly](http://budugllydesign.com/index.html)  
 
 **colours in CSS**  
@@ -34,28 +33,29 @@ readings: Shay Howe [*Writing Your Best Code*](https://learn.shayhowe.com/html-c
   [web typography](https://en.wikipedia.org/wiki/Web_typography)  
   [web safe fonts](https://www.w3schools.com/cssref/css_websafe_fonts.asp)  
   [lots and lots of open source fonts](https://www.are.na/frederic-brodbeck/open-source-typefaces)  
-  google fonts  
+  [google fonts](https://fonts.google.com)  
   [free font library](http://typotheque.luuse.io)  
-  adding fonts to your project  
 
 **unicode**  
   [noto](https://www.google.com/get/noto/)  
 
-**css shapes**
+**css shapes**  
   [shapes](https://css-tricks.com/the-shapes-of-css/)  
   [shapes and text wrapping](https://www.w3.org/TR/css-shapes-1/)  
   [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/SVG_and_CSS)  
 
-**CSS and HTML**
+**CSS and HTML**  
   [selectors](https://www.w3schools.com/css/css_selectors.asp) [combinators](https://www.w3schools.com/Css/css_combinators.asp) [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector)  
   [attributes](https://www.w3schools.com/css/css_attribute_selectors.asp) [attr()](https://developer.mozilla.org/en-US/docs/Web/CSS/attr)  
 
-**web console**  
+**debugging**  
   [console and CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS)  
   document.designMode='on' [document.body.style](https://www.w3schools.com/jsref/dom_obj_style.asp)  
   [google console tools](https://developers.google.com/web/tools/chrome-devtools/console) [mozilla](https://developer.mozilla.org/en-US/docs/Tools/Browser_Console)  
-
+  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)  
 
 [a thought](https://twitter.com/karagates/status/1222385354298122240?s=20)  
 
 ### Tutorial: {{page.tutorial}}
+
+### In class assignment: {{}}

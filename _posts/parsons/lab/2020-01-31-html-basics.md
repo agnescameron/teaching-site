@@ -37,7 +37,6 @@ Show and tell -- talk about Laurel's text, your plans for your websites, and the
     [the box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)  
     [RIP](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink)  
 
-
 **document structure**  
   [page structure](https://www.w3schools.com/html/html_intro.asp)  
   [DOM tree](https://www.w3schools.com/js/js_htmldom.asp) [more detail](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcourses.cs.washington.edu%2Fcourses%2Fcse190m%2F10su%2Flectures%2Fslides%2Fimages%2Fdom_tree.gif&f=1&nofb=1)  
@@ -45,13 +44,14 @@ Show and tell -- talk about Laurel's text, your plans for your websites, and the
 **HTML**  
   [what is HTML?](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
-  [html attributes](https://en.wikipedia.org/wiki/HTML_attribute)
 
-**block elements**  
-  [block elements](https://en.wikipedia.org/wiki/HTML_element#Block_elements)  
+**block vs inline elements**  
+  [inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)  
+  [block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)  
 
-**inline elements**  
-  [inline elements](https://en.wikipedia.org/wiki/HTML_element#Inline_elements)  
+**attributes**
+  [html attributes](https://en.wikipedia.org/wiki/HTML_attribute)  
+  [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
 
 ***pure* HTML**  
   [/r/spartanweb](https://old.reddit.com/r/SpartanWeb/)  
