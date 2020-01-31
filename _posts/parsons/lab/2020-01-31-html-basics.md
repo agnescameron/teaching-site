@@ -48,8 +48,9 @@ Show and tell -- talk about Laurel's text, your plans for your websites, and the
 **block vs inline elements**  
   [inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)  
   [block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements)  
+  [the 'normal flow'](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow)  
 
-**attributes**
+**attributes**  
   [html attributes](https://en.wikipedia.org/wiki/HTML_attribute)  
   [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
 
