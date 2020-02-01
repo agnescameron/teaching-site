@@ -50,9 +50,9 @@ Each group chooses a site and responds to the following prompts, mapping out its
 
 2) Task Flow. Name the User Flow (“I want to see this designer’s portfolio”, “I want to learn more about this person’s story”). Example Task Flow:
 
-- 1) User goes to homepage
-- 2) User clicks “portfolio” 
-- 3) User selects a portfolio item to view.
+- User goes to homepage
+- User clicks “portfolio” 
+- User selects a portfolio item to view.
 
 3) Wireframe. Using sharpies and paper cutouts, sketch out what the different "views" of the user’s journey to achieve their goal would look like. 
 
@@ -83,8 +83,10 @@ Think experimentally: you have nothing to lose, so try things out!
 		
 > *Your website is about having a conversation with your user. They are ready to hear you, as long as you have something to say. You can be charming, or you can be serious, or you can be a little annoying.*
 
-**Personal Websites**
+**Personal Websites**<br>
 [Taichi Arimoto](https://taichi.pink)<br>
+[Cameron's World](https://www.cameronsworld.net)<br>
+[Kicks Condor](https://www.kickscondor.com)<br>
 [Simon Denny, by Knoth and Renner](http://simondenny.net/)<br>
 [Virgil Abloh](https://canary---yellow.com/)<br>
 [John Provencher](http://johnprovencher.com/)<br>
