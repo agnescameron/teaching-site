@@ -14,6 +14,10 @@ tr, td {
 
 }
 
+code {
+  background-color: white;
+}
+
 h1, h2, h3 {
   margin-top: 30px;
 }
@@ -97,7 +101,6 @@ a:hover + span.hovertags {
   float: left;
   min-width: 300px;
 }
-
 
 .indexContainer {
   margin-top: -30px;

@@ -24,21 +24,46 @@ readings: Alex Galloway, [*Jodi's Infrastructure*](https://www.e-flux.com/journa
 general: how does everyone feel about pace/assignments etc? any concerns or questions?
 
 ### lecture: JS, HTML, CSS revisited  
-playing along with the lecture: optional setup
+Playing along with the lecture: optionally setup a blank html webpage, linked to a JS and a CSS page.
+
+like this:  
+```
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+</body>
+	<script src="main.js"></script>
+</html>
+```
+
 
 **HTML**  
-  [marking up](https://en.wikipedia.org/wiki/Markup_language)  
-  [marking down](https://en.wikipedia.org/wiki/Markdown)  
+Why is writing HTML like building a house? Structure is important: you have to lay the foundations before you start decorating, and be careful when you want to add an extension! A little HTML can go a long way, and getting it right can save you hassle later on.  
+
+HTML is a [*markup* language](https://en.wikipedia.org/wiki/Markup_language) -- a term that has roots in the time where graphic designers would ['mark up'](https://d2w9rnfcy7mm78.cloudfront.net/6070156/original_17632a9701772b08332e102180c7ef7c.png?1580747254?bc=0) a typewritten or handwritten document with instructions to the people that would typeset it.  
+
+One of the more important concepts in HTML is page structure: the idea that elements on the page follow a nested hierarchy.  
   [page structure](https://www.w3schools.com/html/html_intro.asp)  
   [DOM tree](https://www.w3schools.com/js/js_htmldom.asp) [more detail](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcourses.cs.washington.edu%2Fcourses%2Fcse190m%2F10su%2Flectures%2Fslides%2Fimages%2Fdom_tree.gif&f=1&nofb=1)  
-  *elements*  
-    [inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) [block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) [the 'normal flow'](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow)  
-    [html attributes](https://en.wikipedia.org/wiki/HTML_attribute)  
-    [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
+
+In HTML, *elements* refer to the different tags that can be used to house information on the page. Some tags contain text (these require an 'open' and a 'close' tag), others are 'empty', and instead have their contents set as an [attribute](https://en.wikipedia.org/wiki/HTML_attribute) (img tags work like this).
+
+[Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) do not generally force a new line to begin (and are therefore useful elements to feature *within* a block of text). By contrast, [block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) are elements that typically 
+
+The ['normal flow'](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow) describes the relationship between inline and block elements on a page. The [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display) can be set in CSS to change between block elements and inline elements.
+
+other:  
+    [form elements](https://www.w3schools.com/html/html_form_elements.asp)  
     [RIP](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink)  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
 
 ***pure* HTML**  
+It's possible to make a totally functional website using HTML only, and this can be a really useful exercise to re-visit ideas like hierarchy and page structure. A nice recent example is [special.fish](https://special.fish).
+
   [/r/spartanweb](https://old.reddit.com/r/SpartanWeb/)  
   [links.net](http://links.net)  
   [writing html in html](http://john.ankarstrom.se/html/)  
@@ -46,14 +71,22 @@ playing along with the lecture: optional setup
   [kill styles results page](https://www.are.na/laurel-schwulst/kill-styles)  
 
 **CSS**  
-  [how css works](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)  
+CSS is what you use to tell a web browser how to display a webpage. 'CSS' stands for 'Cascading Style Sheets', and web browsers go through a set of [interpretative stages](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) that are used to compose the Document Object Model [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction). The DOM is how the webpage gets represented in the memory of the computer that loaded it: it's also what we use when we run Javascript code on a webpage. 
+
+As we saw in the last link, CSS is always defined relative to an HTML structure. 
+  [selectors](https://www.w3schools.com/css/css_selectors.asp) [combinators](https://www.w3schools.com/Css/css_combinators.asp) [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector)  
+
+Important concepts in CSS:  
   [the box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)  
   [colours](https://www.w3schools.com/colors/colors_picker.asp) [randomcolour.com](http://randomcolour.com)  
   [fonts](https://www.w3schools.com/Css/css_font.asp)  
   [shapes](https://css-tricks.com/the-shapes-of-css/)  
   [animations](https://www.w3schools.com/css/css3_animations.asp)  
-  [selectors](https://www.w3schools.com/css/css_selectors.asp) [combinators](https://www.w3schools.com/Css/css_combinators.asp) [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector)  
+
+Features, features, features:  
   [bud uglly](http://budugllydesign.com/index.html)  
+
+A warning: CSS functions essentially as a set of instructions for a web browser to interpret. Aaaaand -- not all browsers interpret things the same. Standards set by the [w3c consortium](https://www.w3.org/standards/) are meant to regulate this, but if you're making a site you know needs to work cross-browser, [caniuse](https://caniuse.com) can be really useful.
 
 **JS**  
   [DOM manipulation](https://www.w3schools.com/js/js_htmldom_document.asp)  
@@ -79,10 +112,6 @@ playing along with the lecture: optional setup
   *responsiveness*  
     [in HTML](https://www.w3schools.com/html/html_responsive.asp) [in CSS](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)  
 
-**web standards**  
-  [w3c](https://www.w3.org/standards/)  
-  [caniuse](https://caniuse.com)  
-
 **unicode**  
   [history](https://en.wikipedia.org/wiki/Unicode#Origin_and_development)  
   [consortium](https://home.unicode.org) [table](https://unicode-table.com/en/#basic-latin)  
@@ -98,29 +127,28 @@ playing along with the lecture: optional setup
   [html energy](http://html.energy)  
   [form art](https://sites.rhizome.org/anthology/form-art-competition.html)  
 
-
-### in class tutorial:
+### in class tutorial:  
 shuffling the class! arrays, loops and basic DOM manipulation
 
-### in class assignment:
+### in class assignment:  
 Every group gets a different pack of cards. Together, come up with algorithms for sorting, dealing and arranging them, and act them out. Write the algorithm down and give it to another group.
 
-These algorithms must be written in pseudocode: you could concievably adapt this to write for a computer without much effort. In all situations, you should seek to perform the 'algorithm' in the fewest possible moves. Ace is high. 
+These algorithms must be written in pseudocode: you could concievably adapt this to write for a computer without much effort. If you want to 'remember' things, they must get stored somewhere (you can use a piece of paper...) In all situations, you should seek to perform the 'algorithm' in the fewest possible moves. Ace is high. 
 
-**first task**
+**first task**  
 Deal out the whole deck, sorting into red and black.
 
-**second task**
+**second task**  
 Perform a [faro shuffle](https://en.wikipedia.org/wiki/Faro_shuffle) on the deck. This is a shuffling technique where the deck is split exactly in half, and the cards are then alternated perfectly.
 
-**third task**
+**third task**  
 Deal 5 cards each to 4 players, without dealing any spades.
 
-**fourth task**
+**fourth task**  
 Deal two hands of 5 cards each: one hand will have only cards lower than the first card dealt to that hand. The other will have only cards higher than the first card to that hand.
 
-**fifth task**
-Deal out four hands of 5 cards each. Each hand should contain at least one pair. 
+**fifth task**  
+Deal out four hands of 5 cards each. Each hand should contain at least one pair. Try and do this in the minimum number of cards.
 
 ### assignment:
 *due {{page.assignment-due}}*<br>
@@ -132,6 +160,8 @@ Criteria:
 
 Once you've got the basics down, try something a bit more exciting. Make it deal Texas hold'em! Add some graphics! What happens when a card is dealt? Can you stack the deck in your favour? Try a sorting algorithm! Can you make something really weird? How the cards are shuffled, dealt, and displayed, and what kind of cards they are is up to you. Write about your experience in this week's documentation.
 
+Use this assignment to practice something you're unsure of, or to gain a new skill: so, if you're looking to revisit some CSS, try displaying the cards on screen (you could even draw them out with [CSS shapes](https://css-tricks.com/the-shapes-of-css/)). Alternately, this could be a great opportunity to play with some functions. 
+
 **other decks**  
   [hwa-tu/hanafuda](http://www.sloperama.com/gostop/cards.html)  
   [spanish deck](https://en.wikipedia.org/wiki/Spanish_playing_cards)  
@@ -139,24 +169,23 @@ Once you've got the basics down, try something a bit more exciting. Make it deal
   [pokemon](https://api.pokemontcg.io/v1/cards)  
   [magic the gathering](https://mtgjson.com)  
 
-**dealing**
+**dealing**  
   [poker game variants](https://en.m.wikipedia.org/wiki/List_of_poker_variants)  
   [solitaire](https://en.wikipedia.org/wiki/Patience_(game))  
   [box kite](https://en.wikipedia.org/wiki/Box_Kite_(solitaire))  
 
 ### resources for this week
 
-**HTML refs**
+**HTML refs**  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
+  
 
-**CSS refs**
+**CSS refs**  
 
-
-**functions and loops in JS**
+**functions and loops in JS**  
   [loops guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
-  []
 
-**resources from last week**
+**resources from last week**  
   [terminal commands](https://github.com/melaniehoff/Peer-to-Peer-Folder-Poetry/blob/master/radical-networks.md#-bash--terminal-commands)  
   [simple git commands](https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html)
 

@@ -57,5 +57,3 @@ readings: Shay Howe [*Writing Your Best Code*](https://learn.shayhowe.com/html-c
 [a thought](https://twitter.com/karagates/status/1222385354298122240?s=20)  
 
 ### Tutorial: {{page.tutorial}}
-
-### In class assignment: {{}}
