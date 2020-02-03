@@ -31,15 +31,19 @@ Each group chooses a site and responds to the following prompts, mapping out its
 
 **Mapping a User Flow (45min)**
 
-0) Who is the ideal user for this site? Who is it *not* aimed towards?
+0) Who is the ideal user(s) for this site? Who is it *not* aimed towards? 
 
+- *use the index cards to craft a user persona*
+- *think about patterns of internet use behavior*
 - How old are they?
 - How did they end up on your site?
+- What mood are they in, are they busy, relaxed, at work/school, at home?
 - Do they know what they are looking at/for already?
 - Be generous to your user: assume that they are open to exploration! After all, this is the homepage of a young designer/creative.
 
 1) User Goals. A series of steps the user takes to achieve a meaningful goal. This could be:
 
+- *use the reverse side of the persona cards*
 - finding a piece of information (an artwork, a project page, contact details)
 - having a meaningful experience (a playful interaction, exploring a narrative)
 - going on a journey (but what is the mcguffin that takes the user there?)
@@ -50,7 +54,7 @@ Each group chooses a site and responds to the following prompts, mapping out its
 - User clicks “portfolio” 
 - User selects a portfolio item to view.
 
-3) Wireflow. Using sharpies and paper cutouts, sketch out what the different "views" of the user’s journey to achieve their goal would look like. 
+3) Wireframe. Using sharpies and paper cutouts, sketch out what the different "views" of the user’s journey to achieve their goal would look like. 
 
 - Remember: this is about a low resolution flow of interaction, not the detailed styling of the components.
 
@@ -96,4 +100,7 @@ Think experimentally: you have nothing to lose, so try things out!
 [Toph Tucker](https://www.tophtucker.com)<br>
 [James Bridle](http://jamesbridle.com)<br>
 [Christopher Wool](http://wool735.com)<br>
+
+**Other Useful Links**
+[Personas (Adobe)](https://theblog.adobe.com/putting-personas-to-work-in-ux-design-what-they-are-and-why-theyre-important/)
 
