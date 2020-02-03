@@ -40,7 +40,6 @@ like this:
 </html>
 ```
 
-
 **HTML**  
 Why is writing HTML like building a house? Structure is important: you have to lay the foundations before you start decorating, and be careful when you want to add an extension! A little HTML can go a long way, and getting it right can save you hassle later on.  
 
@@ -60,9 +59,6 @@ other:
     [form elements](https://www.w3schools.com/html/html_form_elements.asp)  
     [RIP](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink)  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
-
-**HTML5**
-What is HTML5? 
 
 ***pure* HTML**  
 It's possible to make a totally functional website using HTML only, and this can be a really useful exercise to re-visit ideas like hierarchy and page structure. A nice recent example is [special.fish](https://special.fish).
@@ -97,14 +93,19 @@ Javascript is the *only* programming language that natively runs in the browser.
 
 On a regular webpage, Javascript code needs to interact with the document in order to be visible to the person using the page. It also needs to be *included* in the document, or the browser won't know to run it: loose JS won't run by itself. Some of the most basic uses of JS on the web are in [DOM manipulation](https://www.w3schools.com/js/js_htmldom_document.asp) and [events](https://www.w3schools.com/js/js_events.asp).  
 
-Javascript is also a programming language in its own right, and frameworks like Node allow you to run it without needing a webpage. All of these properites apply to Javascript that runs as part of a webpage, or locally.
+Javascript is also a programming language in its own right, and frameworks like Node allow you to run it without needing a webpage. All of the following features apply both to the Javascript you'll run on the web and locally.  
   [variables](https://www.w3schools.com/js/js_variables.asp)  
   [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)  
   [objects](https://www.w3schools.com/js/js_objects.asp) (we'll revisit these in week 7)  
-  [*loops and iteration*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
+
+[*Loops and iteration*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) are some of the most common forms of algorithm in Javascript, and some of the most useful for the web. They allow us to perform an action multiple times, with only a few lines of code.
+
+Common loop forms:  
     [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)  [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/do...while)  [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/while)  [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)  [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement)
-  [functions](https://www.w3schools.com/js/js_functions.asp)  
-  [randomness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)  
+
+[Functions](https://www.w3schools.com/js/js_functions.asp) give us a way of abstracting processes into discrete blocks, which we can call at different points in the code.
+
+[randomness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) is also important! We'll use this a lot this week.
 
 **writing nicer javascript**  
 Javascript can be a great programming langauge for beginners because it's very forgiving: you can make lots of mistakes and the code won't break. However, as you get more advanced, that lack of strictness that made it easy also mean that a lot of JS that gets written is a *hot hot mess*. One thing that can help improve your code a lot is to look at [patterns and antipatterns](https://code.tutsplus.com/tutorials/the-essentials-of-writing-high-quality-javascript--net-15145): these are 'good' and 'bad' conventions for solving particular problems. While they all work, the patterns are generally simpler, more efficient, easier to read, and less likely to cause bugs.
@@ -115,7 +116,7 @@ Javascript is less well-known as ECMAScript You don't need to include any of the
 
 Cool ES6 features:  
   [let vs const](): instead of using *var* to declare a new variable, you can now use *let* and *const*. In short: 'const' is a variable you don't plan to change, and 'var' is one that you do. Can you use *var*, *let* and *const* in the same file? yes. should you? no! (consistency is key here...)  
-  [array.find()]()  
+  [array.find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)  
   [oo, strict mode](https://www.w3schools.com/js/js_strict.asp)  
 
 **browsers**  
@@ -185,8 +186,8 @@ Use this assignment to practice something you're unsure of, or to gain a new ski
 
 **CSS refs**  
   [CSS dinner (practice selectors and combinators)](http://flukeout.github.io/)  
-  [flexbox froggy]()  
-  [grid garden]()  
+  [flexbox froggy](http://flexboxfroggy.com)  
+  [grid garden](https://cssgridgarden.com)  
 
 **functions and loops in JS**  
   [loops guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
