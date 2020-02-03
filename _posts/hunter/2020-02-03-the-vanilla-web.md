@@ -61,6 +61,9 @@ other:
     [RIP](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink)  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
 
+**HTML5**
+What is HTML5? 
+
 ***pure* HTML**  
 It's possible to make a totally functional website using HTML only, and this can be a really useful exercise to re-visit ideas like hierarchy and page structure. A nice recent example is [special.fish](https://special.fish).
 
@@ -71,10 +74,9 @@ It's possible to make a totally functional website using HTML only, and this can
   [kill styles results page](https://www.are.na/laurel-schwulst/kill-styles)  
 
 **CSS**  
-CSS is what you use to tell a web browser how to display a webpage. 'CSS' stands for 'Cascading Style Sheets', and web browsers go through a set of [interpretative stages](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works) that are used to compose the Document Object Model [the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction). The DOM is how the webpage gets represented in the memory of the computer that loaded it: it's also what we use when we run Javascript code on a webpage. 
+CSS is what you use to tell a web browser how to display a webpage. 'CSS' stands for 'Cascading Style Sheets': they define rules of presentation that are applied in [stages](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/How_CSS_works), as the browser composes the [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction). The DOM is how the webpage gets represented in the memory of the computer that loaded it: it's the `document` that gets referenced when we write Javascript to manipulate it (more on this later).
 
-As we saw in the last link, CSS is always defined relative to an HTML structure. 
-  [selectors](https://www.w3schools.com/css/css_selectors.asp) [combinators](https://www.w3schools.com/Css/css_combinators.asp) [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector)  
+As we saw in the last link, CSS is always defined relative to an HTML structure. In particular, to get CSS rules to apply to particular parts of the DOM, we use [*selectors*](https://www.w3schools.com/css/css_selectors.asp) and [*combinators*](https://www.w3schools.com/Css/css_combinators.asp). These can be pretty powerful [but!](https://stackoverflow.com/questions/1014861/is-there-a-css-parent-selector) there are some limitations. For lots of practice, [CSS dinner](http://flukeout.github.io/) is a pretty good tutorial.
 
 Important concepts in CSS:  
   [the box model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)  
@@ -83,43 +85,45 @@ Important concepts in CSS:
   [shapes](https://css-tricks.com/the-shapes-of-css/)  
   [animations](https://www.w3schools.com/css/css3_animations.asp)  
 
+*Responsiveness*: This is something that's really important to designing websites that you expect people to use across a number of different screens. We'll touch on this at other points, but in general responsiveness can be achieved [in HTML](https://www.w3schools.com/html/html_responsive.asp) and [in CSS](https://www.w3schools.com/css/css_rwd_mediaqueries.asp).
+
 Features, features, features:  
   [bud uglly](http://budugllydesign.com/index.html)  
 
 A warning: CSS functions essentially as a set of instructions for a web browser to interpret. Aaaaand -- not all browsers interpret things the same. Standards set by the [w3c consortium](https://www.w3.org/standards/) are meant to regulate this, but if you're making a site you know needs to work cross-browser, [caniuse](https://caniuse.com) can be really useful.
 
 **JS**  
-  [DOM manipulation](https://www.w3schools.com/js/js_htmldom_document.asp)  
+Javascript is the *only* programming language that natively runs in the browser. There are lots of ways of taking other languages and turning them into JS (things like Typescript, or Python's Flask are good examples), but: if you're writing code for the web, it's likely in JS.
+
+On a regular webpage, Javascript code needs to interact with the document in order to be visible to the person using the page. It also needs to be *included* in the document, or the browser won't know to run it: loose JS won't run by itself. Some of the most basic uses of JS on the web are in [DOM manipulation](https://www.w3schools.com/js/js_htmldom_document.asp) and [events](https://www.w3schools.com/js/js_events.asp).  
+
+Javascript is also a programming language in its own right, and frameworks like Node allow you to run it without needing a webpage. All of these properites apply to Javascript that runs as part of a webpage, or locally.
   [variables](https://www.w3schools.com/js/js_variables.asp)  
   [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)  
   [objects](https://www.w3schools.com/js/js_objects.asp) (we'll revisit these in week 7)  
   [*loops and iteration*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  
     [for](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for_statement)  [do...while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/do...while)  [while](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/statements/while)  [for...in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...in_statement)  [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#for...of_statement)
   [functions](https://www.w3schools.com/js/js_functions.asp)  
-  [events](https://www.w3schools.com/js/js_events.asp)  
   [randomness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)  
 
 **writing nicer javascript**  
-  [scope](https://scotch.io/tutorials/understanding-scope-in-javascript)  
-  [ES6 syntax](https://www.w3schools.com/Js/js_es6.asp)  
-    [let vs const]()   
- [patterns and antipatterns](https://code.tutsplus.com/tutorials/the-essentials-of-writing-high-quality-javascript--net-15145)  
+Javascript can be a great programming langauge for beginners because it's very forgiving: you can make lots of mistakes and the code won't break. However, as you get more advanced, that lack of strictness that made it easy also mean that a lot of JS that gets written is a *hot hot mess*. One thing that can help improve your code a lot is to look at [patterns and antipatterns](https://code.tutsplus.com/tutorials/the-essentials-of-writing-high-quality-javascript--net-15145): these are 'good' and 'bad' conventions for solving particular problems. While they all work, the patterns are generally simpler, more efficient, easier to read, and less likely to cause bugs.
+
+[Scope](https://scotch.io/tutorials/understanding-scope-in-javascript) is a pretty central idea to writing effective code in any language, and JS is no different. It can also be one of the most confusing concepts, and the source of many errors in more complex projects. The *scope* of a variable defines the parts of a program that can access it. A variable declared within a *function* is scoped *to that function*, while a variable set at the start of a file is scoped to the whole document. The principal of least scope is a good one to apply.  
+
+Javascript is less well-known as ECMAScript You don't need to include any of these ideas for your code to work, but they can improve the structure and understanding of your code. We'll cover these in greater detail throughout the semester. Every so often, a new version is released that improves on the old versions (this is also true for HTML and CSS!). People got quite excited about [ES6](https://www.w3schools.com/Js/js_es6.asp) because it introduced a lot of new features that meant it was easier to write good Javascript. How do I install it, you ask? It's installed already...
+
+Cool ES6 features:  
+  [let vs const](): instead of using *var* to declare a new variable, you can now use *let* and *const*. In short: 'const' is a variable you don't plan to change, and 'var' is one that you do. Can you use *var*, *let* and *const* in the same file? yes. should you? no! (consistency is key here...)  
+  [array.find()]()  
   [oo, strict mode](https://www.w3schools.com/js/js_strict.asp)  
 
 **browsers**  
   [how browsers work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) [rolling your own](https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html)  
   [the web stalker](https://anthology.rhizome.org/the-web-stalker)  
-  *responsiveness*  
-    [in HTML](https://www.w3schools.com/html/html_responsive.asp) [in CSS](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)  
-
-**unicode**  
-  [history](https://en.wikipedia.org/wiki/Unicode#Origin_and_development)  
-  [consortium](https://home.unicode.org) [table](https://unicode-table.com/en/#basic-latin)  
-  [ghost characters](https://www.dampfkraft.com/ghost-characters.html)  
-  [i can text you a pile of poo, but i can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name)  
-  [noto typeface](https://www.google.com/get/noto/)  
 
 **but surely it can't be this simple??**  
+Your readings this week should have touched on this too, but it's worth noting that almost every website you would want to make, can be made with these basic tools. Here are some gems:  
   [a useful reminder](http://motherfuckingwebsite.com)  
   [making as thinking](http://jon-l.com/making-as-thinking/)  
   [my boyfriend came back from the war](http://www.teleportacia.org/war/)  
@@ -178,9 +182,11 @@ Use this assignment to practice something you're unsure of, or to gain a new ski
 
 **HTML refs**  
   [complete list of html tags](https://eastmanreference.com/complete-list-of-html-tags)  
-  
 
 **CSS refs**  
+  [CSS dinner (practice selectors and combinators)](http://flukeout.github.io/)  
+  [flexbox froggy]()  
+  [grid garden]()  
 
 **functions and loops in JS**  
   [loops guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)  

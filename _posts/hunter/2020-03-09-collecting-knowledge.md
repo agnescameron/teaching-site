@@ -25,6 +25,13 @@ assignment-due: 03/16
   [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
   [openCV](https://opencv.org) [openCV JS](https://docs.opencv.org/3.4/d5/d10/tutorial_js_root.html)  
 
+**classifying language**  
+  [history](https://en.wikipedia.org/wiki/Unicode#Origin_and_development)  
+  [consortium](https://home.unicode.org) [table](https://unicode-table.com/en/#basic-latin)  
+  [ghost characters](https://www.dampfkraft.com/ghost-characters.html)  
+  [i can text you a pile of poo, but i can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name)  
+  [noto typeface](https://www.google.com/get/noto/)  
+
 **finding things**  
   [wtf is a knowledge graph](https://hackernoon.com/wtf-is-a-knowledge-graph-a16603a1a25f) [semantic networks](https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Semantic_Net.svg/640px-Semantic_Net.svg.png) [google knowledge graph](https://googleblog.blogspot.co.uk/2012/05/introducing-knowledge-graph-things-not.html) [the underlay](https://underlay.mit.edu)  
   *search engines*    
