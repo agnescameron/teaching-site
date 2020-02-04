@@ -12,25 +12,24 @@ readings: Rem Koolhaas, Junkspace (tbc)
 
 {{page.description}}
 
-### discuss reading responses to Hito Steyerl
+### discuss reading responses to Reinfurt and Rock
 
 ### what's new?
 
 ### lecture: semiotics and the web.
 
-<!-- color or font or type. cf Lukas' typography lecture
+[Socrates and writing in the *Phaedrus*](https://blogs.ubc.ca/etec540sept13/2013/09/29/socrates-writing-vs-memory/)
 
-Unicode!!!
+[The writing of neurones](https://arena-attachments.s3.amazonaws.com/6076021/1e3d4d5051853174b4ceb4777a00c929.pdf?1580790030)
 
-Socrates writing. Writing and neurones David Reinfurt.
+[The Death of the Author](https://www.are.na/block/6076055)
 
-**unicode**  
+**unicode**
+
   [history](https://en.wikipedia.org/wiki/Unicode#Origin_and_development)  
   [consortium](https://home.unicode.org) [table](https://unicode-table.com/en/#basic-latin)  
   [ghost characters](https://www.dampfkraft.com/ghost-characters.html)  
   [i can text you a pile of poo, but i can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name)  
   [noto typeface](https://www.google.com/get/noto/)  
   [han unification](https://en.wikipedia.org/wiki/Han_unification)  
-
-http://an-image-going-to-work.net/
- -->
+  [How to crash the iPhone with a single Telugu character](https://serhack.me/articles/crash-iphone-telugu-character-en/)
