@@ -7,7 +7,7 @@ tags: [diagrams, sorting]
 description: A class about structuring knowledge. We'll talk about objects, data, libraries, scraping and the politics of taxonomy.
 assignment: Curate a data-set, and come up with some diverse ways to sort it.
 readings: Emily Scott [*Climate Change and Representational Breakdown*](https://averyreview.com/issues/16/archives-of-the-present-future)<br>Clayton Aldern [*Cartographers Without Borders*](https://logicmag.io/justice/cartographers-without-borders/)
-assignment-due: 03/16
+assignment-due: 03/15
 ---  
 
 > *The class name of an object creates a vocabulary for discussing a design. Indeed, many people have remarked that object design has more in common with language design than with procedural program design. We urge learners (and spend considerable time ourselves while designing) to find just the right set of words to describe our objects, a set that is internally consistent and evocative in the context of the larger design environment.*  

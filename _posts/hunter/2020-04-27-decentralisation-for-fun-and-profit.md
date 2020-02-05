@@ -6,7 +6,7 @@ categories: [IPFS, blockchain]
 tags: [decentralisation, co-operation, systems]
 assignment: continue work on final project -- by now you will have a functioning prototype, and be thinking about the interface in greater depth. Have a think on any topics you'd like to explore more, or revisit, and add them to the google sheet for next class.
 description: this is a class that (hopefully) ties together some of the themes we've been talking about in a contemporary techno-political context. we'll talk about the present and future of the internet, and think about the web that *we* want. we'll also do some sweet p2p file sharing, so come prepared with some files you like! (tunes, videos, pics)
-assignment-due: 05/04
+assignment-due: 05/03
 ---  
 
 By now, you should all have a good basis for your final project, and be able to discuss the structure in detail. While you might not have an interface yet to show, your blog should contain some discussion and sketches of the form that it might take, and a plan for what technologies you will use to achieve it. If you're struggling, I've blocked out time at the end of this class for you to work on your pieces and talk to me if you need any help.
