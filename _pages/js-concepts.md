@@ -85,12 +85,12 @@ var people = ["vincent", "mert", "peter", "dale"];
 In arrays, values are separated by commas, and, like before, strings have to be in quotation marks. If we want to get a particular value from an array, we use something called an 'index', which gives us the value at a particular position. Arrays are indexed starting at 0 *not* 1, so:
 
 ```
-console.log(people[0])
+console.log(people[0]);
 ```
 Will print `vincent`, but:
 
 ```
-console.log(people[4])
+console.log(people[4]);
 ```
 Will give us an error like 'people[4] is undefined'. ono??! Why?! It's because our array elements are indexed 0, 1, 2, and 3. There is no element `people[4]`, and so the browser gets upset when we try to print it.
 
@@ -113,7 +113,7 @@ var student = {
 To look inside an object, we typically use something called 'dot notation'. Dot notation allows us to select a single property of an object, and get its value.
 
 ```
-console.log(student.food)
+console.log(student.food);
 ```
 
 Will print `banana` to the console.
@@ -146,7 +146,7 @@ var students = [
 The same ideas that applied to arrays before still apply. After declaring this array of objects, we can do:
 
 ```
-console.log(students[2])
+console.log(students[2]);
 ```
 
 Will print:
@@ -161,7 +161,7 @@ Will print:
 We can also use the dot notation *with* the array notation:
 
 ```
-console.log(students[1].food)
+console.log(students[1].food);
 ```
 Will print `apples`. Nice. I love apples.
 
@@ -184,7 +184,7 @@ So, if we have
 
 ```
 for(var i=0; i<10; i++){
-  console.log(i)
+  console.log(i);
 }
 ```
 This will print `0 1 2 3 4 5 6 7 8 9` to the terminal (it won't print 10, as 10 is not 'less than' 10). We can also do something more complicated, for instance:
@@ -192,7 +192,7 @@ This will print `0 1 2 3 4 5 6 7 8 9` to the terminal (it won't print 10, as 10 
 ```
 for(var i=0; i<10; i++){
   i=i*2;
-  console.log(i)
+  console.log(i);
 }
 ```
 will print `0 2 4 6 8 10 12 14 16 18 20`.
@@ -201,7 +201,7 @@ Now we have nearly enough information to print all the elements in our array `st
 
 ```
 for(var i=0; i<4; i++){
-  console.log(students[i])
+  console.log(students[i]);
 }
 ```
 
@@ -209,7 +209,7 @@ However! If the array changes in length, we'd have to go back and change the cou
 
 ```
 for(var i=0; i<students.length; i++){
-  console.log(students[i])
+  console.log(students[i]);
 }
 ```
 
@@ -241,7 +241,7 @@ If we just want the names, we can do:
 
 ```
 for(var i=0; i<students.length; i++){
-  console.log(students[i].name)
+  console.log(students[i].name);
 }
 ```
 
@@ -275,7 +275,7 @@ function myFunction( <variables> ) {
 Functions don't run by themselves: when we want a function to run, we need to call it from somewhere in the code, passing it the variables we want it to use.
 
 ```
-myFunction( <variables> )
+myFunction( <variables> );
 ```
 
 To see this working, we can define a really simple function, `multiplyByTwo`. `multiplyByTwo` will take in a number as a variable (we call this the 'argument' of the function) and output 2x that number. So:
@@ -317,21 +317,21 @@ Will print `6` to the console.
 For our function, we want to pick an element at random from the array. In this case, that means randomly picking an index value, between 0 and the length of our array (currently 4). The way we generate random numbers in javascript is using a function called `Math.random()` which randomly outputs a decimal number between 0 and 1.
 
 ```
-console.log( Math.random() )
+console.log( Math.random() );
 ```
 Will print something like 0.1215 or 0.7573719, you get the idea. 
 
 If we want to have a bigger range, we just multiply:
 
 ```
-console.log( Math.random()*4 )
+console.log( Math.random()*4 );
 ```
 will print a random decimal between 0 and 4.
 
 In order to select an element from our array, though, we don't want a decimal: we want an integer. To do this, we use another function, `Math.floor()`. This will round our number *down* to the nearest integer. In order to select a random integer between 0 and the length of our array, we do:
 
 ```
-console.log( Math.floor(Math.random()*students.length) )
+console.log( Math.floor(Math.random()*students.length) );
 ```
 This will print 0, 1, 2, or 3 randomly each time.
 
@@ -339,7 +339,7 @@ So, to print a random student's name, we can do:
 
 ```
 var index = Math.floor(Math.random()*students.length);
-console.log( students[index].name )
+console.log( students[index].name );
 ```
 
 ### putting it together
@@ -350,7 +350,7 @@ Instead, we can just turn this into a function, get it to retun the student obje
 ```
 function randomStudent() {
   var selectedStudent = students[Math.floor(Math.random()*students.length)];
-  console.log(selectedStudent.name, selectedStudent.food)
+  console.log(selectedStudent.name, selectedStudent.food);
 }
 
 randomStudent();
@@ -384,7 +384,7 @@ The very last thing we need is to be able to see it. To do this, add an element 
 This span doesn't have anything in it yet: that's intentional, as we're going to fill it using Javascript. In order to do this, we need the Javascript to be able to find the element on the page. We do this by referencing the DOM, which in JS is referred to as `document`.
 
 ```
-document.getElementById("student")
+document.getElementById("student");
 ```
 Will select all HTML elements with `id="student`. Next, we need to change the contents of the span, and fill it with our student instead. We use a property called [`innerHTML`](https://www.w3schools.com/jsref/prop_html_innerhtml.asp), which lets us put HTML inside of existing HTML elements.
 
@@ -395,8 +395,6 @@ function randomStudent() {
   var selectedStudent = students[Math.floor(Math.random()*students.length)];
   document.getElementById("student").innerHTML = selectedStudent.name;
 }
-
-randomStudent();
 ```
 
 Now when we click the button, if everything's set up right, we should see the student's name on the page. 
