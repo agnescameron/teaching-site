@@ -6,6 +6,12 @@ permalink: /js_101/
 
 <style>
 body {background-color: white;}
+::selection {
+  background: rgba(255,0,0,0.5);
+}
+::-moz-selection {
+  background: rgba(255,0,0,0.5);
+}
 </style>
 
 
@@ -18,12 +24,12 @@ Your `index.html` file should look something like this:
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
 
 </body>
-	<script src="main.js"></script>
+  <script src="main.js"></script>
 </html>
 ```
 
@@ -95,8 +101,8 @@ If we make a single object, it would look like this:
 
 ```
 var student = {
-	"name": "vincent",
-	"food": "banana"
+  "name": "vincent",
+  "food": "banana"
 }
 ```
 
@@ -114,22 +120,22 @@ Objects are great, because, like any other Javascript variable, we can put them 
 
 ```
 var students = [
-	{
-		"name": "vincent",
-		"food": "banana"
-	},
-	{
-		"name": "murt",
-		"food": "apples"
-	},
-	{
-		"name": "peter",
-		"food": "pineapples"
-	},
-	{
-		"name": "dale",
-		"food": "apple pie"
-	},
+  {
+    "name": "vincent",
+    "food": "banana"
+  },
+  {
+    "name": "murt",
+    "food": "apples"
+  },
+  {
+    "name": "peter",
+    "food": "pineapples"
+  },
+  {
+    "name": "dale",
+    "food": "apple pie"
+  },
 ]
 ```
 
@@ -142,10 +148,10 @@ console.log(students[2])
 Will print:
 
 ```
-	{
-		"name": "peter",
-		"food": "pineapples"
-	},
+  {
+    "name": "peter",
+    "food": "pineapples"
+  },
 ```
 
 We can also use the dot notation *with* the array notation:
@@ -163,7 +169,7 @@ Loops are a quick way of applying the same code to every element in an array or 
 
 ```
 for(var i=0; i<10; i++){
-	// code goes here
+  // code goes here
 }
 ```
 * the `for` keyword tells the computer that you're about to run in the for loop. 
@@ -174,15 +180,15 @@ So, if we have
 
 ```
 for(var i=0; i<10; i++){
-	console.log(i)
+  console.log(i)
 }
 ```
 This will print `0 1 2 3 4 5 6 7 8 9` to the terminal (it won't print 10, as 10 is not 'less than' 10). We can also do something more complicated, for instance:
 
 ```
 for(var i=0; i<10; i++){
-	i=i*2;
-	console.log(i)
+  i=i*2;
+  console.log(i)
 }
 ```
 will print `0 2 4 6 8 10 12 14 16 18 20`.
@@ -191,7 +197,7 @@ Now we have nearly enough information to print all the elements in our array `st
 
 ```
 for(var i=0; i<4; i++){
-	console.log(students[i])
+  console.log(students[i])
 }
 ```
 
@@ -199,44 +205,48 @@ However! If the array changes in length, we'd have to go back and change the cou
 
 ```
 for(var i=0; i<students.length; i++){
-	console.log(students[i])
+  console.log(students[i])
 }
 ```
 
 will print:
 
 ```
-	{
-		"name": "vincent",
-		"food": "banana"
-	}
+  {
+    "name": "vincent",
+    "food": "banana"
+  }
 
-	{
-		"name": "murt",
-		"food": "apples"
-	}
+  {
+    "name": "murt",
+    "food": "apples"
+  }
 
-	{
-		"name": "peter",
-		"food": "pineapples"
-	}
+  {
+    "name": "peter",
+    "food": "pineapples"
+  }
 
-	{
-		"name": "dale",
-		"food": "apple pie"
-	}
+  {
+    "name": "dale",
+    "food": "apple pie"
+  }
 ```
 
 If we just want the names, we can do:
 
 ```
 for(var i=0; i<students.length; i++){
-	console.log(students[i].name)
+  console.log(students[i].name)
 }
 ```
 
+which will print:
 ```
-vincent murt peter dale
+vincent
+murt 
+peter 
+dale
 ```
 
 ## 3: Functions
@@ -248,7 +258,7 @@ This is an example of a typical 'function declaration': the part of the code tha
 
 ```
 function myFunction( <variables> ) {
-	// code goes here
+  // code goes here
 }
 
 ```
@@ -268,8 +278,8 @@ To see this working, we can define a really simple function, `multiplyByTwo`. `m
 
 ```
 function multiplyByTwo( number ){
-	number = number*2;
-	console.log(number);
+  number = number*2;
+  console.log(number);
 }
 
 multiplyByTwo(3);
@@ -289,8 +299,8 @@ We can also make a function 'return' a variable instead of just printing somethi
 
 ```
 function multiplyByTwo( number ){
-	number = number*2;
-	return number;
+  number = number*2;
+  return number;
 }
 
 var multiplied = multiplyByTwo(3);
@@ -335,8 +345,8 @@ Instead, we can just turn this into a function, get it to retun the student obje
 
 ```
 function randomStudent() {
-	var selectedStudent = students[Math.floor(Math.random()*students.length)];
-	console.log(selectedStudent.name, selectedStudent.food)
+  var selectedStudent = students[Math.floor(Math.random()*students.length)];
+  console.log(selectedStudent.name, selectedStudent.food)
 }
 
 randomStudent();
@@ -378,8 +388,8 @@ So now, instead of printing to the console like we did earlier, this function wi
 
 ```
 function randomStudent() {
-	var selectedStudent = students[Math.floor(Math.random()*students.length)];
-	document.getElementById("student").innerHTML = selectedStudent.name;
+  var selectedStudent = students[Math.floor(Math.random()*students.length)];
+  document.getElementById("student").innerHTML = selectedStudent.name;
 }
 
 randomStudent();
