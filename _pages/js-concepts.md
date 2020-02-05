@@ -19,6 +19,7 @@ In each of these examples, we’re going to look at the example I covered in cla
 
 If you're unfamiliar with these ideas, I recommend you 'play along' with the examples: make an `index.html` file with a generic html template, and in the same directory, a file called `main.js`, including `main.js` in `index.html` using the script tag.
 
+
 Your `index.html` file should look something like this:
 ```
 <!DOCTYPE html>
@@ -33,6 +34,7 @@ Your `index.html` file should look something like this:
 </html>
 ```
 
+If you'd rather try a different format than this, the [first 6 JS classes on CodeAcademy](https://www.codecademy.com/learn/introduction-to-javascript) are a great interactive tutorial that will get you up to speed.
 
 ## 1: Javascript variables
 In programming languages, variables give us a way of storing and labelling values. 
@@ -74,10 +76,10 @@ var text = "i had such a nice lunch today";
 ### arrays
 If we want to deal with more than one variable at once, sometimes it makes sense to arrange them into something called an 'array'. This is particularly useful for lists of things.
 
-For example, we could represent the people in the class as an array (for the purposes of this description, the only people in the class are vincent, murt, peter and dale)
+For example, we could represent the people in the class as an array (for the purposes of this description, the only people in the class are vincent, mert, peter and dale)
 
 ```
-var people = ["vincent", "murt", "peter", "dale"];
+var people = ["vincent", "mert", "peter", "dale"];
 ```
 
 In arrays, values are separated by commas, and, like before, strings have to be in quotation marks. If we want to get a particular value from an array, we use something called an 'index', which gives us the value at a particular position. Arrays are indexed starting at 0 *not* 1, so:
@@ -90,10 +92,12 @@ Will print `vincent`, but:
 ```
 console.log(people[4])
 ```
-Will give us an error like 'people[4] is undefined'. ono??! Why?! It's because our array elements are indexed 0, 1, 2, and 3. There is no element `people[4]`, and so the browser gets upset when we try to print it. It turns out you can do a lot of cool stuff with arrays! There will be a bit more of that later in this document, but for the full run-down head to: 
+Will give us an error like 'people[4] is undefined'. ono??! Why?! It's because our array elements are indexed 0, 1, 2, and 3. There is no element `people[4]`, and so the browser gets upset when we try to print it.
+
+For more on arrays, [read this](https://www.w3schools.com/js/js_arrays.asp).
 
 ### objects
-Arrays are great, but sometimes they can be a bit light on information. For example, it's all very well to know that these people are in the class, but what if I also wanted to know their favourite foods?
+Arrays are great, but they can't always organise all the information we have. For example, it's all very well to know that these people are in the class, but what if I also wanted to know their favourite foods?
 
 Objects give us a way of collecting together a number of *properties* that define a 'thing.' so, instead of just having a list of names, I can make a list of objects. In this case, my objects are *students*. Students are things with properties: these students have the properties `name` and `food`.
 
@@ -125,7 +129,7 @@ var students = [
     "food": "banana"
   },
   {
-    "name": "murt",
+    "name": "mert",
     "food": "apples"
   },
   {
@@ -161,7 +165,7 @@ console.log(students[1].food)
 ```
 Will print `apples`. Nice. I love apples.
 
-For more on objects, visit:
+For more on objects, [read this](https://www.w3schools.com/js/js_objects.asp).
 
 ## 2: Loops
 
@@ -218,7 +222,7 @@ will print:
   }
 
   {
-    "name": "murt",
+    "name": "mert",
     "food": "apples"
   }
 
@@ -244,7 +248,7 @@ for(var i=0; i<students.length; i++){
 which will print:
 ```
 vincent
-murt 
+mert 
 peter 
 dale
 ```
