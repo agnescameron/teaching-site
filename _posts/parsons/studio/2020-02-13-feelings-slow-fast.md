@@ -16,7 +16,6 @@ readings:
 
 ### discussion: the internet is full of feelings
 
-
 Damon Zucconi, [Co-ordinated Mars Time](http://work.damonzucconi.com/coordinated-mars-time/)
 
 Pippin Barr, [It's as if you were doing work](https://pippinbarr.github.io/itisasifyouweredoingwork/)
