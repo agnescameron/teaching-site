@@ -13,19 +13,31 @@ layout: hunter_post
 <span id="randomiser"></span>
 
 <script type="text/javascript">
-	people = [
-	{"student": "alice", "site": ""},
-	{"student": "bob", "site": ""},
-	{"student": "ted", "site": ""}
+	var people = [
+	{ "name": "vincent", "site": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow", 
+		"food": "bananas"},
+	{"name": "mert", "site": "https://www.w3schools.com/css/css_combinators.asp", 
+		"food": "apples"},
+	{"name": "peter", "site": "https://fonts.google.com/specimen/Lato?selection.family=Lato", 
+		"food": "pineapples"},
+	{"name": "dale", "site": "https://en.wikipedia.org/wiki/HTML_attribute", 
+		"food": "apple pie"},
 	]
 
-	function randomPerson(){
-		var person = people[Math.floor(Math.random()*people.length)]
-		document.getElementById('randomiser').innerHTML = person
-	}
-	function populateClass(person){
-	document.getElementById('people').innerHTML+=`<li><a href=${person.site}>${person.student}</a></li>`
-	}
 
-	people.forEach(populateClass);
+function randomPerson() {
+	var person = people[Math.floor(Math.random()*people.length)];
+	document.getElementById("randomiser").innerHTML= person.name + ' ' + person.food;
+}
+
+
+	// function randomPerson(){
+	// 	var person = people[Math.floor(Math.random()*people.length)]
+	// 	document.getElementById('randomiser').innerHTML = person
+	// }
+	// function populateClass(person){
+	// document.getElementById('people').innerHTML+=`<li><a href=${person.site}>${person.student}</a></li>`
+	// }
+
+	// people.forEach(populateClass);
 </script>

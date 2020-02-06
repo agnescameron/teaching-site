@@ -1,0 +1,15 @@
+
+p {
+	font-family: 'Lato', sans-serif;
+	background-color: lightblue;
+}
+
+
+p > span {
+	background-color: pink;
+}
+
+
+p + span {
+	background-color: #cccc00;
+}
