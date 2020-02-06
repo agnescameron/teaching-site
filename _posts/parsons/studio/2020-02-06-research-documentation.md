@@ -22,7 +22,7 @@ Reconstruct a persona using are.na channel<br />
 Developing a research methodology<br />
 [f](https://www.are.na/lucy-siyao-liu)[o](https://www.are.na/clement-valla)[r](https://www.are.na/mindy-seu)[e](https://www.are.na/austin-wade-smith)[x](https://www.are.na/casey-tang)[a](https://www.are.na/toby-shorin)[m](https://www.are.na/charles-broskoski)[p](https://www.are.na/jon-kyle-mohr)[l](https://www.are.na/melanie-hoff)[e](https://www.are.na/laurel-schwulst)
 <br />
-Processing Images<br />
+Processing images<br />
 PNG (no bg)<br />
 JPG Quality<br />
 GIFs (save for web on PS and optimising with EZGIF)<br />
