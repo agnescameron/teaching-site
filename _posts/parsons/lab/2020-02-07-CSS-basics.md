@@ -141,5 +141,12 @@ The goal of this part is to focus on typography using CSS. Experiment with hiera
 
 Just as before, document your work as you go along. How are you thinking about the problem at hand? This assignment was inspired by a conversation with [Lucy Siyao Liu](https://www.liulucy.com/info), and borrows its form from [Laurel Schwulst](http://laurelschwulst.com)'s exercise [25 Variations](http://veryinteractive.net/projects/variations).
 
+### reading
+
+{{ page.readings }}
+
+Don't just read this week's reading, but take its suggestions on board! Perhaps write a bit in your documentation this week about any aspects of your code that you changed after you read this. (NB -- changing code to improve it is a process called 'refactoring', and it's a very important and necessary part of professional web development).
+
+
 
 
