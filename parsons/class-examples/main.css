@@ -1,0 +1,30 @@
+@font-face {
+	font-family: crimsonText;
+	src: url(fonts/Crimson_Text/CrimsonText-Regular.ttf);
+}
+
+body {
+	font-family: crimsonText;
+}
+
+.paragraph {
+	background-color: yellow;
+}
+
+#fifth-paragraph {
+	background-color: lightblue;
+}
+
+#specialfont {
+	font-family: Arial Black;
+}
+
+p, h1 {
+	background-color: rgb(99, 255, 128);
+}
+
+#rectangle {
+  width: 50%;
+  height: 20vh;
+  background-color: red;
+}

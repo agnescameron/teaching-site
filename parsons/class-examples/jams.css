@@ -1,0 +1,21 @@
+p {
+	background-color: lightpink;
+	border: 1px solid pink;
+}
+
+img, p, h2 {
+	width: 200px;
+	margin-top: 15px;
+	background-color: blue;
+	padding: 10px;
+}
+
+#container {
+	position: relative;
+	left: 20px;
+}
+
+#specialp {
+	background-color: lightblue;
+	border: 1px solid blue;
+}

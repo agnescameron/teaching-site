@@ -117,8 +117,7 @@ Lay out the recipe 5 different ways, using the allowed HTML, and only the follow
 * `border`
 * `margin`
 * `position`
-* `display`
-* `float`
+* `float, clear`
 * `top, right, bottom, left`
 * `height, width`
 
