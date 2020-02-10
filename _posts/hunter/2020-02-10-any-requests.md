@@ -66,11 +66,10 @@ When we want to make a HTTP request just from our terminal, there's a really use
 **requesting from code**  
 When we want to make a HTTP request as part of a website, we do this using a Javascript module. There are a few different ways to do this: this guide has a [comparison between ajax, axios and fetch ](https://www.freecodecamp.org/news/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa/). [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is the most modern of these, and the one I tend to recommend. It's *not supported* by internet explorer (NB this is a theme you'll notice as we go along...)
 
-Testing these on localhost isn't always so straightforward though: this is because of a security feature called [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) -- cross-origin resource sharing. You get an error like ` No 'Access-Control-Allow-Origin' header is present on the requested resource.` There are two ways to get around this:
+Testing these on localhost isn't always so straightforward though: this is because of a security feature attached to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) -- cross-origin resource sharing. It's to protect you from evil sites trying to steal information from your cookies (good), but it also means that friendly sites get blocked too. You get an error like ` No 'Access-Control-Allow-Origin' header is present on the requested resource.` [This article](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9) gives a good breakdown of why these errors occur. There are two ways to get around this:
 
-* if you're comfortable using [node.js](https://nodejs.org/en/) (or a framework like React or Angular), then use node to run your app. include the line `const fetch = require("node-fetch")` at the top of the file, and run `npm install -g node-fetch` on your computer
-* if you just want to use vanilla JS, then install [this chrome extension](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf), or [this firefox extension](https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/). Click on it and reload when you need to test your app!
-
+* if you're comfortable using [node.js](https://nodejs.org/en/) (or a framework like React or Angular), then use node to run your app. include the line `const fetch = require("node-fetch")` at the top of the file, and run `npm install -g node-fetch` on your computer. This software will run a small server, which will handle the request before it gets passed to the client. This solution is known as a proxy.
+* use CORS-anywhere: just put `https://cors-anywhere.herokuapp.com/` on the beginning of your url: this will act as a 'proxy' for the request, and add in a header that will stop the browser from freaking out. It's a really convenient solution if you don't want to run your own proxy.
 
 **API**  
 Some URLs are intended not to contain a webpage at the other end, but instead some kind of data. These are called 'endpoints', and the way you access them is called an API. This means that, when you send a request to that endpoint, rather than getting a lump of HTML back, you'll instead get something you want (normally some kind of object!).
@@ -80,25 +79,25 @@ Many APIs require [keys or tokens](https://stackoverflow.com/questions/1453073/w
 *warning: don't commit your key/secret to github*  
   
 **formatting**  
-  [JSON](https://www.json.org/json-en.html) [XML](https://en.wikipedia.org/wiki/XML) [YAML](https://yaml.org) [which one?](https://stackoverflow.com/questions/3951047/xml-vs-yaml-vs-json) [???](https://stackoverflow.com/questions/1726802/what-is-the-difference-between-yaml-and-json)
-  [oh my god i just got this huge pile of crap from the internet, how on earth do i read this? => 'pretty printing'](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-shell-script)  
+We get requests back in all sorts of different ways, but the most common one is [JSON](https://www.json.org/json-en.html). This is 'Javascript Object Notation', and we met it last week when we made some objects. Other forms of data we can get are [XML](https://en.wikipedia.org/wiki/XML)and [YAML](https://yaml.org), which are worth knowing about (though less frequent from APIs).
+
+[Oh my god i just did a request and got this huge pile of crap from the internet, how on earth do i read this? => 'pretty printing'](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-shell-script)  
 
 
 **waiting**  
 To understand how to make a request in Javascript, you need to understand a little about how asynchronous code works. Why is this? HTTP requests require your code to wait until a resource responds with a particular value. This is often fast, but it's not instantaneous! We can't just treat it like adding numbers together.
 
 Thus, if parts of your code depend on a HTTP request being made *before* they run, then you need to wait for the result of the request. We can do this in a couple of ways:  
-  async/await  
-  promises  
+  [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
+  [async/await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)  
 
-Error handling
-  try/catch  
+Error handling: (or -- 'I wanna write some nice JS')  
+  [try/catch](https://www.w3schools.com/js/js_errors.asp)  
 
 **HTTPS**  
-  SSL  
+  [TLS](https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security)  
   [public key encryption (cool diversion, we could be here for ages...)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
-  certificates  
-  HTTPSEverywhere  
+  [HTTPSEverywhere](https://www.eff.org/https-everywhere)  
 
 
 **what can i ask for?**  

@@ -1,15 +1,19 @@
-// const fetch = require("node-fetch");
-const url='https://order.dominos.com/power/store/5708/menu?lang=en&structured=true'
 
-fetch(url)
-.then(data => {return data.json()})
-.then(res=>{console.log(res)})
+const url='https://cors-anywhere.herokuapp.com/https://order.dominos.com/power/store/5708/menu?lang=es&structured=true'
 
 
-// const Http = new XMLHttpRequest();
-// Http.open("GET", url);
-// Http.send();
+async function getMoreData() {
+	var result = fetch(url)
+	.then(menu1 => {return menu1.json();})
+	.then(result=>{console.log(result)})
 
-// Http.onreadystatechange = (e) => {
-//   console.log(Http.responseText)
-// }
+	return result;
+}
+
+async function getData () {
+	var result = await fetch(url);
+	var resultJSON = await result.json();
+	console.log(resultJSON)
+}
+
+getData();
