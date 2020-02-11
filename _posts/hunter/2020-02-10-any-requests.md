@@ -14,17 +14,27 @@ readings: Everest Pipkin, [*It was raining in the data center*](https://medium.c
 
 >-- Kevin Bewersdorf, *Spirit Surfing*  
 
+
+>*By now the word "hypertext" has become generally accepted for branching and responding text, but the corresponding word "hypermedia", meaning complexes of branching and responding graphics, movies and sound – as well as text – is much less used. Instead they use the strange term "interactive multimedia": this is four syllables longer, and does not express the idea of extending hypertext.*
+
+>-- Ted Nelson, *Literary Machines*  
+
 ### review  
 go through some card sorting solutions. what worked and what didn't? what was hard and what wasn't? Is there a solution you're excited to show us? is there anything that we should revise or that you'd like clearing up?  
 
 ### lecture: get a load of this api  
 
 **HTTP**  
-  [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink)  
-  [who is ted nelson](http://www.hyperland.com/Tedpage-D285) and [why is he unhappy](https://web.archive.org/web/20071009230444/http://www.disenchanted.com/dis/technology/xanadu.html)  
-  [xanadu](http://xanadu.com/xUniverse-D6) [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf) [-> are.na](https://walkerart.org/magazine/counter-currents-are-na-on-ted-nelsons-computer-libdream-machines)  
+HTTP (the HyperText Transfer Protocol) is how we get files from one place to another on the internet. It's the foundation for internet data exchange, and functions according to *requests* made
+
+The phrase 'hypertext' was coined by [ted nelson](http://www.hyperland.com/Tedpage-D285). The word ['hyperlink'](https://en.wikipedia.org/wiki/Hyperlink) also comes from the same root. Importantly, unlike Nelson's original vision, hyperlinks go only one way, rather than two. 
+
+Ted is [deeply unhappy](https://web.archive.org/web/20071009230444/http://www.disenchanted.com/dis/technology/xanadu.html) with the way the internet has gone, and for a (very) long time has been working on a piece of software called [xanadu](http://xanadu.com/xUniverse-D6), which he intends to realise the ['two way, visible connections'](https://www.youtube.com/watch?v=hMKy52Intac) he originally envisioned in describing hypertext.
+
+I almost got you all to read [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf) and still really heavily recommend it. [are.na](https://are.na) list Ted's work as a big inspiration behind their platform, and talk about his influence in [this interview](https://walkerart.org/magazine/counter-currents-are-na-on-ted-nelsons-computer-libdream-machines). Here's [Ted talking to Cab Broskoski](https://www.youtube.com/watch?v=PPBeHDxcVSA) (founder of are.na) at the Decentralised Web Summit in 2018! Other characters that will make an appearence later this semester, like [Bret Victor](http://worrydream.com), also draw inspiration from his work.
 
 **Addresses**  
+HTTP requests function on the basis of the 'client-server' model: you have a computer, a 'client', that makes a request to a 'server'. The server has something you want (a website, pictures of frogs, tweets, etc), and you have to make a HTTP request to get it. You're actually making this request to a URL -- a Uniform Resource Locator. 
   [the World Wide Web]  
   [DNS]
   URI  
@@ -33,49 +43,67 @@ go through some card sorting solutions. what worked and what didn't? what was ha
   [IDN](http://idn.jodi.org) [you-talking-to-me](http://you-talking-to-me.com)  
 
 **requests**  
+When you make a request, it's normally formatted as one of these four types (normally really just the top two):
   GET  
   POST  
   HEAD  
   PUT  
-
-**FTP**  
-
-**HTTPS**  
-  SSL  
-  [public key encryption (cool diversion, we could be here for ages...)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
-  certificates  
-  HTTPSEverywhere  
+  [anatomy of a HTTP request]()  
 
 [**status codes**](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)  
-  [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority)  
+HTTP status codes are how a web resource reports on how a HTTP request went. These are really useful when it comes to debugging issues, as different returned numbers mean different things. These are managed by a body called [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority), the Internet Assigned Numbers authority.
+
+Here are a few common ones:  
   1xx information  
   2xx success 200 🎉 201 204  
   3xx redirection  304  
   4xx client error  400 401 403 404  
   5xx server error  500 502  
-  
-**cURL**  
-  [all about cURL](https://bagder.gitbook.io/everything-curl/cmdline) [cheat sheet](https://devhints.io/curl)
-  
-**formatting**  
-  [JSON](https://www.json.org/json-en.html) [XML](https://en.wikipedia.org/wiki/XML) [YAML](https://yaml.org) [which one?](https://stackoverflow.com/questions/3951047/xml-vs-yaml-vs-json) [???](https://stackoverflow.com/questions/1726802/what-is-the-difference-between-yaml-and-json)
-}
+
+**requesting from the command line**  
+When we want to make a HTTP request just from our terminal, there's a really useful tool called [cURL](https://curl.haxx.se). It can be a bit daunting the first time you try it, so we're going to use it a bunch in class. There's not a ton of accessible curl tutorials, but [this one](https://gist.github.com/joyrexus/85bf6b02979d8a7b0308) can be a helpful guide. Here's a [cheat sheet](https://devhints.io/curl) for a reminder, you can also type `curl --help` into the command line.
+
+**requesting from code**  
+When we want to make a HTTP request as part of a website, we do this using a Javascript module. There are a few different ways to do this: this guide has a [comparison between ajax, axios and fetch ](https://www.freecodecamp.org/news/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa/). [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is the most modern of these, and the one I tend to recommend. It's *not supported* by internet explorer (NB this is a theme you'll notice as we go along...)
+
+Testing these on localhost isn't always so straightforward though: this is because of a security feature attached to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) -- cross-origin resource sharing. It's to protect you from evil sites trying to steal information from your cookies (good), but it also means that friendly sites get blocked too. You get an error like ` No 'Access-Control-Allow-Origin' header is present on the requested resource.` [This article](https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9) gives a good breakdown of why these errors occur. There are two ways to get around this:
+
+* if you're comfortable using [node.js](https://nodejs.org/en/) (or a framework like React or Angular), then use node to run your app. include the line `const fetch = require("node-fetch")` at the top of the file, and run `npm install -g node-fetch` on your computer. This software will run a small server, which will handle the request before it gets passed to the client. This solution is known as a proxy.
+* use CORS-anywhere: just put `https://cors-anywhere.herokuapp.com/` on the beginning of your url: this will act as a 'proxy' for the request, and add in a header that will stop the browser from freaking out. It's a really convenient solution if you don't want to run your own proxy.
 
 **API**  
-  [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)  
-  RPC  
-  [which one?](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/)  
-  [keys](https://stackoverflow.com/questions/1453073/what-is-an-api-key) [usage](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) *warning: don't commit your key/secret to github*  
+Some URLs are intended not to contain a webpage at the other end, but instead some kind of data. These are called 'endpoints', and the way you access them is called an API. This means that, when you send a request to that endpoint, rather than getting a lump of HTML back, you'll instead get something you want (normally some kind of object!).
+
+Many APIs require [keys or tokens](https://stackoverflow.com/questions/1453073/what-is-an-api-key) to access them. It's rare you have to pay for a key for basic usage: they're normally there so if you use the service a lot they can ask you to pay for it. Google Cloud has a [guide](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) as to why they get used. Keys should be private! Be careful with them. As a rule of thumb, if a key is not linked to your credit card the worst that can happen is that you get banned from a service if someone takes your key and over-uses it. However, keys for things like AWS can have wayyyyy more serious consequences if they get leaked.
+
+*warning: don't commit your key/secret to github*  
+  
+**formatting**  
+We get requests back in all sorts of different ways, but the most common one is [JSON](https://www.json.org/json-en.html). This is 'Javascript Object Notation', and we met it last week when we made some objects. Other forms of data we can get are [XML](https://en.wikipedia.org/wiki/XML)and [YAML](https://yaml.org), which are worth knowing about (though less frequent from APIs).
+
+[Oh my god i just did a request and got this huge pile of crap from the internet, how on earth do i read this? => 'pretty printing'](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-shell-script)  
+
 
 **waiting**  
-  try/catch  
-  async/await  
-  promises
+To understand how to make a request in Javascript, you need to understand a little about how asynchronous code works. Why is this? HTTP requests require your code to wait until a resource responds with a particular value. This is often fast, but it's not instantaneous! We can't just treat it like adding numbers together.
+
+Thus, if parts of your code depend on a HTTP request being made *before* they run, then you need to wait for the result of the request. We can do this in a couple of ways:  
+  [promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)  
+  [async/await](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)  
+
+Error handling: (or -- 'I wanna write some nice JS')  
+  [try/catch](https://www.w3schools.com/js/js_errors.asp)  
+
+**HTTPS**  
+  [TLS](https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security)  
+  [public key encryption (cool diversion, we could be here for ages...)](https://en.wikipedia.org/wiki/Public-key_cryptography)  
+  [HTTPSEverywhere](https://www.eff.org/https-everywhere)  
+
 
 **what can i ask for?**  
 
   *weather*  
-    [darksky](https://darksky.net/dev/docs) [open weather map](https://openweathermap.org/api) [aeris weather](https://www.aerisweather.com)  
+    [darksky](https://darksky.net/dev/docs) [aeris weather](https://www.aerisweather.com)  
     [lovely weather we're having](https://glander.itch.io/lovely-weather-were-having)  
     [weather gradient](http://weathergradient.com)  
     [wind around the world](https://www.synopticoffice.com/project/the-wind/)  

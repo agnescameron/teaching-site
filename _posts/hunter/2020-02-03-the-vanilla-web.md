@@ -51,7 +51,7 @@ One of the more important concepts in HTML is page structure: the idea that elem
 
 In HTML, *elements* refer to the different tags that can be used to house information on the page. Some tags contain text (these require an 'open' and a 'close' tag), others are 'empty', and instead have their contents set as an [attribute](https://en.wikipedia.org/wiki/HTML_attribute) (img tags work like this).
 
-[Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) do not generally force a new line to begin (and are therefore useful elements to feature *within* a block of text). By contrast, [block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) are elements that typically 
+[Inline elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) do not generally force a new line to begin (and are therefore useful elements to feature *within* a block of text). By contrast, [block elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) are elements that start a newline within their parent container.
 
 The ['normal flow'](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow) describes the relationship between inline and block elements on a page. The [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display) can be set in CSS to change between block elements and inline elements.
 
