@@ -1,19 +1,11 @@
 
-const url='https://cors-anywhere.herokuapp.com/https://order.dominos.com/power/store/5708/menu?lang=es&structured=true'
-
-
-async function getMoreData() {
-	var result = fetch(url)
-	.then(menu1 => {return menu1.json();})
-	.then(result=>{console.log(result)})
-
-	return result;
-}
+const url='https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/c0d72b078c4f27a37169a2a3638dad3e/50,-30'
 
 async function getData () {
 	var result = await fetch(url);
 	var resultJSON = await result.json();
 	console.log(resultJSON)
+	document.getElementById("weather").innerHTML = resultJSON.currently.summary;
 }
 
 getData();
