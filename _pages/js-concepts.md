@@ -5,13 +5,7 @@ permalink: /js_101/
 ---
 
 <style>
-body {background-color: white;}
-::selection {
-  background: rgba(255,0,0,0.5);
-}
-::-moz-selection {
-  background: rgba(255,0,0,0.5);
-}
+body {background-color: #ffb399;}
 </style>
 
 
