@@ -34,21 +34,18 @@ Ted is [deeply unhappy](https://web.archive.org/web/20071009230444/http://www.di
 I almost got you all to read [computer lib](http://worrydream.com/refs/Nelson-ComputerLibDreamMachines1975.pdf) and still really heavily recommend it. [are.na](https://are.na) list Ted's work as a big inspiration behind their platform, and talk about his influence in [this interview](https://walkerart.org/magazine/counter-currents-are-na-on-ted-nelsons-computer-libdream-machines). Here's [Ted talking to Cab Broskoski](https://www.youtube.com/watch?v=PPBeHDxcVSA) (founder of are.na) at the Decentralised Web Summit in 2018! Other characters that will make an appearence later this semester, like [Bret Victor](http://worrydream.com), also draw inspiration from his work.
 
 **Addresses**  
-HTTP requests function on the basis of the 'client-server' model: you have a computer, a 'client', that makes a request to a 'server'. The server has something you want (a website, pictures of frogs, tweets, etc), and you have to make a HTTP request to get it. You're actually making this request to a URL -- a Uniform Resource Locator. 
-  [the World Wide Web]  
-  [DNS]
-  URI  
-  URL  
-  IP  
-  [IDN](http://idn.jodi.org) [you-talking-to-me](http://you-talking-to-me.com)  
+HTTP requests function on the basis of the 'client-server' model: you have a computer, a 'client', that makes a request to a 'server'. The server has something you want (a website, pictures of frogs, tweets, etc), and you have to make a HTTP request to get it. You're actually making this request to a [URL](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_URL) -- a Uniform Resource Locator. 
+
+Net artists JODI have made some nice works playing with URLs as a medium. Check out [IDN](http://idn.jodi.org), and [you-talking-to-me](http://you-talking-to-me.com).
 
 **requests**  
-When you make a request, it's normally formatted as one of these four types (normally really just the top two):
+When you make a request, it's normally formatted as one of these four types (normally really just the top two):  
   GET  
   POST  
   HEAD  
   PUT  
-  [anatomy of a HTTP request]()  
+
+This presentation gives a good breakdown of what goes on under the hood of a [HTTP request](https://robrich.org/slides/anatomy_of_a_web_request/#/9).
 
 [**status codes**](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)  
 HTTP status codes are how a web resource reports on how a HTTP request went. These are really useful when it comes to debugging issues, as different returned numbers mean different things. These are managed by a body called [IANA](https://en.wikipedia.org/wiki/Internet_Assigned_Numbers_Authority), the Internet Assigned Numbers authority.
@@ -77,11 +74,12 @@ Some URLs are intended not to contain a webpage at the other end, but instead so
 Many APIs require [keys or tokens](https://stackoverflow.com/questions/1453073/what-is-an-api-key) to access them. It's rare you have to pay for a key for basic usage: they're normally there so if you use the service a lot they can ask you to pay for it. Google Cloud has a [guide](https://cloud.google.com/endpoints/docs/openapi/when-why-api-key) as to why they get used. Keys should be private! Be careful with them. As a rule of thumb, if a key is not linked to your credit card the worst that can happen is that you get banned from a service if someone takes your key and over-uses it. However, keys for things like AWS can have wayyyyy more serious consequences if they get leaked.
 
 *warning: don't commit your key/secret to github*  
-  
+
+
 **formatting**  
 We get requests back in all sorts of different ways, but the most common one is [JSON](https://www.json.org/json-en.html). This is 'Javascript Object Notation', and we met it last week when we made some objects. Other forms of data we can get are [XML](https://en.wikipedia.org/wiki/XML)and [YAML](https://yaml.org), which are worth knowing about (though less frequent from APIs).
 
-[Oh my god i just did a request and got this huge pile of crap from the internet, how on earth do i read this? => 'pretty printing'](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-shell-script)  
+[Oh my god i just did a request and got this huge pile of crap from the internet, how on earth do i read this? => 'pretty printing'](https://stackoverflow.com/questions/352098/how-can-i-pretty-print-json-in-a-shell-script).  
 
 
 **waiting**  
