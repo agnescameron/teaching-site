@@ -4,7 +4,7 @@ title: seeking arrangements
 permalink: /class7/  
 description: This class is about the use and misuse of maps, charts, and graphs as tools of arranging, ordering and representing ideas. We will use JQuery and other libraries to arrange the data we gathered last week, thinking about different approaches to representation. 
 assignment: using jQuery (and anything else you choose), display the data set you collected last week in a few different ways.
-readings: Marvin Minsky [*Why programming is a good medium for expressing poorly understood and sloppily-formulated ideas*](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)<br> Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces)
+readings: Marvin Minsky [*Why programming is a good medium for expressing poorly understood and sloppily-formulated ideas*](http://worrydream.com/refs/Minsky%20-%20Why%20programming%20is%20a%20good%20medium%20for%20expressing%20poorly%20understood%20and%20sloppily-formulated%20ideas.pdf)<br> Brandur [*Learning from Terminals to Design the Future of User Interfaces*](https://brandur.org/interfaces) <br> Alexis Madrigal, [*The Lost Ancestors of Ascii Art*](https://www.theatlantic.com/technology/archive/2014/01/the-lost-ancestors-of-ascii-art/283445/)
 assignment-due: 03/22
 ---  
 <!-- maybe cybernetics lib here?? orit halpern beautiful data kind of thing??? -->

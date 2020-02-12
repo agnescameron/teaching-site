@@ -117,6 +117,8 @@ examples:
 * look at where your packets are routed at different times of day
 *
 
+Before next week (if you haven't already), please install NodeJS and the Node Package Manager (npm).
+
 **Ideas+Resources:**  
   Neal Stephenson [*Mother Earth Mother Board*](https://www.wired.com/1996/12/ffglass/)  
   Randall Monroe [*Google's Data Centers on Punch Cards*](https://what-if.xkcd.com/63/)  
