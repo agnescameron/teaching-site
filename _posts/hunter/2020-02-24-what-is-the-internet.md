@@ -83,6 +83,9 @@ ARPANET
   [herbivore](https://github.com/samatt/Herbivore)  
   [nmap](https://www.howtogeek.com/423709/how-to-see-all-devices-on-your-network-with-nmap-on-linux/)  
 
+**hacking**
+  [printers](http://hacking-printers.net/wiki/index.php/Main_Page) [PRET](https://github.com/RUB-NDS/PRET)  
+
 **spoofing**  
   [nsa surveillance](https://www.aclu.org/issues/national-security/privacy-and-surveillance/nsa-surveillance) [Edward Snowden](https://en.wikipedia.org/wiki/Edward_Snowden)  
   *julian oliver*  
@@ -102,20 +105,25 @@ ARPANET
   [internet connectivity by motorcycle](https://web.archive.org/web/20031217120037fw_/http://www.daknet.net/demo.htm)  
 
 ### in class exercise  
-Make our own data link protocol.
+Make our own data link protocols. We'll embody ethernet and pass each other packets, and pretend to be wifi.
 
 ### assignment  
 *due {{page.assignment-due}}*<br>
 {{page.assignment}}
 do your own media archaeology/forensics  
 use the tools we have (or find some other ones)  
+You don't need to write any code for this week's homework (though you can if you like!). This is a great opportunity to try a technology you're curious about, or go on an adventure. Documentation is really important this week, and should be the bulk of what you produce!
   
 Precaution: some of the tools we've looked at today are powerful, and some uses of them are of shady legality. Don't (for example) try and hack into someone else's computer unless you have their permission. 
 
 examples:
 * when connecting to the wifi in different places, record how many other devices are also connected to the networks.
 * look at where your packets are routed at different times of day
-*
+* go on a journey to your local data center (if you tell them it's for a class in advance, they might let you in!)
+* have a look through Networks of New York and go hunting for similar features in your neighbourhood
+* join the NYC Mesh! (if you're currently paying for wifi this will also save you $$)
+
+You're also welcome to spend the week diving deeper into one of the things we've discussed in class, or in the readings. Be sure to write thorough notes!
 
 Before next week (if you haven't already), please install NodeJS and the Node Package Manager (npm).
 
