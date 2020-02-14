@@ -1,0 +1,34 @@
+body {
+	font-family: helvetica;
+	background-color: lightblue;
+}
+
+/*display*/
+span {
+	background-color: yellow;
+}
+
+div {
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+	background-color: pink;
+}
+
+
+.hidden {
+	/*visibility: hidden;*/
+}
+
+.none {
+	/*display: none;*/
+}
+
+/*flex*/
+
+
+
+
+
+
+/*grid*/
