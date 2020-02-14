@@ -79,22 +79,120 @@ The idea of 'cascading' is important here: both % and em *inherit* values from a
 **the display property**  
 The ['display' property](https://css-tricks.com/almanac/properties/d/display/) determines if and how an element is displayed. It's the basis for defining whether elements feature in more complex kinds of layout formations (like grids and flexboxes), but it can also define things like whether an element is 
 
-Note: Setting the display property of an element only changes *how* the element is displayed, NOT what kind of element it is. So, an inline element with `display: block;` is not allowed to have other block elements inside it.
+Note: Setting the display property of an element only changes *how* the element (or the element's children) is displayed, NOT what kind of element it is. So, an inline element with `display: block;` is not allowed to have other block elements inside it.
 
-The first 3 settings we're going to look at are *inline, block, and inline-block*.
+The first 3 settings we're going to look at are *inline, block, and inline-block*. (there are 20 possible values of display! we will not look at them all here).
 
 * inline elements like spans can have padding and margins set, but no width or height. These will *not* cause a newline
 * elements with property *block* can have a width and a height, and will cause a newline
 * elements with property *inline-block* behave like inline elements, but they can have a width and a height too!
 
 **hiding things -- an aside**  
-There's a few cases where hiding things
+There's a few cases where hiding things can be really useful, particularly in responsive design! There are two ways to do it:
+
+* display: none -- this will make it like the div was never there...
+* visibility: hidden -- this will keep the space where the div was, but the content becomes invisible
 
 **CSS grids**  
+CSS grids, in their simplest sense, are a bunch of boxes in another box. (So are flex-boxes!) In order to become a grid, the *outer* box needs to have the property `display: grid` set. 
 
+Grids allow us to define rows and columns where our content sits. Columns can be defined with the property `grid-template-columns`, and rows with the property `grid-template-rows`, These grids can be fixed-width:
+
+```
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+```
+
+This will create 3 columns, each of width 200px, where my divs will sit.
+
+But perhaps we want our columns to change width when the page changes. We can use flexible length units to define these columns:
+
+```
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+```
+
+Or perhaps, we'd like to mix and match!
+
+```
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 1fr 2fr;
+}
+```
+
+How do we deal with rows?
+
+Because the rows have been created automatically (just by defining columns!) we can't specify `grid-template-rows` in the same way. Instead, we need to use `grid-auto-rows`, which will automatically set the row height . The catch? If we don't know how many rows we have, we can't use `fr` as a unit.
+
+```
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+```
+
+One of the most useful properties of grids is that they allow you to place items of different shapes and sizes relative to the grid layout. Using the `grid-column-start` and `grid-column-end` properties, it's possible to tell the browser to map out part of the grid for particular boxes. 
+
+```
+.grid-box1 { 
+  grid-column-start: 1; 
+  grid-column-end: 4; 
+  grid-row-start: 1; 
+  grid-row-end: 3; 
+}
+
+.grid-box2 { 
+  grid-column-start: 1; 
+  grid-row-start: 3; 
+  grid-row-end: 5; 
+}
+```
+
+If you want grid practice, particularly of this part, [css grid garden](https://cssgridgarden.com) is a great tutorial.
+
+Just as in typesetting, we're able to define *gutters* for our grids. This is done with the `column-gap` and `row-gap` property, or `grid-gap` if they're the same.
+
+This is not all there is to know about grids! For a longer and more thorough guide the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout) have a lot of good info. Questions such as 'can I put a grid in a grid?' will be answered.
+
+Both Chrome and Firefox come with Grid-Inspector tools that let you look in detail at how a grid is laid out!
 
 **flexboxes**  
+Flexboxes, just like grids, are created by putting some boxes inside another box. Like before, the *outer* box needs to have the property `display: grid` set. This outer box is called the *flex grid-container*.
 
+Flexbox is interesting as it deals with layout *one dimension at a time* -- either in terms of rows or in terms of columns, using the `flex-direction` property. That means: if you want your boxes to be arranged left-to-right (then make new lines when they run out of room), set `flex-direction` to row. If not, set `flex-direction` to column. (to go backwards, `row-reverse` or `column-reverse`). This direction is called the *main axis*. The other axis (at 90 degrees) is called the *cross axis*.
+
+```
+.flex-grid-container {
+	display: flex;
+	flex-direction: row;
+}
+```
+
+To wrap our boxes onto multiple lines (or multiple columns, if our main axis is columns), we set the `flex-wrap` property in the parent grid-container. If we set it to `no-wrap`, our boxes would shrink to fit the width of the grid-container, and expand in the cross axis if their contents was too large.
+
+```
+.flex-grid-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+```
+
+Flexboxes also give us a way of distributing leftover space on lines to our boxes. By setting the property `flex-grow` in the inner boxes, we can control how much each box grows to fill the space.
+
+```
+.flex-box1 { 
+	flex-grow: 1;
+}
+
+.flex-box2 { 
+	flex-grow: 2;
+}
+```
 
 **media queries**  
 [Media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) allow you to specify things like a device's type and characteristics. These can include things like whether the page is intended for print or screen (HTML is just typesetting, remember!), and more specific parameters, like screen resolution and [viewport](https://developer.mozilla.org/en-US/docs/Glossary/viewport) width.  
@@ -120,6 +218,8 @@ To get started, try the typical values listed [here](https://www.w3schools.com/h
 [Mobile viewports](https://css-tricks.com/the-trick-to-viewport-units-on-mobile/) are notoriously annoying to configure correctly, due to the way different phones will overlay different kinds of navigation toolbars at the top and bottom of the page, and scrollbars on the side. 
 
 In addition to considering mobile devices in 'portrait mode', make sure you include provision for 'landscape' too!
+
+*Don't* use grids and flexboxes together! Not only is it horribly confusing for you (and anyone that has to read your code), but it's uneccesary, and will confuse the people using the site, too. They're fundamentally different ways of looking at the same problem (how to arrange your objects on a page)
 
 ### Tutorial: {{page.tutorial}}
 

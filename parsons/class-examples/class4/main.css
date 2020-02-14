@@ -3,32 +3,67 @@ body {
 	background-color: lightblue;
 }
 
+/*min and max width*/
+
+img {
+	min-width: 500px;
+	max-width: 50%;
+}
+
 /*display*/
+
 span {
 	background-color: yellow;
 }
 
 div {
-	width: 150px;
-	height: 150px;
-	margin-top: 10px;
 	background-color: pink;
 }
 
+.hidden, .none {
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
 
-.hidden {
-	/*visibility: hidden;*/
+/*.hidden {
+	visibility: hidden;
 }
 
 .none {
-	/*display: none;*/
+	display: none;
+}
+*/
+
+
+/*grid*/
+
+.grid-container {
+	background-color: inherit;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-box1 { 
+
+}
+
+.grid-box2 { 
+	
 }
 
 /*flex*/
 
+.flex-container {
+	background-color: inherit;
+	display: flex;
+}
 
 
+.flex-box1 { 
 
+}
 
+.flex-box2 { 
 
-/*grid*/
+}
