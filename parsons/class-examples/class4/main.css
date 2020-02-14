@@ -67,3 +67,23 @@ div {
 .flex-box2 { 
 
 }
+
+/*media*/
+.inner {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.outer {
+	width: 150px;
+	height: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+	.inner {
+		
+	}
+}
+

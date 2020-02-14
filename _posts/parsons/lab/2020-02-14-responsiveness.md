@@ -55,28 +55,27 @@ Responsive design relies on 3 major techniques:
 
 Many ideas in responsive design are concerned with how to make the elements on your page change relative both to the changing screen, and to one another. They require you to be a bit smarter in designing the rules for how your components should interact together, and consider the page in terms of relationships, rather than fixed values.
 
-**min and max width**  
-Min and max width are really useful for defining fluid images and columns. 
+**min and max width**
 
-[multicol]() is one of the first forms of 'flexible grid' layout
+> playing along? *min-max-width.html*
 
-[flexbox](https://www.w3schools.com/css/css3_flexbox.asp)  
+Min and max width are really useful for defining fluid images and columns. This can also be done for height, but it's much less common.
 
-[css grid]()  
+A popular way to do this is to set the max- dimension to be variable as a proportion of the container, then the minimum dimension stay fixed.
 
+```
+img {
+	min-width: 500px;
+	max-width: 50%;
+}
+```
 
-**measurements**  
-The article [px-em-%-pt-keyword](https://css-tricks.com/css-font-size/) has a really good run-down of the different units and what they mean for text.  
-
-* keyword -- small, medium and large (surprising consistency across browsers, not recommended for anything flexible)
-* px -- accurate, will be the same number of pixels whatever you do
-* em -- these are a little more abstract: 1em is the current font-size of the HTML element that you're in. These also allow you to define other measurements *relative to* the size of your fonts. This is the basis for an approach known as [component-level sizing](https://www.sitepoint.com/power-em-units-css/)
-* % -- percentages give you a font size *as a percentage* of the font size of the parent div. This is a neat way to get fonts to scale relative to one another.
-* pt -- pt is *only used for print CSS*! Don't use these for screen display: cross browser results vary wildly. It's done relative to whatever the browser thinks an inch is... pt are accurate for paper the same way px are accurate for browsers
-
-The idea of 'cascading' is important here: both % and em *inherit* values from a the font-size property of a parent, meaning that, if you set it up right, changing the value of the top-level font can change all the values on the page according to the same ratio. It can allow you to be very effective with media specifications without having to write lots of redundant code, and is worth experimenting with!
+Note: if an image is smaller than the `max-width` property set for it, it won't stretch to fill it! 
 
 **the display property**  
+
+> playing along? *display.html*
+
 The ['display' property](https://css-tricks.com/almanac/properties/d/display/) determines if and how an element is displayed. It's the basis for defining whether elements feature in more complex kinds of layout formations (like grids and flexboxes), but it can also define things like whether an element is 
 
 Note: Setting the display property of an element only changes *how* the element (or the element's children) is displayed, NOT what kind of element it is. So, an inline element with `display: block;` is not allowed to have other block elements inside it.
@@ -94,6 +93,9 @@ There's a few cases where hiding things can be really useful, particularly in re
 * visibility: hidden -- this will keep the space where the div was, but the content becomes invisible
 
 **CSS grids**  
+
+> playing along? *grid.html*
+
 CSS grids, in their simplest sense, are a bunch of boxes in another box. (So are flex-boxes!) In order to become a grid, the *outer* box needs to have the property `display: grid` set. 
 
 Grids allow us to define rows and columns where our content sits. Columns can be defined with the property `grid-template-columns`, and rows with the property `grid-template-rows`, These grids can be fixed-width:
@@ -132,7 +134,7 @@ Because the rows have been created automatically (just by defining columns!) we 
 ```
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 200px;
 }
 ```
 
@@ -162,27 +164,30 @@ This is not all there is to know about grids! For a longer and more thorough gui
 Both Chrome and Firefox come with Grid-Inspector tools that let you look in detail at how a grid is laid out!
 
 **flexboxes**  
+
+> playing along? *flex.html*
+
 Flexboxes, just like grids, are created by putting some boxes inside another box. Like before, the *outer* box needs to have the property `display: grid` set. This outer box is called the *flex grid-container*.
 
 Flexbox is interesting as it deals with layout *one dimension at a time* -- either in terms of rows or in terms of columns, using the `flex-direction` property. That means: if you want your boxes to be arranged left-to-right (then make new lines when they run out of room), set `flex-direction` to row. If not, set `flex-direction` to column. (to go backwards, `row-reverse` or `column-reverse`). This direction is called the *main axis*. The other axis (at 90 degrees) is called the *cross axis*.
 
 ```
-.flex-grid-container {
+.flex-container {
 	display: flex;
 	flex-direction: row;
 }
 ```
 
-To wrap our boxes onto multiple lines (or multiple columns, if our main axis is columns), we set the `flex-wrap` property in the parent grid-container. If we set it to `no-wrap`, our boxes would shrink to fit the width of the grid-container, and expand in the cross axis if their contents was too large.
+To wrap our boxes onto multiple lines (or multiple columns, if our main axis is columns), we set the `flex-wrap` property in the parent grid-container. If we set it to `no-wrap`, our boxes would shrink to fit the width of the grid-container, and expand in the cross axis if their contents was too large. See [this guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items) for more wrapping details.
 
 ```
-.flex-grid-container {
+.flex-container {
 	display: flex;
 	flex-wrap: wrap;
 }
 ```
 
-Flexboxes also give us a way of distributing leftover space on lines to our boxes. By setting the property `flex-grow` in the inner boxes, we can control how much each box grows to fill the space.
+Flexboxes also give us a way of distributing leftover space on lines to our boxes. By setting the property `flex-grow` in the inner boxes, we can control the proportion by which each box grows to fill the space. (note: these *have* to be whole numbers);
 
 ```
 .flex-box1 { 
@@ -194,10 +199,46 @@ Flexboxes also give us a way of distributing leftover space on lines to our boxe
 }
 ```
 
+The `flex-shrink` property does an equivalent thing, but if your flexboxes *overflow* the total space available in the main axis. In that case, this property sets the proportion by which each div will shrink in that direction.
+
+To distribute flex-boxes, there are two properties used:
+
+* `justify-content` controls the alignment of all flexboxes along the *main* axis
+* `align-items` controls the alignment of all flexboxes along the *cross axis*
+
+```
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+```
+
+This can also be used to control the spacing. There are 4 different ways to space out the boxes:
+
+* flex-start: this will pile the boxes at the start of the flexbox
+* flex-end: this will pile the boxes at the end of the flexbox
+* center: this will center the boxes in the middle of the main axis
+* space-between: this will distribute the boxes evenly along the axis, with the first flush to the left side, and the last flush to the right side
+* space-around: the boxes are distributed so that each has an equal amount of space around it (note that this means the space between the box and the edge appears half as wide)
+* space-evenly: the boxes are distributed to make the spacing between each box and each edge even
+
+MDN's guide to [aligning items in a flex container](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container), and the [CSS-tricks guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) is helpful for this.
+
 **media queries**  
 [Media queries](https://www.w3schools.com/css/css3_mediaqueries.asp) allow you to specify things like a device's type and characteristics. These can include things like whether the page is intended for print or screen (HTML is just typesetting, remember!), and more specific parameters, like screen resolution and [viewport](https://developer.mozilla.org/en-US/docs/Glossary/viewport) width.  
 
 To test out media queries, and what your site looks like on different screens, go into your browser's 'responsive design mode'. In Chrome and Firefox, this is a little phone icon in the corner of the console (cmd-alt-i), in Safari, go to Develop > Enter Responsive Design Mode. 
+
+The `and` keyword here means that the block will apply when *both* things are true. In this case, it will apply when the page is *less than or equal to* 600px wide.
+
+```
+@media screen and (max-width: 600px) {
+
+}
+```
+
+You can have multiple `@media` queries in one file.
 
 **breakpoints**  
 Breakpoints are the points at which your site will 'break' into another orientation. These are defined by the CSS media query.
@@ -237,5 +278,20 @@ In addition to considering mobile devices in 'portrait mode', make sure you incl
 * [CSSTricks](https://css-tricks.com) -- really good for specific CSS resources and explanations. Useful code snippets too!  
 * [Mozilla Developer Notes](https://developer.mozilla.org/en-US/docs/Web/CSS) -- good for reference, and also understanding a feature in the context of other web developments, the theory of the language, and the history of the web. (*why* is this thing like this?)
 
+
+**an aside: measurements**  
+The article [px-em-%-pt-keyword](https://css-tricks.com/css-font-size/) has a really good run-down of the different units and what they mean for text.  
+
+* keyword -- small, medium and large (surprising consistency across browsers, not recommended for anything flexible)
+* px -- accurate, will be the same number of pixels whatever you do
+* em -- these are a little more abstract: 1em is the current font-size of the HTML element that you're in. These also allow you to define other measurements *relative to* the size of your fonts. This is the basis for an approach known as [component-level sizing](https://www.sitepoint.com/power-em-units-css/)
+* % -- percentages give you a font size *as a percentage* of the font size of the parent div. This is a neat way to get fonts to scale relative to one another.
+* pt -- pt is *only used for print CSS*! Don't use these for screen display: cross browser results vary wildly. It's done relative to whatever the browser thinks an inch is... pt are accurate for paper the same way px are accurate for browsers
+
+The idea of 'cascading' is important here: both % and em *inherit* values from a the font-size property of a parent, meaning that, if you set it up right, changing the value of the top-level font can change all the values on the page according to the same ratio. It can allow you to be very effective with media specifications without having to write lots of redundant code, and is worth experimenting with!
+
+
 ### in-class assignment
-Use responsiveness to tell a joke! By controlling properties such as visibility and ordering, use pure CSS to tell a joke as a page resizes.
+In pairs or threes, make a page that changes as you resize it. You can choose any one of the techniques we've covered this class.
+
+Can you tell a joke or reveal a mystery? (if you can commit it to git, find out what it looks like on your phone!)
