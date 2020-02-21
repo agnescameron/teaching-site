@@ -15,6 +15,7 @@ readings:
 
 ### lecture: command line tools, tiny programs  
 
+NodeJS and ascii art
 
 **bash**  
   
@@ -58,7 +59,9 @@ readings:
 
 
 **ascii art**
+god, I love ascii art
 
+[jodi.org](http://wwwwwwwww.jodi.org)
 
 **great command line tools**  
   [exiftool](https://exiftool.org/examples.html)
