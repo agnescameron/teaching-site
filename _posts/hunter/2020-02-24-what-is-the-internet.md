@@ -19,15 +19,15 @@ assignment-due: 03/01
 ### reading discussion
 How do you imagine the internet?  
 Do you think governments should be able to intercept phone communications?  
-How might the internet be different if it wasn't developed by the military?
+How might the internet be different if it wasn't developed by the military?  
+Do you think companies like Amazon should be responsible for what happens to their products after they get used?  
 
 ### lecture: the internet is just other peoples' computers  
-
 
 **some ideas**  
   [a series of tubes](https://www.youtube.com/watch?v=f99PcP0aFNE)  
   [whatever *this* is](https://d2w9rnfcy7mm78.cloudfront.net/4354078/large_8e4b5e5b62f7005f6167d810a719a21c.png?1559062215?bc=1)  
-  [what shape is the internet?](https://noahveltman.com/internet-shape/)
+  [what shape is the internet?](https://noahveltman.com/internet-shape/)  
   [an incredibly 90s animation of how the internet works](https://www.youtube.com/watch?v=x9XWxD6cJuY)
 
 
@@ -85,7 +85,10 @@ Instructions get *more detailed* as we go down. TCP doesn't care about the next 
   
 **physical layer**  
 The 'physical layer' isn't explicitly part of the Internet Protocol suite (though it *does* get described by OSI), but it's worth talking about here, and featured some in your readings too. This is the layer of cables, lasers and radio waves, where data gets transmitted as ones and zeroes, rather than packets, frames or requests. Every single communication on the internet passes through this layer, as does everything you do with your computer.  
-    [the laying of the cable](https://www.loc.gov/pictures/resource/pga.00117/)  
+
+Transatlantic cables have been around for a long time: the print ['the laying of the cable'](https://www.loc.gov/pictures/resource/pga.00117/) commemorates the completion of the first transatlantic telegraph cable, between Newfoundland and Ireland, in 1858. This reduced the communication time between the US and Europe from 10 days, to a couple of minutes.
+
+<img src="https://cdn.loc.gov/service/pnp/pga/00100/00117v.jpg" width="600">
 
 The physical layer can be very fragile! [Like when a Georgian woman accidentally cut off the internet for Armenia](https://www.theguardian.com/world/2011/apr/06/georgian-woman-cuts-web-access), or how sharks remain a huge threat to global connectivity. <br>
 
@@ -95,7 +98,7 @@ As you read in Everest Pipkin's piece about data centers, the internet uses a hu
   [DEFOOOOOOOOOOOOOOOOOOOOOREST](http://www.janavirgin.com/CO2/DEFOOOOOOOOOOOOOOOOOOOOOREST.html)  
   [low tech magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-lowtech-website/)  
 
-One of the biggest controversies in contemporary computer manufacturing (alongisde the use of exploitative labour in factories producing these products) is the *minerals* used to produce them. These are linked to long histories of extractive colonialism, such as the Victorian extraction of [gutta percha](https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications/). 
+One of the biggest controversies in contemporary computer manufacturing (alongisde the use of exploitative labour in factories producing these products) is the *minerals* used to produce them. These are linked to long histories of extractive colonialism, such as the Victorian extraction of a tropical sap called [gutta percha](https://qz.com/785119/the-forgotten-tropical-tree-sap-that-set-off-a-victorian-tech-boom-and-gave-us-global-telecommunications/) from Malaysia. 
 Contemporary examples of this are 'conflict minerals' such as [tantalum](https://en.wikipedia.org/wiki/Tantalum) and [coltan](https://en.wikipedia.org/wiki/Coltan_mining_and_ethics), which are extracted under terrible conditions in the DRC, and have been fuelling local conflicts there for decades. The production of [lithium](https://en.wikipedia.org/wiki/Lithium#Production) (for Lithium-ion) batteries has also been the subject of recent controversy, as the surge in battery production (esp with the growth of electric car companies like Tesla) is using up worldwide Lithium stocks very rapidly.
 
 **wireless networking**  
