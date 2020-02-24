@@ -90,7 +90,7 @@ Transatlantic cables have been around for a long time: the print ['the laying of
 
 <img src="https://cdn.loc.gov/service/pnp/pga/00100/00117v.jpg" width="600">
 
-The physical layer can be very fragile! [Like when a Georgian woman accidentally cut off the internet for Armenia](https://www.theguardian.com/world/2011/apr/06/georgian-woman-cuts-web-access), or how sharks remain a huge threat to global connectivity. <br>
+The physical layer can be very fragile! [Like when a Georgian woman accidentally cut off the internet for Armenia](https://www.theguardian.com/world/2011/apr/06/georgian-woman-cuts-web-access), or how [sharks remain a huge threat to global connectivity](https://www.wired.com/2014/08/shark-cable/).
 
 
 **internet and environment**  
