@@ -30,7 +30,7 @@ function colorPage(temperature) {
 //
 
 
-fetch("https://cors-anywhere.herokuapp.com/https://horoscope-free-api.herokuapp.com")
+fetch("https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/c0d72b078c4f27a37169a2a3638dad3e/40.6644304,-73.9799921")
   .then((response) => {
     return response.json();
   })

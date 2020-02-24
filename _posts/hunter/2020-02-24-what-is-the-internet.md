@@ -17,8 +17,7 @@ assignment-due: 03/01
 {{page.description}}
 
 ### reading discussion
-What is the internet?  
-Where do HTTP requests go?  
+How do you imagine the internet?  
 Do you think governments should be able to intercept phone communications?  
 How might the internet be different if it wasn't developed by the military?
 
@@ -28,11 +27,20 @@ How might the internet be different if it wasn't developed by the military?
 **some ideas**  
   [a series of tubes](https://www.youtube.com/watch?v=f99PcP0aFNE)  
   [whatever *this* is](https://d2w9rnfcy7mm78.cloudfront.net/4354078/large_8e4b5e5b62f7005f6167d810a719a21c.png?1559062215?bc=1)  
-  [what shape is the internet?](https://noahveltman.com/internet-shape/)  
+  [what shape is the internet?](https://noahveltman.com/internet-shape/)
+  [an incredibly 90s animation of how the internet works](https://www.youtube.com/watch?v=x9XWxD6cJuY)
+
 
 **precursors**  
 We talked already about the origins of HTTP at CERN, with Tim Berners-Lee. However, precursors for the internet as we know it go back a long way before that. HTTP sits on top of a vast set of infrastructure that allowed messages to be sent in the first place, derived from the military protocol [ARPANET](https://www.darpa.mil/about-us/timeline/modern-internet) [network map](https://upload.wikimedia.org/wikipedia/commons/b/bf/Arpanet_logical_map%2C_march_1977.png)<br>
-The SRI [Packet Radio Van](https://en.wikipedia.org/wiki/Packet_Radio_Van), was involved in the first TCP/IP transmission (1977). Ironically, the highest-bandwidth data transfer for most instances *remains* driving a truck full of hard drives from place to place. <br>
+
+<img src="/assets/SRI-van.gif" alt="van" width="500px"/>
+
+The SRI [Packet Radio Van](http://ed-thelen.org/comp-hist/CORE-3-1-SRI-TCP-IP.html), was involved in the first TCP/IP transmission (1977). This was used to test a connection between wireless packet radio, and the wired ARPANET network -> an *interconnection* between dissimilar networks.
+
+>It was the clear differences between the wire-based ARPANET and the radio-based packet radio (and eventually satellite networks) that led Kahn, then heading the networking efforts at ARPA, and Cerf at Stanford University, to design the first end-to-end protocol that would span dissimilar packet networks. 
+
+Ironically, the highest-bandwidth data transfer for most instances *remains* driving a truck full of hard drives from place to place. <br>
 
 **Internet Protocol suite**  
 The stucture of the internet is wildly complex, and operates on a number of different levels. For example, the correct functioning of an undersea cable, a router, and a HTTP request might all be critical to a website working as expected, but it's clear that *how* each of these are meant to work (and work together) occupy very different areas of concern.
@@ -45,7 +53,7 @@ What's cool is this also works for people: at every layer, the stuff below just 
 
 What is a protocol? In it's simplest sense, a protocol is simply a formalised way of doing things: a set of rules, arrangements and agreements that define a set of expected behaviours. It is protocols . The thing about protocols is that they're simultaneously very dull, and wildly interesting, as they define a huge amount of how we communicate with one another. Thing is, most of what makes the internet work is not wires or computers or 5G or high-tech, but *bureacracy*. Internet people like proposing joke protocols in very formal language, like this one for [controlling coffee pots](https://en.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol), or [doing IP traffic with pidgeons](https://en.wikipedia.org/wiki/IP_over_Avian_Carriers). ("IPoAC has been successfully implemented, but for only nine packets of data, with a packet loss ratio of 55% (due to operator error),and a response time ranging from 3,000 seconds (≈54 minutes) to over 6,000 seconds (≈1.77 hours).")
 
-There's actually a load of different protocol suites, all with slightly different perspectives on how everything connects together. The other major one are the OSI protocols ('open systems interconnect') which also describe how things like images and ASCII get rendered on the screen. The 'internet protocols' are actually a fairly small subset of how all computers can be connected together. 
+There's actually a lot of different protocol suites, all with slightly different perspectives on how everything connects together. The other major one are the OSI protocols ('open systems interconnect') which also describe how things like images and ASCII get rendered on the screen. The 'internet protocols' are actually a fairly small subset of how all computers can be connected together. 
 
 {: reversed="reversed"}  
 
