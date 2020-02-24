@@ -1,8 +1,7 @@
-function printWord(word) {
-	console.log(word);
+function changeHeading(color) {
+	document.getElementById('heading').style.backgroundColor=color;
 }
 
-function changeHeading() {
-	document.getElementById('heading').style.backgroundColor='lightblue';
-	document.getElementById('heading').innerHTML = "I clicked the button"
+function changeSubHeading(fontColor) {
+	document.getElementById('subheading').style.color=fontColor;
 }
