@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
 title: introduction to midterm assignment
-permalink: /studio12/  
+permalink: /studio13/  
 categories:   
 tags:  
 assignment: Use the console editing tools (javascript and CSS) to create sketches for your parasite. Document your ideas on your class site.

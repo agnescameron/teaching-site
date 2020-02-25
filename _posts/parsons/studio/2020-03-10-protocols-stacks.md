@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
-title: the stack
-permalink: /studio16/  
+title: protocols and stacks
+permalink: /studio15/  
 categories: 
 tags:  
 assignment: 
@@ -12,6 +12,11 @@ readings: <!-- Benjamin Bratton, Introduction to *The Stack* -->
 
 {{page.description}}
 
-<!-- Planetary scale design? Vertical cloud to cable stuff?
- -->
+### what's new?
 
+### lecture: trust in protocol
+
+<!-- value, extraction, the metadata world, aggregation, walled gardens, abstraction 
+ -->
+ <!-- Planetary scale design? Vertical cloud to cable stuff?
+ -->

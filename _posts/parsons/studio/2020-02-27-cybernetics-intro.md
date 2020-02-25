@@ -1,13 +1,13 @@
 ---  
 layout: parsons_post  
 title: cybernetics and design
-permalink: /studio15/  
+permalink: /studio12/  
 categories: 
 tags: 
-assignment: reading response
+assignment: 
 description: we will discuss cybernetics as a key history of modern human-computer interaction and network culture, and examine systems-thinking strategies in design.
 assignment-due: 03/16
-readings: Gregory Bateson, *Metalogues*
+readings: 
 ---  
 
 {{page.description}}
