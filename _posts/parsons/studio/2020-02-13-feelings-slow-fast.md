@@ -27,7 +27,7 @@ Pippin Barr as if u were making love / doing work, Laurel's plane thing, hard an
 
 Adversarial interfaces. -->
 
-###ASSIGNMENT: It's as if you were...
+### ASSIGNMENT: It's as if you were...
 
 Studio Assignment #1: It’s as if you were…<br />
 

@@ -18,6 +18,7 @@ assignment-due: 03/15
 
 {{ page.description }}
 
+HTTP endpoint testing: what's everyone serving?!
 
 ## lecture: storing, sorting and scraping
 

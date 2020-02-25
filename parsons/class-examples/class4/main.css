@@ -1,0 +1,115 @@
+body {
+	font-family: helvetica;
+	background-color: lightblue;
+}
+
+/*min and max width*/
+
+img {
+	min-width: 500px;
+	max-width: 50%;
+}
+
+/*display*/
+
+span {
+	background-color: yellow;
+	border: 10px solid;
+	border-style: groove;
+}
+
+div {
+	background-color: pink;
+}
+
+.hidden, .none {
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+/*
+.hidden {
+	visibility: hidden;
+}
+
+.none {
+	display: none;
+}
+*/
+
+
+/*grid*/
+
+.grid-container {
+	background-color: inherit;
+	display: grid;
+	grid-template-columns: 100px 2fr 1fr 80px;
+	grid-auto-rows: 100px;
+	grid-gap: 10px;
+}
+
+.grid-box1 { 
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1; 
+	grid-row-end: 3;
+}
+
+.grid-box2 { 
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 3; 
+	grid-row-end: 5; 
+}
+
+/*flex*/
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	background-color: teal;
+	height: 1000px;
+}
+
+.flex-div {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+
+#flex-box1 { 
+
+}
+
+#flex-box2 { 
+
+}
+
+#child {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+/*media*/
+.inner {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+.outer {
+	width: 150px;
+	height: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+	.inner {
+		display: none;
+	}
+}
+
