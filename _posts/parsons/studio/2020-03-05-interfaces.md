@@ -1,10 +1,10 @@
 ---  
 layout: parsons_post  
 title: interfaces
-permalink: /studio13/  
+permalink: /studio14/  
 categories:   
 tags:  
-assignment: interface writing exercise
+assignment:
 description: how do we interact with it, and how does it shape us in turn? we look at the interface as a concept, a history, and a fundamental way of relating to media and technology.
 assignment-due: 03/09
 readings: Alexander Galloway (tbc)
@@ -15,8 +15,6 @@ readings: Alexander Galloway (tbc)
 ### what's new?
 
 ### lecture: interfaces
-
-[Web Design History Timeline](https://www.webdesignmuseum.org/web-design-history)
 
 <!-- Agnes doing functions that friday.
 
@@ -37,3 +35,6 @@ https://scrollbars.matoseb.com/
 
 https://www.ibm.com/design/language/
  -->
+
+ 
+
