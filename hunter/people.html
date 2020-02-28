@@ -27,7 +27,7 @@ layout: hunter_post
 
 function randomPerson() {
 	var person = people[Math.floor(Math.random()*people.length)];
-	document.getElementById("randomiser").innerHTML= person.name + ' ' + person.food;
+	document.getElementById("randomiser").innerHTML= `<a href=${person.site}>${person.name}</a>`;
 }
 
 

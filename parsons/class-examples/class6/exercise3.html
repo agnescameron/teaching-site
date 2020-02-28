@@ -1,0 +1,95 @@
+
+
+<button whenSomeoneStopsSpeaking="speak()"></button>
+
+<script type="text/javascript">
+
+	function speak() {
+		say("aren't functions wild?")
+	}
+
+</script>
+
+
+<button whenPointedAt="pointAtSomeone()"></button>
+
+<script type="text/javascript">
+
+	function point() {
+		pointAtSomeone();
+	}
+
+</script>
+
+
+<button whenSomeoneSpeaking="point()"></button>
+
+<script type="text/javascript">
+
+	function point() {
+		pointAtSomeone();
+	}
+
+</script>
+
+
+<div whenNobodySpeaking="sitDown()"  whenSomebodySpeaking="standUp()"></div>
+
+<script type="text/javascript">
+
+	function sit() {
+		sitDown()
+	}
+
+</script>
+
+
+<div whenEveryoneStanding="yell()"></div>
+
+<script type="text/javascript">
+
+	function yell() {
+		yell("Wow!!!")
+	}
+
+</script>
+
+
+
+<div whenEveryoneStanding="tellSomeoneToSit()"></div>
+
+<script type="text/javascript">
+
+	function tellSomeoneToSit() {
+		classroom.getPerson("Tia").tellToSit()
+	}
+
+</script>
+
+
+
+<div whenEveryoneStanding="tellSomeoneToYell()"></div>
+
+<script type="text/javascript">
+
+	function tellSomeoneToYell() {
+		classroom.getPerson("Si Ran").tellToYell("aaaaaaa")
+	}
+
+</script>
+
+
+
+
+<div whenEveryoneStanding="tellSomeoneToYell()"></div>
+
+<script type="text/javascript">
+
+	function tellSomeoneToYell() {
+		classroom.getPerson("Si Ran").tellToYell("aaaaaaa")
+	}
+
+</script>
+
+<button whenSomeoneSpeaking="pointAtSomeone()"></button>
+
