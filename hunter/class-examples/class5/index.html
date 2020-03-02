@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Simple login</title>
+    <script>
+
+    function postData(){
+          const data = { 
+            user: document.getElementById("user").value,
+            password: document.getElementById("password").value 
+          };
+
+          fetch('http://localhost:8080/login', {
+            method: 'POST', // or 'PUT'
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+          })
+          .then((response) => response.json())
+          .then((data) => {
+            console.log('Success:', data);
+          })
+        }
+    </script>
+  </head>
+  <body>
+    <h1>post requests!</h1>
+    <input type="TEXT" id="user" size="40"><br>
+    <input type="password" id="password" size="40"><br>
+    <input type="button" onclick="postData()" value="Submit">
+  </body>
+</html>
