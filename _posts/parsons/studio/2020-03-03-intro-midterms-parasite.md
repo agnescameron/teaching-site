@@ -6,7 +6,7 @@ categories:
 tags:  
 assignment: Use the console editing tools (javascript and CSS) to create sketches for your parasite. Document your ideas on your class site.
 description: the parasite project
-assignment-due: 03/05
+assignment-due: 03/26
 readings: 
 ---  
 

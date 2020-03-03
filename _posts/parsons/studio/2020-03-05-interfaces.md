@@ -6,8 +6,8 @@ categories:
 tags:  
 assignment:
 description: how do we interact with it, and how does it shape us in turn? we look at the interface as a concept, a history, and a fundamental way of relating to media and technology.
-assignment-due: 03/09
-readings: Alexander Galloway (tbc)
+assignment-due: 
+readings: 
 ---  
 
 {{page.description}}
@@ -15,6 +15,9 @@ readings: Alexander Galloway (tbc)
 ### what's new?
 
 ### lecture: interfaces
+
+### prototyping: midterm projects
+
 
 <!-- Agnes doing functions that friday.
 
