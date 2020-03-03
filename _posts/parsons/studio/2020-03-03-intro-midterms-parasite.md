@@ -10,9 +10,7 @@ assignment-due: 03/26
 readings: 
 ---  
 
-{{page.description}}
-
-## midterm assignment: the parasite
+## parasite
 
 Over the next two weeks, you will learn the basics of JQuery selectors, javascript functions and json objects. This will give you the rudimentary tools to select and manipulate elements on a webpage, as well as to store and transform data in the form of objects.
 
@@ -39,11 +37,11 @@ Requirements:
 
 **easy ones: alert**
 
-	alert(“hello”)
+>	alert(“hello”)
 
 **Live edit page content**
 
-	document.designMode=“on”
+>	document.designMode=“on”
 	-OR- 
 	document.body.contentEditable="true"
 
@@ -55,50 +53,50 @@ Requirements:
 
 **setting style**
 
-	element.style.backgroundColor = "red"
+>	element.style.backgroundColor = "red"
 
 **e.g. change style.background property for the whole body**
 
-	document.body.style.backgroundImage=‘url(“https://cdn.mos.cms.futurecdn.net/rqoDpnCCrdpGFHM6qky3rS-1200-80.jpg”)’
+>	document.body.style.backgroundImage=‘url(“https://cdn.mos.cms.futurecdn.net/rqoDpnCCrdpGFHM6qky3rS-1200-80.jpg”)’
 
 **setting innerHTML**
 
-	element.innerHTML = "put something new inside those tags!"
+>	element.innerHTML = "put something new inside those tags!"
 
 **setting outerHTML**
 
-	element.outerHTML = "<h1>new text AND new tags!</h1>"
+>	element.outerHTML = "<h1>new text AND new tags!</h1>"
 
 **removing with remove()**
 
-	var element = document.getElementById('thiselement'); 
+>	var element = document.getElementById('thiselement'); 
 	element.remove();
 
 **simulating a click event**
 
-	document.getElementById("clickhere").click()
+>	document.getElementById("clickhere").click()
 
 **blur**
 
-	document.body.style.filter="blur(10px)"
+>	document.body.style.filter="blur(10px)"
 
 ## DOM selectors
 
 **getElementById selector**
 
-	document.getElementById('*id-here*').style.border="solid 1px red"
+>	document.getElementById('*id-here*').style.border="solid 1px red"
 
 Only works for <code>#id</code> objects
 
 **getElementsByClassName selector**
 
-	document.getElementsByClassName('*className-here*').style.border="solid 1px red"
+>	document.getElementsByClassName('*className-here*').style.border="solid 1px red"
 
 Only works for <code>.class</code> objects
 
 **querySelector**
 
-	document.querySelector(" <CSS SELECTOR HERE> ")
+>	document.querySelector(" <CSS SELECTOR HERE> ")
 
 *returns first instance*
 
@@ -106,7 +104,7 @@ Only works for <code>.class</code> objects
 
 **querySelectorAll**
 
-	document.querySelectorAll(" <CSS SELECTOR HERE> ")
+>	document.querySelectorAll(" <CSS SELECTOR HERE> ")
 
 *returns an array*
 
@@ -114,9 +112,9 @@ Only works for <code>.class</code> objects
 
 **Use querySelectorAll with a for loop to change all imgs to something**
 
-	var imgs = document.querySelectorAll("img");
+>	var imgs = document.querySelectorAll("img");
 
-	for (var i = 0, l=imgs.length; i < l; i++) {
+>	for (var i = 0, l=imgs.length; i < l; i++) {
     imgs[i].src="https://cdn.mos.cms.futurecdn.net/rqoDpnCCrdpGFHM6qky3rS-1200-80.jpg" };
 
 **use document.getElementByClassName to change innerHTML**
@@ -125,9 +123,9 @@ Only works for <code>.class</code> objects
 
 **remember, querySelectorAll can take CSS selectors**
 
-	var h1text = document.querySelectorAll("p, h1, h2"); // CSS selectors
+>	var h1text = document.querySelectorAll("p, h1, h2"); // CSS selectors
 
-	for (var i = 0, l = h1text.length; i < l; i++) {
+>	for (var i = 0, l = h1text.length; i < l; i++) {
     h1text[i].innerHTML = "you smell!";
 	};
 
