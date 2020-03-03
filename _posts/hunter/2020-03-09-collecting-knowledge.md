@@ -53,6 +53,13 @@ HTTP endpoint testing: what's everyone serving?!
     [the internet archive](https://archive.org/index.php) [one terabyte of the kilobyte age](https://blog.geocities.institute) [can the internet be archived?](https://www.newyorker.com/magazine/2015/01/26/cobweb)  
   [i'm google](https://dinakelberman.tumblr.com)  
 
+
+**databases**  
+
+One of the main things people use servers for is to manage bundles of data. We're not going to spend a while dwelling on these here, but they're usedul to know about. While there have been a million-and-one '[*SQL*](https://en.wikipedia.org/wiki/SQL)  
+    [mySQL](https://www.mysql.com) [PostgreSQL](https://www.postgresql.org) [noSQL?](https://en.wikipedia.org/wiki/NoSQL)  
+
+
 **'data'**  
 [right to be forgotten](https://techcrunch.com/2014/07/04/digital-theatre/)  
 

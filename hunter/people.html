@@ -14,30 +14,26 @@ layout: hunter_post
 
 <script type="text/javascript">
 	var people = [
-	{ "name": "vincent", "site": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow", 
-		"food": "bananas"},
-	{"name": "mert", "site": "https://www.w3schools.com/css/css_combinators.asp", 
-		"food": "apples"},
-	{"name": "peter", "site": "https://fonts.google.com/specimen/Lato?selection.family=Lato", 
-		"food": "pineapples"},
-	{"name": "dale", "site": "https://en.wikipedia.org/wiki/HTML_attribute", 
-		"food": "apple pie"},
+	{"name": "marjan", "site": "https://marjan154.github.io/medp341-class-website/"},
+	{"name": "aaron", "site": "https://buachie.github.io/medp341/"},
+	{"name": "vincent", "site": "https://vurtle.github.io/vgsite/index.html"},
+	{"name": "mert", "site": "https://mertck.github.io/mksite/index.html"},
+	{"name": "dale", "site": "https://dalelama.github.io/Gitdale/"},
+	{"name": "peter", "site": "https://peterlocicero.github.io/WebProgramming_FirstAssignment/index.html"},
+	{"name": "esteban", "site": "https://mundoe1999.github.io/web-programming/"},
+	{"name": "alex", "site": "https://alexperez.github.io/medp341/"},
+	{"name": "kanak", "site": "https://kanackle.github.io/FirstWebsite.github.io/"} 
 	]
 
 
-function randomPerson() {
-	var person = people[Math.floor(Math.random()*people.length)];
-	document.getElementById("randomiser").innerHTML= person.name + ' ' + person.food;
-}
+	function randomPerson() {
+		var person = people[Math.floor(Math.random()*people.length)];
+		document.getElementById("randomiser").innerHTML= `<a href=${person.site}>${person.name}</a>`;
+	}
 
+	function populateClass(person){
+	document.getElementById('people').innerHTML+=`<li><a href=${person.site}>${person.name}</a></li>`
+	}
 
-	// function randomPerson(){
-	// 	var person = people[Math.floor(Math.random()*people.length)]
-	// 	document.getElementById('randomiser').innerHTML = person
-	// }
-	// function populateClass(person){
-	// document.getElementById('people').innerHTML+=`<li><a href=${person.site}>${person.student}</a></li>`
-	// }
-
-	// people.forEach(populateClass);
+	people.forEach(populateClass);
 </script>
