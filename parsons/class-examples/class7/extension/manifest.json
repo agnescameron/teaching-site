@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "extension",
+  "version": "1.0",
+
+  "description": "a parasite",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "background":
+    {
+        "scripts": ["scripts/jquery.min.js", "scripts/background.js"]
+    },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "js": ["scripts/jquery.min.js", "scripts/main.js"]
+    }
+  ]
+
+}
