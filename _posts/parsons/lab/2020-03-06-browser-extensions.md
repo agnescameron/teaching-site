@@ -29,6 +29,32 @@ We'll cover both of these from the perspective of our browser extensions. To get
 
 ### iterators
 
+Iterators are a way of performing an action multiple times. In our current context, there may be many things on a page, and we might want to do something to each of them. For some things (like changing CSS) this can be as simple as using jQuery to select all the elements, and do something to them at once, like:
+
+```
+$('div').css({'background-color': 'pink'})
+```
+
+However, iterators can also let us do more complex things. We're going to cover a variety of iterators next week, but for now we're going to focus on jQuery's `.each()` method. This allows us to select a group of things, and *for each* thing, perform some action.
+
+**structure of a .each() function**
+
+The function below gives a typical layout of a jQuery `.each()` method. 
+
+```
+$('div').each(function (index, element) {
+	console.log(index)
+})
+```
+
+the first part selects the thing we're looking for: in this case, all the divs on the page. The next part takes the form of an *anonymous function* -- one of the things we met last week. However, this anonymous function also has 2 arguments: `index`, and `element`. 
+
+Where do they come from? They're built in to the method `.each`: they allow us to access the element we're thinking about, and the number -- *index* -- of that element.
+
+If we open up our console, we'll see a number logged for each div on the page. sweet!
+
+
+
 
 ### debugging
 
@@ -87,7 +113,7 @@ This guy, however, doesn't seem to have much to do with us: instant.page doesn't
 
 
 **2. elimination**
-Perhaps you have a problem, but there's no error in the console to help you figure it out. 
+Perhaps you have a problem, but there's no error in the console to help you figure it out. Say, 
 
 
 **3. looking online**
@@ -106,28 +132,50 @@ This sounds obvious, but probably added at least 10 minutes worth of head-scratc
 
 <img src="../../assets/refresh.png" width="500px"><br><br>
 
-**2. is someone else's Javascript interfering with yours?**
+If you get bored of doing this (I did), you can download a tool called [`web-ext`](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/). To do this, you need to have [NodeJS](https://nodejs.org/en/) installed. This will allow you to run your extension and have it automatically reload. 
+
+**2. are the paths to the files correct?**
+For javascript to load properly, you need to make sure that you've got the right filepaths in your `manifest.json` file, and that all the paths in there are *relative to that file*.
+
+Adding images involves something a little trickier: we need to use `web_accessible_resources` to make them available to the extension, then include them in files using:
+
+```
+chrome.extension.getURL("img/potato1.jpg")
+```
+This allows the browser to calculate the path to the image, and load it into the site that you're currently using.
+
+An alternative to this is just to use external URLs for your images.
 
 
-**3. on more complex sites, browser elements aren't what you think they are**
+**3. original CSS can cause problems with new CSS**
+When editing a page's CSS, it's essential to look at the structure of the page you're trying to style. Sometimes, it's easier to change CSS dynamically using Javascript rather than relying on a static CSS file.
+
+If you're wondering how to get something to work, try running that command in the console first and see what it does.
 
 
-**4. 'lazy loading' issues**
+**4. on more complex sites, browser elements might not be what you think they are**
+When making the potatoes extension work earlier, I was trying to make it work on Wikipedia, and I encountered a problem: just setting the 'src' of the image didn't change the image itself.
+
+When I looked at the console, I could see that `src` had been changed correctly... but another attribute called `srcset` had not! I tried also changing the `srcset` attribute in the jQuery, and that worked.
+
+
+**5. 'lazy loading' issues**
 Many of the sites you use day-to-day use something called 'lazy loading' to load content. For high-performance sites with lots of images and other media, this can be really usedful for showing the user *some* of a page before everything has loaded. However, they make life very difficult for browser extensions!
 
 Consider are.na:
 
-The frog extension we used before won't load in the same way!
-
-
-
-
-## Tutorial: {{page.tutorial}}
+The potato extension we used before won't load in the same way!
 
 ## Resources
 
-**how-tos**  
+**browser extension how-tos**  
+[adding CSS](https://stackoverflow.com/questions/7619095/how-to-inject-css-into-webpage-through-chrome-extension)
 [How to add style to a browser extension](https://medium.com/@charlesdouglasosborn/how-to-add-style-and-webfonts-to-a-chrome-extension-content-script-css-47d354025980) 
+['mozilla: your second extension'](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension)
+[chrome extensions guide](https://developer.chrome.com/extensions/getstarted)
 
-**examples**  
+**browser extension examples**  
 [Activist themed browser extensions](https://www.are.na/omayeli-arenyeka/activist-themed-browser-extensions)
+
+**iteration**
+[mozilla guide]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols))
