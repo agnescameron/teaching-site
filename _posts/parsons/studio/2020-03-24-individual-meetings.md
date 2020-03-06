@@ -1,11 +1,11 @@
 ---  
 layout: parsons_post  
 title: post-midterm individual debrief
-permalink: /studio20/  
+permalink: /studio19/  
 categories:   
 tags:  
 assignment: 
-description: Meet individually to discuss progress and have a post-midterm debrief.
+description: Meet individually to discuss progress pre-midterm crit.
 assignment-due: 
 readings: 
 ---  

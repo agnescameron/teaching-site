@@ -20,6 +20,10 @@ cybernetics of design<br>
 cybernetics of cells<br>
 cybernetics of warfare<br>
 
+### functions and black boxes
+
+### links
+
 **spatial memory**  
   [memex](https://d2w9rnfcy7mm78.cloudfront.net/1369043/original_b888c6b8e3b634fb81dbdc1683458226.jpg?1508997923?bc=1)
   [memory palace](https://en.wikipedia.org/wiki/Method_of_loci)
