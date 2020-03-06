@@ -5,6 +5,6 @@ $(document).ready( function() {
 	  "srcset": "https://www.nationalgeographic.com/content/dam/news/photos/000/842/84214.ngsversion.1422286683017.adapt.1900.1.jpg" })
 	})
 
-	// $(body).append
+	$( 'body' ).append()
 })
 
