@@ -18,9 +18,51 @@ assignment-due: 03/15
 
 {{ page.description }}
 
-HTTP endpoint testing: what's everyone serving?!
+HTTP endpoint testing: what's everyone serving?! [Add your IPs to the google sheet, like last week.](https://docs.google.com/spreadsheets/d/1Geq0eVsVNMHlhbMsSgQ6eXJzn8NPMJuBecdh-K2EpmE/edit#gid=0)
+
+on mac: 
 
 ## lecture: storing, sorting and scraping
+
+
+**'data'**
+
+This is a class about data. You've heard a lot about data! It's the 'new oil'... 
+
+But what *is* data? In the sense that we're going to think about it, data here is a structured representation of knowledge. This class is half a tutorial on different ways to manage data as objects, but I've also collected some resources on different approaches to structuring and sorting data.
+
+**objects**  
+
+One of the more powerful ways of dealing with data comes from using 'Object Oriented Programming' techniques. Some of you might have encountered debates around the relative merits of ['Object Oriented' vs 'Functional' programming](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming). These represent different philosophies of programming, and are useful for performing different kinds of tasks... it's not really that one is better than the other, but they [can be useful for different things]((http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)  ). As it turns out, the things we're going to do in this class are pretty object-friendly, and, incidentally, OOP is the only thing I'm formally required to teach you. 
+
+Object oriented programs are written in terms of 'Objects' -- related data and code, which represent information about things we want to model. We've met objects already in this class, but now is a good time to revisit them: remember JavaScript *Object* Notation?
+
+[**JSON**](https://www.json.org/json-en.html)  
+  [guide](https://www.tutorialspoint.com/json/json_quick_guide.htm)  
+  [validator](https://jsonformatter.curiousconcept.com)  
+
+**constructors**
+A *constructor function* is something we can use to create an instance of an object. 
+
+If you've learned OOP in other languages, you might notice that JS works a little differently. In particular, the 'constructor function' is a kind of class
+
+```
+function Person(name) {
+  this.name = name;
+  this.greeting = function() {
+    alert('Hi! I\'m ' + this.name + '.');
+  };
+}
+```
+
+
+**object prototypes**
+
+**databases**  
+One of the main things people use servers for is to manage bundles of data. We're not going to spend a while dwelling on these here, but they're usedul to know about. While there have been a million-and-one '[*SQL*](https://en.wikipedia.org/wiki/SQL)  
+    [mySQL](https://www.mysql.com) [PostgreSQL](https://www.postgresql.org) [noSQL?](https://en.wikipedia.org/wiki/NoSQL)  
+
+
 
 **sorting things**  
   [regression analysis](https://en.m.wikipedia.org/wiki/Regression_analysis) [clustering](https://en.wikipedia.org/wiki/K-means_clustering)  
@@ -54,22 +96,6 @@ HTTP endpoint testing: what's everyone serving?!
   [i'm google](https://dinakelberman.tumblr.com)  
 
 
-**databases**  
-
-One of the main things people use servers for is to manage bundles of data. We're not going to spend a while dwelling on these here, but they're usedul to know about. While there have been a million-and-one '[*SQL*](https://en.wikipedia.org/wiki/SQL)  
-    [mySQL](https://www.mysql.com) [PostgreSQL](https://www.postgresql.org) [noSQL?](https://en.wikipedia.org/wiki/NoSQL)  
-
-
-**'data'**  
-[right to be forgotten](https://techcrunch.com/2014/07/04/digital-theatre/)  
-
-**objects**  
-  [OOP vs FP](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming) [a shorter opinion](http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)  
-
-[**JSON**](https://www.json.org/json-en.html)  
-  [guide](https://www.tutorialspoint.com/json/json_quick_guide.htm)  
-  [validator](https://jsonformatter.curiousconcept.com)  
-
 **collections**  
   [*corpora*](https://github.com/dariusk/corpora)  
     [vegetable cooking times](https://github.com/dariusk/corpora/blob/master/data/foods/vegetable_cooking_times.json) [female classical guitarists](https://github.com/dariusk/corpora/blob/master/data/music/female_classical_guitarists.json) [tarot](https://github.com/dariusk/corpora/blob/master/data/divination/tarot_interpretations.json) [pokemon](https://github.com/dariusk/corpora/blob/master/data/games/pokemon.json) [saints](https://github.com/dariusk/corpora/blob/master/data/religion/christian_saints.json)  
@@ -97,7 +123,9 @@ One of the main things people use servers for is to manage bundles of data. We'r
   [metascraper](https://metascraper.js.org/#/)  
 
 ### in class  
-We consider a number of different artworks, and think of ways we might represent them as 'objects'. Are there patterns? Can we put them on axes? What links exist between different ideas in the objects? How do we represent that?
+We take a data set and sort it a number of different ways.
+
+Exploring: iterators, searching, objects, arrays and maps. We also experiment with writing an object method.
 
 ### assignment  
 *due {{page.assignment-due}}*<br>
@@ -109,3 +137,5 @@ Your curated (scraped/embellished) dataset should be composed of objects with pr
 * links between different groups of objects
 
 The sorting part you can do either as a webpage, or just using the command line. Don't worry about making it look pretty yet! We'll be using this dataset as the basis for next week's assignment, so make sure it's something you can have a few different perspectives on.
+
+How to get a data set? A few ways. As simple as a HTTP request, but if you're interested in scraping you could also try that.
