@@ -33,16 +33,57 @@ But what *is* data? In the sense that we're going to think about it, data here i
 
 **objects**  
 
-One of the more powerful ways of dealing with data comes from using 'Object Oriented Programming' techniques. Some of you might have encountered debates around the relative merits of ['Object Oriented' vs 'Functional' programming](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming). These represent different philosophies of programming, and are useful for performing different kinds of tasks... it's not really that one is better than the other, but they [can be useful for different things]((http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)  ). As it turns out, the things we're going to do in this class are pretty object-friendly, and, incidentally, OOP is the only thing I'm formally required to teach you. 
+One of the more powerful ways of dealing with data comes from using 'Object Oriented Programming' techniques. Some of you might have encountered debates around the relative merits of ['Object Oriented' vs 'Functional' programming](https://www.codenewbie.org/blogs/object-oriented-programming-vs-functional-programming). These represent different philosophies of programming, and are useful for performing different kinds of tasks... it's not really that one is better than the other, but they [can be useful for different things]((http://blog.fogus.me/2013/07/22/fp-vs-oo-from-the-trenches/)  ). As it turns out, the things we're going to do in this class (making webpages from information, simulation) are pretty object-friendly, and, incidentally, OOP is the only thing I'm formally required to teach you in this class... 
 
 Object oriented programs are written in terms of 'Objects' -- related data and code, which represent information about things we want to model. We've met objects already in this class, but now is a good time to revisit them: remember JavaScript *Object* Notation?
+
+If you're left with some questions after this class, I highly recommend going through the [MDN Object Oriented Javascript Tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS), upon which some of this class is based.
 
 [**JSON**](https://www.json.org/json-en.html)  
   [guide](https://www.tutorialspoint.com/json/json_quick_guide.htm)  
   [validator](https://jsonformatter.curiousconcept.com)  
 
+
+
+**object methods**
+
+*Methods* are functions that belong to objects. For example, our 'person' object can have a method called greeting.
+
+```
+const person1 = {
+  name: ['Bob', 'Smith'],
+  age: 32,
+  greeting: function() {
+    alert('Hi! I\'m ' + this.name[0] + '.');
+  }
+};
+```
+
+**!keyword alert!** -> in this class we'll meet a few new JS keywords. These are reserved words in JS (words that you're *not* allowed to name your variables, for example) which perform specific actions.
+
+The `this` keyword is the first one we'll meet today. Essentially, `this` stands in for `this object that we're currently doing something to`. It crops up all over JS, and it can be a really useful tool for writing interactive code. In this case, it'll get the property of the object we're currently thinking about.
+
+If we add `person1.greeting()` to our code, let's see what we get!
+
+What if we add a second person?
+
+```
+const person2 = {
+  name: ['Angela', 'Brown'],
+  age: 21,
+  greeting: function() {
+    alert('Hi! I\'m ' + this.name[0] + '.');
+  }
+};
+```
+
+Now, try `person1.greeting()`, then `person2.greeting()`. In each case, the `this` keyword selects the name of the person we're thinking about.
+
+What would we need to add to the greeting function to get the person's age too?
+
 **constructors**
-A *constructor function* is something we can use to create an instance of an object. 
+
+A *constructor function* is something we can use to create an instance of an object.
 
 If you've learned OOP in other languages, you might notice that JS works a little differently. In particular, the 'constructor function' is a kind of class
 
@@ -57,10 +98,6 @@ function Person(name) {
 
 
 **object prototypes**
-
-**databases**  
-One of the main things people use servers for is to manage bundles of data. We're not going to spend a while dwelling on these here, but they're usedul to know about. While there have been a million-and-one '[*SQL*](https://en.wikipedia.org/wiki/SQL)  
-    [mySQL](https://www.mysql.com) [PostgreSQL](https://www.postgresql.org) [noSQL?](https://en.wikipedia.org/wiki/NoSQL)  
 
 
 
@@ -118,7 +155,56 @@ One of the main things people use servers for is to manage bundles of data. We'r
   [forensic architecture](https://forensic-architecture.org) [killing in umm al hiran](https://forensic-architecture.org/investigation/killing-in-umm-al-hiran)  
 
 **scrape it yourself**
-  [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
+
+'Scraping' is a technique for collecting data from a website. It can be used for all sorts of purposes, though is particularly relevant to forms of data journalism. It's also a fun and relatively easy way to amass a lot of data!
+
+We won't spend a huge amount of time on this in class, mostly because there are a load of great tutorials online. However, just to give you an idea of some of the power of what you can do with a scraper, I'll quickly demo the [node scraper module](https://www.npmjs.com/package/scraper).
+
+To install, go to the command line and create a new folder, called `scraping` (don't give folders the same name of a package you're about to install, it doesn't like that!)
+
+```
+mkdir scraping
+cd scraping/
+npm init
+```
+
+Press enter through all of the initialisation steps, like last week. This will compose your `package.json` file. Then, run:
+
+```
+npm install scraper
+```
+
+Now, make and open a Javascript file:
+
+```
+touch index.js
+```
+
+Then, paste this code into the file:
+
+```
+var scraper = require('scraper');
+scraper('http://search.twitter.com/search?q=javascript', function(err, jQuery) {
+    if (err) {throw err}
+
+    jQuery('.msg').each(function() {
+        console.log(jQuery(this).text().trim()+'\n');
+    });
+});
+```
+
+and run it with
+
+```
+node index.js
+```
+
+You should see some messages!
+
+We're going to cover jQuery next week, so don't worry if that command looks unfamiliar to you. What it's doing is selecting page elements with a particular class (here, the class 'msg') and printing them to the page.
+
+Scraping resources and tutorials:  
+  [with node](https://www.freecodecamp.org/news/the-ultimate-guide-to-web-scraping-with-node-js-daa2027dcd3/) [scraper module](https://www.npmjs.com/package/scraper) [with python](https://hackernoon.com/web-scraping-tutorial-with-python-tips-and-tricks-db070e70e071) [cURL to python request](https://curl.trillworks.com)  
   [social media data collection tools](http://socialmediadata.wikidot.com)
   [metascraper](https://metascraper.js.org/#/)  
 
@@ -136,6 +222,6 @@ Your curated (scraped/embellished) dataset should be composed of objects with pr
 * using different modes of classification
 * links between different groups of objects
 
-The sorting part you can do either as a webpage, or just using the command line. Don't worry about making it look pretty yet! We'll be using this dataset as the basis for next week's assignment, so make sure it's something you can have a few different perspectives on.
+The sorting part you can do either as a webpage, or just using the command line. Don't worry about making it look pretty yet! We'll be using this dataset as the basis for next week's assignment, so make sure it's something you can have a few different perspectives on. You're more than welcome to creat your own set of objects, but make sure you have enough to do something interesting next week.
 
 How to get a data set? A few ways. As simple as a HTTP request, but if you're interested in scraping you could also try that.
