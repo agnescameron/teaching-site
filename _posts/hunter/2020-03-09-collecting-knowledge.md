@@ -142,7 +142,7 @@ This is already saving us a lot of code, and we only had two people! Imagine how
 
 **ES6 classes**
 
-If you've learned OOP in other languages, you might have noticed that JS works a little differently. In particular, the 'constructor function' is what Javascript uses to create a 'class'. However, in newer JS (ES6+), there is support for classes! They can be pretty nifty if you're wanting to make much more complex objects, so we'll take a look at them here.
+If you've learned OOP in other languages, you might have noticed that so far our JS works a little differently. In particular, the 'constructor function' is what Javascript uses to create a 'class'. However, in newer JS (ES6+), there is support for classes! They can be pretty nifty if you're wanting to make much more complex objects, so we'll take a look at them here.
 
 Classes take in something called a 'class constructor': this will set up the object's properties. The object methods are then defined in terms of the object properties: notice that you don't need the `function` keyword to create methods here, but `this` crops up a *lot*.
 
@@ -360,7 +360,16 @@ function search() {
 }
 ```
 
-**3. Give the objects methods**
+**3. Built in object methods**
+There are some existing methods in JS that can perform searches too! There's a whole load, and [they're worth checking out]((https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230)).
+
+```
+const veg = vegTimes.filter(element => element.name.includes(vegetableName))
+```
+
+Will return an array of all the elements that have that vegetable name
+
+**4. Give the objects methods**
 Now: our data is actually already pretty nicely organised, but what would happen if we wanted to give our objects methods. For example, perhaps we have a method 'microwave', which will print the microwaving instructions as a feature of the object.
 
 What we want to do is *extend* our object prototype by adding a method. We know that our objects have a current structure:
