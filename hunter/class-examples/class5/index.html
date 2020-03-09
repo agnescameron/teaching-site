@@ -3,6 +3,7 @@
     <title>Simple login</title>
     <script>
 
+
     function postData(){
           const data = { 
             user: document.getElementById("user").value,
@@ -18,7 +19,7 @@
           })
           .then((response) => response.json())
           .then((data) => {
-            console.log('Success:', data);
+            alert(data);
           })
         }
     </script>
@@ -28,5 +29,6 @@
     <input type="TEXT" id="user" size="40"><br>
     <input type="password" id="password" size="40"><br>
     <input type="button" onclick="postData()" value="Submit">
+    <div>
   </body>
 </html>

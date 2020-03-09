@@ -16,7 +16,7 @@ app.post('/login', function(req,res){
   var user=req.body.user;
   var password=req.body.password;
   console.log("User name = "+user+", password is "+password);
-  res.send(JSON.stringify("yes"));
+  res.send(JSON.stringify("Hello "+user));
 });
 
 app.listen(8080);
