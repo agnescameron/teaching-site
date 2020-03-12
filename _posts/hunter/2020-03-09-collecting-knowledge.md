@@ -400,6 +400,25 @@ We can do this with:
   console.log("in the microwave " + this.name + " takes " + this.microwaved + " minutes")
 ```
 
+But: this only works for one element at a time! If we want to do all of them, we'll want our old friend: the constructor function. Now we can make a *new* array of objects (`vegObjects`) from our old ones, each with a new method added on top.
+
+```
+function Vegetable(vegObject){
+  this.name = vegObject.name;
+  this.steamed = vegObject.steamed;
+  this.other = vegObject.other;
+  this.instruction = function() {
+    console.log(`why not try ${this.other}`)
+  }
+}
+
+let vegObjects = [];
+
+vegTimes.forEach(function(element, index){
+  const vegObject = new Vegetable(element)
+})
+```
+
 
 ### assignment  
 *due {{page.assignment-due}}*<br>
