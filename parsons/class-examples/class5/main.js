@@ -3,5 +3,7 @@ function changeHeading(color) {
 }
 
 function changeSubHeading(fontColor) {
-	document.getElementById('subheading').style.color=fontColor;
+	document.getElementById(subheading).style.color=fontColor;
 }
+
+changeSubHeading();
