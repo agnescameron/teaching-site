@@ -1,19 +1,29 @@
-const person1 = {
-  name: ['Bob', 'Smith'],
-  age: 32,
-  greeting: function() {
-    console.log('Hi! I\'m ' + this.name[0] + '.');
+class Person {
+  constructor(first, last, age, gender, interests) {
+    this.name = {
+      first,
+      last
+    };
+    this.age = age;
+    this.gender = gender;
+    this.interests = interests;
   }
-};
 
-const person2 = {
-  name: ['Angela', 'Brown'],
-  age: 21,
-  greeting: function() {
-    console.log('Hi! I\'m ' + this.name[0] + '.');
+  getInterests() {
+    return(this.interests)
   }
-};
 
+  greeting() {
+    console.log(`Hi! I'm ${this.name.first}`);
+  };
 
-person1.greeting();
-person2.greeting();
+  farewell() {
+    console.log(`${this.name.first} has left the building. Bye for now!`);
+  };
+}
+
+let personA = new Person("Angel", "Chen", 26, "F", "vegetable classification");
+
+personA.greeting()
+personA.farewell()
+console.log(personA.getInterests())
