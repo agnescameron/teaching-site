@@ -78,4 +78,9 @@ The location of javascript files you want to apply. These will load in order, so
 
 Because "content_scripts" is an array (a list), you can add multiple objects, each representing a rule about what .js, .css or .html files will be loaded, and what pages will be matched or excepted by the rule. This way, you can get your extension to apply different scripts to different pages. [Here](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts) is a list of all the things you can do with the "content_scripts".
 
+**Links**
+- [Mozilla's guide to a simple "borderify" extension.](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension)<br>
+- ["Frogify", it turns Mozilla and New School site into a frog.](https://www.dropbox.com/sh/0lakb9gyygt82aj/AADKwyhUSOEdJc052TPXbpBja?dl=0)<br>
+- [How to install a custom extension in chrome.](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/)<br>
+- [A list of "activist themed" browser extensions by Omayeli Arenyek](https://www.are.na/omayeli-arenyeka/activist-themed-browser-extensions)<br>
 
