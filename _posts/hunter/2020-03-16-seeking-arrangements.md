@@ -188,9 +188,11 @@ A really common task in web development is to have an unknown number of objects 
 
 There are lots of ways to do this, but the two main ones are CSS grid and Flexbox. Today we'll look at flexboxes, but if you want some more notes on grids and other techniques, notes from the ['responsiveness' week](https://webdevelopm.net/lab4/) in my parsons class go into a lot more depth.
 
-Flexboxes are created by putting some boxes inside another box. Like before, the *outer* box needs to have the property `display: grid` set. This outer box is called the *flex grid-container*.
 
 Flexbox is interesting as it deals with layout *one dimension at a time* -- either in terms of rows or in terms of columns, using the `flex-direction` property. That means: if you want your boxes to be arranged left-to-right (then make new lines when they run out of room), set `flex-direction` to row. If not, set `flex-direction` to column. (to go backwards, `row-reverse` or `column-reverse`). This direction is called the *main axis*. The other axis (at 90 degrees) is called the *cross axis*.
+
+Flexboxes are created by putting some boxes inside another box. The outer box is what makes the boxes flexboxes: we make it a flexbox by setting the `display` property to `flex`.
+
 
 In order to test out a flexbox, let's make a `flex-container`, and put some divs inside it! First, add a div with class `flex-container` to your HTML. This will be where our flexboxes will go. 
 
