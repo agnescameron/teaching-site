@@ -1,15 +1,14 @@
 ---  
 layout: parsons_post  
-title: Midterm Crut
-permalink: /studio21/  
+title: No Class
+permalink: /studio20/  
 categories:   
 tags:  
 assignment: 
-description: Group crit for Parasite midterm.
+description: Study Week! Gary will be available for 1-on-1s over zoom.
 assignment-due: 
 readings: 
 ---  
 
 {{page.description}}
-
 

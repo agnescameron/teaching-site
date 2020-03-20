@@ -1,11 +1,11 @@
 ---  
 layout: parsons_post  
-title: post-midterm individual debrief
+title: No Class
 permalink: /studio19/  
 categories:   
 tags:  
 assignment: 
-description: Meet individually to discuss progress pre-midterm crit.
+description: Study Week! Gary will be available for 1-on-1s over zoom.
 assignment-due: 
 readings: 
 ---  
