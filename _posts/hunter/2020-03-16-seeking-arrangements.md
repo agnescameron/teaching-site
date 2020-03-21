@@ -21,14 +21,10 @@ Please go through the following tutorial in your own time before class! If you'r
 
 ## tutorial: 
 
-everyone by the end of this class:
-
-
-
 
 Here's a video of me going over the tutorial, to play along at home.
 
-
+<iframe width="724" height="453" src="https://www.youtube.com/embed/Cfww14n67yI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This week we're going to be looking at arranging our data-sets using jQuery. I'll be going through the tutorial using the vegetable cooking times data-set from last week. I've simplified it a bit to make this part easier!* To get the files, download [this folder](https://github.com/agnescameron/hunter-vegetables) from github. You can either download it as a zip, or type 
 
