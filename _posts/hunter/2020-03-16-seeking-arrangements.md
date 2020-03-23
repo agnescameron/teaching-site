@@ -434,6 +434,10 @@ Can you see patterns and relationships in the data? How do you link between diff
 
 If you don't want to use the data set you collected last week, feel free to use one of the ones we've explored in class.
 
+
+### readings:
+{{page.readings}}
+
 **inspiration**  
  [yale aids memorial project](http://yamp.org)  
  [conquer and divide](https://conquer-and-divide.btselem.org)  
