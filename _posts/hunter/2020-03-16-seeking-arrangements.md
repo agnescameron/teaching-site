@@ -335,6 +335,16 @@ What data did peple scrape? And what did you think of the readings?
 
 ## lecture: representing knowledge
 
+What does it mean to represent information on the web? What different forms of representation do you encounter every day? We're constantly switching between different forms of representation: from maps to feeds, from menus to recipes. Over time, we learn certain expected behaviours and symbols that come with different arrangements: we scroll top-to-bottom on social media sites, we zoom in and out on online map viewers, or enter different co-ordinates to find out destination. We expect our options to be in a list, our alphabet to be arranged in a keyboard.
+
+This is a vast, expansive topic, and one we can't hope to do justice to in such a short period of time! It's also an interesting and rewarding thing to be thinking about with regards to the web, and so today we'll spend some time thinking around the arrangement of information. The net is a medium that follows in a long lineage of ways of organising knowledge collectively, preceded by libraries, atlases, oral histories and archives. I've gathered a lot of different examples of information-organisation below: we won't go through all of them, but I've left these up as things you might enjoy looking at in your own time.
+
+What I would like to spend some time on is, specifically, judgements about how to arrange objects on the web.
+
+This is a really big part of web design: what would be an appropriate way to display all of this information, to make it navigable by someone, to make certain arguments or show certain intentions. How, for example, do the different designs of Wikipedia and Google Knowledge Graph speak to different ideas of how information should be created, arranged and displayed.
+
+There are many philosophies of how best to do this! I’m not going to tell you any is better than the others, but what I will say is that it’s always important to be intentional about the decisions you make. Don’t just default to a convention without thinking critically about it!
+
 **charts**  
   *co-ordinate systems*  
     [cartesian](https://en.wikipedia.org/wiki/Cartesian_coordinate_system) [polar](https://en.wikipedia.org/wiki/Polar_coordinate_system)  
@@ -410,13 +420,11 @@ What data did peple scrape? And what did you think of the readings?
 ### in-class exercise
 In this exercise, we'll make a start on the week's assignment together to walk through issues and talk about our ideas for the week. 
 
-1. Take the data-set that you obtained last week. First, try running through these elements in a simple loop, appending them as elements to a page using jQuery. 
+1. In your groups, discuss together the *kind of data* that you have. How might you think about displaying it? make some sketches (use a pen and paper, or your new photoshop licenses!), or verbal description, and talk about them as a group.
 
-2. After you've all got that working, try something more complex: perhaps positioning, or adding CSS
+2. Together, pick *one* of the sketches, and break down the steps required to make it. What kind of methods might you make use of?
 
-3. Once everyone in the group has done that, think about about the *kind of data* that you have. How might you think about displaying it? make some sketches, and talk about them as a group.
-
-4. Together, pick *one* of the sketches, and break it down into the steps required to make it. 
+3. If there's time, try prototyping (either in pseudo-code, or real code) how you'd display that data on a webpage. 
 
 ### assignment
 *due {{page.assignment-due}}*<br>
