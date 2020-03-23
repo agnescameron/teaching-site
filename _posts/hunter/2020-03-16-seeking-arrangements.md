@@ -383,28 +383,15 @@ There are many philosophies of how best to do this! I’m not going to tell you 
   [officer involved](https://theintercept.co/officer-involved/) [fatal migrations](https://projects.theintercept.com/fatal-migrations/)  
   [nyt air pollution](https://www.nytimes.com/interactive/2019/12/02/climate/air-pollution-compare-ar-ul.html)  
 
+[**object collections**](https://www.are.na/agnes-cameron/object-collections)  
+
 **visible connections**  
   [are.na](https://are.na)  
   [roam research](https://roamresearch.com)  
   [the music maze](http://static.echonest.com/LabyrinthOfGenre/GenreMaze.html)  
 
-**unlikely connections**
-  situationists
-  oulipo
-  [relational aesthetics](https://en.wikipedia.org/wiki/Relational_art#cite_note-13)
-
-**metaphors**
+**metaphors**  
 [back when we thought the internet was like a city](https://www.citylab.com/life/2013/03/back-when-we-thought-internet-was-city/4943/) [deleted city](http://deletedcity.net)
-
-**JQuery**  
-  [add jQuery to your project](https://www.w3schools.com/jquery/jquery_get_started.asp)  
-  *tools*
-    [selectors](https://www.w3schools.com/jquery/jquery_selectors.asp) [events](https://www.w3schools.com/jquery/jquery_events.asp) [traversing](https://www.w3schools.com/jquery/jquery_traversing.asp)  
-  [jQuery patterns](https://learn.jquery.com/code-organization/concepts/)  
-
-[**javascript iterables**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)  
-  [foreach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)  
-  [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)  
 
 **drawing libraries**
   [html5 canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)  
