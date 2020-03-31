@@ -18,6 +18,9 @@ readings: Kent Beck, [*A Laboratory For Teaching Object-Oriented Thinking*](http
 
 ## notes: object orientations
 
+
+<iframe width="939" height="587" src="https://www.youtube.com/embed/PyY3Ys3Z7fU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Hi friends, excited to see you all again on friday, and to explore this new format. Here are some notes!
 
 Let's recap first what we've learned about Javascript so far:
@@ -309,6 +312,15 @@ describeFruit(banana)
 Prints: `this fruit is yellow and tastes sweet`
 
 That's it for now! Have a play with this code and see you all in class, where we'll do some assignments together!
+
+Last of all: we can arrange these into an array! So, if you try:
+
+```
+var fruits = [blueberry, banana]
+console.log(fruits[1].color)
+```
+
+What would you expect to get?
 
 
 
