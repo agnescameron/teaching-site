@@ -234,14 +234,8 @@ Why don't we have a go at doing something a little more interesting. Remember fl
 
 ```
 <style type="text/css">
-	#ingredients: {
+	#ingredients {
 		display: flex;
-	}
-
-	.box {
-		border: 2px;
-		margin: 5px;
-		padding: 10px;
 	}
 </style>
 ```
