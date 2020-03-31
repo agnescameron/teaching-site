@@ -18,7 +18,7 @@ readings: Kent Beck, [*A Laboratory For Teaching Object-Oriented Thinking*](http
 
 ## notes: object orientations
 
-Hi friends, excited for this new format. Here are some notes!
+Hi friends, excited to see you all again on friday, and to explore this new format. Here are some notes!
 
 Let's recap first what we've learned about Javascript so far:
 
@@ -28,14 +28,14 @@ Let's recap first what we've learned about Javascript so far:
 
 (we learned some other stuff too, but these is the important bits for now)
 
-This class is about arrays, and about Javascript Object Notation (JSON). These are ways of storing and transmitting information that are central to the Javascript language (arrays exist in other languages, but JSON is a JavaScript thing).
+This class is about arrays, iteration and about Javascript Object Notation (JSON). These are ways of storing and transmitting information that are central to the Javascript language (arrays exist in other languages, but JSON is a JavaScript thing).
 
 If any of the sections below are unclear (or you'd rather see some different examples), I've linked the corresponding W3Schools notes in each title. 
 
 To play along with these examples, open up a web browser and paste them into the console!
 
 ### [Variables](https://www.w3schools.com/js/js_variables.asp)
-A variable is like an 'empty box' used to store a piece of information. We've encountered these already in functions: in the function below, topping1 and topping2 are both variables created by the function to store the pizza toppings the function gets called with.
+A variable is like an 'empty box' used to store a piece of information. We've encountered these already in functions: in the function below, `topping1` and `topping2` are both variables created by the function to store the pizza toppings the function gets called with.
 
 ```
 function makePizza(topping1, topping2) {
@@ -132,18 +132,44 @@ Oof! Oh no! Now the last 3 elements of our array have *not been defined*, our br
 
 Iterators are made for doing things to groups of objects, or for performing some action an indeterminate number of times. They are pretty simple, but they are what allow us to do some pretty complex things. Alongside functions, iterators are a really important building block in writing Javascript.
 
-If we want to iterate over our array `toppings`, we can use a [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method:
+The most general kind of iterator is something called a ['for loop'](https://www.w3schools.com/js/js_loop_for.asp). These allow us to run the *same code* in a loop several times on different values, without having to manually write it out each time. For loops all look like this:
+
+
+```
+for(var i=0; i<6; i++){
+	console.log(i)
+}
+```
+
+What is this doing? Let's take a look inside the for loop's round brackets.
+* first up: we create a variable called `i`, and set it equal to zero
+* next: this is our *condition*. This tells the browser that, so long as `i` has a value less than 6, it should run this code.
+* last: `i++` -- this is a short way of telling the browser to add 1 to the value of `i` every time the loop runs
+
+This will print:
+
+```
+1
+2
+3
+4
+5
+6
+```
+In our console.
+
+Let's try this out on our array:
 
 ```
 var toppings = ["spaghetti", "cornflakes", "cheese", "melon", "Abba", "chicken"]
 
 console.log("hi yeah yeah I'd like to order a large pizza with")
-toppings.forEach(function(element) {
-		console.log(element)
-	})
+for(var i=0; i<6; i++){
+	console.log(toppings[i])
+}
 ```
 
-This follows a similar pattern to our jQuery `click` function from last week. It uses an *anonymous function*, inline, that takes in the variable *element*. For each element in the array `toppings`, it will run this code on that element. This prints to the console:
+Selects the element at position `i` each step. So, when `i=0`, in the first step, we get `toppings[0]`, which is `spaghetti`. When `i=5`, we get `chicken`:
 
 ```
 hi yeah yeah I'd like to order a large pizza with
@@ -155,42 +181,91 @@ Abba
 chicken
 ```
 
-This is pretty nice. But -- what if we wanted to add them all to one line? Well: we could use a variable to store them! In Javascript, *strings* (things made of letters, wrapped in quotation marks) can be added together in a process called *concatenation*. We can *concatenate* our list together to make one long sentence. It works like this:
+What if we add an element to our array? The whole point of having a for loop was to be flexible, remember? Turns out, we can use the method `toppings.length`. This will give us the *length* of the array.
 
 ```
-var word1 = "banana"
-var word2 = "split"
-var word3 = word1+word2
-console.log(word1, word2, word3)
+console.log("hi yeah yeah I'd like to order a large pizza with")
+for(var i=0; i<toppings.length; i++){
+	console.log(toppings[i])
+}
 ```
-will print: `banana split bananasplit`
 
-We can also add strings together into the same variable, using the `+=` symbol. This says: take what's there, and add this thing onto it.
-
-```
-var word1 = "banana"
-word1 += "split"
-console.log(word1)
-```
-will print: `bananasplit`
-
-To use this in our iterator, we're going to create a variable called `order`, which will hold our sentence.
+This is pretty ok! But we've been putting a lot of stuff in the console now, so how about we try making some stuff that visitors to our website can see instead? For *this*, we're going to make a super-simple html page, and link it to a javascript file called `main.js`. Let's also include jQuery to make our lives easy.
 
 ```
-var toppings = ["spaghetti", "cornflakes", "cheese", "melon", "Abba", "chicken"]
-var order = "hi yeah yeah I'd like to order a large pizza with "
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
 
-toppings.forEach(function(element) {
-		order += element + ", "
+<div id="ingredients"></div>
+
+</body>
+</html>
+```
+
+Next, instead of printing stuff to the console in our for loop, let's try adding it to our page! We're going to use jQuery to do this:
+
+```
+for(var i=0; i<toppings.length; i++){
+	$('#ingredients').append(toppings[i])
+}
+```
+
+check it out!
+
+### ForEach
+
+Because we're using arrays, however, there are also some 'built-in' methods we can use that make our code pretty light-weight. The [`forEach`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method is one of a family of Javascript 'array methods' that lets us write an anonymous function to handle our elements:
+
+```
+toppings.forEach(function(topping) {
+		$('#ingredients').append(topping)
 	})
-
-console.log(order)
 ```
 
-This gives us a stray comma at the end, but that's something we can worry about in later weeks...
+This follows a similar pattern to our jQuery `click` function from last week. It uses an *anonymous function*, inline, that takes in the variable *element*. For each element in the array `toppings`, it will run this code on that element. This does exactly the same thing as our for loop, but it's a bit neater!
+
+Why don't we have a go at doing something a little more interesting. Remember flex-boxes from a few weeks ago? Let's make one!
 
 ```
-hi yeah yeah I'd like to order a large pizza with spaghetti, cornflakes, cheese, melon, Abba, chicken, 
+<style type="text/css">
+	#ingredients: {
+		display: flex;
+	}
+
+	.box {
+		border: 2px;
+		margin: 5px;
+		padding: 10px;
+	}
+</style>
+```
+Now, let's switch up our function so that it's adding divs to our page!
+
+```
+toppings.forEach(function(topping) {
+		$('#ingredients').append("<div>" + topping + "</div>")
+	})
+```
+
+Now, we get out a page full of flex-boxes. Sweet! Well. kind of ugly... We can style it though: let's add to the style, and give all the divs a class.
+
+```
+	.box {
+		border: 2px;
+		margin: 5px;
+		padding: 10px;
+	}
+```
+```
+toppings.forEach(function(topping) {
+		$('#ingredients').append("<div class=box>" + topping + "</div>")
+	})
 ```
 
 ### Objects
@@ -239,8 +314,7 @@ describeFruit(banana)
 ```
 Prints: `this fruit is yellow and tastes sweet`
 
-
-That's it for now! Have a play with this code and see you all in class.
+That's it for now! Have a play with this code and see you all in class, where we'll do some assignments together!
 
 
 
