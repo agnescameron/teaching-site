@@ -149,14 +149,14 @@ What is this doing? Let's take a look inside the for loop's round brackets.
 This will print:
 
 ```
+0
 1
 2
 3
 4
 5
-6
 ```
-In our console.
+In our console. It stops before it ever gets to 6!
 
 Let's try this out on our array:
 
