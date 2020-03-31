@@ -1,6 +1,6 @@
 ---  
 layout: hunter_post  
-title: your friend the shell  
+title: cancelled :(  
 permalink: /class8/  
 categories: [node, bash]
 tags: [backend]

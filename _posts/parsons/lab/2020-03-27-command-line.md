@@ -1,6 +1,6 @@
 ---  
 layout: parsons_post  
-title: command line
+title: cancelled :(
 permalink: /lab10/  
 categories:   
 tags:  
