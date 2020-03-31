@@ -1,7 +1,7 @@
 ---  
 layout: parsons_post  
 title: input &#8646; output
-permalink: /lab11/  
+permalink: /lab12/  
 categories:   
 tags:  
 assignment: 
@@ -24,3 +24,4 @@ There's the potential to do some pretty complex things with the information that
 
 
 ### Tutorial: {{page.tutorial}}
+

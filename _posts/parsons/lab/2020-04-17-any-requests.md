@@ -1,7 +1,8 @@
+
 ---  
 layout: parsons_post  
 title: any requests? 
-permalink: /lab12/  
+permalink: /lab13/  
 categories:   
 tags:  
 assignment: 

@@ -1,28 +1,22 @@
 {
 
   "manifest_version": 2,
-  "name": "extension",
+  "name": "maps maps",
   "version": "1.0",
 
   "description": "a parasite",
 
-  "background":
-    {
-        "scripts": ["scripts/jquery.min.js", "scripts/background.js"]
-    },
 
   "content_scripts": [
     {
-      "matches": ["*://*.wikipedia.org/*"],
+      "matches": ["*://*.arcgis.com/apps/*"],
       "js": ["scripts/jquery.min.js", "scripts/main.js"],
       "css" : ["styles/style.css"]
     }
   ],
 
   "web_accessible_resources": [
-    "img/potato1.jpg",
-    "img/potato2.jpg",
-    "img/potato3.jpg"
+
   ]
 
 }
