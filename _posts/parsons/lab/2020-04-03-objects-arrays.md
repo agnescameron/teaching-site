@@ -26,26 +26,26 @@ Here is the fruit example for guidance:
 ```
 var fruits = [
 	{
-		name: "blueberry",
-		color: "blue",
-		flavor: "tart",
-		shape: "round"
+		"name": "blueberry",
+		"color": "blue",
+		"flavor": "tart",
+		"shape": "round"
 	},
 
 	{
-		name: "banana",
-		color: "yellow",
-		flavor: "sweet",
-		shape: "curved"
+		"name": "banana",
+		"color": "yellow",
+		"flavor": "sweet",
+		"shape": "curved"
 	}
 ]
 ```
 
 2. Once you have your array of JSON objects, try displaying them on a page. Start by trying to log them to the console in a `for` loop. Once you have that working, try appending them as HTML elements, using the Flexbox code below.
 
-3. Once you have a working page, everyone in the group should commit the code to git, and link to each other's pages.
+3. Once you have a working page, everyone in the group should commit the code to git, and link to each other's pages. 
 
-4. (extension) On your own pages, experiment with different ways of arranging your elements: you could try out different designs, or use information about the objects themselves (e.g. colour) to change the CSS properties of the element. 
+4. (extension) On your own pages, experiment with different ways of arranging your elements: you could try showing different pieces of information about the objects, try out different designs, or use information about the objects themselves (e.g. colour) to change the CSS properties of the element. 
 
 ## notes: object orientations
 
