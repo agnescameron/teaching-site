@@ -2,13 +2,20 @@
 <html>
 <head>
 	<title></title>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 
-<div id="ingredients"></div>
+<div class="container">
+<input id="stock-name" type="text" value="APO"/><br/>
+<button id="stock-search">Search</button><br/>
+<div id="searched_for"></div>
 
-<style type="text/css">
+<canvas id="myChart" width="400" height="200"></canvas>
+
+</div>
+<!-- <style type="text/css">
 	#ingredients {
 		display: flex;
 		flex-wrap: wrap;
@@ -21,7 +28,7 @@
 	}
 
 </style>
-
+ -->
 </body>
-	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="vincent.js"></script>
 </html>
