@@ -231,13 +231,13 @@ This is pretty ok! But we've been putting a lot of stuff in the console now, so 
 <head>
 	<title></title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 
 <div id="ingredients"></div>
 
 </body>
+	<script type="text/javascript" src="main.js"></script>
 </html>
 ```
 
@@ -283,11 +283,11 @@ toppings.forEach(function(topping) {
 Now, we get out a page full of flex-boxes. Sweet! Well. kind of ugly... We can style it though: let's add to the style, and give all the divs a class.
 
 ```
-	.box {
-		border: 2px;
-		margin: 5px;
-		padding: 10px;
-	}
+.box {
+	border: 2px solid black;
+	margin: 5px;
+	padding: 10px;
+}
 ```
 ```
 toppings.forEach(function(topping) {
