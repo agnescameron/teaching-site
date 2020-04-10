@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+}
+
+#ingredients {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#scrollContainer {
+	width: 100%;
+	overflow: scroll;
+ 	background-image: linear-gradient(lightblue, pink);
+}
+
+.clickBox {
+	border: 2px solid black;
+	margin: 5px;
+	padding: 10px;
+}
+
+
+/*for the hover page*/
+
+.hoverBox {
+	border: 2px dotted black;
+	border-radius: 20px;
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	opacity: 0;
+	background-color: white;
+	padding: 10px;
+}
+
+.hoverBox .emoji {
+	font-size: 50px;
+}
+
+
+/*mouse down page*/
+
+.mouseDownBox {
+	position: fixed;
+	font-size: 100px;
+}
+
+/*for the scroll page*/
+
+.scrollBox {
+	width: 100%;
+	height: 100vh;
+}
+
+.scrollBox div {
+	position: fixed;
+	font-size: 100px;
+	color: white;
+}
+
+.scrollBox .title {
+	top: 30px;
+	left: 30px;
+}
+
+.scrollBox .emoji {
+	top:40vh;
+	left: 45vw;
+}

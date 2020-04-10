@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="fruit.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css"></link>
+</head>
+<body>
+
+<div id="scrollContainer"></div>
+
+</body>
+	<script type="text/javascript">
+
+		//adds a div onto the page for each element in the fruits array
+		for(var i=0; i<fruits.length; i++){
+			var fruitDiv = $('<div/>', {
+					id: i,
+					'class': 'scrollBox'
+				})
+				.css({'opacity': 0})
+				.html(
+					'<div class="title">' + fruits[i].name + '</div>' +
+					'<div class="emoji">' + fruits[i].emoji + '</div>')
+			$('#scrollContainer').append(fruitDiv)
+		}
+
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
+			var height = $(window).height();
+
+			var currentDiv = Math.floor(scroll/height)
+
+			if(scroll%height < height/2){
+				opacity = ((scroll%height)/height)*2
+			}
+
+			else{
+				opacity = ((height - (scroll%height))/height)*2
+			}
+
+			//get rid of any other traces
+			$('.scrollBox').css({'opacity': 0})
+
+			//set the current emoji to the correct opacity
+			$('#' + currentDiv).css({'opacity': opacity})
+		})
+
+	</script>
+</html>

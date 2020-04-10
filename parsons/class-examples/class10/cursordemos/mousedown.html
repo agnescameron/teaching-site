@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="fruit.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css"></link>
+
+<style type="text/css">
+	body {
+		cursor: url("magicwand2.gif")
+	}
+</style>
+
+</head>
+<body>
+
+<div id="ingredients"></div>
+
+</body>
+	<script type="text/javascript">
+		var counter = 0;
+
+		$(window).mousedown(function( event ) {
+			var fruitDiv = $('<div/>', {
+				'class': 'mouseDownBox'
+			})
+			.html(fruits[counter%fruits.length].emoji)
+			.css({'top': event.pageY-50, 'left': event.pageX-50})
+
+			counter = counter+1;
+			$('body').append(fruitDiv)
+		})
+
+	</script>
+</html>

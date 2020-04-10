@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="fruit.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css"></link>
+</head>
+<body>
+
+<div id="ingredients"></div>
+
+</body>
+	<script type="text/javascript">
+		for(var i=0; i<fruits.length; i++){
+			var fruitDiv = $('<div/>', {
+					'class': 'clickBox'
+				})
+				.html(
+					'<span class="name">' + fruits[i].name + `</span>
+					<span class="emoji" style="display:none">` + fruits[i].emoji + '</span>')
+				.css({'background-color': fruits[i].color})
+				.click(function(){
+					$(this).find('.emoji').toggle()
+				})
+
+			$('#ingredients').append(fruitDiv)
+		}
+	</script>
+</html>
