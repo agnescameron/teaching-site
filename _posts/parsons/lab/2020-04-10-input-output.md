@@ -12,7 +12,21 @@ readings:
 
 {{page.description}}
 
+## class assignment
 
+Over the past few weeks, I've been collecting an are.na channel of [websites that use cursor position](https://www.are.na/agnes-cameron/websites-that-use-cursor-position) to do different things to the page. It can be fun to mess with your user's sense of space and motion: like Yotam Hadar's [Yale Exhibition site](http://old.yotamhadar.com/media/misc/painting2015/), which requires quite a lot of thought before you're able to navigate it.
+
+There's the potential to do some pretty complex things with the information that the webpage collects about your interactions with it. Take Studio Moniker's [ClickClickClickClick](https://clickclickclick.click) project...
+
+I've made a [set of 4 demos](https://webdevelopm.net/parsons/class-examples/class10/cursordemos/), each of which explore a different mode of event-based interaction with the `fruits` object that you all looked at in this week's tutorial. 
+
+1. Pick a [jQuery event method](https://www.w3schools.com/jquery/jquery_ref_events.asp) that you're interested in using. You can either use one from one of the demos, or from the list. It doesn't matter if you choose the same or different methods in your groups.
+
+2. Each person in the group discusses briefly the affordances of their chosen method: what kind of interactions does it imply? Which does it preclude? How can you use this method to create an interesting user experience of exploring your object?
+
+3. Each person in the group makes a *new* web page in your Github folders. Make a prototype of your interaction using a single HTML element, and verify that it works. Show this to the group, then *commit your work to git*.
+
+4. Once you have a working demo, incorporate the object that you made last week into the page, combining it with the interactive code that you just created. Look to the tutorial and the demos for reference. (like last week, this will be your assignment for the rest of the week)
 
 ## tutorial: interactive elements with jQuery
 
@@ -277,14 +291,5 @@ Let's break down what this code is doing:
 	- second, it sets `clicked` back to false, effectively un-clicking the div. So, the *next* time we click on the div, we'll run the first two lines again and reveal the information. and so on, and so on
 
 Have a go at changing this code to reveal different kinds of information! Can you make a version that just alternates between the fruit name and the fruit emoji?
-
-## in class tutorial: fun with cursors
-
-Over the past few weeks, I've been collecting an are.na channel of [websites that use cursor position](https://www.are.na/agnes-cameron/websites-that-use-cursor-position) to do different things to the page. It can be fun to mess with your user's sense of space and motion: like Yotam Hadar's [Yale Exhibition site](http://old.yotamhadar.com/media/misc/painting2015/), which requires quite a lot of thought before you're able to navigate it.
-
-There's the potential to do some pretty complex things with the information that the webpage collects about your interactions with it. Take Studio Moniker's [ClickClickClickClick](https://clickclickclick.click) project...
-
-I'm going to go through the above code, but play around with adding a couple of different cursor effects to it. In groups, you'll then help one another develop the code you wrote last week to include some cursor positions.
-
 
 
