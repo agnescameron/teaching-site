@@ -5,16 +5,38 @@
 	<title></title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="fruit.js"></script>
-	<link rel="stylesheet" type="text/css" href="main.css"></link>
+
+	<style type="text/css">
+
+		#fruits {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.clickBox {
+			border: 2px solid black;
+			margin: 5px;
+			padding: 10px;
+		}
+
+	</style>
+
 </head>
 <body>
 
-<div id="ingredients"></div>
+<div id="fruits"></div>
 
 </body>
 	<script type="text/javascript">
+
+	//outer loop: repeats the inner loop 25 times
 	for(var j=0; j<25; j++){
+
+		//inner loop: for each element in 'fruits', append a div to the page
 		for(var i=0; i<fruits.length; i++){
+			
+			//make the new div
 			var fruitDiv = $('<div/>', {
 					'class': 'clickBox'
 				})
@@ -26,7 +48,8 @@
 					$(this).find('.emoji').toggle()
 				})
 
-			$('#ingredients').append(fruitDiv)
+			//append it to the page
+			$('#fruits').append(fruitDiv)
 		}
 	}
 	</script>

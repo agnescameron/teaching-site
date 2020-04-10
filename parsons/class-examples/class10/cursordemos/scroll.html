@@ -5,8 +5,28 @@
 	<title></title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="fruit.js"></script>
-	<link rel="stylesheet" type="text/css" href="main.css"></link>
+
+	<style type="text/css">
+		#scrollContainer {
+			width: 100%;
+			overflow: scroll;
+		}
+
+		.scrollBox {
+			width: 100%;
+			height: 100vh;
+		}
+
+		.scrollBox .emoji {
+			position: fixed;
+			font-size: 100px;
+			top:40vh;
+			left: 45vw;
+		}
+	</style>
+
 </head>
+
 <body>
 
 <div id="scrollContainer"></div>
@@ -21,16 +41,16 @@
 					'class': 'scrollBox'
 				})
 				.css({'opacity': 0})
-				.html(
-					'<div class="title">' + fruits[i].name + '</div>' +
-					'<div class="emoji">' + fruits[i].emoji + '</div>')
+				.html('<div class="emoji">' + fruits[i].emoji + '</div>')
 			$('#scrollContainer').append(fruitDiv)
 		}
 
+		//this function will run when the page is scrolled
 		$(window).scroll(function() {
 			var scroll = $(window).scrollTop();
 			var height = $(window).height();
 
+			//works out which number div we're on
 			var currentDiv = Math.floor(scroll/height)
 
 			if(scroll%height < height/2){
