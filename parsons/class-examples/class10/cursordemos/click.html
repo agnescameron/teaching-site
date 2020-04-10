@@ -28,10 +28,11 @@
 <div id="fruits"></div>
 
 </body>
+
 	<script type="text/javascript">
 
 	//outer loop: repeats the inner loop 25 times
-	for(var j=0; j<25; j++){
+	// for(var j=0; j<25; j++){
 
 		//inner loop: for each element in 'fruits', append a div to the page
 		for(var i=0; i<fruits.length; i++){
@@ -45,12 +46,20 @@
 					<span class="emoji" style="display:none">` + fruits[i].emoji + '</span>')
 				.css({'background-color': fruits[i].color})
 				.click(function(){
-					$(this).find('.emoji').toggle()
+					var x = document.getElementById("fruits"); 
+					if (x.style.display === "none") {  
+						console.log('called if')
+						x.style.display = "block"; 
+					} 
+					else { 
+						console.log('called else')
+						x.style.display = "none";
+					}
 				})
 
 			//append it to the page
 			$('#fruits').append(fruitDiv)
 		}
-	}
+	// }
 	</script>
 </html>

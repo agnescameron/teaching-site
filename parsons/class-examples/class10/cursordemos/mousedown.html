@@ -9,27 +9,38 @@
 	<style type="text/css">
 		.mouseDownBox {
 			position: fixed;
+			font-size: 10px;
+		}
+
+		#painting {
+			position: fixed;
 			font-size: 100px;
+			width: 350px;
+			height: 350px;
+			top: 30vh;
+			left: 30vh;
+			background-color: pink;
 		}
 	</style>
 
 </head>
 <body>
 
-<div id="ingredients"></div>
+<div id="painting"></div>
 
 </body>
 	<script type="text/javascript">
 		var counter = 0;
 
-		$(window).mousedown(function( event ) {
+		$('#painting').hover(function( event ) {
 			var fruitDiv = $('<div/>', {
 				'class': 'mouseDownBox'
 			})
 			.html(fruits[counter%fruits.length].emoji)
-			.css({'top': event.pageY-50, 'left': event.pageX-50})
+			.css({'top': event.pageY, 'left': event.pageX})
 
 			counter = counter+1;
+			console.log(counter)
 			$('body').append(fruitDiv)
 		})
 
