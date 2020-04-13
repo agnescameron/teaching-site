@@ -75,9 +75,7 @@ Nicky Case has started a collection of different 'explorable explanations' peopl
 
 > [*Does every graphic design create a parallel world?*](http://veryinteractive.net/content/2-library/59-does-every-graphic-design-create-a-parallel-world/schwulst-doeseverygraphicdesigncreaeaparallelworld.pdf) -- Laurel Schwulst
 
-Every website you create is its own world. What I mean by this is that, all websites have some kind of world-view to share, and part of this assignment is developing ideas for how you might communicate that. Computers, as devices, are particularly ripe for the kind of systems-imagination that allows this kind of communication. Think about websites that effectively communicate a worldview. They don't necessarily have to be complex, realistic or visually rich, but instead exploit their medium to tell a story.
-
-Diagrams are of course one way -- and a quick way -- to map out a system. However, they're by no means the only technique at your disposal.
+Every website you create is its own world. What I mean by this is that, all websites have some kind of world-view to share, and part of this assignment is developing ideas for how you might communicate that. Computers, as devices, are particularly ripe for the kind of systems-imagination that allows this kind of communication. Think about websites that effectively communicate a worldview. They don't necessarily have to be complex, realistic or visually rich, but instead exploit their medium to tell a story. Laurel Schwulst's teaching website [Very Interactive](http://www.beautiful-company.com/i/very-interactive-website-themes#1) is a nice example: it uses very simple changes to the interface to create very different effects.
 
 Some systems reveal their complexity over time. Frank Lantz's game [Universal Paperclips](https://web.archive.org/web/20200114102007/https://www.decisionproblem.com/paperclips/index2.html) is one of these, starting extremely simply (you are tasked with making and selling one paperclip at a time) to consuming the entire planet in the quest to produce paperclips. 
 
