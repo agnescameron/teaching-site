@@ -134,7 +134,7 @@ A general reading for this project, one you can choose to look at this week or n
 
 
 ### in class assignment
-Use Nicky Case's [*Loopy*] tool to construct a model of the system that you have brought to class today.
+Use Nicky Case's [*Loopy*](https://ncase.me/loopy/) tool to construct a model of the system that you recorded for your assignment.
 
 ### reading
 {{page.readings}}
