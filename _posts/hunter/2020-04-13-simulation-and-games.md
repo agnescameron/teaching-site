@@ -4,7 +4,7 @@ title: simulation and games
 permalink: /class10/  
 tags: [diagrams, systems, simulation]
 assignment: Write a proposal for your final project.
-description: We review the CLI projects [(with pizza??)](/class7/#assignment), and introduce the final project. The lecture will look at games and simulations as tools for critique, political statements, and modes of artistic enquiry. We will think about interface metaphors and feedback systems, and talk about some of the history of cybernetics.
+description: We will think about interface metaphors and feedback systems, and talk about some of the history of cybernetics.
 readings:
 assignment-due: 04/19
 ---  
@@ -24,6 +24,7 @@ Many of the ideas that we're exploring with simulation come from a 20th century 
 
 Norbert Wiener coined the term working on automatic anti-aircraft guns during the second world war. He noticed that soldiers firing the guns would not fire directly *at* their targets, but slightly ahead, to compensate for the anticipated distance that the craft would travel between firing the shell, and the shell arriving.
 
+Wiener gave the movement a life of its own, and its adherents quickly found uses for ideas of control systems and feedback, first in electronics and in the early days of computation, but also in architecture, management, biology and psychology.
 
 **feedback**  
 
