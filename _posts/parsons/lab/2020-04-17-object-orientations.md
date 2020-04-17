@@ -6,7 +6,7 @@ categories:
 tags:  
 assignment: 
 description: this week we'll cover some more great material on objects and arrays
-tutorial: cURL.
+tutorial: 
 assignment-due:
 readings: 
 ---  
@@ -41,7 +41,7 @@ var fruits = [
 ]
 ```
 
-Perhaps, instead of just 'shape' and 'color', we might have a number of physical attributes, such as robustness (e.g. in transit) and size. In the interest of neatness, we could gather them into an object that nests *inside* our existing fruit object, with the parent property `physicalAttributes`. (note: gary is a heathen and puts spaces in his object properties, but that doesn't mean that you have to)
+Perhaps, instead of just 'shape' and 'color', we might have a number of physical attributes, such as robustness (e.g. in transit) and size. In the interest of neatness, we could gather them into an object that nests *inside* our existing fruit object, with the parent property `physicalAttributes`. (*note: gary is a heathen and puts spaces in his object properties, but that doesn't mean that you have to*)
 
 
 ```
@@ -73,7 +73,10 @@ var fruits = [
 This is totally legal and pretty good practice (just remember to close all of your brackets correctly!). If we wanted to get one of these properties, we'd use dot notation to get them:
 
 ```
-console.log('a ' + fruits[1].name + ' is ' + fruits[1].physicalAttributes.shape + ', ' + fruits[1].physicalAttributes.robustness + ' and ' + fruits[1].physicalAttributes.size)
+console.log('a ' + fruits[1].name + ' is ' + 
+fruits[1].physicalAttributes.shape + ', ' + 
+fruits[1].physicalAttributes.robustness + ' 
+and ' + fruits[1].physicalAttributes.size)
 ```
 
 There's another, perhaps even more useful thing we can do though, which is to nest *arrays* within objects. Perhaps you have a property -- say, recipes -- for which there might be multiple values. There is, after all, more than one thing you can do with a banana. Instead of having properties like `recipe1`, `recipe2` (very bad idea), this object property can be an array instead:
@@ -225,6 +228,11 @@ function searchByColor(color) {
 }
 ```
 
-Try `searchByColor('yellow')`.
+Try `searchByColor('yellow')`, and you should get the yellow fruits!
 
-### Tutorial: {{page.tutorial}}
+### in class assignment
+
+* If you already have an object array ready for your final project, then use the time in class to try out an array method. Write *at least* one function that uses either `filter`, or [another array method](https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230) to sort your object collection. 
+* If you *do not* yet have an object ready for your final project, then continue working on your final project layout. Your assignment this week will be to create your object collection, and use `filter`, or [another array method](https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230) to sort your object collection. 
+
+By next Tuesday (Gary's class), you will *all have a working website*. By next Friday (at the latest), you will all have *object collections* and be using functions and methods to sort them. The latter you will *document on your sites* as you go along!
