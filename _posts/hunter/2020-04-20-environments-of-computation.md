@@ -308,30 +308,39 @@ The solution to this is to make a small HTTP server to serve your site. Have a l
 
 This error doesn't occur when you host it online (as the files are being hosted *by* a server automatically), so you can just use the `docs/` folder like a normal static site.
 
-### in class assignment
+### in-class assignment
 
 The code for this assignment can be downloaded [here](https://github.com/agnescameron/foraging-sim), or using:
 
 ```
 git clone https://github.com/agnescameron/foraging-sim.git
 cd foraging-sim
+npm install
 ```
 
-1. go through the code. To ensure you understand how it works, try the following:
-	* run `npm install`, and then `node index.js`. check that the code is running on `localhost:3000`
+To run the code, do:
+
+```
+node index.js
+```
+
+To complete this assignment, you should *each* try the code out, but you should work on the problems collectively, and make sure that everyone is on the same page. If one person is stuck and you understand, try helping them before you call me over.
+
+1. As a group, go through the code. To ensure you understand how it works, try the following:
+	* check that the code is running on `localhost:3000`
 	* instead of rendering the plant symbols in the main screen, make the code render the names of the plants
-	* change the color of *one* of the plants to red, by editing the `plants` module
+	* change the color of *one* of the plants to red, by editing the `plants.js` module
 	* print the name of each plant every time a plant is clicked on (note: you *do not* need to add a new function for this, look at the functions that are already there)
 
 	If your group has issues with these, call me over and I will help.
 
-2. make a new module, `people`, that contains an array of 'person' objects. Each person should have a name and an emoji that represents them. Import this array into `park`, and randomly add people at the same time as the plants are grown. Use the `plants` module as a guide.
+2. Create a new module, `people.js`, that contains an array of objects called `people`. Each person in the array should be represented by an objecy, with a name, and an emoji that represents them. Import this array into `park`, and randomly add people at the same time as the plants are grown. Use the `plants` module as a guide.
 
 3. Replace the contents of `countPlants` (line 12) with a *single-line arrow function*. `countPlants` takes in the name of a plant, and calculates the number of plants of that type in the bag. (clue: have a look at the `filter` array method)
 
 4. instead of having it as a global variable, make `bag` into its own module, and import it into `park`. (if you get stuck, [this stack overflow question](https://stackoverflow.com/questions/34862600/global-variables-alternative) should help)
 
-5. replace `countPlants` with a function that calculates the totals for *all* of the plants in the bag, again using an arrow function (clue: have a look at the `reduce` array method). This function should return an array, each element of which should be an object containing the plant name, and the number of that plant. 
+5. replace `countPlants` with a function that calculates the totals for *all* of the plants in the bag, again using an arrow function (clue: have a look at the `reduce` array method). This function should return an array, each element of which should be an object containing the plant name, and the number of that plant. Display *this* information in the bag display, rather than the current list.
 
 ### assignment
 *due {{page.assignment-due}}*<br>
