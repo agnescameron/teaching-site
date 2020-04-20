@@ -327,9 +327,11 @@ cd foraging-sim
 
 2. make a new module, `people`, that contains an array of 'person' objects. Each person should have a name and an emoji that represents them. Import this array into `park`, and randomly add people at the same time as the plants are grown. Use the `plants` module as a guide.
 
-3. Add an arrow function that calculates *how much* of each plant you have in the bag every time a plant is picked. Verify that this works by printing to the console, and then change the 'bag' display to show this more concise version.
+3. Replace the contents of `countPlants` (line 12) with a *single-line arrow function*. `countPlants` takes in the name of a plant, and calculates the number of plants of that type in the bag. (clue: have a look at the `filter` array method)
 
 4. instead of having it as a global variable, make `bag` into its own module, and import it into `park`. (if you get stuck, [this stack overflow question](https://stackoverflow.com/questions/34862600/global-variables-alternative) should help)
+
+5. replace `countPlants` with a function that calculates the totals for *all* of the plants in the bag, again using an arrow function (clue: have a look at the `reduce` array method). This function should return an array, each element of which should be an object containing the plant name, and the number of that plant. 
 
 ### assignment
 *due {{page.assignment-due}}*<br>
