@@ -127,18 +127,31 @@ In JQuery, `this` refers to the DOM element that is tied to the event listener. 
 
 More generally in Javascript, `this` is pretty slippery as the rules for how it's defined change depending on how something is called. We won't look at all of these today, but [this blog post](https://dmitripavlutin.com/gentle-explanation-of-this-in-javascript/) has a really good overview. 
 
-The `this` keyword refers to the current scope that the function is operating in. In most normal function invocations in Javascript, `this` refers to the Global scope, or the scope of the window.
+The `this` keyword refers to the current context that the function is operating in. In most normal function invocations in Javascript, `this` refers to the Global context.
 
-
-B)
 ```
-function add(a, b){
-	console.log(this)
-	return a + b;
+function printThis(){
+	console.log(this);
 }
 
-const sum = add(10, 11)
+console.log(this);
+printThis();
 ```
+
+Will print the *same* context each time.
+
+For object methods, this is different:
+
+```
+const myObject = {
+  printThis: function() {
+    console.log(this);
+  }
+};
+const message = myObject.printThis();
+```
+
+Now, it prints the name of the object method, instead of the function.
 
 [**arrow functions**](https://zendev.com/2018/10/01/javascript-arrow-functions-how-why-when.html)
 
@@ -172,6 +185,7 @@ arrow function + array method = a great combination:
 ```
 const words = ['hello', 'WORLD', 'Whatever'];
 const lowercaseWords = words.map(word => word.toLowerCase());
+console.log(lowercaseWords);
 ```
 
 Remember that [list of useful array methods](https://codeburst.io/useful-javascript-array-and-object-methods-6c7971d93230) from a few weeks back? All of these use arrow functions.
