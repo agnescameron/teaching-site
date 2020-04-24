@@ -78,10 +78,6 @@ So, to put it all together:
 var randomFruit = fruits[Math.floor(Math.random()*fruits.length)]
 ```
 
-### selecting parts of arrays
-slice
-
-
 ### finding things in arrays
 
 [**array.includes**]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes))
@@ -151,6 +147,18 @@ fruits.forEach(function(fruit){
 ```
 
 In other words, `fruit` here stores the value of each array element in turn, then the `forEach` loop runs code on them. Will print the name of each element in turn. *What I call the variable will not change how the function works!!*
+
+
+### selecting parts of arrays
+
+If we want to copy a part of our array, we can use the `array.slice()` method. This will copy from a beginning index, to an end index (which, if not specified, will automatically be the end of the array).
+
+```
+var fruits2 = fruits.slice(0) // gets the whole array
+var fruits3 = fruits.slice(1, 2) //gets the elements from 1 to 2
+var fruits4 = fruits.slice(-1) // gets the last element in the array
+```
+
 
 ### [sorting things in arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
