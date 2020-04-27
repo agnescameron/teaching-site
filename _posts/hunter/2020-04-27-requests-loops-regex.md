@@ -19,6 +19,15 @@ The *second* idea, which we've not met before, is the regular expression! These 
 
 Like last week, I've been adding to the simulation demo as an example of how you might want to structure and integrate these things into your project. It's by no means prescriptive, though especially if you're trying to work out what order things like HTTP requests should happen in, and how to structure loops etc, you're more than welcome to use this as a template.
 
+As before, the code for the updated demo can be downloaded [here](https://github.com/agnescameron/foraging-sim), or using:
+
+```
+git clone https://github.com/agnescameron/foraging-sim.git
+cd foraging-sim
+```
+
+If you've already got the code from last week, you can also type `git pull` in a Terminal window open in the existing directory (though you may have to commit and merge any changes you made).
+
 ### revisiting requests
 
 We've already spent some time on HTTP requests in this class, so this is mostly a short refresher, and a reminder of the notes [here](https://webdevelopm.net/fetch_intro/).
