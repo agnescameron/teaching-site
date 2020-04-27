@@ -85,7 +85,7 @@ This callback adds a new field to the *existing* `plant` object, which means we 
 Another common JS task worth touching on briefly here is the *loop*. For some of you, your simulation might depend on some central loop or clock (e.g. time passing, a variable being re-calculated every couple of seconds). The simplest way to do this is to use:
 
 ```
-window.setInterval(myFunction, time)
+let interval = window.setInterval(myFunction, time)
 ```
 
 Where `myFunction` is the function that you want to run repeatedly, and `time` stands in for the rate (in milliseconds!) at which you want your loop to repeat.
@@ -93,35 +93,21 @@ Where `myFunction` is the function that you want to run repeatedly, and `time` s
 To stop the loop, use the method:
 
 ```
-window.clearInterval(myFunction)
+window.clearInterval(interval)
 ```
 
-If you want to pass parameters to the function, you can either use:
+If you want to pass parameters to the function, you can use an anonymous function:
 
 ```
-window.clearInterval(function() { myFunction(param1, param2...) }, time)
+window.setInterval(function() { myFunction(param1, param2...) }, time)
 ```
 
-Or:
+Or pass the values after the time:
 
 ```
 window.setInterval(myFunction, time, param1, param2...)
 ```
 
-The latter is useful if you want to set multiple different functions by name, or if you need to clear the interval! (clearing the interval with an anonymous function is [quite inelegant](https://stackoverflow.com/questions/6843201/how-to-clearinterval-with-unknown-id))
-
-For example, in the foraging demo I made last week, I have added the line:
-
-```
-window.setInterval(function(){ growPlants(10); }, 10000);
-```
-
-Which will grow back 10 plants every 10 seconds. However, if I wanted to use a named function, I could also use:
-
-
-```
-window.setInterval(growPlants, 10000, 10);
-```
 
 ### regex
 
@@ -200,7 +186,7 @@ string.replace(/\n/g, '')
 The `^` selector (when used with a capturing group) will get the start of a line, followed by a character. (beware! `^` has a second meaning in regular expressions, when used in square brackets...)
 
 ```
-string.replace(/(^\s))
+string.replace(/(^\s)/g)
 ```
 However, this only selects one space at a time... we want the `+` operator!
 
@@ -209,13 +195,13 @@ However, this only selects one space at a time... we want the `+` operator!
 This selects one or more spaces.
 
 ```
-string.replace(/(^\s+))
+string.replace(/(^\s+)/g)
 ```
 
 7) Match end of line `$`
 
 ```
-string.replace(/(\s+$))
+string.replace(/(\s+$)/g)
 ```
 
 Just like the beginning of line operator, we can use `$` to indicate the end of a line...
