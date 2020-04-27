@@ -4,7 +4,7 @@ title: requests, loops, and regex
 permalink: /class12/  
 categories: 
 tags: 
-assignment: continue work on final project -- by now you will have a functioning prototype, and be thinking about the interface in greater depth. Have a think on any topics you'd like to explore more, or revisit, and add them to the google sheet for next class.
+assignment: continue work on final project -- by now you will have a functioning prototype, and be thinking about the interface in greater depth. What is the user experience of your simulation? Have a think on any topics you'd like to explore more, or revisit.
 description: 
 assignment-due: 05/03
 ---  
@@ -26,14 +26,17 @@ We've already spent some time on HTTP requests in this class, so this is mostly 
 Key things to remember:
 * most requests will need some kind of CORS treatment, to prevent a 'cross-origin' error. The quickest and easiest way to achieve this is to use CORS-anywhere: paste `https://cors-anywhere.herokuapp.com/` *before* the full url of the HTTP address you're making a request to, and it should resolve most issues
 * HTTP requests are *not immediate*, and need to be handled by callbacks. For `fetch`, the convention is to use two chained arrow functions, with the `.then()` promise keyword. `.then` indicates to the browser to run this code *only after* the previous function has returned, and is a neat way of handling asynchronous requests.
+* if we want to get data out of callbacks, we need to have variables that exist *outside*. The simplest (but not the best, as we learned last week) is to put the data in a global variable. A better solution would be to package the HTTP request as a separate module, and import that instead.
 
 ```
+let data;
+
 fetch("https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/c0d72b078c4f27a37169a2a3638dad3e/42.3601,-71.0589")
   .then((response) => {
     return response.json();
   })
   .then((myJson) => {
-    printData(myJson)
+    data = myJson;
   });
 ```
 
@@ -167,15 +170,7 @@ If we want to do this to each letter in the sequence, we should do the following
 string.replace(/[a-zA-Z]/g, 'q')
 ```
 
-3) Match anything that isn't a letter `[^a-zA-Z]`
-
-If we want to match things that *aren't* letters, we use the special character `^` to indicate inversion. Note that `^` is also used to mean the beginning of a line! Be careful with how its used (the sidebar on regex101 is a good guide)
-
-```
-string.replace(/[^a-zA-Z]/g, '.')
-```
-
-4) Match spaces `\s`
+3) Match spaces `\s`
 
 Instead of matching all non-characters, we can also select special characters like whitespace. This is a *really* common problem, and is used in the demo this week. Unfortunately, we can't use this by itself to solve our problem! If we just get rid of all the spaces, we're left with a horrible mess.
 
@@ -183,7 +178,7 @@ Instead of matching all non-characters, we can also select special characters li
 string.replace(/\s/g, '')
 ```
 
-5) Match newlines `\n`
+4) Match newlines `\n`
 
 The newline special character is also going to be useful to us! This will replace newline characters for us...
 
@@ -191,16 +186,16 @@ The newline special character is also going to be useful to us! This will replac
 string.replace(/\n/g, '')
 ```
 
-6) Match start of line `^`
+5) Match start of line `^`
 
-The `^` selector (when used with a capturing group) will get the start of a line, followed by a character
+The `^` selector (when used with a capturing group) will get the start of a line, followed by a character. (beware! `^` has a second meaning in regular expressions, when used in square brackets...)
 
 ```
 string.replace(/(^\s))
 ```
 However, this only selects one space at a time... we want the `+` operator!
 
-7) Match one or more of a character `+`
+6) Match one or more of a character `+`
 
 This selects one or more spaces.
 
@@ -208,7 +203,7 @@ This selects one or more spaces.
 string.replace(/(^\s+))
 ```
 
-8) Match end of line `$`
+7) Match end of line `$`
 
 ```
 string.replace(/(\s+$))
@@ -216,7 +211,7 @@ string.replace(/(\s+$))
 
 Just like the beginning of line operator, we can use `$` to indicate the end of a line...
 
-9) Chain two expressions together ('or') `|`
+8) Chain two expressions together ('or') `|`
 
 To match the spaces at the start *and* end of the line, we can combine the two statements
 
@@ -242,7 +237,7 @@ How does this line work? We select all `\s` characters, and
 
 [**Q: Should I use Regex to parse HTML?**](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454)
 
-**other popular regexs**
+**popular regexs**
 
 Other popular things to do with a regex include recognising emails, checking to see if a password is strong, or finding IP addresses in text. You can find a bunch of these methods [here](https://medium.com/factory-mind/regex-cookbook-most-wanted-regex-aa721558c3c1).
 
@@ -252,7 +247,7 @@ If it's your first encounter with regexs, work through [this interactive tutoria
 
 If you already feel happy about regexs, or after you've done that, have a go at the first few rounds of [Regex Golf](https://alf.nu/RegexGolf).
 
-These start off very simple, and quickly get more complicated! If you'd like some project help, add your name to this list and come at me in that order... depending on how many people would like some help, I'll either modify the amount of time with each person, or arrange for you to come during office hours (let me know if you can't do wednesday). Remember you can reach out to me over slack anytime.
+These start off very simple, and quickly get more complicated! If you'd like some project help, [add your name to this list](https://docs.google.com/spreadsheets/d/1Nwayl2ssQyQcyhITQfInJll4sbcPg1X-pbYujS-i2xI/edit?usp=sharing) and come at me in that order... depending on how many people would like some help, I'll either modify the amount of time with each person, or arrange for you to come during office hours (let me know if you can't do wednesday). Remember you can reach out to me over slack anytime.
 
 ### assignment
 *due {{page.assignment-due}}*<br>
