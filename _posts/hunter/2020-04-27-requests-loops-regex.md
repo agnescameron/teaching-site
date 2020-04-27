@@ -19,33 +19,97 @@ The *second* idea, which we've not met before, is the regular expression! These 
 
 Like last week, I've been adding to the simulation demo as an example of how you might want to structure and integrate these things into your project. It's by no means prescriptive, though especially if you're trying to work out what order things like HTTP requests should happen in, and how to structure loops etc, you're more than welcome to use this as a template.
 
-### a note on requests
+### revisiting requests
 
-We've already spent some time on HTTP requests in this class, so this is mostly a short refresher, and a reminder of the notes
+We've already spent some time on HTTP requests in this class, so this is mostly a short refresher, and a reminder of the notes [here](https://webdevelopm.net/fetch_intro/).
 
-
-In the foraging demo, I have added an HTTP request:
-
-### loops
-
-Another common JS task worth touching on briefly here is the *loop*. For some of you, your simulation might depend on some central loop or clock (e.g. time passing, a variable being re-calculated every couple of seconds). The simplest
-
+Key things to remember:
+* most requests will need some kind of CORS treatment, to prevent a 'cross-origin' error. The quickest and easiest way to achieve this is to use CORS-anywhere: paste `https://cors-anywhere.herokuapp.com/` *before* the full url of the HTTP address you're making a request to, and it should resolve most issues
+* HTTP requests are *not immediate*, and need to be handled by callbacks. For `fetch`, the convention is to use two chained arrow functions, with the `.then()` promise keyword. `.then` indicates to the browser to run this code *only after* the previous function has returned, and is a neat way of handling asynchronous requests.
 
 ```
-window.setInterval(function(){}, time)
+fetch("https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/c0d72b078c4f27a37169a2a3638dad3e/42.3601,-71.0589")
+  .then((response) => {
+    return response.json();
+  })
+  .then((myJson) => {
+    printData(myJson)
+  });
 ```
 
-Where `time` here stands in for the rate (in milliseconds!) at which you want your loop to repeat.
+* *only* `return response.json();` if you're expecting to get data as JSON! This is true of most API requests, but *not* for requests that return HTML, like the ones your browser makes. As we'll see in a second, those more scrap-ey requests require `response.text()`
 
-To stop the loop, use the function:
+### a tiny bit of web scraping
+
+For my foraging simulator, I've decided to use HTTP requests to Wikipedia to get some information about the plants I'm picking. The wikimedia API is primarily for getting metadata *about* a page (e.g. edit history, authors, changes), rather than the text of the page itself, so I'm going to use fetch to get the raw HTML of the page that I'm interested in, and then use jQuery to parse it.
 
 ```
-window.clearInterval()
+fetch('https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/wiki/' + requestString)
+.then((response) => {
+	return response.text();
+}).then((data) => {
+	var infoDiv = $('div .shortdescription', $(data));
+	console.log(plant, infoDiv[0].innerHTML)
+	plant.info = infoDiv[0].innerHTML;
+});
 ```
+
+This uses `fetch` to get the raw HTML, which gets parsed using `response.text()` (rather than `response.json()`). In order to know what parts of the page we want, let's look at an [example Wikipedia page](https://en.wikipedia.org/wiki/Alliaria_petiolata).
+
+We can see that there's a div with class `shortdescription`, which contains a very short paragraph about the plant. This is a particular feature of Wikipedia pages, but one that I'm going to use here as the infomration!
+
+<img src="../../assets/shortdescription.png" style="width: 400px">
+
+```
+var infoDiv = $('div .shortdescription', $(data));
+```
+
+This line selects a HTML element, using jQuery to process the HTML data from the HTTP request. This is a neat trick, as jQuery is ideal for parsing this kind of information (*rather than* regex, as we'll see below).
+
+This callback adds a new field to the *existing* `plant` object, which means we can use it outside of this function.
+
+### [loops](https://www.w3schools.com/jsref/met_win_setinterval.asp)
+
+Another common JS task worth touching on briefly here is the *loop*. For some of you, your simulation might depend on some central loop or clock (e.g. time passing, a variable being re-calculated every couple of seconds). The simplest way to do this is to use:
+
+```
+window.setInterval(myFunction, time)
+```
+
+Where `myFunction` is the function that you want to run repeatedly, and `time` stands in for the rate (in milliseconds!) at which you want your loop to repeat.
+
+To stop the loop, use the method:
+
+```
+window.clearInterval(myFunction)
+```
+
+If you want to pass parameters to the function, you can either use:
+
+```
+window.clearInterval(function() { myFunction(param1, param2...) }, time)
+```
+
+Or:
+
+```
+window.setInterval(myFunction, time, param1, param2...)
+```
+
+The latter is useful if you want to set multiple different functions by name, or if you need to clear the interval! (clearing the interval with an anonymous function is [quite inelegant](https://stackoverflow.com/questions/6843201/how-to-clearinterval-with-unknown-id))
 
 For example, in the foraging demo I made last week, I have added the line:
 
+```
+window.setInterval(function(){ growPlants(10); }, 10000);
+```
 
+Which will grow back 10 plants every 10 seconds. However, if I wanted to use a named function, I could also use:
+
+
+```
+window.setInterval(growPlants, 10000, 10);
+```
 
 ### regex
 
@@ -136,7 +200,9 @@ string.replace(/(^\s))
 ```
 However, this only selects one space at a time... we want the `+` operator!
 
-7) Match a character, followed by the same character `+`
+7) Match one or more of a character `+`
+
+This selects one or more spaces.
 
 ```
 string.replace(/(^\s+))
