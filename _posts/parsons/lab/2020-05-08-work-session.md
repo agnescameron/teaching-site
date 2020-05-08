@@ -14,8 +14,6 @@ readings:
 
 Wow, you did it!
 
-The notes for this class don't go into technical detail, and are mostly linked
-
 You're all (of course) well within your rights to leave this class and promptly forget everything you learned. However! You all now hold *more than* all of the tools that you need to make anything on the web.
 
 The things I'm going to cover (briefly) today could all have their own classes dedicated to them, and are intended as starting points! One of the hardest things in making things for the web is not knowing about the tools at your disposal: this is to give you an overview of those.
@@ -64,6 +62,13 @@ The url for 'egg as food is': https://en.wikipedia.org/wiki/Egg_as_food, and so 
 curl "https://en.wikipedia.org/wiki/Egg_as_food"
 ```
 
+Now, that's a big mess, but we can put it into a file and have a look at it:
+
+```
+curl "https://en.wikipedia.org/wiki/Egg_as_food" > egg.html
+```
+
+
 ### what's an API?
 
 APIs are special services you can make HTTP requests to, that instead of giving you a big mess of HTML will give you *an object*, that you can do things to! 
@@ -77,7 +82,13 @@ are.na has [an api](https://dev.are.na/documentation) which cab mentioned yester
 Let's see what that request looks like in `curl`:
 
 ```
-"https://api.are.na/v2/channels/week-2-readings/contents"
+curl "https://api.are.na/v2/channels/week-2-readings/contents"
+```
+
+oof! It's not HTML, but it's still pretty messy. Let's have a go at 'pretty-printing', for which we'll use a tool called `jq`
+
+```
+curl "https://api.are.na/v2/channels/week-2-readings/contents" | jq
 ```
 
 And what about in Javascript itself? Curl only works on the command line, so here we can use something called [`fetch`](https://scotch.io/tutorials/how-to-use-the-javascript-fetch-api-to-get-data). 
